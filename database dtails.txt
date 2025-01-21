@@ -1,0 +1,155 @@
+# Database Initialization
+@app.before_request
+def create_tables():
+    if not hasattr(app, 'has_run_once'):
+        app.has_run_once = True
+        db.create_all()
+        # Insert sample data if the tables are empty
+        if Place.query.count() == 0:
+            sample_places()
+        if State.query.count() == 0:
+            sample_states()
+        if Feedback.query.count() == 0:
+            sample_feedback()
+
+# Sample Data
+def sample_feedback():
+    feedbacks = [
+        # Feedback for Loktak Lake
+        Feedback(place_id=1, name="John Doe", email="john@example.com", message="Amazing experience! The floating islands are breathtaking."),
+        Feedback(place_id=1, name="Jane Smith", email="jane@example.com", message="A must-visit place for nature lovers."),
+        
+        # Feedback for Majuli
+        Feedback(place_id=2, name="Alice Brown", email="alice@example.com", message="The culture here is so rich and vibrant. Loved the local festivals."),
+        Feedback(place_id=2, name="Bob Johnson", email="bob@example.com", message="Majuli is a hidden gem. The largest river island is truly a unique experience."),
+        
+        # Feedback for Ziro Valley
+        Feedback(place_id=3, name="Charlie Davis", email="charlie@example.com", message="The music festival here is fantastic. Great vibe and beautiful scenery."),
+        Feedback(place_id=3, name="Emily Clark", email="emily@example.com", message="Ziro Valley is peaceful and picturesque. Ideal for a relaxing getaway."),
+        
+        # Feedback for Tawang
+        Feedback(place_id=4, name="Frank Wright", email="frank@example.com", message="Tawang is a spiritual haven. The monastery is absolutely stunning."),
+        Feedback(place_id=4, name="Grace Lee", email="grace@example.com", message="The natural beauty of Tawang is unmatched. A must-visit."),
+        
+        # Feedback for Khajjiar
+        Feedback(place_id=5, name="Henry Wilson", email="henry@example.com", message="Khajjiar is known as the 'Mini Switzerland of India' for a reason!"),
+        Feedback(place_id=5, name="Isabella Martinez", email="isabella@example.com", message="Such a serene and beautiful place. Great for family trips."),
+        
+        # Feedback for Gurudongmar Lake
+        Feedback(place_id=6, name="Jack White", email="jack@example.com", message="The high-altitude lake is mesmerizing. Worth the journey!"),
+        Feedback(place_id=6, name="Linda Green", email="linda@example.com", message="Gurudongmar Lake is surreal. The view is out of this world."),
+    ]
+
+    for feedback in feedbacks:
+        db.session.add(feedback)
+    db.session.commit()
+
+def sample_places():
+    places = [
+        Place(
+            name='Loktak Lake',
+            state='Manipur',
+            description='The largest freshwater lake in India.',
+            image='loktak.jpg',
+            safety_guidelines='Respect local customs.',
+            local_language='Manipuri',
+            nearby_places='Keibul Lamjao National Park, Moirang'
+        ),
+        Place(
+            name='Majuli',
+            state='Assam',
+            description='A river island in the Brahmaputra River.',
+            image='majuli.jpg',
+            safety_guidelines='Avoid single-use plastics.',
+            local_language='Assamese',
+            nearby_places='Kaziranga National Park, Sivasagar'
+        ),
+        Place(
+            name='Ziro Valley',
+            state='Arunachal Pradesh',
+            description='A scenic valley known for its paddy fields.',
+            image='ziro_valley.jpg',
+            safety_guidelines='Respect the Apatani tribe customs.',
+            local_language='Nyishi',
+            nearby_places='Talle Valley, Hapoli'
+        ),
+        Place(
+            name='Tawang',
+            state='Arunachal Pradesh',
+            description='A high-altitude town known for its monastery.',
+            image='tawang.jpg',
+            safety_guidelines='Carry warm clothing.',
+            local_language='Monpa',
+            nearby_places='Sela Pass, Bumla Pass'
+        ),
+        Place(
+            name='Khajjiar',
+            state='Himachal Pradesh',
+            description='A hill station known as Mini Switzerland of India.',
+            image='khajjiar.jpg',
+            safety_guidelines='Respect nature and avoid littering.',
+            local_language='Hindi',
+            nearby_places='Dalhousie, Chamba'
+        ),
+        Place(
+            name='Gurudongmar Lake',
+            state='Sikkim',
+            description='A high-altitude lake near the Tibet border.',
+            image='gurudongmar.jpg',
+            safety_guidelines='Carry altitude sickness medication.',
+            local_language='Sikkimese',
+            nearby_places='Lachen, Thangu Valley'
+        ),
+        Place(
+            name='Spiti Valley',
+            state='Himachal Pradesh',
+            description='A cold desert mountain valley.',
+            image='spiti.jpg',
+            safety_guidelines='Respect local Buddhist customs.',
+            local_language='Tibetan',
+            nearby_places='Kaza, Key Monastery'
+        ),
+        Place(
+            name='Chilika Lake',
+            state='Odisha',
+            description='Asia’s largest brackish water lagoon.',
+            image='chilika.jpg',
+            safety_guidelines='Do not disturb migratory birds.',
+            local_language='Odia',
+            nearby_places='Satapada, Kalijai Island'
+        ),
+        Place(
+            name='Gavi',
+            state='Kerala',
+            description='A village in the Pathanamthitta district.',
+            image='gavi.jpg',
+            safety_guidelines='Follow eco-tourism guidelines.',
+            local_language='Malayalam',
+            nearby_places='Periyar Tiger Reserve, Vagamon'
+        ),
+        Place(
+            name='Dzukou Valley',
+            state='Nagaland',
+            description='A valley famous for its flowers.',
+            image='dzukou.jpg',
+            safety_guidelines='Respect the local Angami tribe.',
+            local_language='Angami',
+            nearby_places='Kohima, Japfu Peak'
+        ),
+    ]
+    db.session.bulk_save_objects(places)
+    db.session.commit()
+
+def sample_states():
+    states = [
+        State(state='Manipur', image='manipur.jpg'),
+        State(state='Assam', image='assam.jpg'),
+        State(state='Arunachal Pradesh', image='arunachal.jpg'),
+        State(state='Himachal Pradesh', image='himachal.jpg'),
+        State(state='Sikkim', image='sikkim.jpg'),
+        State(state='Odisha', image='odisha.jpg'),
+        State(state='Kerala', image='kerala.jpg'),
+        State(state='Nagaland', image='nagaland.jpg'),
+    ]
+    db.session.bulk_save_objects(states)
+    db.session.commit()

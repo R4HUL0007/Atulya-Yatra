@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2 class="text-center mb-4" data-aos="fade-down">Explore States</h2>
+<div class="input-group mb-4" data-aos="fade-right">
+    <input type="text" class="form-control" placeholder="Search for a state..." id="searchState">
+    <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="button">Search</button>
+    </div>
+</div>
+
+<div class="row">
+    {% for state in states %}
+    <div class="col-md-3 mb-4" data-aos="fade-up">
+        <div class="card hover-shadow">
+            <img src="{{ url_for('static', filename='images/' + state.image) }}" class="card-img-top" alt="{{ state.state }}">
+            <div class="card-body text-center">
+                <h5 class="card-title">{{ state.state }}</h5>
+                <a href="{{ url_for('explore_state', state=state.state) }}" class="btn btn-outline-primary">Explore</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

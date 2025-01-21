@@ -1,0 +1,182 @@
+[
+    {
+        "name": "Loktak Lake",
+        "state": "Manipur",
+        "tags": ["Peace", "Nature", "Adventure", "Lakes", "Unexplored"]
+    },
+    {
+        "name": "Majuli",
+        "state": "Assam",
+        "tags": ["Culture", "Peace", "Nature", "Islands", "Unexplored"]
+    },
+    {
+        "name": "Ziro Valley",
+        "state": "Arunachal Pradesh",
+        "tags": ["Nature", "Peace", "Adventure", "Valleys", "Unexplored"]
+    },
+    {
+        "name": "Tawang",
+        "state": "Arunachal Pradesh",
+        "tags": ["Adventure", "Peace", "Culture", "Mountains", "Popular"]
+    },
+    {
+        "name": "Khajjiar",
+        "state": "Himachal Pradesh",
+        "tags": ["Nature", "Peace", "Adventure", "Valleys", "Unexplored"]
+    },
+    {
+        "name": "Gurudongmar Lake",
+        "state": "Sikkim",
+        "tags": ["Nature", "Adventure", "Detox", "Lakes", "Unexplored"]
+    },
+    {
+        "name": "Sandakphu",
+        "state": "West Bengal",
+        "tags": ["Adventure", "Nature", "Peace", "Mountains", "Unexplored"]
+    },
+    {
+        "name": "Spiti Valley",
+        "state": "Himachal Pradesh",
+        "tags": ["Nature", "Adventure", "Detox", "Valleys", "Unexplored"]
+    },
+    {
+        "name": "Chilika Lake",
+        "state": "Odisha",
+        "tags": ["Nature", "Peace", "Adventure", "Lakes", "Unexplored"]
+    },
+    {
+        "name": "Kumarakom",
+        "state": "Kerala",
+        "tags": ["Nature", "Peace", "Detox", "Backwaters", "Popular"]
+    },
+    {
+        "name": "Shimla",
+        "state": "Himachal Pradesh",
+        "tags": ["Mountains", "Nature", "Peace", "Popular"]
+    },
+    {
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "tags": ["Adventure", "Nature", "Mountains", "Popular"]
+    },
+    {
+        "name": "Goa",
+        "state": "Goa",
+        "tags": ["Beaches", "Adventure", "Culture", "Popular"]
+    },
+    {
+        "name": "Rishikesh",
+        "state": "Uttarakhand",
+        "tags": ["Adventure", "Nature", "Detox", "Rivers", "Popular"]
+    },
+    {
+        "name": "Jaipur",
+        "state": "Rajasthan",
+        "tags": ["Historical", "Culture", "Adventure", "Popular"]
+    },
+    {
+        "name": "Udaipur",
+        "state": "Rajasthan",
+        "tags": ["Historical", "Nature", "Peace", "Lakes", "Popular"]
+    },
+    {
+        "name": "Agra",
+        "state": "Uttar Pradesh",
+        "tags": ["Historical", "Culture", "Detox", "Popular"]
+    },
+    {
+        "name": "Kerala Backwaters",
+        "state": "Kerala",
+        "tags": ["Nature", "Peace", "Detox", "Backwaters", "Popular"]
+    },
+    {
+        "name": "Leh",
+        "state": "Ladakh",
+        "tags": ["Mountains", "Adventure", "Nature", "Popular"]
+    },
+    {
+        "name": "Srinagar",
+        "state": "Jammu & Kashmir",
+        "tags": ["Nature", "Peace", "Culture", "Lakes", "Popular"]
+    },
+    {
+        "name": "Darjeeling",
+        "state": "West Bengal",
+        "tags": ["Mountains", "Nature", "Peace", "Popular"]
+    },
+    {
+        "name": "Hampi",
+        "state": "Karnataka",
+        "tags": ["Historical", "Adventure", "Culture", "Unexplored"]
+    },
+    {
+        "name": "Mysore",
+        "state": "Karnataka",
+        "tags": ["Historical", "Culture", "Peace", "Popular"]
+    },
+    {
+        "name": "Kanyakumari",
+        "state": "Tamil Nadu",
+        "tags": ["Beaches", "Nature", "Culture", "Popular"]
+    },
+    {
+        "name": "Pondicherry",
+        "state": "Puducherry",
+        "tags": ["Beaches", "Peace", "Culture", "Unexplored"]
+    },
+    {
+        "name": "Andaman Islands",
+        "state": "Andaman & Nicobar Islands",
+        "tags": ["Beaches", "Adventure", "Nature", "Unexplored"]
+    },
+    {
+        "name": "Varanasi",
+        "state": "Uttar Pradesh",
+        "tags": ["Historical", "Culture", "Detox", "Popular"]
+    },
+    {
+        "name": "Ajanta and Ellora Caves",
+        "state": "Maharashtra",
+        "tags": ["Historical", "Adventure", "Culture", "Unexplored"]
+    },
+    {
+        "name": "Coorg",
+        "state": "Karnataka",
+        "tags": ["Nature", "Peace", "Adventure", "Mountains", "Unexplored"]
+    },
+    {
+        "name": "Khajuraho",
+        "state": "Madhya Pradesh",
+        "tags": ["Historical", "Culture", "Adventure", "Unexplored"]
+    },
+    {
+        "name": "Ooty",
+        "state": "Tamil Nadu",
+        "tags": ["Mountains", "Nature", "Peace", "Popular"]
+    },
+    {
+        "name": "Kedarnath",
+        "state": "Uttarakhand",
+        "tags": ["Mountains", "Adventure", "Culture", "Popular"]
+    },
+    {
+        "name": "Sundarbans",
+        "state": "West Bengal",
+        "tags": ["Nature", "Adventure", "Wildlife", "Unexplored"]
+    },
+    {
+        "name": "Kaziranga National Park",
+        "state": "Assam",
+        "tags": ["Nature", "Adventure", "Wildlife", "Popular"]
+    },
+    {
+        "name": "Mahabalipuram",
+        "state": "Tamil Nadu",
+        "tags": ["Historical", "Culture", "Beaches", "Unexplored"]
+    },
+    {
+        "name": "Alleppey",
+        "state": "Kerala",
+        "tags": ["Backwaters", "Nature", "Peace", "Popular"]
+    }
+]

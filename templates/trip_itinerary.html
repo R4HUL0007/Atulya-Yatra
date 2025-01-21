@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2 class="text-center mb-4">{{ trip.name }}</h2>
+    <div class="card">
+        <img class="card-img-top" src="{{ trip.image_url or url_for('static', filename='images/placeholder.png') }}" alt="{{ trip.name }}">
+        <div class="card-body">
+            <h4>Trip Overview</h4>
+            <p>{{ trip.description }}</p>
+
+            <h4>Itinerary</h4>
+            <ul class="list-group">
+                {% for day in itinerary %}
+                <li class="list-group-item">
+                    <strong>Day {{ day.day_number }}:</strong> {{ day.date.strftime('%B %d, %Y') }}<br>
+                    <strong>Location:</strong> {{ day.location }}<br>
+                    <strong>Morning Activity:</strong> {{ day.morning_activity or 'N/A' }}<br>
+                    <strong>Afternoon Activity:</strong> {{ day.afternoon_activity or 'N/A' }}<br>
+                    <strong>Evening Activity:</strong> {{ day.evening_activity or 'N/A' }}<br>
+                    <strong>Accommodation:</strong> {{ day.accommodation or 'N/A' }}<br>
+                    <strong>Transportation:</strong> {{ day.transportation or 'N/A' }}<br>
+                    <strong>Departure Time:</strong> {{ day.departure_time.strftime('%H:%M') if day.departure_time else 'N/A' }}<br>
+                    <strong>Arrival Time:</strong> {{ day.arrival_time.strftime('%H:%M') if day.arrival_time else 'N/A' }}<br>
+                    <strong>Notes:</strong> {{ day.notes or 'N/A' }}<br>
+                    <!-- Display images for each day -->
+                    {% if day.photos %}
+                        <div class="mt-2">
+                            <h5>Photos:</h5>
+                            <div class="row">
+                                {% for photo in day.photos %}
+                                <div class="col-md-4 mb-2">
+                                    <img src="{{ photo.image_url }}" class="img-fluid" alt="Day {{ day.day_number }} photo">
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    {% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+            <a href="{{ url_for('booking_page', trip_id=trip.id) }}" class="btn btn-primary mt-4">Book Now</a>
+
+        </div>
+    </div>
+</div>
+{% endblock %}

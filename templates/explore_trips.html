@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Explore Trips</h2>
+    <div class="row">
+        {% for trip in trips %}
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <!-- Use a placeholder image if trip.image_url is not available -->
+                <img class="card-img-top" src="{{ trip.image_url or url_for('static', filename='images/placeholder.png') }}" alt="{{ trip.name }}">
+                <div class="card-body">
+                    <h5 class="card-title">{{ trip.name }}</h5>
+                    <p class="card-text">{{ trip.description }}</p>
+                    <!-- Assuming `trip_itinerary` route expects a trip_id -->
+                    <a href="{{ url_for('trip_itinerary', trip_id=trip.id) }}" class="btn btn-primary">View Itinerary</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

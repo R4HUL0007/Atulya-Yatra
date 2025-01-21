@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism Website</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{{ url_for('index') }}">
+                <img src="{{ url_for('static', filename='images/logo2.jpg') }}" alt="Tourism Explorer Logo" height="60px" width="150px">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('index') }}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('explore_state') }}">Explore States</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('explore_trips') }}">Explore Trips</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('contact') }}">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.instagram.com" target="_blank" class="nav-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com" target="_blank" class="nav-link">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+    
+    
+    
+    <div class="container">
+        {% block content %}{% endblock %}
+    </div>
+
+<!-- Chatbot UI -->
+<div id="chatbot-container" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
+    <div id="chatbot" style="display: none; background: white; border: 1px solid #ccc; border-radius: 8px; width: 300px; height: 400px;">
+        <div style="background: #007bff; color: white; padding: 10px; border-top-left-radius: 8px; border-top-right-radius: 8px;">
+            Chatbot <button onclick="toggleChatbot()" style="float: right; background: transparent; border: none; color: white;">&#x2715;</button>
+        </div>
+        <div id="chatbot-messages" style="padding: 10px; height: 250px; overflow-y: auto;"></div>
+        <div id="chatbot-options" style="padding: 10px;"></div>
+        <input type="text" id="chatbot-input" placeholder="Type a message..." style="width: 100%; padding: 10px; border: none; border-top: 1px solid #ccc;">
+        <button onclick="clearChat()" style="width: 100%; padding: 10px; background-color: red; color: white; border: none;">Clear Chat</button>
+    </div>
+    <button onclick="toggleChatbot()" style="background: #007bff; color: white; border: none; border-radius: 50%; width: 50px; height: 50px;">Chat</button>
+</div>
+
+<script>
+    function toggleChatbot() {
+        const chatbot = document.getElementById('chatbot');
+        chatbot.style.display = chatbot.style.display === 'none' ? 'block' : 'none';
+        if (chatbot.style.display === 'block') {
+            fetch('/chatbot', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ message: 'reset' })
+            })
+            .then(response => response.json())
+            .then(data => {
+                displayMessage('Bot', data.message);
+                displayOptions(data.options);
+            });
+        }
+    }
+
+    function displayMessage(sender, message) {
+        const messagesContainer = document.getElementById('chatbot-messages');
+        const messageElement = document.createElement('div');
+        messageElement.textContent = `${sender}: ${message}`;
+        messagesContainer.appendChild(messageElement);
+        messagesContainer.scrollTop = messagesContainer.scrollHeight;
+    }
+
+    function displayOptions(options) {
+        const optionsContainer = document.getElementById('chatbot-options');
+        optionsContainer.innerHTML = ''; // Clear previous options
+        if (options && options.length > 0) {
+            options.forEach(option => {
+                const button = document.createElement('button');
+                button.textContent = option;
+                button.style.margin = '5px';
+                button.onclick = () => sendOption(option);
+                optionsContainer.appendChild(button);
+            });
+        }
+    }
+
+    function sendOption(option) {
+        displayMessage('You', option);
+        fetch('/chatbot', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ message: option })
+        })
+        .then(response => response.json())
+        .then(data => {
+            displayMessage('Bot', data.message);
+            displayOptions(data.options);
+        });
+    }
+
+    function clearChat() {
+        const messagesContainer = document.getElementById('chatbot-messages');
+        while (messagesContainer.firstChild) {
+            messagesContainer.removeChild(messagesContainer.firstChild);
+        }
+        const optionsContainer = document.getElementById('chatbot-options');
+        optionsContainer.innerHTML = '';
+        toggleChatbot();  // Close the chatbot after clearing the chat
+    }
+</script>
+
+{% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+        <div class="container">
+            {% for category, message in messages %}
+                <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+                    {{ message }}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+{% endwith %}
+
+
+    <footer class="footer bg-light mt-5 py-3">
+        <div class="container text-center">
+            <span class="text-muted">© 2024 Tourism Explorer. All rights reserved.</span>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</body>
+</html>

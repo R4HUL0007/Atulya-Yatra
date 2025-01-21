@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="contact-header text-center" style="background-image: url('{{ url_for('static', filename='images/contact-bg.jpg') }}'); height: 300px; background-size: cover; background-position: center;">
+    <h1 class="display-4 text-white" data-aos="fade-down">Contact Support</h1>
+</div>
+
+<div class="mt-5" data-aos="fade-up">
+    <h3 class="text-center mb-4">Get in Touch</h3>
+    <form method="POST" action="{{ url_for('contact') }}">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+{% endblock %}

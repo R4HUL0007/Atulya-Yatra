@@ -1,0 +1,10 @@
+-- database: ./instance/tourism.db
+
+-- Use the ▷ button in the top right corner to run the entire file.
+-- Insert sample day-wise itineraries into the DayWiseItinerary table
+
+-- Day-wise itinerary for Mumbai to Panchgani via Pune
+INSERT INTO day_wise_itinerary (itinerary_id, day_number, date, location, morning_activity, afternoon_activity, evening_activity, accommodation, transportation, departure_time, arrival_time, notes)
+VALUES
+(1, 1, '2024-09-10', 'Pune', 'Visit local attractions in Pune', 'Explore Pune city', 'Relax at a local café', 'Hotel in Pune', 'Car', '08:00', '12:00', 'N/A'),
+(1, 2, '2024-09-11', 'Panchgani', 'Drive to Panchgani', 'Sightseeing in Panchgani', 'Visit local markets', 'Hotel in Panchgani', 'Car', '09:00', '17:00', 'N/A');

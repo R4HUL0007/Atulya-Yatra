@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="place-header text-center" style="background-image: url('{{ url_for('static', filename='images/' + place.image) }}'); height: 300px; background-size: cover; background-position: center;">
+    <h1 class="display-4 text-white" data-aos="fade-down">{{ place.name }}</h1>
+</div>
+
+<div class="mt-5">
+    <ul class="nav nav-tabs" id="placeTabs" role="tablist" data-aos="fade-in">
+        <li class="nav-item">
+            <a class="nav-link active" id="description-tab" data-toggle="tab" href="#description" role="tab" aria-controls="description" aria-selected="true">Description</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="guidelines-tab" data-toggle="tab" href="#guidelines" role="tab" aria-controls="guidelines" aria-selected="false">Safety & Guidelines</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="feedback-tab" data-toggle="tab" href="#feedback" role="tab" aria-controls="feedback" aria-selected="false">Feedback</a>
+        </li>
+    </ul>
+    <div class="tab-content mt-4" id="placeTabsContent">
+        <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
+            <p>{{ place.description }}</p>
+        </div>
+        <div class="tab-pane fade" id="guidelines" role="tabpanel" aria-labelledby="guidelines-tab">
+            <h5>Safety Guidelines</h5>
+            <p>{{ place.safety_guidelines }}</p>
+            <h5>Local Language</h5>
+            <p>{{ place.local_language }}</p>
+        </div>
+
+    </div>
+</div>
+<div class="nearby-places mt-5">
+    <h3 class="text-center mb-4" data-aos="fade-down">Nearby Places</h3>
+    <div class="row">
+        {% for nearby in place.nearby_places.split(',') %}
+        <div class="col-md-3 mb-4" data-aos="fade-up">
+            <div class="card">
+                <img src="{{ url_for('static', filename='images/nearby.jpg') }}" class="card-img-top" alt="Nearby Place">
+                <div class="card-body text-center">
+                    <h5 class="card-title">{{ nearby }}</h5>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

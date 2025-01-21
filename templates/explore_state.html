@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2>Explore Places in {{ state }}</h2>
+    <form method="POST">
+        <div class="form-group">
+            <label for="state">Enter State Name:</label>
+            <input type="text" class="form-control" id="state" name="state" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Explore</button>
+    </form>
+
+    {% if places %}
+    <div class="row mt-4">
+        {% for place in places %}
+        <div class="col-md-4">
+            <div class="card">
+                <img src="{{ url_for('static', filename='images/' + place.name.lower() + '.jpg') }}" class="card-img-top" alt="{{ place.name }}">
+                <div class="card-body">
+                    <h5 class="card-title">{{ place.name }}</h5>
+                    <p class="card-text">{{ place.description[:100] }}...</p>
+                    <a href="{{ url_for('place_detail', id=place.id) }}" class="btn btn-primary">View Details</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+</div>
+{% endblock %}
