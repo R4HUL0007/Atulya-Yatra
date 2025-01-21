@@ -4,9 +4,7 @@ Atulya Yatra is a tourism web platform designed to help travelers explore India'
 
 ## Features
 
-### 🔹 Smart Chatbot
-- Asks relevant questions to understand user preferences.
-- Provides personalized destination recommendations.
+### 🔹 Chatbot
 - Suggests places based on categories like **Adventure, Peace, Nature, Detox, Culture, Historical, Mountains, Beaches, Hidden Gems, and Popular Places.**
 
 ### 🔹 Explore Trips
