@@ -1,6 +1,6 @@
 # Atulya Yatra
 
-Atulya Yatra is a tourism web platform designed to help travelers explore India's hidden gems, plan trips. With a user-friendly interface, AI-powered chatbot, and curated itineraries, Atulya Yatra aims to enhance travel experiences by offering in-depth insights into destinations across India.
+Atulya Yatra is a tourism web platform designed to help travelers explore India's hidden gems, plan trips. With a user-friendly interface, Static chatbot, and curated itineraries, Atulya Yatra aims to enhance travel experiences by offering in-depth insights into destinations across India.
 
 ## Features
 
