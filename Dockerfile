@@ -47,7 +47,17 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 
 EXPOSE 8000
 
-# gunicorn serves the `app` object created in app.py (Flask app factory
-# output). 2 workers is a reasonable default for a small VM/container; tune
-# via the GUNICORN_WORKERS env var if needed.
-CMD ["sh", "-c", "gunicorn --bind 0.0.0.0:8000 --workers ${GUNICORN_WORKERS:-2} --timeout 60 app:app"]
+# gunicorn serves the `app` object created in app.py (Flask app factory output).
+#
+# The bind port MUST come from $PORT. Platforms such as Render inject it (10000
+# by default) and probe that port to decide whether the service booted; a
+# hardcoded port makes the deploy fail with "no open ports detected". The
+# fallback keeps local `docker compose up` on 8000.
+#
+# Threads rather than extra processes: pages carry a lot of photography, and
+# each additional worker re-loads the whole curated dataset into memory, which
+# matters on a 512 MB instance. Threads share it.
+#
+# The timeout allows for a slow upstream turn (Places lookups plus an optional
+# model call) without gunicorn killing the worker mid-request.
+CMD ["sh", "-c", "gunicorn --bind 0.0.0.0:${PORT:-8000} --workers ${GUNICORN_WORKERS:-2} --threads ${GUNICORN_THREADS:-4} --worker-class gthread --timeout 120 --access-logfile - --error-logfile - app:app"]

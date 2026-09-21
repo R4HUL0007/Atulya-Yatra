@@ -1,0 +1,83 @@
+# Render Blueprint for Atulya Yatra.
+#
+# Create the service from this file: Render dashboard -> New -> Blueprint, then
+# point it at this repository. Everything below is version controlled except the
+# secrets, which are marked `sync: false` so Render prompts for them instead of
+# storing them here.
+#
+# Read the notes at the bottom before going to production: on the free plan the
+# filesystem is ephemeral, so anything written to SQLite is lost on every deploy,
+# restart and idle spin-down.
+
+services:
+  - type: web
+    name: atulya-yatra
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    # Closest region to the audience for an India travel site.
+    region: singapore
+    healthCheckPath: /
+    autoDeploy: true
+
+    envVars:
+      - key: ATULYA_ENV
+        value: production
+
+      # The app is served over HTTPS by Render, so the session cookie should be
+      # restricted to secure connections.
+      - key: ATULYA_SESSION_COOKIE_SECURE
+        value: "true"
+
+      # Signs the session cookie. Render generates a strong value once and keeps
+      # it stable across deploys; it never appears in the repository.
+      - key: ATULYA_SECRET_KEY
+        generateValue: true
+
+      # Sized for a 512 MB instance. Each worker loads the whole curated
+      # dataset, so prefer threads over processes.
+      - key: GUNICORN_WORKERS
+        value: "2"
+      - key: GUNICORN_THREADS
+        value: "4"
+
+      # --- secrets: entered in the dashboard, never committed ----------------
+      # Live place discovery and directions. Omit to run purely on curated data.
+      - key: GOOGLE_MAPS_API_KEY
+        sync: false
+
+      # Optional conversational phrasing. Omit to keep the assistant fully
+      # deterministic, in which case nothing leaves the server.
+      - key: GEMINI_API_KEY
+        sync: false
+
+      # --- admin area: fails closed unless both are set ----------------------
+      # - key: ATULYA_ADMIN_USERNAME
+      #   sync: false
+      # - key: ATULYA_ADMIN_PASSWORD_HASH
+      #   sync: false
+
+      # --- durable storage: pick ONE of the two options below ---------------
+      # Option A, managed Postgres. Uncomment this block and the databases
+      # section at the foot of the file, and add psycopg2-binary to
+      # requirements.txt. Survives deploys and allows more than one instance.
+      # - key: ATULYA_DATABASE_URI
+      #   fromDatabase:
+      #     name: atulya-db
+      #     property: connectionString
+
+    # Option B, a persistent disk holding the SQLite file. Requires a paid
+    # instance type, and pins the service to a single instance with no
+    # zero-downtime deploys. Simpler, but less flexible than Postgres.
+    # disk:
+    #   name: atulya-instance
+    #   mountPath: /app/instance
+    #   sizeGB: 1
+
+# Option A continued.
+# databases:
+#   - name: atulya-db
+#     plan: free
+#     region: singapore
+#     databaseName: atulya
+#     user: atulya

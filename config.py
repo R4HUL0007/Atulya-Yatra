@@ -29,6 +29,21 @@ def _env_bool(name: str, default: bool = False) -> bool:
     return value.strip().lower() in {"1", "true", "yes", "on"}
 
 
+def _normalise_database_uri(uri: str) -> str:
+    """Accept the connection strings hosting providers actually hand out.
+
+    Render, Heroku and others expose Postgres as ``postgres://``, a scheme
+    SQLAlchemy 2.x refuses to load a dialect for. Rewriting it here means the
+    platform's variable can be used verbatim instead of being hand-edited.
+    """
+    uri = (uri or "").strip()
+    if uri.startswith("postgres://"):
+        return "postgresql+psycopg2://" + uri[len("postgres://"):]
+    if uri.startswith("postgresql://"):
+        return "postgresql+psycopg2://" + uri[len("postgresql://"):]
+    return uri
+
+
 class Config:
     """Base configuration shared across environments."""
 
@@ -53,10 +68,20 @@ class Config:
     # only thing that needs a writable store. Curated tourism content lives in
     # version-controlled JSON so the app stays easy to deploy and expand.
     INSTANCE_DIR.mkdir(parents=True, exist_ok=True)
-    SQLALCHEMY_DATABASE_URI = os.environ.get(
-        "ATULYA_DATABASE_URI", f"sqlite:///{(INSTANCE_DIR / 'atulya.db').as_posix()}"
+    SQLALCHEMY_DATABASE_URI = _normalise_database_uri(
+        os.environ.get("ATULYA_DATABASE_URI")
+        or os.environ.get("DATABASE_URL")
+        or f"sqlite:///{(INSTANCE_DIR / 'atulya.db').as_posix()}"
     )
     SQLALCHEMY_TRACK_MODIFICATIONS = False
+
+    # Managed Postgres connections drop occasionally; check the connection is
+    # alive before handing it out rather than failing the request.
+    SQLALCHEMY_ENGINE_OPTIONS = (
+        {"pool_pre_ping": True, "pool_recycle": 300}
+        if SQLALCHEMY_DATABASE_URI.startswith("postgresql")
+        else {}
+    )
 
     # Paths to the curated data files (source of truth).
     DATA_DIR = DATA_DIR
