@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block title %}Recommend a Hidden Gem — Atulya Yatra{% endblock %}
+
+{% block content %}
+<div class="container section">
+  <div class="layout">
+    <div class="main">
+      <div class="eyebrow">Community</div>
+      <h2>Recommend a hidden gem</h2>
+      <p class="muted" style="max-width:560px">Know a special place most travellers miss? Share it. Submissions are reviewed before they go live — once approved, your gem joins Atulya Yatra's recommendations and its dynamic ranking.</p>
+
+      <form method="POST" action="{{ url_for('pages.submit_gem') }}" style="max-width:640px;margin-top:22px">
+        <div class="field"><label>Place name *</label><input name="name" required></div>
+        <div class="field"><label>Location / nearest town *</label><input name="location" required></div>
+        <div class="grid grid-2" style="gap:14px">
+          <div class="field"><label>State</label>
+            <select name="state"><option value="">Select…</option>{% for s in states %}<option>{{ s.name }}</option>{% endfor %}</select>
+          </div>
+          <div class="field"><label>Category</label>
+            <select name="category">
+              <option value="">Select…</option>
+              {% for c in ['Nature','Mountains','Waterfall','Lake','Beach','Temple','Heritage','Fort','Village','Valley','Wildlife','Spiritual','Adventure','Culture'] %}
+              <option>{{ c }}</option>{% endfor %}
+            </select>
+          </div>
+        </div>
+        <div class="grid grid-2" style="gap:14px">
+          <div class="field"><label>Latitude</label><input name="lat" type="number" step="any" placeholder="e.g. 22.0086"></div>
+          <div class="field"><label>Longitude</label><input name="lng" type="number" step="any" placeholder="e.g. 73.4386"></div>
+        </div>
+        <div class="field"><label>Description *</label><textarea name="description" rows="4" required></textarea></div>
+        <div class="field"><label>Why is it special?</label><textarea name="why_special" rows="3"></textarea></div>
+        <div class="field"><label>Photo URL</label><input name="photo_url" placeholder="Link to a photo (optional)"></div>
+        <div class="grid grid-2" style="gap:14px">
+          <div class="field"><label>Your name</label><input name="submitted_by"></div>
+          <div class="field"><label>Your email</label><input name="contact_email" type="email"></div>
+        </div>
+        <button class="btn" type="submit">Submit for review</button>
+      </form>
+    </div>
+    <aside class="aside">
+      <div class="panel">
+        <h3>How it works</h3>
+        <ul class="info-list">
+          <li><span>1️⃣ You submit a place you love.</span></li>
+          <li><span>2️⃣ Our team reviews it for accuracy.</span></li>
+          <li><span>3️⃣ Once approved, it appears in discovery and nearby-gem results automatically.</span></li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h3>Tips for a great submission</h3>
+        <p class="muted" style="font-size:.9rem">Add coordinates if you can — they power the 30&nbsp;km nearby and 100&nbsp;km hidden-gem features. Be specific about what makes the place worth the journey.</p>
+      </div>
+    </aside>
+  </div>
+</div>
+{% endblock %}

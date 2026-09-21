@@ -1,0 +1,42 @@
+{% extends "state_base.html" %}
+{% import "_macros.html" as ui %}
+
+{% block state_section %}Overview{% endblock %}
+
+{% block state_content %}
+{# No signpost grid here: the sub-nav above already lists every section, and
+   repeating it as cards said the same thing twice. The overview shows actual
+   content instead. #}
+<div class="container section">
+  {% if state.intro %}
+  <div class="block prose state-overview-intro">
+    <p>{{ state.intro }}</p>
+  </div>
+  {% endif %}
+
+  {% if highlights %}
+  <div class="block">
+    <h2>Start with these</h2>
+    <p class="sub">Our own guides for {{ state.name }} — the places we have written up in full.</p>
+    <div class="grid grid-3">{% for d in highlights %}{{ ui.place_card(d, show_directions=True) }}{% endfor %}</div>
+    <div class="action-row"><a class="btn btn-outline" href="{{ url_for('pages.state_destinations', slug=state.slug) }}">See everything in {{ state.name }}</a></div>
+  </div>
+  {% endif %}
+
+  {% if gem_highlights %}
+  <div class="block">
+    <h2>A quieter side</h2>
+    <p class="sub">Hidden gems we already cover in {{ state.name }}.</p>
+    <div class="grid grid-3">{% for g in gem_highlights %}{{ ui.place_card(g, show_directions=True) }}{% endfor %}</div>
+    <div class="action-row"><a class="btn btn-outline" href="{{ url_for('pages.state_gems', slug=state.slug) }}">Explore more hidden gems</a></div>
+  </div>
+  {% endif %}
+
+  {% if not curated_total %}
+  <div class="block"><div class="empty">
+    <p>We have not written our own guides for {{ state.name }} yet.</p>
+    <p class="muted">The destinations and gallery pages still work — they pull real places live from Google Maps.</p>
+  </div></div>
+  {% endif %}
+</div>
+{% endblock %}

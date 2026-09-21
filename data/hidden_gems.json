@@ -1,0 +1,1918 @@
+[
+  {
+    "slug": "poicha",
+    "name": "Poicha (Nilkanthdham)",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Gujarat",
+    "state_slug": "gujarat",
+    "region": "Central Gujarat / Narmada",
+    "lat": 22.0086,
+    "lng": 73.4386,
+    "type": "temple",
+    "categories": [
+      "spiritual",
+      "temple",
+      "culture",
+      "peace"
+    ],
+    "tags": [
+      "Spiritual",
+      "Temples",
+      "Culture",
+      "Peace",
+      "Unexplored"
+    ],
+    "rating": 4.6,
+    "reviews": 5200,
+    "popularity": 44,
+    "data_quality": 0.85,
+    "short_intro": "A vast, serene Swaminarayan temple complex on the banks of the Narmada, blending devotion with landscaped calm.",
+    "overview": "Nilkanthdham at Poicha is a sprawling Swaminarayan temple town set beside the Narmada river. Beyond the main shrine it holds themed gardens, sculpted gateways, a Sahajanand universe walkthrough and riverside ghats. Quieter and less commercial than big pilgrimage centres, it makes a peaceful half-day trip from Vadodara.",
+    "images": {
+      "hero": "places/poicha/hero.jpg",
+      "gallery": [
+        "places/poicha/temple.jpg",
+        "places/poicha/narmada-ghat.jpg",
+        "places/poicha/gardens.jpg"
+      ]
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to February; visit in the morning to explore the grounds before the heat.",
+    "attractions": [
+      {
+        "name": "Main Swaminarayan Shrine",
+        "category": "Temple",
+        "description": "The central temple with intricate carving and daily aarti."
+      },
+      {
+        "name": "Narmada Riverfront",
+        "category": "Nature",
+        "description": "Ghats and gardens along the sacred river."
+      }
+    ],
+    "culture": {
+      "summary": "A centre of Swaminarayan devotion with a strong tradition of seva (service) and community volunteering."
+    },
+    "festivals": [
+      {
+        "name": "Annakut",
+        "time": "October–November",
+        "description": "A grand food offering after Diwali.",
+        "significance": "Thanksgiving to the deity."
+      }
+    ],
+    "food": [
+      {
+        "name": "Prasad Thali",
+        "type": "Meal",
+        "description": "Simple sattvic meals served to visitors."
+      }
+    ],
+    "activities": [
+      "Photography",
+      "Cultural experiences"
+    ],
+    "travel_info": {
+      "airport": "Vadodara (BDQ), ~50 km.",
+      "railway": "Vadodara Junction is the nearest major railhead.",
+      "local_transport": "Best reached by car or taxi from Vadodara.",
+      "suggested_duration": "Half day",
+      "budget": "Low."
+    },
+    "safety": {
+      "tips": [
+        "Dress modestly.",
+        "Footwear must be removed in temple zones."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "champaner-pavagadh",
+    "name": "Champaner-Pavagadh",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Gujarat",
+    "state_slug": "gujarat",
+    "region": "Central Gujarat / Panchmahal",
+    "lat": 22.4869,
+    "lng": 73.5324,
+    "type": "heritage",
+    "categories": [
+      "heritage",
+      "history",
+      "spiritual",
+      "adventure"
+    ],
+    "tags": [
+      "History",
+      "Heritage",
+      "Temples",
+      "Adventure",
+      "Unexplored"
+    ],
+    "rating": 4.5,
+    "reviews": 7400,
+    "popularity": 48,
+    "data_quality": 0.88,
+    "short_intro": "A UNESCO World Heritage site pairing a hilltop Kalika Mata temple with a superb pre-Mughal Islamic city.",
+    "overview": "Champaner-Pavagadh Archaeological Park is a rare surviving pre-Mughal Islamic city set below the sacred Pavagadh hill. Below lie exquisite mosques, step-wells and gateways; above sits the much-visited Kalika Mata temple, reachable by a steep climb or ropeway. The blend of heritage, pilgrimage and hill views makes it an underrated day trip from Vadodara.",
+    "images": {
+      "hero": "places/champaner-pavagadh/hero.jpg",
+      "gallery": [
+        "places/champaner-pavagadh/jami-masjid.jpg",
+        "places/champaner-pavagadh/kalika-mata.jpg",
+        "places/champaner-pavagadh/stepwell.jpg"
+      ]
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to February; start early to combine the ruins and the hill climb.",
+    "attractions": [
+      {
+        "name": "Jami Masjid",
+        "category": "Heritage",
+        "description": "A grand carved mosque, among the finest of its era."
+      },
+      {
+        "name": "Kalika Mata Temple",
+        "category": "Temple",
+        "description": "A hilltop shrine and important Shakti pilgrimage site."
+      }
+    ],
+    "activities": [
+      "Trekking",
+      "Photography",
+      "Heritage walks",
+      "Cultural experiences"
+    ],
+    "travel_info": {
+      "airport": "Vadodara (BDQ), ~45 km.",
+      "railway": "Vadodara Junction.",
+      "local_transport": "Taxi from Vadodara; ropeway up Pavagadh hill.",
+      "suggested_duration": "Full day",
+      "budget": "Low to moderate."
+    },
+    "safety": {
+      "tips": [
+        "The hill climb is strenuous; the ropeway is an easier option.",
+        "Weekends and Navratri are very crowded."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "statue-of-unity",
+    "name": "Statue of Unity (Kevadia)",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Gujarat",
+    "state_slug": "gujarat",
+    "region": "Narmada",
+    "lat": 21.838,
+    "lng": 73.7191,
+    "type": "landmark",
+    "categories": [
+      "landmark",
+      "nature",
+      "adventure",
+      "family"
+    ],
+    "tags": [
+      "Architecture",
+      "Nature",
+      "Adventure",
+      "Popular"
+    ],
+    "rating": 4.5,
+    "reviews": 41000,
+    "popularity": 66,
+    "data_quality": 0.9,
+    "short_intro": "The world's tallest statue, set in a fast-growing eco-tourism hub beside the Narmada dam.",
+    "overview": "The Statue of Unity honours Sardar Vallabhbai Patel and, at 182 metres, is the tallest statue in the world. The surrounding Kevadia region has become a full eco-tourism destination with a valley of flowers, a jungle safari, a cactus garden, river rafting and a viewing gallery inside the statue itself.",
+    "images": {
+      "hero": "places/statue-of-unity/hero.jpg",
+      "gallery": [
+        "places/statue-of-unity/statue.jpg",
+        "places/statue-of-unity/valley-of-flowers.jpg",
+        "places/statue-of-unity/dam.jpg"
+      ],
+      "hero_credit": "Snehrashmi · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Statue_of_Unity.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/statue-of-unity/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to February; the statue is closed on Mondays for maintenance.",
+    "attractions": [
+      {
+        "name": "Viewing Gallery",
+        "category": "Landmark",
+        "description": "A gallery at ~135 m inside the statue with Narmada views."
+      },
+      {
+        "name": "Valley of Flowers",
+        "category": "Garden",
+        "description": "Landscaped riverside flower gardens."
+      }
+    ],
+    "activities": [
+      "Photography",
+      "Boating",
+      "Rafting",
+      "Cultural experiences"
+    ],
+    "travel_info": {
+      "airport": "Vadodara (BDQ), ~90 km.",
+      "railway": "Kevadiya station connects to the site.",
+      "local_transport": "Shuttle buses link the attractions.",
+      "suggested_duration": "1–2 days",
+      "budget": "Moderate."
+    },
+    "safety": {
+      "tips": [
+        "Book statue tickets online to skip queues.",
+        "Distances between attractions are large; use the shuttles."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "fatehpur-sikri",
+    "name": "Fatehpur Sikri",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Uttar Pradesh",
+    "state_slug": "uttar-pradesh",
+    "region": "Braj / Agra",
+    "lat": 27.0937,
+    "lng": 77.6609,
+    "type": "heritage",
+    "categories": [
+      "heritage",
+      "history",
+      "architecture",
+      "spiritual"
+    ],
+    "tags": [
+      "History",
+      "Heritage",
+      "Architecture",
+      "Temples",
+      "Unexplored"
+    ],
+    "rating": 4.5,
+    "reviews": 22000,
+    "popularity": 58,
+    "data_quality": 0.9,
+    "short_intro": "Akbar's perfectly preserved red-sandstone capital, a UNESCO ghost city of courts and the vast Buland Darwaza.",
+    "overview": "Fatehpur Sikri was built by Emperor Akbar as his capital in the 1570s and abandoned within a couple of decades, leaving an astonishingly intact Mughal city. The complex includes the towering Buland Darwaza, the marble Salim Chishti dargah, palaces and the pillared Diwan-i-Khas. It is a UNESCO World Heritage Site an easy hour from Agra.",
+    "images": {
+      "hero": "places/fatehpur-sikri/hero.jpg",
+      "gallery": [
+        "places/fatehpur-sikri/buland-darwaza.jpg",
+        "places/fatehpur-sikri/panch-mahal.jpg",
+        "places/fatehpur-sikri/dargah.jpg"
+      ],
+      "hero_credit": "Marcin Białek · CC BY-SA 3.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Fatehput_Sikiri_Buland_Darwaza_gate_2010.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "hero_small": "places/fatehpur-sikri/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to February; combine with Agra as a day trip.",
+    "attractions": [
+      {
+        "name": "Buland Darwaza",
+        "category": "Heritage",
+        "description": "A colossal victory gateway, one of the tallest in the world."
+      },
+      {
+        "name": "Salim Chishti Dargah",
+        "category": "Spiritual",
+        "description": "A serene marble Sufi shrine within the mosque courtyard."
+      }
+    ],
+    "activities": [
+      "Heritage walks",
+      "Photography",
+      "Cultural experiences"
+    ],
+    "travel_info": {
+      "airport": "Agra (AGR); Delhi for wider links.",
+      "railway": "Fatehpur Sikri station or Agra Cantt.",
+      "local_transport": "Taxi or bus from Agra (~40 km).",
+      "suggested_duration": "Half day",
+      "budget": "Low."
+    },
+    "safety": {
+      "tips": [
+        "Hire only licensed guides; touts are common.",
+        "Carry water and sun protection."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "orchha",
+    "name": "Orchha",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Madhya Pradesh",
+    "state_slug": "madhya-pradesh",
+    "region": "Bundelkhand",
+    "lat": 25.3518,
+    "lng": 78.642,
+    "type": "heritage",
+    "categories": [
+      "heritage",
+      "history",
+      "spiritual",
+      "peace"
+    ],
+    "tags": [
+      "History",
+      "Heritage",
+      "Temples",
+      "Peace",
+      "Unexplored"
+    ],
+    "rating": 4.6,
+    "reviews": 14000,
+    "popularity": 52,
+    "data_quality": 0.88,
+    "short_intro": "A time-capsule Bundela town of riverside cenotaphs, painted palaces and a temple where Ram is worshipped as a king.",
+    "overview": "Orchha, founded by the Bundela Rajputs in the 16th century, is a serene town on the Betwa river studded with palaces, temples and royal cenotaphs (chhatris). The Ram Raja Temple is unique in India for worshipping Rama as a king, complete with an armed guard of honour. Riverfront chhatris glowing at sunset are its signature image.",
+    "images": {
+      "hero": "places/orchha/hero.jpg",
+      "gallery": [
+        "places/orchha/chhatris.jpg",
+        "places/orchha/jahangir-mahal.jpg",
+        "places/orchha/betwa.jpg"
+      ],
+      "hero_credit": "Yann · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Chaturbhuj_Temple,_Orchha.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/orchha/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to March; pair with Khajuraho and Gwalior.",
+    "attractions": [
+      {
+        "name": "Orchha Fort Complex",
+        "category": "Heritage",
+        "description": "Jahangir Mahal and Raj Mahal with murals and river views."
+      },
+      {
+        "name": "Chhatris of Orchha",
+        "category": "Heritage",
+        "description": "Royal cenotaphs lined along the Betwa river."
+      }
+    ],
+    "activities": [
+      "Rafting",
+      "Heritage walks",
+      "Photography",
+      "Cultural experiences"
+    ],
+    "travel_info": {
+      "airport": "Gwalior or Khajuraho.",
+      "railway": "Jhansi (~18 km) is the nearest major railhead.",
+      "local_transport": "Auto or taxi from Jhansi.",
+      "suggested_duration": "1–2 days",
+      "budget": "Low to moderate."
+    },
+    "safety": {
+      "tips": [
+        "River rafting is seasonal; use licensed operators.",
+        "Evenings are quiet and safe."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "kaza-langza",
+    "name": "Langza & Komic",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Himachal Pradesh",
+    "state_slug": "himachal-pradesh",
+    "region": "Spiti / Trans-Himalaya",
+    "lat": 32.2777,
+    "lng": 78.0942,
+    "type": "village",
+    "categories": [
+      "nature",
+      "adventure",
+      "mountains",
+      "spiritual"
+    ],
+    "tags": [
+      "Nature",
+      "Adventure",
+      "Mountains",
+      "Unexplored"
+    ],
+    "rating": 4.7,
+    "reviews": 4300,
+    "popularity": 33,
+    "data_quality": 0.82,
+    "short_intro": "Fossil-rich, sky-high Spiti villages home to a giant Buddha and one of the world's highest motorable settlements.",
+    "overview": "Above Kaza sit a cluster of tiny villages that feel like the roof of the world. Langza is watched over by a large golden Buddha and is famous for marine fossils from the ancient Tethys sea. Nearby Komic and Hikkim claim records as among the highest villages with a monastery and post office. Homestays here offer raw Himalayan silence.",
+    "images": {
+      "hero": "places/kaza-langza/hero.jpg",
+      "gallery": [
+        "places/kaza-langza/buddha.jpg",
+        "places/kaza-langza/komic.jpg",
+        "places/kaza-langza/fossils.jpg"
+      ],
+      "hero_credit": "Madhumita Das · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Langza_Village,_Himachal_Pradesh.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/kaza-langza/card.jpg"
+    },
+    "best_season": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "best_time_to_visit": "June to September; acclimatise in Kaza first.",
+    "attractions": [
+      {
+        "name": "Langza Buddha",
+        "category": "Spiritual",
+        "description": "A large seated Buddha overlooking the valley."
+      },
+      {
+        "name": "Komic Monastery",
+        "category": "Monastery",
+        "description": "A gompa in one of the highest villages on earth."
+      }
+    ],
+    "activities": [
+      "Trekking",
+      "Camping",
+      "Photography",
+      "Cultural experiences"
+    ],
+    "travel_info": {
+      "airport": "Bhuntar (Kullu); most reach by road.",
+      "railway": "Shimla or Chandigarh.",
+      "local_transport": "Taxi from Kaza (~15 km).",
+      "suggested_duration": "1–2 days from Kaza",
+      "budget": "Budget; homestay-based."
+    },
+    "safety": {
+      "tips": [
+        "Extreme altitude (4,000m+); acclimatise carefully.",
+        "Collecting fossils is discouraged for conservation."
+      ],
+      "emergency": "Dial 112; nearest hospital is in Kaza."
+    }
+  },
+  {
+    "slug": "kalpa-kinnaur",
+    "name": "Kalpa",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Himachal Pradesh",
+    "state_slug": "himachal-pradesh",
+    "region": "Kinnaur",
+    "lat": 31.5389,
+    "lng": 78.2569,
+    "type": "village",
+    "categories": [
+      "nature",
+      "peace",
+      "mountains"
+    ],
+    "tags": [
+      "Nature",
+      "Peace",
+      "Mountains",
+      "Unexplored"
+    ],
+    "rating": 4.6,
+    "reviews": 6100,
+    "popularity": 40,
+    "data_quality": 0.83,
+    "short_intro": "An apple-orchard village facing the sacred Kinnaur Kailash range across the Sutlej gorge.",
+    "overview": "Kalpa is a tranquil Kinnauri village set among apple orchards and deodar forest, directly opposite the snow-clad Kinnaur Kailash massif. Old wooden temples, a Buddhist monastery and glowing sunrise views over the peaks make it a restful, less-trodden alternative to Himachal's busier hill stations.",
+    "images": {
+      "hero": "places/kalpa-kinnaur/hero.jpg",
+      "gallery": [
+        "places/kalpa-kinnaur/kinnaur-kailash.jpg",
+        "places/kalpa-kinnaur/orchards.jpg",
+        "places/kalpa-kinnaur/village.jpg"
+      ]
+    },
+    "best_season": [
+      "April",
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "best_time_to_visit": "April to June and September to October; winter brings heavy snow.",
+    "attractions": [
+      {
+        "name": "Kinnaur Kailash View",
+        "category": "Viewpoint",
+        "description": "Sunrise over the sacred 6,050 m peak."
+      },
+      {
+        "name": "Roghi Village & Suicide Point",
+        "category": "Nature",
+        "description": "A dramatic gorge viewpoint near Kalpa."
+      }
+    ],
+    "activities": [
+      "Trekking",
+      "Photography",
+      "Camping"
+    ],
+    "travel_info": {
+      "airport": "Shimla; most travel by road.",
+      "railway": "Shimla.",
+      "local_transport": "Taxi from Reckong Peo (~10 km).",
+      "suggested_duration": "1–2 days",
+      "budget": "Budget to moderate."
+    },
+    "safety": {
+      "tips": [
+        "Kinnaur roads are prone to landslides in the monsoon.",
+        "Carry an ID; some areas near the border need permits."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "mawlynnong",
+    "name": "Mawlynnong",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Meghalaya",
+    "state_slug": "meghalaya",
+    "region": "East Khasi Hills",
+    "lat": 25.2019,
+    "lng": 91.9165,
+    "type": "village",
+    "categories": [
+      "nature",
+      "culture",
+      "peace"
+    ],
+    "tags": [
+      "Nature",
+      "Culture",
+      "Peace",
+      "Unexplored"
+    ],
+    "rating": 4.5,
+    "reviews": 9800,
+    "popularity": 50,
+    "data_quality": 0.86,
+    "short_intro": "Asia's cleanest village, a spotless Khasi community of flower gardens, root bridges and a sky-walk.",
+    "overview": "Mawlynnong earned fame as 'Asia's cleanest village', a title reflecting the Khasi community's remarkable civic discipline. Bamboo dustbins, blooming gardens and swept lanes set the scene; nearby you can visit a living root bridge and climb a bamboo sky-walk for views towards the Bangladesh plains.",
+    "images": {
+      "hero": "places/mawlynnong/hero.jpg",
+      "gallery": [
+        "places/mawlynnong/village.jpg",
+        "places/mawlynnong/skywalk.jpg",
+        "places/mawlynnong/root-bridge.jpg"
+      ],
+      "hero_credit": "Madhumita Das · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Mawlynnong_-_Cleanest_village_of_Asia.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/mawlynnong/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "March",
+      "April"
+    ],
+    "best_time_to_visit": "October to April; the monsoon is very wet.",
+    "attractions": [
+      {
+        "name": "Living Root Bridge (Riwai)",
+        "category": "Nature",
+        "description": "A single-span root bridge near the village."
+      },
+      {
+        "name": "Bamboo Sky Walk",
+        "category": "Viewpoint",
+        "description": "A tall bamboo tower with plains views."
+      }
+    ],
+    "activities": [
+      "Photography",
+      "Cultural experiences",
+      "Trekking"
+    ],
+    "travel_info": {
+      "airport": "Shillong (Umroi); Guwahati for wider links.",
+      "railway": "Guwahati.",
+      "local_transport": "Taxi from Shillong (~78 km).",
+      "suggested_duration": "Day trip or overnight",
+      "budget": "Budget to moderate."
+    },
+    "safety": {
+      "tips": [
+        "Respect the village's cleanliness rules.",
+        "Combine with Dawki for a full day."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "dawki",
+    "name": "Dawki (Umngot River)",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Meghalaya",
+    "state_slug": "meghalaya",
+    "region": "West Jaintia Hills",
+    "lat": 25.1866,
+    "lng": 92.0181,
+    "type": "river",
+    "categories": [
+      "nature",
+      "adventure",
+      "peace"
+    ],
+    "tags": [
+      "Nature",
+      "Adventure",
+      "Rivers",
+      "Unexplored"
+    ],
+    "rating": 4.6,
+    "reviews": 15000,
+    "popularity": 57,
+    "data_quality": 0.87,
+    "short_intro": "The startlingly clear Umngot river, where boats appear to float on glass above the riverbed.",
+    "overview": "At Dawki, near the Bangladesh border, the Umngot river runs so clear in the dry season that boats seem to hover in mid-air over the pebbled bed. Village boatmen offer rides beneath a soaring suspension bridge, and the surrounding Jaintia Hills add dramatic scenery to what has become one of Meghalaya's most photographed spots.",
+    "images": {
+      "hero": "places/dawki/hero.jpg",
+      "gallery": [
+        "places/dawki/clear-water.jpg",
+        "places/dawki/boats.jpg",
+        "places/dawki/bridge.jpg"
+      ],
+      "hero_credit": "Vikramjit Kakati · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Umngot_river,_Dawki.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/dawki/card.jpg"
+    },
+    "best_season": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "best_time_to_visit": "November to March, when the water is clearest.",
+    "attractions": [
+      {
+        "name": "Umngot Boat Ride",
+        "category": "Nature",
+        "description": "Crystal-clear boating over the visible riverbed."
+      }
+    ],
+    "activities": [
+      "Boating",
+      "Photography",
+      "Camping"
+    ],
+    "travel_info": {
+      "airport": "Shillong (Umroi); Guwahati for wider links.",
+      "railway": "Guwahati.",
+      "local_transport": "Taxi from Shillong (~82 km).",
+      "suggested_duration": "Day trip",
+      "budget": "Budget to moderate."
+    },
+    "safety": {
+      "tips": [
+        "Wear the life jacket on boats.",
+        "Water is clearest and calmest in the dry months."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "pelling",
+    "name": "Pelling",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Sikkim",
+    "state_slug": "sikkim",
+    "region": "West Sikkim",
+    "lat": 27.3161,
+    "lng": 88.2396,
+    "type": "hill_station",
+    "categories": [
+      "mountains",
+      "nature",
+      "spiritual",
+      "peace"
+    ],
+    "tags": [
+      "Mountains",
+      "Nature",
+      "Spiritual",
+      "Peace",
+      "Unexplored"
+    ],
+    "rating": 4.4,
+    "reviews": 12000,
+    "popularity": 49,
+    "data_quality": 0.84,
+    "short_intro": "A quiet West Sikkim town with head-on Kanchenjunga views, an ancient monastery and a glass skywalk.",
+    "overview": "Pelling is a laid-back town in West Sikkim prized for some of the closest road-accessible views of Kanchenjunga. It anchors a circuit of the historic Pemayangtse Monastery, the ruins of Rabdentse (an old Sikkimese capital), the sacred Khecheopalri Lake and a modern glass skywalk beside a giant Chenrezig statue.",
+    "images": {
+      "hero": "places/pelling/hero.jpg",
+      "gallery": [
+        "places/pelling/kanchenjunga.jpg",
+        "places/pelling/pemayangtse.jpg",
+        "places/pelling/skywalk.jpg"
+      ]
+    },
+    "best_season": [
+      "March",
+      "April",
+      "May",
+      "October",
+      "November"
+    ],
+    "best_time_to_visit": "March to May and October to November for clear peaks.",
+    "attractions": [
+      {
+        "name": "Pemayangtse Monastery",
+        "category": "Monastery",
+        "description": "One of Sikkim's oldest and most important monasteries."
+      },
+      {
+        "name": "Khecheopalri Lake",
+        "category": "Lake",
+        "description": "A sacred wish-fulfilling lake in the forest."
+      }
+    ],
+    "activities": [
+      "Trekking",
+      "Photography",
+      "Cultural experiences"
+    ],
+    "travel_info": {
+      "airport": "Pakyong or Bagdogra.",
+      "railway": "New Jalpaiguri (NJP).",
+      "local_transport": "Shared taxis via Geyzing.",
+      "suggested_duration": "2 days",
+      "budget": "Budget to moderate."
+    },
+    "safety": {
+      "tips": [
+        "Mountain roads are slow; start sightseeing early.",
+        "Carry warm layers."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "zuluk",
+    "name": "Zuluk",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Sikkim",
+    "state_slug": "sikkim",
+    "region": "East Sikkim / Silk Route",
+    "lat": 27.256,
+    "lng": 88.7736,
+    "type": "village",
+    "categories": [
+      "mountains",
+      "adventure",
+      "nature"
+    ],
+    "tags": [
+      "Mountains",
+      "Adventure",
+      "Nature",
+      "Unexplored"
+    ],
+    "rating": 4.6,
+    "reviews": 5400,
+    "popularity": 35,
+    "data_quality": 0.8,
+    "short_intro": "A tiny hamlet on the old Silk Route, famous for a hairpin road with dozens of dizzying loops.",
+    "overview": "Zuluk sits high on the historic Silk Route in East Sikkim, once a transit point on the trade road to Tibet. It is best known for the astonishing zig-zag road with around thirty hairpin bends, sunrise views over the eastern Himalaya, and homestays that open up an offbeat, permit-controlled corner of Sikkim.",
+    "images": {
+      "hero": "places/zuluk/hero.jpg",
+      "gallery": [
+        "places/zuluk/zigzag-road.jpg",
+        "places/zuluk/sunrise.jpg",
+        "places/zuluk/thambi-viewpoint.jpg"
+      ],
+      "hero_credit": "Tsen2006 · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Zuluk_at_dawn.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/zuluk/card.jpg"
+    },
+    "best_season": [
+      "April",
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "best_time_to_visit": "Spring and autumn for clear views; winter can bring snow.",
+    "attractions": [
+      {
+        "name": "Thambi View Point",
+        "category": "Viewpoint",
+        "description": "Sunrise vista over the zig-zag road and Kanchenjunga."
+      }
+    ],
+    "activities": [
+      "Photography",
+      "Trekking",
+      "Camping"
+    ],
+    "travel_info": {
+      "airport": "Pakyong or Bagdogra.",
+      "railway": "New Jalpaiguri (NJP).",
+      "local_transport": "Requires a permit and a local taxi from Gangtok/Rongli.",
+      "suggested_duration": "1–2 days",
+      "budget": "Budget; homestay-based."
+    },
+    "safety": {
+      "tips": [
+        "A protected-area permit and registered guide are mandatory.",
+        "High altitude and cold; carry layers."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "kumbhalgarh",
+    "name": "Kumbhalgarh",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Rajasthan",
+    "state_slug": "rajasthan",
+    "region": "Mewar / Aravalli",
+    "lat": 25.1487,
+    "lng": 73.5871,
+    "type": "fort",
+    "categories": [
+      "heritage",
+      "history",
+      "nature",
+      "adventure"
+    ],
+    "tags": [
+      "History",
+      "Heritage",
+      "Adventure",
+      "Unexplored"
+    ],
+    "rating": 4.7,
+    "reviews": 19000,
+    "popularity": 55,
+    "data_quality": 0.9,
+    "short_intro": "A mighty Mewar fort ringed by the second-longest continuous wall in the world.",
+    "overview": "Kumbhalgarh, a UNESCO-listed hill fort built by Rana Kumbha in the 15th century, is famous for its perimeter wall stretching about 36 kilometres, often called the 'Great Wall of India'. The birthplace of Maharana Pratap, it crowns the Aravalli range beside a wildlife sanctuary, and its evening light-and-sound show brings the ramparts alive.",
+    "images": {
+      "hero": "places/kumbhalgarh/hero.jpg",
+      "gallery": [
+        "places/kumbhalgarh/great-wall.jpg",
+        "places/kumbhalgarh/fort.jpg",
+        "places/kumbhalgarh/badal-mahal.jpg"
+      ],
+      "hero_credit": "Rajesh Kapoor · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Kumbhalgarh_055.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/kumbhalgarh/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to February; combine with Ranakpur.",
+    "attractions": [
+      {
+        "name": "The Great Wall",
+        "category": "Heritage",
+        "description": "A ~36 km fortification wall encircling the fort."
+      },
+      {
+        "name": "Kumbhalgarh Wildlife Sanctuary",
+        "category": "Wildlife",
+        "description": "Leopard and wolf habitat in the Aravallis."
+      }
+    ],
+    "activities": [
+      "Trekking",
+      "Photography",
+      "Wildlife",
+      "Heritage walks"
+    ],
+    "travel_info": {
+      "airport": "Udaipur (UDR), ~85 km.",
+      "railway": "Falna or Udaipur.",
+      "local_transport": "Taxi from Udaipur.",
+      "suggested_duration": "1 day",
+      "budget": "Low to moderate."
+    },
+    "safety": {
+      "tips": [
+        "Wear good shoes; the fort involves a lot of walking.",
+        "Start early to avoid midday heat."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "ranakpur",
+    "name": "Ranakpur",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Rajasthan",
+    "state_slug": "rajasthan",
+    "region": "Pali / Aravalli",
+    "lat": 25.1155,
+    "lng": 73.4712,
+    "type": "temple",
+    "categories": [
+      "heritage",
+      "spiritual",
+      "architecture",
+      "peace"
+    ],
+    "tags": [
+      "Temples",
+      "Heritage",
+      "Architecture",
+      "Peace",
+      "Unexplored"
+    ],
+    "rating": 4.7,
+    "reviews": 16000,
+    "popularity": 51,
+    "data_quality": 0.9,
+    "short_intro": "A breathtaking marble Jain temple carved with 1,444 uniquely different pillars.",
+    "overview": "The Ranakpur Jain temple, dedicated to Adinatha, is one of India's most spectacular examples of marble craftsmanship. Built in the 15th century in a forested Aravalli valley, its hall is supported by 1,444 intricately carved pillars, no two alike, arranged so that the view of the central shrine is never blocked.",
+    "images": {
+      "hero": "places/ranakpur/hero.jpg",
+      "gallery": [
+        "places/ranakpur/pillars.jpg",
+        "places/ranakpur/temple.jpg",
+        "places/ranakpur/carving.jpg"
+      ],
+      "hero_credit": "Ingo Mehling · CC BY-SA 3.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Jain_Temple_Ranakpur.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "hero_small": "places/ranakpur/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to February; note the temple's fixed visitor hours for non-worshippers.",
+    "attractions": [
+      {
+        "name": "Chaumukha Jain Temple",
+        "category": "Temple",
+        "description": "The famed four-faced marble temple with 1,444 pillars."
+      }
+    ],
+    "activities": [
+      "Photography",
+      "Heritage walks",
+      "Cultural experiences"
+    ],
+    "travel_info": {
+      "airport": "Udaipur (UDR), ~90 km.",
+      "railway": "Falna (~35 km).",
+      "local_transport": "Taxi from Udaipur or Kumbhalgarh.",
+      "suggested_duration": "Half day",
+      "budget": "Low."
+    },
+    "safety": {
+      "tips": [
+        "Leather items are not allowed inside the temple.",
+        "Dress modestly."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "anegundi",
+    "name": "Anegundi",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Karnataka",
+    "state_slug": "karnataka",
+    "region": "Tungabhadra / Hampi",
+    "lat": 15.3524,
+    "lng": 76.4849,
+    "type": "village",
+    "categories": [
+      "heritage",
+      "history",
+      "nature",
+      "spiritual"
+    ],
+    "tags": [
+      "History",
+      "Heritage",
+      "Nature",
+      "Unexplored"
+    ],
+    "rating": 4.5,
+    "reviews": 4700,
+    "popularity": 34,
+    "data_quality": 0.82,
+    "short_intro": "The mythical Kishkindha of the Ramayana, an older, quieter village across the river from Hampi.",
+    "overview": "Anegundi, on the northern bank of the Tungabhadra opposite Hampi, is older than the Vijayanagara capital itself and is identified in legend as Kishkindha, the monkey kingdom of the Ramayana. Prehistoric sites, ancient temples, a community craft movement and coracle rides make it a slower, more local counterpoint to Hampi's ruins.",
+    "images": {
+      "hero": "places/anegundi/hero.jpg",
+      "gallery": [
+        "places/anegundi/river.jpg",
+        "places/anegundi/anjanadri.jpg",
+        "places/anegundi/village.jpg"
+      ],
+      "hero_credit": "iMahesh · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Gagan_Mahal_palace,_Anegundi.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/anegundi/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to February.",
+    "attractions": [
+      {
+        "name": "Anjanadri Hill",
+        "category": "Spiritual",
+        "description": "Believed to be Hanuman's birthplace, reached by a long stair climb."
+      },
+      {
+        "name": "Pampa Sarovar",
+        "category": "Nature",
+        "description": "A sacred lake mentioned in the Ramayana."
+      }
+    ],
+    "activities": [
+      "Boating",
+      "Trekking",
+      "Photography",
+      "Cultural experiences"
+    ],
+    "travel_info": {
+      "airport": "Hubballi or Vidyanagar.",
+      "railway": "Hosapete (~20 km).",
+      "local_transport": "Coracle across the river or road via Gangavathi.",
+      "suggested_duration": "1 day",
+      "budget": "Budget."
+    },
+    "safety": {
+      "tips": [
+        "Carry water for the Anjanadri climb.",
+        "Coracle rides depend on river levels."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "badami",
+    "name": "Badami",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Karnataka",
+    "state_slug": "karnataka",
+    "region": "Bagalkot / Malaprabha",
+    "lat": 15.9149,
+    "lng": 75.6769,
+    "type": "heritage",
+    "categories": [
+      "heritage",
+      "history",
+      "architecture",
+      "adventure"
+    ],
+    "tags": [
+      "History",
+      "Heritage",
+      "Architecture",
+      "Adventure",
+      "Unexplored"
+    ],
+    "rating": 4.6,
+    "reviews": 8600,
+    "popularity": 42,
+    "data_quality": 0.86,
+    "short_intro": "The Chalukyan capital of rock-cut cave temples set above a red-sandstone gorge and a serene tank.",
+    "overview": "Badami was the capital of the early Chalukyas and is renowned for its four rock-cut cave temples carved into a sandstone cliff above the Agastya tank. Together with nearby Aihole and Pattadakal, it forms a cradle of South Indian temple architecture, and its cliffs are also a well-known destination for sport climbers.",
+    "images": {
+      "hero": "places/badami/hero.jpg",
+      "gallery": [
+        "places/badami/cave-temples.jpg",
+        "places/badami/agastya-lake.jpg",
+        "places/badami/bhutanatha.jpg"
+      ],
+      "hero_credit": "Sanyam Bahga · CC BY-SA 3.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:BadamiCaves87.JPG",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "hero_small": "places/badami/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to February; pair with Aihole and Pattadakal.",
+    "attractions": [
+      {
+        "name": "Badami Cave Temples",
+        "category": "Heritage",
+        "description": "Four rock-cut caves dedicated to Vishnu, Shiva and Jain teachers."
+      },
+      {
+        "name": "Bhutanatha Temples",
+        "category": "Temple",
+        "description": "Lakeside temples framed by red cliffs."
+      }
+    ],
+    "activities": [
+      "Trekking",
+      "Photography",
+      "Heritage walks"
+    ],
+    "travel_info": {
+      "airport": "Hubballi (~105 km) or Belgavi.",
+      "railway": "Badami station (~5 km).",
+      "local_transport": "Autos and taxis.",
+      "suggested_duration": "1–2 days",
+      "budget": "Budget."
+    },
+    "safety": {
+      "tips": [
+        "Watch for monkeys near the caves.",
+        "Climbing routes require proper gear and guides."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "vagamon",
+    "name": "Vagamon",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Kerala",
+    "state_slug": "kerala",
+    "region": "Western Ghats / Idukki-Kottayam",
+    "lat": 9.6866,
+    "lng": 76.9036,
+    "type": "hill_station",
+    "categories": [
+      "nature",
+      "peace",
+      "adventure",
+      "detox"
+    ],
+    "tags": [
+      "Nature",
+      "Peace",
+      "Adventure",
+      "Detox",
+      "Unexplored"
+    ],
+    "rating": 4.5,
+    "reviews": 9100,
+    "popularity": 45,
+    "data_quality": 0.83,
+    "short_intro": "Rolling green meadows, pine forests and paragliding skies in a quiet Western Ghats hill station.",
+    "overview": "Vagamon is a tranquil hill station straddling the Idukki-Kottayam border, known for its treeless rolling meadows, planted pine forest, tea slopes and a growing reputation for paragliding. Less commercialised than Munnar, it offers wide-open walks, a meditation centre and a peaceful blend of hill, meadow and mist.",
+    "images": {
+      "hero": "places/vagamon/hero.jpg",
+      "gallery": [
+        "places/vagamon/meadows.jpg",
+        "places/vagamon/pine-forest.jpg",
+        "places/vagamon/paragliding.jpg"
+      ]
+    },
+    "best_season": [
+      "September",
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "September to March; the paragliding festival is usually in the dry season.",
+    "attractions": [
+      {
+        "name": "Vagamon Meadows",
+        "category": "Nature",
+        "description": "Vast rolling green hills ideal for walks and picnics."
+      },
+      {
+        "name": "Pine Forest",
+        "category": "Nature",
+        "description": "A photogenic planted pine grove."
+      }
+    ],
+    "activities": [
+      "Trekking",
+      "Paragliding",
+      "Camping",
+      "Photography"
+    ],
+    "travel_info": {
+      "airport": "Cochin (COK), ~90 km.",
+      "railway": "Kottayam (~65 km).",
+      "local_transport": "Taxi from Kottayam.",
+      "suggested_duration": "1–2 days",
+      "budget": "Budget to moderate."
+    },
+    "safety": {
+      "tips": [
+        "Meadows get foggy and slippery; wear grippy shoes.",
+        "Paraglide only with certified operators."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "gokarna",
+    "name": "Gokarna",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Karnataka",
+    "state_slug": "karnataka",
+    "region": "Uttara Kannada / Konkan coast",
+    "lat": 14.5479,
+    "lng": 74.3188,
+    "type": "beach",
+    "categories": [
+      "beach",
+      "spiritual",
+      "peace",
+      "nature"
+    ],
+    "tags": [
+      "Beaches",
+      "Spiritual",
+      "Peace",
+      "Nature",
+      "Unexplored"
+    ],
+    "rating": 4.5,
+    "reviews": 21000,
+    "popularity": 60,
+    "data_quality": 0.85,
+    "short_intro": "A temple town with a string of quiet crescent beaches linked by clifftop coastal trails.",
+    "overview": "Gokarna is both an ancient Shaivite pilgrimage town, home to the revered Mahabaleshwar temple, and a low-key beach destination. A cliff path links a chain of beaches, from the town beach to Kudle, Om, Half-Moon and Paradise, offering a mellow, backpacker-friendly alternative to Goa without the crowds.",
+    "images": {
+      "hero": "places/gokarna/hero.jpg",
+      "gallery": [
+        "places/gokarna/om-beach.jpg",
+        "places/gokarna/kudle.jpg",
+        "places/gokarna/temple.jpg"
+      ]
+    },
+    "best_season": [
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "November to February; monsoons are heavy on this coast.",
+    "attractions": [
+      {
+        "name": "Om Beach",
+        "category": "Beach",
+        "description": "A beach shaped like the Om symbol, the area's most iconic."
+      },
+      {
+        "name": "Mahabaleshwar Temple",
+        "category": "Temple",
+        "description": "An important Shiva temple in the old town."
+      }
+    ],
+    "activities": [
+      "Trekking",
+      "Photography",
+      "Boating",
+      "Cultural experiences"
+    ],
+    "travel_info": {
+      "airport": "Hubballi or Goa (Dabolim).",
+      "railway": "Gokarna Road station; Ankola for more trains.",
+      "local_transport": "Autos and the cliff beach trek.",
+      "suggested_duration": "2–3 days",
+      "budget": "Budget."
+    },
+    "safety": {
+      "tips": [
+        "Beach currents can be strong; swim with care.",
+        "The clifftop trek has no shade—carry water."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "chopta",
+    "name": "Chopta",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Uttarakhand",
+    "state_slug": "uttarakhand",
+    "region": "Garhwal / Rudraprayag",
+    "lat": 30.4922,
+    "lng": 79.1959,
+    "type": "village",
+    "categories": [
+      "nature",
+      "adventure",
+      "mountains",
+      "spiritual"
+    ],
+    "tags": [
+      "Nature",
+      "Adventure",
+      "Mountains",
+      "Spiritual",
+      "Unexplored"
+    ],
+    "rating": 4.6,
+    "reviews": 11000,
+    "popularity": 47,
+    "data_quality": 0.84,
+    "short_intro": "The 'Mini Switzerland' of Uttarakhand and base for the trek to Tungnath, the highest Shiva temple.",
+    "overview": "Chopta is a meadow hamlet surrounded by alpine forest and Himalayan peaks, serving as the trailhead for Tungnath, the highest of the five Panch Kedar Shiva temples, and the Chandrashila summit beyond it. Uncrowded and green, it offers rewarding short treks with panoramic views of Nanda Devi and the Garhwal ranges.",
+    "images": {
+      "hero": "places/chopta/hero.jpg",
+      "gallery": [
+        "places/chopta/meadows.jpg",
+        "places/chopta/tungnath.jpg",
+        "places/chopta/chandrashila.jpg"
+      ],
+      "hero_credit": "Alok · CC BY-SA 3.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Chopta,_starting_point_for_treks_to_Tungnath_and_Chandrashila.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "hero_small": "places/chopta/card.jpg"
+    },
+    "best_season": [
+      "April",
+      "May",
+      "June",
+      "September",
+      "October",
+      "November"
+    ],
+    "best_time_to_visit": "April to June and September to November; snow in winter for a different experience.",
+    "attractions": [
+      {
+        "name": "Tungnath Temple",
+        "category": "Temple",
+        "description": "The world's highest Shiva temple, a short steep trek from Chopta."
+      },
+      {
+        "name": "Chandrashila Summit",
+        "category": "Viewpoint",
+        "description": "A ridge-top with 360-degree Himalayan views."
+      }
+    ],
+    "activities": [
+      "Trekking",
+      "Camping",
+      "Photography"
+    ],
+    "travel_info": {
+      "airport": "Dehradun (Jolly Grant).",
+      "railway": "Rishikesh or Haridwar.",
+      "local_transport": "Taxi via Ukhimath.",
+      "suggested_duration": "2 days",
+      "budget": "Budget."
+    },
+    "safety": {
+      "tips": [
+        "The Tungnath trek is steep; carry water and go slow.",
+        "Weather changes fast—carry rain and warm layers."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "sandakphu",
+    "name": "Sandakphu",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "West Bengal",
+    "state_slug": "west-bengal",
+    "region": "Darjeeling / Singalila",
+    "lat": 27.105,
+    "lng": 88.0,
+    "type": "mountain",
+    "categories": [
+      "adventure",
+      "nature",
+      "mountains"
+    ],
+    "tags": [
+      "Adventure",
+      "Nature",
+      "Mountains",
+      "Unexplored"
+    ],
+    "rating": 4.7,
+    "reviews": 6800,
+    "popularity": 43,
+    "data_quality": 0.83,
+    "short_intro": "The highest point in West Bengal, with a rare line-up view of four of the world's five highest peaks.",
+    "overview": "Sandakphu, on the Singalila ridge along the India–Nepal border, is the highest point in West Bengal at around 3,636 metres. The classic Sandakphu-Phalut trek rewards walkers with the 'Sleeping Buddha' panorama, in which Everest, Kanchenjunga, Lhotse and Makalu line up along the horizon on clear mornings.",
+    "images": {
+      "hero": "places/sandakphu/hero.jpg",
+      "gallery": [
+        "places/sandakphu/sleeping-buddha.jpg",
+        "places/sandakphu/ridge.jpg",
+        "places/sandakphu/trek.jpg"
+      ]
+    },
+    "best_season": [
+      "April",
+      "May",
+      "October",
+      "November",
+      "December"
+    ],
+    "best_time_to_visit": "Spring for rhododendrons and autumn for the clearest peak views.",
+    "attractions": [
+      {
+        "name": "Sleeping Buddha View",
+        "category": "Viewpoint",
+        "description": "The Kanchenjunga massif resembling a reclining Buddha."
+      }
+    ],
+    "activities": [
+      "Trekking",
+      "Camping",
+      "Photography"
+    ],
+    "travel_info": {
+      "airport": "Bagdogra.",
+      "railway": "New Jalpaiguri (NJP).",
+      "local_transport": "Land Rovers or trek from Manebhanjan.",
+      "suggested_duration": "3–5 days",
+      "budget": "Budget to moderate."
+    },
+    "safety": {
+      "tips": [
+        "High-altitude trek; acclimatise and hire a registered guide.",
+        "Weather is extreme—carry proper gear."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "gandikota",
+    "name": "Gandikota",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Andhra Pradesh",
+    "state_slug": "andhra-pradesh",
+    "region": "Rayalaseema / Kadapa",
+    "lat": 14.8146,
+    "lng": 78.2896,
+    "type": "fort",
+    "categories": [
+      "heritage",
+      "adventure",
+      "nature",
+      "history"
+    ],
+    "tags": [
+      "History",
+      "Adventure",
+      "Nature",
+      "Unexplored"
+    ],
+    "rating": 4.5,
+    "reviews": 7200,
+    "popularity": 38,
+    "data_quality": 0.82,
+    "short_intro": "The 'Grand Canyon of India', where the Pennar river carves a dramatic gorge below an old fort.",
+    "overview": "Gandikota is a village and fort perched above a spectacular gorge where the Pennar river slices through the Erramala hills, earning it the nickname the Grand Canyon of India. Within the fort walls lie old temples, a granary and a mosque, while the canyon rim offers superb sunrise views and riverside camping.",
+    "images": {
+      "hero": "places/gandikota/hero.jpg",
+      "gallery": [
+        "places/gandikota/canyon.jpg",
+        "places/gandikota/fort.jpg",
+        "places/gandikota/temple.jpg"
+      ],
+      "hero_credit": "Sudhakarbichali · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Indian_Grand_Canyon_Sudhakar_Bichali.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/gandikota/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to February; the region is very hot otherwise.",
+    "attractions": [
+      {
+        "name": "Pennar Gorge",
+        "category": "Nature",
+        "description": "A deep river canyon best seen at sunrise."
+      },
+      {
+        "name": "Gandikota Fort",
+        "category": "Fort",
+        "description": "A hilltop fort with old temples and a granary."
+      }
+    ],
+    "activities": [
+      "Trekking",
+      "Camping",
+      "Photography"
+    ],
+    "travel_info": {
+      "airport": "Kadapa; Bengaluru or Tirupati for wider links.",
+      "railway": "Jammalamadugu or Kadapa.",
+      "local_transport": "Taxi; limited public transport.",
+      "suggested_duration": "1–2 days",
+      "budget": "Budget."
+    },
+    "safety": {
+      "tips": [
+        "Stay back from unfenced canyon edges.",
+        "Carry plenty of water; facilities are basic."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "maravanthe",
+    "name": "Maravanthe",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Karnataka",
+    "state_slug": "karnataka",
+    "region": "Udupi / Konkan coast",
+    "lat": 13.7392,
+    "lng": 74.6415,
+    "type": "beach",
+    "categories": [
+      "beach",
+      "nature",
+      "peace"
+    ],
+    "tags": [
+      "Beaches",
+      "Nature",
+      "Peace",
+      "Unexplored"
+    ],
+    "rating": 4.4,
+    "reviews": 5100,
+    "popularity": 32,
+    "data_quality": 0.8,
+    "short_intro": "A rare stretch where the sea lies on one side of the highway and a river on the other.",
+    "overview": "Maravanthe is a quiet coastal spot on the Karnataka Konkan where National Highway 66 runs on a thin strip of land with the Arabian Sea on one side and the Souparnika river on the other. The uncommon sea-and-river-at-once view, backed by the Kodachadri hills, makes for a memorable, uncrowded coastal drive and sunset.",
+    "images": {
+      "hero": "places/maravanthe/hero.jpg",
+      "gallery": [
+        "places/maravanthe/sea-river.jpg",
+        "places/maravanthe/beach.jpg",
+        "places/maravanthe/sunset.jpg"
+      ],
+      "hero_credit": "Vinaya M A · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Maravanthe_beach.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/maravanthe/card.jpg"
+    },
+    "best_season": [
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "November to February.",
+    "attractions": [
+      {
+        "name": "Sea-River Highway Stretch",
+        "category": "Nature",
+        "description": "The iconic point with sea and river on either side of the road."
+      }
+    ],
+    "activities": [
+      "Photography",
+      "Boating"
+    ],
+    "travel_info": {
+      "airport": "Mangaluru (~110 km).",
+      "railway": "Kundapura (~15 km).",
+      "local_transport": "Buses and taxis on NH66.",
+      "suggested_duration": "Half day",
+      "budget": "Budget."
+    },
+    "safety": {
+      "tips": [
+        "Do not stop on the highway shoulder unsafely.",
+        "Sea currents can be strong."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "nubra-turtuk",
+    "name": "Turtuk",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Ladakh",
+    "state_slug": "ladakh",
+    "region": "Nubra / Shyok Valley",
+    "lat": 34.8462,
+    "lng": 76.8267,
+    "type": "village",
+    "categories": [
+      "culture",
+      "nature",
+      "adventure",
+      "peace"
+    ],
+    "tags": [
+      "Culture",
+      "Nature",
+      "Mountains",
+      "Peace",
+      "Unexplored"
+    ],
+    "rating": 4.7,
+    "reviews": 6400,
+    "popularity": 39,
+    "data_quality": 0.83,
+    "short_intro": "A Balti village near the Pakistan border, opened to visitors only in 2010, of apricot orchards and stone lanes.",
+    "overview": "Turtuk is one of the northernmost villages in India, set in the Shyok valley of Nubra and home to the Balti people with their distinct language, cuisine and culture. Under Indian administration only since 1971 and open to tourists since 2010, it charms visitors with apricot orchards, old water channels, a small palace and a rare glimpse of a border-frontier community.",
+    "images": {
+      "hero": "places/nubra-turtuk/hero.jpg",
+      "gallery": [
+        "places/nubra-turtuk/village.jpg",
+        "places/nubra-turtuk/apricots.jpg",
+        "places/nubra-turtuk/shyok.jpg"
+      ],
+      "hero_credit": "Rajnish71 · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:River_Shyok,_Turtuk_Village,_Ladakh.JPG",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/nubra-turtuk/card.jpg"
+    },
+    "best_season": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "best_time_to_visit": "June to September; combine with a Nubra valley trip.",
+    "attractions": [
+      {
+        "name": "Balti Heritage House",
+        "category": "Culture",
+        "description": "A museum of Balti life and artefacts."
+      },
+      {
+        "name": "Apricot Orchards",
+        "category": "Nature",
+        "description": "Orchards and old irrigation channels through the village."
+      }
+    ],
+    "activities": [
+      "Trekking",
+      "Photography",
+      "Cultural experiences"
+    ],
+    "travel_info": {
+      "airport": "Leh (IXL); reached via Khardung La and Nubra.",
+      "railway": "None nearby; Leh is the hub.",
+      "local_transport": "Taxi from Leh/Diskit; permits required.",
+      "suggested_duration": "1–2 days within a Ladakh trip",
+      "budget": "Moderate."
+    },
+    "safety": {
+      "tips": [
+        "Inner Line Permit required; carry ID.",
+        "High altitude—acclimatise in Leh first."
+      ],
+      "emergency": "Dial 112; facilities are basic."
+    }
+  },
+  {
+    "slug": "dzukou-valley",
+    "name": "Dzukou Valley",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Nagaland",
+    "state_slug": "nagaland",
+    "region": "Naga Hills (Nagaland–Manipur border)",
+    "lat": 25.5667,
+    "lng": 94.05,
+    "type": "valley",
+    "categories": [
+      "nature",
+      "adventure",
+      "mountains"
+    ],
+    "tags": [
+      "Nature",
+      "Adventure",
+      "Mountains",
+      "Unexplored"
+    ],
+    "rating": 4.7,
+    "reviews": 7600,
+    "popularity": 41,
+    "data_quality": 0.84,
+    "short_intro": "A rolling green trekking valley famed for its seasonal wildflowers and the rare Dzukou lily.",
+    "overview": "The Dzukou Valley, on the border of Nagaland and Manipur behind Japfu peak, is a gently rolling emerald valley reached by a rewarding trek from Viswema or Zakhama. In summer it blooms with wildflowers, including the endemic Dzukou lily, while its stream-cut meadows and cave shelters make it a favourite among northeast trekkers.",
+    "images": {
+      "hero": "places/dzukou-valley/hero.jpg",
+      "gallery": [
+        "places/dzukou-valley/meadows.jpg",
+        "places/dzukou-valley/flowers.jpg",
+        "places/dzukou-valley/trek.jpg"
+      ],
+      "hero_credit": "Original: Samudra Bikash Hazarika Derivative work: UnpetitproleX · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Breathtaking_beauty_of_Dzukou_Valley_in_Manipur-Nagaland_border_(edit).jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/dzukou-valley/card.jpg"
+    },
+    "best_season": [
+      "June",
+      "July",
+      "September",
+      "October",
+      "November"
+    ],
+    "best_time_to_visit": "June to July for flowers; autumn for clear trekking weather.",
+    "attractions": [
+      {
+        "name": "Dzukou Valley Trek",
+        "category": "Nature",
+        "description": "A scenic trek to the flower-filled valley floor."
+      }
+    ],
+    "activities": [
+      "Trekking",
+      "Camping",
+      "Photography"
+    ],
+    "travel_info": {
+      "airport": "Dimapur.",
+      "railway": "Dimapur.",
+      "local_transport": "Taxi to Viswema/Zakhama, then trek.",
+      "suggested_duration": "2 days",
+      "budget": "Budget."
+    },
+    "safety": {
+      "tips": [
+        "Carry your own water and food; the valley is remote.",
+        "Do not light open fires—past wildfires have damaged it."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "chettinad",
+    "name": "Chettinad (Karaikudi)",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Tamil Nadu",
+    "state_slug": "tamil-nadu",
+    "region": "Sivaganga",
+    "lat": 10.073,
+    "lng": 78.77,
+    "type": "heritage",
+    "categories": [
+      "heritage",
+      "culture",
+      "history"
+    ],
+    "tags": [
+      "Heritage",
+      "Culture",
+      "History",
+      "Unexplored"
+    ],
+    "rating": 4.4,
+    "reviews": 5300,
+    "popularity": 36,
+    "data_quality": 0.82,
+    "short_intro": "A region of grand merchant mansions and one of India's most celebrated regional cuisines.",
+    "overview": "Chettinad, around Karaikudi in Tamil Nadu, was the homeland of the wealthy Nattukottai Chettiar trading community. Their opulent mansions, built with Burmese teak, Italian marble and Athangudi tiles, still line quiet village streets. The region is equally famous for fiery, aromatic Chettinad cuisine and its handcrafted tiles and textiles.",
+    "images": {
+      "hero": "places/chettinad/hero.jpg",
+      "gallery": [
+        "places/chettinad/mansion.jpg",
+        "places/chettinad/tiles.jpg",
+        "places/chettinad/courtyard.jpg"
+      ],
+      "hero_credit": "User:Karthick jack · CC BY-SA 3.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:The_Chettinad_palace_karaikudi_2013-09-07_00-11.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "hero_small": "places/chettinad/card.jpg"
+    },
+    "best_season": [
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "November to February.",
+    "attractions": [
+      {
+        "name": "Chettinad Mansions",
+        "category": "Heritage",
+        "description": "Palatial merchant homes open to visitors in Kanadukathan."
+      },
+      {
+        "name": "Athangudi Tile Workshops",
+        "category": "Culture",
+        "description": "Handmade tiles crafted by traditional methods."
+      }
+    ],
+    "food": [
+      {
+        "name": "Chettinad Chicken",
+        "type": "Meal",
+        "description": "A bold, peppery regional curry."
+      }
+    ],
+    "activities": [
+      "Heritage walks",
+      "Photography",
+      "Cultural experiences"
+    ],
+    "travel_info": {
+      "airport": "Madurai (~90 km) or Tiruchirappalli.",
+      "railway": "Karaikudi Junction.",
+      "local_transport": "Autos and taxis between villages.",
+      "suggested_duration": "1–2 days",
+      "budget": "Moderate."
+    },
+    "safety": {
+      "tips": [
+        "Some mansions are private—ask before entering.",
+        "Carry water in the dry heat."
+      ],
+      "emergency": "Dial 112."
+    }
+  }
+]

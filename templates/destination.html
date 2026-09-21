@@ -1,0 +1,165 @@
+{% extends "base.html" %}
+{% import "_macros.html" as ui %}
+{% set cat = (place.categories or [None])[0] %}
+{% block title %}{{ place.name }}, {{ place.state }} — Atulya Yatra{% endblock %}
+{% block description %}{{ place.short_intro }}{% endblock %}
+
+{% block content %}
+<section class="detail-hero">
+  <img class="bg" src="{{ entity_img(place, 'place', width=2560) }}"
+    srcset="{{ entity_srcset(place, 'place', widths=(1280, 1920, 2560)) }}" sizes="100vw"
+    alt="{{ place.name }}">
+  <div class="scrim"></div>
+  <div class="container dh-inner">
+    {% if place.is_hidden_gem %}<span class="badge gem hero-badge">Hidden Gem</span>{% endif %}
+    <h1>{{ place.name }}</h1>
+    <div class="meta">
+      <span><a href="{{ url_for('pages.state', slug=place.state_slug) }}">{{ place.state }}</a></span>
+      {% if place.region %}<span>{{ place.region }}</span>{% endif %}
+      {% if place.type %}<span>{{ place.type | replace('_',' ') | title }}</span>{% endif %}
+      {% if place.rating %}<span>Rated {{ place.rating }} ({{ place.reviews }} reviews)</span>{% endif %}
+    </div>
+    <p class="hero-summary">{{ place.short_intro }}</p>
+    <div class="detail-assistant-actions">
+      <a class="btn" href="{{ url_for('pages.assistant', plan=place.slug) }}">Plan a trip here</a>
+      {{ ui.directions_button(place, label='Get Directions', classes='btn btn-outline') }}
+    </div>
+  </div>
+{# Photography is credited on /credits rather than over the image, so the hero
+   stays clean. #}
+</section>
+
+<div class="container section">
+  <div class="layout">
+    <div class="main" data-tabscope>
+      {% set culture_source = place if (place.culture or place.festivals or place.food) else state_fallback %}
+      <div class="detail-tabs" data-tabs role="tablist">
+        <button class="tab" type="button" role="tab" data-tab="overview">Overview</button>
+        {% if gallery %}<button class="tab" type="button" role="tab" data-tab="gallery">Gallery</button>{% endif %}
+        {% if place.attractions or nearby_attractions %}<button class="tab" type="button" role="tab" data-tab="attractions">Attractions</button>{% endif %}
+        {% if hidden_gems %}<button class="tab" type="button" role="tab" data-tab="hidden-gems">Hidden gems</button>{% endif %}
+        {% if culture_source %}<button class="tab" type="button" role="tab" data-tab="culture">Culture &amp; food</button>{% endif %}
+        <button class="tab" type="button" role="tab" data-tab="feedback">Feedback</button>
+      </div>
+
+      <section class="tab-panel" data-panel="overview">
+        <div class="block prose"><h2>Overview</h2><p>{{ place.overview }}</p></div>
+        {% if place.activities %}<div class="block"><h3>Things to do</h3><div class="pill-row">{% for a in place.activities[:activity_limit] %}<span class="chip activity-chip">{{ a }}</span>{% endfor %}</div></div>{% endif %}
+        {% if place.safety %}<div class="block"><h3>Safety and etiquette</h3><div class="safety-box">
+          {% if place.safety.tips %}<strong>Safety tips</strong><ul>{% for t in place.safety.tips %}<li>{{ t }}</li>{% endfor %}</ul>{% endif %}
+          {% if place.safety.etiquette %}<strong class="safety-heading">Cultural etiquette</strong><ul>{% for e in place.safety.etiquette %}<li>{{ e }}</li>{% endfor %}</ul>{% endif %}
+          {% if place.safety.emergency %}<p><strong>Emergency:</strong> {{ place.safety.emergency }}</p>{% endif %}
+        </div></div>{% endif %}
+        {% if similar %}<div class="block"><h3>Similar destinations</h3><p class="sub">Other places you might enjoy.</p><div class="grid grid-3">{% for s in similar %}{{ ui.place_card(s) }}{% endfor %}</div></div>{% endif %}
+      </section>
+
+      {% if gallery %}
+      <section class="tab-panel" data-panel="gallery">
+        <div class="block"><h2>Gallery</h2><p class="sub">{{ gallery|length }} photo{{ 's' if gallery|length != 1 }} of {{ place.name }}.</p><div class="gallery">
+          {% for src in gallery %}<a href="{{ src }}" data-lightbox><img loading="lazy" src="{{ src }}" alt="{{ place.name }} photo {{ loop.index }}"></a>{% endfor %}
+        </div></div>
+      </section>
+      {% endif %}
+
+      {% if place.attractions or nearby_attractions %}
+      <section class="tab-panel" data-panel="attractions">
+        {% if place.attractions %}
+        <div class="block"><h2>Top attractions</h2><p class="sub">Highlights in and around {{ place.name }} — open any for its own guide.</p><div class="grid grid-2">
+          {% for a in place.attractions %}<div class="mini-card">
+            <a class="mc-media" href="{{ url_for('pages.place', q=a.name) }}"><img class="mc-thumb" loading="lazy" src="{{ named_img(a.name, context=place.name ~ ', ' ~ place.state, category=(a.category or cat)) }}" alt="{{ a.name }}"></a>
+            <div class="mc-content">
+              <h4><a href="{{ url_for('pages.place', q=a.name) }}">{{ a.name }}</a></h4>
+              <div class="mc-meta">{{ a.category }}</div>
+              <p>{{ a.description }}</p>
+              <div class="mc-actions"><a class="btn btn-sm btn-outline" href="{{ url_for('pages.place', q=a.name) }}">Explore</a>{{ ui.directions_button({'name': a.name, 'region': place.state}, label='Directions', classes='btn btn-sm btn-ghost-dark') }}</div>
+            </div>
+          </div>{% endfor %}
+        </div></div>
+        {% endif %}
+        {% if nearby_attractions %}
+        <div class="block"><h2>Nearby attractions</h2><p class="sub">Within {{ nearby_radius }} km of {{ place.name }}.</p><div class="grid grid-3">{% for n in nearby_attractions %}{{ ui.place_card(n, show_distance=True, show_directions=True) }}{% endfor %}</div></div>
+        {% endif %}
+      </section>
+      {% endif %}
+
+      {% if hidden_gems %}
+      <section class="tab-panel" data-panel="hidden-gems">
+        <div class="block"><h2>Nearby hidden gems within {{ gem_radius }} km</h2><p class="sub">Good places that stay off the mainstream trail — blending Atulya Yatra picks, community favourites and discovered candidates.</p>
+          <div class="gem-grid" id="gems-grid">{% for g in hidden_gems %}{{ ui.gem_card(g) }}{% endfor %}</div>
+          {% if has_more_gems %}<div class="text-center action-row"><button class="btn btn-outline" id="view-more-gems" data-slug="{{ place.slug }}" data-offset="{{ hidden_gems|length }}">View more hidden gems</button></div>{% endif %}
+        </div>
+      </section>
+      {% endif %}
+
+      {% if culture_source %}
+      <section class="tab-panel" data-panel="culture">
+        {% set using_own_culture = (culture_source == place) %}
+        {% if using_own_culture and place.culture %}
+        <div class="block prose"><h2>Culture and traditions</h2><p>{{ place.culture.summary }}</p>
+          <div class="visual-grid culture-grid">
+            {% if place.culture.traditions %}
+              {% for tradition in place.culture.traditions[:4] %}{% set src = named_img(tradition, context=place.name ~ ', ' ~ place.state, category='culture') %}<figure class="visual-card"><a data-lightbox href="{{ src }}"><img loading="lazy" src="{{ src }}" alt="{{ tradition }}"></a><figcaption><strong>{{ tradition }}</strong><span>Local tradition</span></figcaption></figure>{% endfor %}
+            {% elif place.culture.summary %}
+              {% set src = named_img(place.name ~ ' traditional culture', context=place.state, category='culture') %}<figure class="visual-card visual-card-wide"><a data-lightbox href="{{ src }}"><img loading="lazy" src="{{ src }}" alt="Culture of {{ place.name }}"></a><figcaption><strong>Culture of {{ place.name }}</strong><span>Representative local view</span></figcaption></figure>
+            {% endif %}
+            {% if place.culture.art_handicrafts %}
+              {% for craft in place.culture.art_handicrafts[:3] %}{% set src = named_img(craft, context=place.name ~ ', ' ~ place.state, category='culture') %}<figure class="visual-card"><a data-lightbox href="{{ src }}"><img loading="lazy" src="{{ src }}" alt="{{ craft }}"></a><figcaption><strong>{{ craft }}</strong><span>Art and handicraft</span></figcaption></figure>{% endfor %}
+            {% endif %}
+          </div>
+        </div>
+        {% elif not using_own_culture and culture_source.culture %}
+        <div class="block prose"><h2>Culture and traditions</h2><p class="sub">{{ place.state }}'s culture — {{ place.name }} doesn't have its own write-up yet.</p><p>{{ culture_source.culture }}</p>
+          {% set src = named_img(place.state ~ ' traditional culture', context=place.state, category='culture') %}<div class="visual-grid culture-grid"><figure class="visual-card visual-card-wide"><a data-lightbox href="{{ src }}"><img loading="lazy" src="{{ src }}" alt="Culture of {{ place.state }}"></a><figcaption><strong>Culture of {{ place.state }}</strong><span>Representative regional view</span></figcaption></figure></div>
+        </div>
+        {% endif %}
+
+        {% set festivals = place.festivals if using_own_culture else culture_source.festivals %}
+        {% if festivals %}
+        <div class="block"><h2>Festivals</h2>{% if not using_own_culture %}<p class="sub">Celebrated across {{ place.state }}.</p>{% endif %}<div class="visual-grid">
+          {% for f in festivals[:festival_limit] %}{% set src = named_img(f.name, context=place.state, category='culture') %}<article class="visual-tile"><a data-lightbox href="{{ src }}"><img loading="lazy" src="{{ src }}" alt="{{ f.name }}"></a><div><span class="tag">{{ f.time }}</span><h4>{{ f.name }}</h4>{% if f.description %}<p>{{ f.description }}{% if f.significance %} <em>{{ f.significance }}</em>{% endif %}</p>{% endif %}</div></article>{% endfor %}
+        </div></div>
+        {% endif %}
+
+        {% set foods = place.food if using_own_culture else culture_source.food %}
+        {% if foods %}
+        <div class="block"><h2>Local food</h2>{% if not using_own_culture %}<p class="sub">Specialties from {{ place.state }}.</p>{% endif %}<div class="visual-grid">
+          {% for d in foods[:food_limit] %}
+            {% set food_name = d.name if d is mapping else d %}
+            {% set src = named_img(food_name ~ ' Indian food', context=place.state, category='food') %}
+            <article class="visual-tile"><a data-lightbox href="{{ src }}"><img loading="lazy" src="{{ src }}" alt="{{ food_name }}"></a><div>{% if d is mapping and d.type %}<span class="tag">{{ d.type }}</span>{% endif %}<h4>{{ food_name }}</h4>{% if d is mapping and d.description %}<p>{{ d.description }}</p>{% endif %}</div></article>
+          {% endfor %}
+        </div></div>
+        {% endif %}
+      </section>
+      {% endif %}
+
+      <section class="tab-panel" data-panel="feedback">
+        <div class="block"><h2>Traveller feedback</h2>
+          {% if feedbacks %}{% for fb in feedbacks %}<div class="feedback-item"><div class="fb-head"><span>{{ fb.name }}{% if fb.rating %} · <span class="rating">Rated {{ fb.rating }}</span>{% endif %}</span><span class="fb-date">{{ fb.created_at.strftime('%d %b %Y') }}</span></div><p>{{ fb.comment }}</p></div>{% endfor %}
+          {% else %}<p class="muted">Be the first to share your experience.</p>{% endif %}
+          <form method="POST" action="{{ url_for('pages.submit_feedback', slug=place.slug) }}" class="feedback-form">
+            <div class="field"><label>Your name</label><input name="name" required maxlength="120"></div>
+            <div class="field"><label>Rating (1–5)</label><select name="rating"><option value="">Select rating</option>{% for i in range(5,0,-1) %}<option value="{{ i }}">{{ i }}</option>{% endfor %}</select></div>
+            <div class="field"><label>Your experience</label><textarea name="comment" rows="3" required maxlength="2000"></textarea></div>
+            <button class="btn" type="submit">Share feedback</button>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <aside class="aside">
+      {% if place.travel_info %}<div class="panel"><h3>Travel information</h3><ul class="info-list">
+        {% if place.travel_info.suggested_duration %}<li><strong>Duration</strong><span>{{ place.travel_info.suggested_duration }}</span></li>{% endif %}
+        {% if place.best_time_to_visit %}<li><strong>Best time</strong><span>{{ place.best_time_to_visit }}</span></li>{% endif %}
+        {% if place.travel_info.airport %}<li><strong>Airport</strong><span>{{ place.travel_info.airport }}</span></li>{% endif %}
+        {% if place.travel_info.railway %}<li><strong>Railway</strong><span>{{ place.travel_info.railway }}</span></li>{% endif %}
+        {% if place.travel_info.bus %}<li><strong>Bus</strong><span>{{ place.travel_info.bus }}</span></li>{% endif %}
+        {% if place.travel_info.local_transport %}<li><strong>Getting around</strong><span>{{ place.travel_info.local_transport }}</span></li>{% endif %}
+        {% if place.travel_info.budget %}<li><strong>Budget</strong><span>{{ place.travel_info.budget }}</span></li>{% endif %}
+      </ul></div>{% endif %}
+      {% if place.tags %}<div class="panel"><h3>Good for</h3><div class="pill-row">{% for t in place.tags %}<span class="chip">{{ t }}</span>{% endfor %}</div></div>{% endif %}
+      {% if state %}<div class="panel"><h3>Explore more of {{ state.name }}</h3><p class="muted">{{ state.intro | truncate_words(24) }}</p><a class="btn btn-sm btn-outline" href="{{ url_for('pages.state', slug=state.slug) }}">Open {{ state.name }}</a></div>{% endif %}
+    </aside>
+  </div>
+</div>
+{% endblock %}

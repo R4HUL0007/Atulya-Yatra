@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Curated Trips — Atulya Yatra{% endblock %}
+
+{% block content %}
+<div class="container section">
+  <div class="section-head">
+    <div class="eyebrow">Curated journeys</div>
+    <h2>Explore published trips</h2>
+    <p>Meaningful travel experiences, linked to our destination guides. Need something personal? Send a private request and our administrators can prepare it.</p>
+    <div class="action-row"><a class="btn" href="{{ url_for('pages.contact') }}">Request a custom trip</a></div>
+  </div>
+  {% if trips %}<div class="grid grid-3">
+    {% for trip in trips %}
+    <a class="card" href="{{ url_for('pages.trip', slug=trip.slug) }}">
+      <div class="thumb">
+        <span class="badge">{{ trip.duration_days }} days</span>
+        <img loading="lazy" src="{{ entity_img(trip, 'trip', width=900) }}" alt="{{ trip.name }}">
+      </div>
+      <div class="body">
+        <h3>{{ trip.name }}</h3>
+        <div class="place-state">{{ trip.themes | join(' · ') }}</div>
+        <p class="place-desc">{{ trip.overview | truncate_words(22) }}</p>
+        <span class="btn btn-sm btn-outline">View itinerary</span>
+      </div>
+    </a>
+    {% endfor %}
+  </div>{% else %}<div class="empty">No published trips yet.</div>{% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,743 @@
+[
+  {
+    "slug": "mysore",
+    "name": "Mysore",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Karnataka",
+    "state_slug": "karnataka",
+    "region": "Old Mysore",
+    "lat": 12.2958,
+    "lng": 76.6394,
+    "type": "heritage",
+    "categories": [
+      "Heritage",
+      "Culture",
+      "Historical"
+    ],
+    "tags": [
+      "Heritage",
+      "Culture",
+      "Popular"
+    ],
+    "rating": 4.6,
+    "reviews": 71000,
+    "popularity": 78,
+    "data_quality": 0.9,
+    "short_intro": "The former Wadiyar dynasty capital, famous for its illuminated palace and the grand Mysuru Dasara festival.",
+    "overview": "Mysore was the seat of the Wadiyar maharajas, whose Indo-Saracenic Mysore Palace, completed in 1912, remains one of India's most visited monuments, especially when nearly 100,000 bulbs light its façade during Dasara. The city is also a global centre for Ashtanga yoga instruction and produces Mysore silk sarees and sandalwood products, giving it a cultural identity that extends well beyond its royal architecture.",
+    "images": {
+      "hero": "places/mysore/hero.jpg",
+      "gallery": [
+        "places/mysore/palace.jpg",
+        "places/mysore/dasara.jpg",
+        "places/mysore/chamundi-hills.jpg"
+      ]
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October (Dasara) is the highlight; pleasant weather October to February.",
+    "attractions": [
+      {
+        "name": "Mysore Palace",
+        "category": "Heritage",
+        "description": "The illuminated Indo-Saracenic palace of the Wadiyar dynasty."
+      },
+      {
+        "name": "Chamundi Hills",
+        "category": "Spiritual",
+        "description": "A hilltop temple to goddess Chamundeshwari overlooking the city."
+      },
+      {
+        "name": "Devaraja Market",
+        "category": "Market",
+        "description": "A century-old market for flowers, spices and Mysore's famous sandalwood."
+      }
+    ],
+    "culture": {
+      "summary": "Mysore blends royal Wadiyar heritage with a global yoga-tourism identity and a strong silk-weaving and sandalwood-craft tradition.",
+      "art_handicrafts": [
+        "Mysore silk weaving",
+        "Sandalwood carving",
+        "Ganjifa card painting"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Mysuru Dasara",
+        "time": "September–October",
+        "description": "A ten-day state festival with a grand elephant-led procession.",
+        "significance": "Celebrates the goddess Chamundeshwari's victory over the demon Mahishasura."
+      }
+    ],
+    "food": [
+      {
+        "name": "Mysore Masala Dosa",
+        "type": "Meal",
+        "description": "A red-chutney dosa variant that originated in the city."
+      },
+      {
+        "name": "Mysore Pak",
+        "type": "Sweet",
+        "description": "A rich gram-flour-and-ghee sweet, a signature local dessert."
+      }
+    ],
+    "activities": [
+      "Cultural experiences",
+      "Photography",
+      "Heritage walks"
+    ],
+    "travel_info": {
+      "airport": "Mysore Airport (MYQ) or Bengaluru (~150 km).",
+      "railway": "Mysore Junction.",
+      "local_transport": "Autos and city buses.",
+      "suggested_duration": "2 days",
+      "budget": "Moderate."
+    },
+    "safety": {
+      "tips": [
+        "Dasara week draws huge crowds — book stays early.",
+        "Bargain at Devaraja Market."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "coorg",
+    "name": "Coorg (Kodagu)",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Karnataka",
+    "state_slug": "karnataka",
+    "region": "Kodagu",
+    "lat": 12.3375,
+    "lng": 75.8069,
+    "type": "hill_station",
+    "categories": [
+      "Nature",
+      "Mountains",
+      "Food",
+      "Adventure"
+    ],
+    "tags": [
+      "Nature",
+      "Mountains",
+      "Popular"
+    ],
+    "rating": 4.6,
+    "reviews": 58000,
+    "popularity": 76,
+    "data_quality": 0.87,
+    "short_intro": "Karnataka's misty coffee country, home to the Kodava warrior community and the source of the Kaveri river.",
+    "overview": "Coorg's rolling hills are blanketed in coffee and spice plantations, introduced under British-era cultivation and now central to the region's economy and identity. The Kodava community, with a distinct martial history, language and cuisine centred on pork and bamboo shoot, gives Coorg a cultural character unlike anywhere else in Karnataka. Talakaveri, the source of the sacred Kaveri river, sits in the surrounding Western Ghats.",
+    "images": {
+      "hero": "places/coorg/hero.jpg",
+      "gallery": [
+        "places/coorg/coffee-plantation.jpg",
+        "places/coorg/abbey-falls.jpg",
+        "places/coorg/talakaveri.jpg"
+      ],
+      "hero_credit": "Jyotirmoy · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Tadiandamol_Valley,_Western_Ghats.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/coorg/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "best_time_to_visit": "October to March; monsoon (June-Sept) is lush but very wet.",
+    "attractions": [
+      {
+        "name": "Abbey Falls",
+        "category": "Waterfall",
+        "description": "A waterfall set amid coffee and spice plantations."
+      },
+      {
+        "name": "Talakaveri",
+        "category": "Spiritual",
+        "description": "The traditional source of the Kaveri river high in the Brahmagiri hills."
+      },
+      {
+        "name": "Raja's Seat",
+        "category": "Viewpoint",
+        "description": "A garden viewpoint once used by Coorg's kings to watch the sunset."
+      }
+    ],
+    "culture": {
+      "summary": "The Kodava community maintains a distinct language, ancestral-gun-carrying wedding traditions and martial-arts heritage found nowhere else in India.",
+      "traditions": [
+        "Kodava wedding rituals",
+        "Puthari harvest festival"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Puthari",
+        "time": "November–December",
+        "description": "The Kodava rice harvest festival marked with gunfire salutes and feasting.",
+        "significance": "Celebrates the new rice harvest central to Kodava agrarian life."
+      }
+    ],
+    "food": [
+      {
+        "name": "Pandi Curry",
+        "type": "Meal",
+        "description": "A tangy Kodava pork curry using kachampuli vinegar."
+      },
+      {
+        "name": "Coorg Coffee",
+        "type": "Drink",
+        "description": "Estate-grown coffee from the region's plantations."
+      }
+    ],
+    "activities": [
+      "Trekking",
+      "Photography",
+      "Wildlife"
+    ],
+    "travel_info": {
+      "airport": "Mangaluru (~135 km) or Bengaluru (~250 km).",
+      "railway": "Mysore (~120 km).",
+      "local_transport": "Taxis for plantation and waterfall visits.",
+      "suggested_duration": "2–3 days",
+      "budget": "Moderate."
+    },
+    "safety": {
+      "tips": [
+        "Roads are winding — avoid night driving.",
+        "Leeches are common on monsoon treks."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "alleppey",
+    "name": "Alleppey (Alappuzha)",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Kerala",
+    "state_slug": "kerala",
+    "region": "Kuttanad backwaters",
+    "lat": 9.4981,
+    "lng": 76.3388,
+    "type": "backwater",
+    "categories": [
+      "Nature",
+      "Culture",
+      "Wellness"
+    ],
+    "tags": [
+      "Backwaters",
+      "Nature",
+      "Popular"
+    ],
+    "rating": 4.6,
+    "reviews": 62000,
+    "popularity": 80,
+    "data_quality": 0.88,
+    "short_intro": "The 'Venice of the East', where converted rice barges (kettuvallam houseboats) drift through palm-lined backwater canals.",
+    "overview": "Alappuzha sits at the heart of Kerala's Kuttanad region, a network of canals, lagoons and paddy fields where farming happens below sea level, protected by an intricate system of bunds. The kettuvallam houseboats, once used to transport rice, are now converted into floating homestays that glide past coconut groves and toddy shops. The town's Nehru Trophy Boat Race, featuring snake boats rowed by over a hundred oarsmen, is one of Kerala's most electric sporting spectacles.",
+    "images": {
+      "hero": "places/alleppey/hero.jpg",
+      "gallery": [
+        "places/alleppey/houseboat.jpg",
+        "places/alleppey/backwaters.jpg",
+        "places/alleppey/boat-race.jpg"
+      ],
+      "hero_credit": "Augustus Binu / facebook · CC BY-SA 3.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Alappuzha_Boat_Beauty_W.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "hero_small": "places/alleppey/card.jpg"
+    },
+    "best_season": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "best_time_to_visit": "November to March; the Nehru Trophy Boat Race is in August.",
+    "attractions": [
+      {
+        "name": "Alleppey Backwaters",
+        "category": "Nature",
+        "description": "A network of canals and lagoons explored by houseboat or canoe."
+      },
+      {
+        "name": "Alappuzha Beach",
+        "category": "Beach",
+        "description": "A pier-lined beach at the edge of the backwater town."
+      }
+    ],
+    "culture": {
+      "summary": "Kuttanad's below-sea-level farming and houseboat traditions reflect centuries of adaptation to a unique wetland ecology.",
+      "traditions": [
+        "Snake boat racing",
+        "Toddy tapping"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Nehru Trophy Boat Race",
+        "time": "August",
+        "description": "A famous snake-boat race held on Punnamada Lake.",
+        "significance": "One of Kerala's most anticipated annual sporting events."
+      }
+    ],
+    "food": [
+      {
+        "name": "Karimeen Pollichathu",
+        "type": "Meal",
+        "description": "Pearl spot fish marinated and grilled in a banana leaf, a backwater specialty."
+      },
+      {
+        "name": "Toddy",
+        "type": "Drink",
+        "description": "Mildly fermented palm sap traditionally served at toddy shops."
+      }
+    ],
+    "activities": [
+      "Boating",
+      "Photography",
+      "Wellness"
+    ],
+    "travel_info": {
+      "airport": "Cochin International (~85 km).",
+      "railway": "Alappuzha railway station.",
+      "local_transport": "Houseboats and canoes are the primary way to explore.",
+      "suggested_duration": "1–2 days (overnight houseboat recommended)",
+      "budget": "Moderate to premium."
+    },
+    "safety": {
+      "tips": [
+        "Book licensed houseboats through registered operators.",
+        "Wear a life jacket during canoe trips."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "madurai",
+    "name": "Madurai",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Tamil Nadu",
+    "state_slug": "tamil-nadu",
+    "region": "Vaigai river",
+    "lat": 9.9252,
+    "lng": 78.1198,
+    "type": "spiritual",
+    "categories": [
+      "Spiritual",
+      "Heritage",
+      "Culture"
+    ],
+    "tags": [
+      "Spiritual",
+      "Heritage",
+      "Popular"
+    ],
+    "rating": 4.7,
+    "reviews": 88000,
+    "popularity": 82,
+    "data_quality": 0.92,
+    "short_intro": "One of India's oldest continuously inhabited cities, centred on the towering, sculpture-covered Meenakshi Amman Temple.",
+    "overview": "Madurai has been a centre of Tamil culture, trade and Sangam-era literature for over 2,500 years, and its skyline is still defined by the Meenakshi Amman Temple's fourteen gopurams, covered in thousands of painted stucco sculptures depicting Hindu mythology. The temple's daily ritual where the deity Sundareswarar is symbolically carried to Meenakshi's chamber for the night draws devotees each evening, and the surrounding old city retains a dense grid of markets radiating from the temple's four gates, a layout unchanged for centuries.",
+    "images": {
+      "hero": "places/madurai/hero.jpg",
+      "gallery": [
+        "places/madurai/meenakshi-temple.jpg",
+        "places/madurai/gopuram.jpg",
+        "places/madurai/thirumalai-nayakkar.jpg"
+      ],
+      "hero_credit": "KennyOMG · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Meenakshi_Amman_West_Tower.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/madurai/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to February; summer is intensely hot.",
+    "attractions": [
+      {
+        "name": "Meenakshi Amman Temple",
+        "category": "Spiritual",
+        "description": "A vast Dravidian temple complex with fourteen intricately sculpted gopurams."
+      },
+      {
+        "name": "Thirumalai Nayakkar Mahal",
+        "category": "Heritage",
+        "description": "A 17th-century Indo-Saracenic palace with towering pillared halls."
+      }
+    ],
+    "culture": {
+      "summary": "Madurai is considered a cradle of Tamil literature and language, hosting Sangam-era academies and remaining a centre of classical Bharatanatyam and temple ritual.",
+      "art_handicrafts": [
+        "Temple bronze casting",
+        "Tanjore-style painting influences"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Chithirai Festival",
+        "time": "April–May",
+        "description": "A grand celebration re-enacting the celestial wedding of Meenakshi and Sundareswarar.",
+        "significance": "One of South India's largest temple festivals."
+      }
+    ],
+    "food": [
+      {
+        "name": "Jigarthanda",
+        "type": "Drink",
+        "description": "A cooling milk-based dessert drink invented in Madurai."
+      },
+      {
+        "name": "Kari Dosai",
+        "type": "Meal",
+        "description": "A meat-topped dosa distinctive to the city's food scene."
+      }
+    ],
+    "activities": [
+      "Heritage walks",
+      "Cultural experiences",
+      "Photography"
+    ],
+    "travel_info": {
+      "airport": "Madurai Airport (IXM).",
+      "railway": "Madurai Junction.",
+      "local_transport": "Autos around the temple old city.",
+      "suggested_duration": "1–2 days",
+      "budget": "Budget to moderate."
+    },
+    "safety": {
+      "tips": [
+        "Dress modestly; some temple areas restrict non-Hindus.",
+        "Photography is restricted inside the main sanctum."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "ooty",
+    "name": "Ooty (Ootacamund)",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Tamil Nadu",
+    "state_slug": "tamil-nadu",
+    "region": "Nilgiris",
+    "lat": 11.4064,
+    "lng": 76.6932,
+    "type": "hill_station",
+    "categories": [
+      "Nature",
+      "Mountains",
+      "Wildlife"
+    ],
+    "tags": [
+      "Mountains",
+      "Nature",
+      "Popular"
+    ],
+    "rating": 4.4,
+    "reviews": 69000,
+    "popularity": 74,
+    "data_quality": 0.86,
+    "short_intro": "The 'Queen of Hill Stations', a colonial-era Nilgiri retreat linked by a UNESCO mountain railway.",
+    "overview": "Ooty was developed by the British as a summer capital for the Madras Presidency, and its Botanical Gardens, Ooty Lake and tea estates still carry that colonial-hill-station character. The Nilgiri Mountain Railway, a UNESCO World Heritage steam train connecting Mettupalayam to Ooty through 16 tunnels and over 250 bridges, remains one of India's most scenic rail journeys, while the surrounding Nilgiris are home to the indigenous Toda pastoral community.",
+    "images": {
+      "hero": "places/ooty/hero.jpg",
+      "gallery": [
+        "places/ooty/toy-train.jpg",
+        "places/ooty/tea-estate.jpg",
+        "places/ooty/botanical-garden.jpg"
+      ],
+      "hero_credit": "Vinayaraj · CC BY-SA 3.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Ooty_lake.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "hero_small": "places/ooty/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "March",
+      "April",
+      "May"
+    ],
+    "best_time_to_visit": "March to May and October to November; December-January can be quite cold.",
+    "attractions": [
+      {
+        "name": "Nilgiri Mountain Railway",
+        "category": "Heritage",
+        "description": "A UNESCO-listed steam mountain railway through tunnels and viaducts."
+      },
+      {
+        "name": "Ooty Botanical Gardens",
+        "category": "Nature",
+        "description": "A terraced Victorian-era garden with rare tree species."
+      },
+      {
+        "name": "Doddabetta Peak",
+        "category": "Viewpoint",
+        "description": "The highest peak in the Nilgiris with panoramic views."
+      }
+    ],
+    "culture": {
+      "summary": "The Toda tribal community, with distinctive barrel-vaulted huts and embroidery, is indigenous to the Nilgiri plateau surrounding Ooty.",
+      "art_handicrafts": [
+        "Toda shawl embroidery"
+      ]
+    },
+    "food": [
+      {
+        "name": "Nilgiri Tea",
+        "type": "Drink",
+        "description": "Estate-grown tea from the surrounding Nilgiri plantations."
+      },
+      {
+        "name": "Varkey",
+        "type": "Sweet",
+        "description": "A flaky layered biscuit associated with Ooty bakeries."
+      }
+    ],
+    "activities": [
+      "Trekking",
+      "Photography",
+      "Boating"
+    ],
+    "travel_info": {
+      "airport": "Coimbatore (~90 km).",
+      "railway": "Mettupalayam, connected by the Nilgiri toy train.",
+      "local_transport": "Taxis and the toy train.",
+      "suggested_duration": "2 days",
+      "budget": "Moderate."
+    },
+    "safety": {
+      "tips": [
+        "Book toy-train tickets in advance — very popular.",
+        "Carry warm layers even in summer."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "hyderabad",
+    "name": "Hyderabad",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Telangana",
+    "state_slug": "telangana",
+    "region": "Deccan",
+    "lat": 17.385,
+    "lng": 78.4867,
+    "type": "city",
+    "categories": [
+      "Heritage",
+      "Culture",
+      "Food",
+      "Historical"
+    ],
+    "tags": [
+      "Heritage",
+      "Culture",
+      "Popular"
+    ],
+    "rating": 4.5,
+    "reviews": 120000,
+    "popularity": 88,
+    "data_quality": 0.92,
+    "short_intro": "The City of Pearls, layering Qutb Shahi and Nizami grandeur with a modern tech-hub identity and legendary biryani.",
+    "overview": "Hyderabad was founded in 1591 by the Qutb Shahi dynasty and later ruled by the Nizams, whose combined legacy built the Charminar, Golconda Fort's acoustic marvels, and the Mecca Masjid. That Deccan heritage now sits alongside HITEC City's glass towers, making Hyderabad one of India's clearest examples of old and new coexisting. The city's biryani, developed in the Nizam kitchens, is considered a national benchmark, and the old city's Laad Bazaar remains the traditional centre of bangle and pearl trade.",
+    "images": {
+      "hero": "places/hyderabad/hero.jpg",
+      "gallery": [
+        "places/hyderabad/charminar.jpg",
+        "places/hyderabad/golconda-fort.jpg",
+        "places/hyderabad/hussain-sagar.jpg"
+      ],
+      "hero_credit": "iMahesh · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Durgam_cheruvu_and_Hitech_CIty.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/hyderabad/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to February.",
+    "attractions": [
+      {
+        "name": "Charminar",
+        "category": "Heritage",
+        "description": "A 16th-century monument and mosque marking the heart of the old city."
+      },
+      {
+        "name": "Golconda Fort",
+        "category": "Fort",
+        "description": "A Qutb Shahi fort famous for acoustic engineering that carries sound across the complex."
+      },
+      {
+        "name": "Chowmahalla Palace",
+        "category": "Heritage",
+        "description": "The Nizams' ceremonial palace complex of courtyards and durbar halls."
+      }
+    ],
+    "culture": {
+      "summary": "Hyderabad's Deccani culture fuses Persian, Telugu and Mughal influences, visible in its Urdu-Telugu bilingual character, architecture and cuisine.",
+      "art_handicrafts": [
+        "Bidriware metal inlay",
+        "Pearl jewellery trade"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Bonalu",
+        "time": "July–August",
+        "description": "A folk festival honouring the goddess Mahakali across Hyderabad's neighbourhoods.",
+        "significance": "One of Telangana's most distinctive urban folk festivals."
+      }
+    ],
+    "food": [
+      {
+        "name": "Hyderabadi Biryani",
+        "type": "Meal",
+        "description": "A dum-cooked rice-and-meat dish developed in the Nizam royal kitchens."
+      },
+      {
+        "name": "Haleem",
+        "type": "Meal",
+        "description": "A slow-cooked wheat-and-meat stew especially popular during Ramzan."
+      }
+    ],
+    "activities": [
+      "Heritage walks",
+      "Photography",
+      "Food tours"
+    ],
+    "travel_info": {
+      "airport": "Rajiv Gandhi International Airport (HYD).",
+      "railway": "Secunderabad and Hyderabad Deccan stations.",
+      "local_transport": "Hyderabad Metro and autos.",
+      "suggested_duration": "2–3 days",
+      "budget": "Moderate."
+    },
+    "safety": {
+      "tips": [
+        "Old city lanes get very crowded — watch belongings.",
+        "Try biryani at established, licensed restaurants."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "tirupati",
+    "name": "Tirupati (Tirumala)",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Andhra Pradesh",
+    "state_slug": "andhra-pradesh",
+    "region": "Chittoor / Tirumala hills",
+    "lat": 13.6833,
+    "lng": 79.3474,
+    "type": "spiritual",
+    "categories": [
+      "Spiritual",
+      "Heritage"
+    ],
+    "tags": [
+      "Spiritual",
+      "Popular"
+    ],
+    "rating": 4.7,
+    "reviews": 210000,
+    "popularity": 90,
+    "data_quality": 0.9,
+    "short_intro": "Home to the Venkateswara Temple, believed to be the most-visited religious site in the world, atop the sacred Tirumala hills.",
+    "overview": "The Sri Venkateswara Temple at Tirumala, dedicated to a form of Vishnu, draws tens of thousands of pilgrims daily and is often cited as the most-visited place of worship on Earth by pilgrim volume. The temple's wealth funds vast charitable and educational programmes, and pilgrims traditionally shave their heads as an act of devotion before darshan. The surrounding Tirumala hills, part of the Seshachalam range, add a forested, cooler backdrop to the pilgrimage town below.",
+    "images": {
+      "hero": "places/tirupati/hero.jpg",
+      "gallery": [
+        "places/tirupati/temple.jpg",
+        "places/tirupati/tirumala-hills.jpg",
+        "places/tirupati/kapila-theertham.jpg"
+      ],
+      "hero_credit": "Nikhilb239 · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Tirumala_090615.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/tirupati/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to February; book darshan slots online well ahead regardless of season.",
+    "attractions": [
+      {
+        "name": "Sri Venkateswara Temple",
+        "category": "Spiritual",
+        "description": "The principal temple, among the wealthiest and most-visited in the world."
+      },
+      {
+        "name": "Kapila Theertham",
+        "category": "Spiritual",
+        "description": "A waterfall-shrine dedicated to Shiva at the base of Tirumala hills."
+      }
+    ],
+    "culture": {
+      "summary": "Tirupati's temple economy and charitable trust (TTD) fund extensive education and healthcare initiatives, reflecting the temple's outsized social role in Andhra Pradesh."
+    },
+    "festivals": [
+      {
+        "name": "Brahmotsavam",
+        "time": "September–October",
+        "description": "A nine-day annual festival with grand processions of temple deities.",
+        "significance": "The temple's most important annual celebration."
+      }
+    ],
+    "food": [
+      {
+        "name": "Tirupati Laddu",
+        "type": "Sweet",
+        "description": "The temple's iconic prasad sweet, made to a guarded traditional recipe."
+      }
+    ],
+    "activities": [
+      "Cultural experiences",
+      "Heritage walks"
+    ],
+    "travel_info": {
+      "airport": "Tirupati Airport (TIR).",
+      "railway": "Tirupati railway station.",
+      "local_transport": "TTD buses run devotees up to Tirumala.",
+      "suggested_duration": "1–2 days",
+      "budget": "Low to moderate."
+    },
+    "safety": {
+      "tips": [
+        "Book darshan tickets online in advance to reduce wait times.",
+        "Crowds are extremely dense during Brahmotsavam."
+      ],
+      "emergency": "Dial 112."
+    }
+  }
+]

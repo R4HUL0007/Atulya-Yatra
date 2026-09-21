@@ -1,0 +1,2161 @@
+[
+  {
+    "slug": "andhra-pradesh",
+    "name": "Andhra Pradesh",
+    "type": "state",
+    "lat": 15.9129,
+    "lng": 79.74,
+    "hero_image": "states/andhra-pradesh/hero.jpg",
+    "intro": "A long-coastline state of ancient Buddhist sites, the hill temple of Tirupati, spicy cuisine and the dramatic Gandikota gorge.",
+    "languages": [
+      "Telugu",
+      "Urdu"
+    ],
+    "best_time_to_visit": "October to February.",
+    "culture": "Andhra blends Telugu literary tradition, Kuchipudi dance and a strong temple culture with a famously fiery cuisine.",
+    "famous_food": [
+      "Andhra Meals",
+      "Pesarattu",
+      "Gongura Pachadi",
+      "Pulihora"
+    ],
+    "festivals": [
+      {
+        "name": "Sankranti",
+        "time": "January"
+      },
+      {
+        "name": "Ugadi",
+        "time": "March–April"
+      }
+    ],
+    "adventure_activities": [
+      "Trekking",
+      "Camping",
+      "Beach activities"
+    ],
+    "wildlife": [
+      "Nagarjunasagar-Srisailam Tiger Reserve",
+      "Coringa Wildlife Sanctuary"
+    ],
+    "religious_destinations": [
+      "Tirupati (Tirumala)",
+      "Srisailam",
+      "Simhachalam"
+    ],
+    "nearby_states": [
+      "telangana",
+      "tamil-nadu",
+      "karnataka",
+      "odisha"
+    ],
+    "travel_tips": [
+      "Book Tirupati darshan slots in advance.",
+      "Carry sun protection along the coast."
+    ],
+    "hero_credit": "Nikhilb239 · CC BY-SA 4.0",
+    "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Tirumala_090615.jpg",
+    "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "hero_small": "states/andhra-pradesh/card.jpg"
+  },
+  {
+    "slug": "arunachal-pradesh",
+    "name": "Arunachal Pradesh",
+    "type": "state",
+    "lat": 28.218,
+    "lng": 94.7278,
+    "hero_image": "states/arunachal-pradesh/hero.jpg",
+    "intro": "India's easternmost state of high passes, Buddhist monasteries, dense forests and dozens of distinct tribal cultures.",
+    "languages": [
+      "English",
+      "Hindi",
+      "Nyishi",
+      "Adi",
+      "Monpa",
+      "Assamese"
+    ],
+    "best_time_to_visit": "March to October; permits required for all visitors.",
+    "culture": "A mosaic of more than 25 major tribes, from the Monpa of Tawang to the Apatani of Ziro, each with unique festivals and crafts.",
+    "famous_food": [
+      "Thukpa",
+      "Momos",
+      "Pika Pila",
+      "Apong (rice beer)"
+    ],
+    "festivals": [
+      {
+        "name": "Losar",
+        "time": "February"
+      },
+      {
+        "name": "Ziro Festival of Music",
+        "time": "September"
+      },
+      {
+        "name": "Dree",
+        "time": "July"
+      }
+    ],
+    "adventure_activities": [
+      "Trekking",
+      "Camping",
+      "River rafting"
+    ],
+    "wildlife": [
+      "Namdapha National Park",
+      "Talley Valley Wildlife Sanctuary"
+    ],
+    "religious_destinations": [
+      "Tawang Monastery",
+      "Parasuram Kund",
+      "Malinithan"
+    ],
+    "nearby_states": [
+      "assam",
+      "nagaland"
+    ],
+    "travel_tips": [
+      "Indian citizens need an Inner Line Permit; foreigners need a Protected Area Permit.",
+      "Roads are slow—plan generous travel time."
+    ],
+    "hero_credit": "Arkadipta Chandra · CC BY-SA 4.0",
+    "hero_credit_url": "https://commons.wikimedia.org/wiki/File:TawangMonastery-ArunachalPradesh-1.jpg",
+    "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "hero_small": "states/arunachal-pradesh/card.jpg"
+  },
+  {
+    "slug": "assam",
+    "name": "Assam",
+    "type": "state",
+    "lat": 26.2006,
+    "lng": 92.9376,
+    "hero_image": "states/assam/hero.jpg",
+    "intro": "The gateway to the Northeast, land of the mighty Brahmaputra, one-horned rhinos, tea gardens and the river island of Majuli.",
+    "languages": [
+      "Assamese",
+      "Bodo",
+      "Bengali"
+    ],
+    "best_time_to_visit": "November to April.",
+    "culture": "Assam's culture centres on the Brahmaputra, Vaishnavite satras, Bihu dance and a globally famous tea heritage.",
+    "famous_food": [
+      "Assam Thali",
+      "Masor Tenga (sour fish curry)",
+      "Pitha",
+      "Assam Tea"
+    ],
+    "festivals": [
+      {
+        "name": "Bihu",
+        "time": "April, October, January"
+      },
+      {
+        "name": "Ambubachi Mela",
+        "time": "June"
+      }
+    ],
+    "adventure_activities": [
+      "Wildlife safari",
+      "River cruise",
+      "Trekking"
+    ],
+    "wildlife": [
+      "Kaziranga National Park",
+      "Manas National Park",
+      "Pobitora"
+    ],
+    "religious_destinations": [
+      "Kamakhya Temple",
+      "Majuli satras",
+      "Hajo"
+    ],
+    "nearby_states": [
+      "meghalaya",
+      "arunachal-pradesh",
+      "nagaland",
+      "west-bengal"
+    ],
+    "travel_tips": [
+      "Kaziranga safaris run mid-winter to spring.",
+      "Book Majuli ferries with buffer time."
+    ],
+    "hero_credit": "Diganta Talukdar · CC BY-SA 4.0",
+    "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Beauty_of_Kaziranga_National_Park.jpg",
+    "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "hero_small": "states/assam/card.jpg"
+  },
+  {
+    "slug": "bihar",
+    "name": "Bihar",
+    "type": "state",
+    "lat": 25.0961,
+    "lng": 85.3131,
+    "hero_image": "states/bihar/hero.jpg",
+    "intro": "A cradle of ancient India, home to Bodh Gaya where the Buddha attained enlightenment and the ruins of Nalanda university.",
+    "languages": [
+      "Hindi",
+      "Maithili",
+      "Bhojpuri",
+      "Urdu"
+    ],
+    "best_time_to_visit": "October to March.",
+    "culture": "Bihar carries deep Buddhist, Jain and Hindu heritage, Madhubani painting and the grand Chhath festival.",
+    "famous_food": [
+      "Litti Chokha",
+      "Sattu",
+      "Khaja",
+      "Thekua"
+    ],
+    "festivals": [
+      {
+        "name": "Chhath Puja",
+        "time": "October–November"
+      },
+      {
+        "name": "Buddha Purnima",
+        "time": "May"
+      }
+    ],
+    "adventure_activities": [
+      "Heritage walks",
+      "River trips"
+    ],
+    "wildlife": [
+      "Valmiki National Park"
+    ],
+    "religious_destinations": [
+      "Bodh Gaya (Mahabodhi Temple)",
+      "Nalanda",
+      "Rajgir",
+      "Vaishali",
+      "Patna Sahib"
+    ],
+    "nearby_states": [
+      "uttar-pradesh",
+      "jharkhand",
+      "west-bengal"
+    ],
+    "travel_tips": [
+      "Bodh Gaya is busiest in winter pilgrimage season.",
+      "Combine Nalanda, Rajgir and Bodh Gaya on one circuit."
+    ],
+    "hero_credit": "Bhassingh · CC BY-SA 4.0",
+    "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Golghar_patna.jpg",
+    "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "hero_small": "states/bihar/card.jpg"
+  },
+  {
+    "slug": "chhattisgarh",
+    "name": "Chhattisgarh",
+    "type": "state",
+    "lat": 21.2787,
+    "lng": 81.8661,
+    "hero_image": "states/chhattisgarh/hero.jpg",
+    "intro": "A green, tribal heartland of powerful waterfalls, deep forests, ancient temples and the caves of Bastar.",
+    "languages": [
+      "Hindi",
+      "Chhattisgarhi"
+    ],
+    "best_time_to_visit": "October to March.",
+    "culture": "Rich in Adivasi (tribal) traditions, folk dance, bell-metal Dhokra craft and forest-based living.",
+    "famous_food": [
+      "Chila",
+      "Fara",
+      "Bafauri",
+      "Dubki Kadhi"
+    ],
+    "festivals": [
+      {
+        "name": "Bastar Dussehra",
+        "time": "September–October"
+      },
+      {
+        "name": "Madai",
+        "time": "December–March"
+      }
+    ],
+    "adventure_activities": [
+      "Waterfall trails",
+      "Cave exploration",
+      "Wildlife safari"
+    ],
+    "wildlife": [
+      "Indravati National Park",
+      "Barnawapara Sanctuary"
+    ],
+    "religious_destinations": [
+      "Bhoramdeo Temple",
+      "Rajim",
+      "Dongargarh"
+    ],
+    "nearby_states": [
+      "madhya-pradesh",
+      "odisha",
+      "telangana",
+      "jharkhand"
+    ],
+    "travel_tips": [
+      "Chitrakote Falls is most dramatic just after the monsoon.",
+      "Bastar's interior is best visited with local guides."
+    ],
+    "hero_credit": "Pankaj Oudhia · CC BY-SA 3.0",
+    "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Bhoramdeo_Temple,_Kawardha.jpg",
+    "hero_license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "hero_small": "states/chhattisgarh/card.jpg"
+  },
+  {
+    "slug": "goa",
+    "name": "Goa",
+    "type": "state",
+    "lat": 15.2993,
+    "lng": 74.124,
+    "hero_image": "states/goa/hero.jpg",
+    "intro": "India's smallest state by area, a sun-soaked blend of beaches, Portuguese heritage, Konkani culture and a laid-back susegad spirit.",
+    "languages": [
+      "Konkani",
+      "Marathi",
+      "English"
+    ],
+    "best_time_to_visit": "November to February.",
+    "culture": "A unique Indo-Portuguese fusion visible in the architecture, cuisine, music, carnival and churches.",
+    "famous_food": [
+      "Goan Fish Curry",
+      "Pork Vindaloo",
+      "Xacuti",
+      "Bebinca"
+    ],
+    "festivals": [
+      {
+        "name": "Goa Carnival",
+        "time": "February"
+      },
+      {
+        "name": "Feast of St. Francis Xavier",
+        "time": "December"
+      },
+      {
+        "name": "Shigmo",
+        "time": "March"
+      }
+    ],
+    "adventure_activities": [
+      "Water sports",
+      "Scuba diving",
+      "Trekking"
+    ],
+    "wildlife": [
+      "Bhagwan Mahaveer Sanctuary",
+      "Dudhsagar Falls area",
+      "Cotigao Sanctuary"
+    ],
+    "religious_destinations": [
+      "Basilica of Bom Jesus",
+      "Se Cathedral",
+      "Mangeshi Temple"
+    ],
+    "nearby_states": [
+      "maharashtra",
+      "karnataka"
+    ],
+    "travel_tips": [
+      "Prices peak sharply around Christmas and New Year.",
+      "Rent a scooter to explore hidden beaches."
+    ],
+    "hero_credit": "Sam 8393 · CC BY-SA 4.0",
+    "hero_credit_url": "https://commons.wikimedia.org/wiki/File:BeachFun.jpg",
+    "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "hero_small": "states/goa/card.jpg"
+  },
+  {
+    "slug": "gujarat",
+    "name": "Gujarat",
+    "type": "state",
+    "lat": 22.2587,
+    "lng": 71.1924,
+    "hero_image": "states/gujarat/hero.jpg",
+    "intro": "The vibrant western state of the white Rann of Kutch, Asiatic lions at Gir, Gandhi's legacy and dazzling Navratri nights.",
+    "languages": [
+      "Gujarati",
+      "Hindi"
+    ],
+    "best_time_to_visit": "October to March; the Rann Utsav runs through winter.",
+    "culture": "Gujarat combines a strong trading tradition, colourful textiles, vegetarian cuisine and the world's longest dance festival, Navratri.",
+    "famous_food": [
+      "Gujarati Thali",
+      "Dhokla",
+      "Undhiyu",
+      "Fafda-Jalebi"
+    ],
+    "festivals": [
+      {
+        "name": "Navratri",
+        "time": "September–October"
+      },
+      {
+        "name": "Rann Utsav",
+        "time": "November–February"
+      },
+      {
+        "name": "Uttarayan (Kite Festival)",
+        "time": "January"
+      }
+    ],
+    "adventure_activities": [
+      "Desert safari",
+      "Wildlife safari",
+      "Water sports"
+    ],
+    "wildlife": [
+      "Gir National Park (Asiatic lions)",
+      "Wild Ass Sanctuary",
+      "Marine National Park"
+    ],
+    "religious_destinations": [
+      "Somnath",
+      "Dwarka",
+      "Ambaji",
+      "Palitana",
+      "Poicha"
+    ],
+    "nearby_states": [
+      "rajasthan",
+      "madhya-pradesh",
+      "maharashtra"
+    ],
+    "travel_tips": [
+      "Gir safaris need advance permits.",
+      "The white Rann is best under a full moon."
+    ],
+    "hero_credit": "Bernard Gagnon · CC BY-SA 3.0",
+    "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Rani_ki_vav_02.jpg",
+    "hero_license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "hero_small": "states/gujarat/card.jpg"
+  },
+  {
+    "slug": "haryana",
+    "name": "Haryana",
+    "type": "state",
+    "lat": 29.0588,
+    "lng": 76.0856,
+    "hero_image": "states/haryana/hero.jpg",
+    "intro": "A largely agrarian state wrapped around Delhi, home to the battlefield of Kurukshetra and lively highway-town culture.",
+    "languages": [
+      "Hindi",
+      "Haryanvi",
+      "Punjabi"
+    ],
+    "best_time_to_visit": "October to March.",
+    "culture": "Haryana is known for its robust rural traditions, folk dance, wrestling akharas and the Gita heritage of Kurukshetra.",
+    "famous_food": [
+      "Bajra Khichdi",
+      "Kachri ki Sabzi",
+      "Singri ki Sabzi",
+      "Lassi"
+    ],
+    "festivals": [
+      {
+        "name": "Gita Mahotsav",
+        "time": "November–December"
+      },
+      {
+        "name": "Surajkund Crafts Mela",
+        "time": "February"
+      }
+    ],
+    "adventure_activities": [
+      "Boating",
+      "Bird watching"
+    ],
+    "wildlife": [
+      "Sultanpur National Park",
+      "Kalesar National Park"
+    ],
+    "religious_destinations": [
+      "Kurukshetra (Brahma Sarovar)",
+      "Pehowa"
+    ],
+    "nearby_states": [
+      "punjab",
+      "rajasthan",
+      "uttar-pradesh",
+      "himachal-pradesh"
+    ],
+    "travel_tips": [
+      "Surajkund Mela is a highlight for crafts lovers.",
+      "Sultanpur is best in winter for migratory birds."
+    ],
+    "hero_credit": "Tarun4u · CC BY-SA 4.0",
+    "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Cyber_City_View.jpg",
+    "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "hero_small": "states/haryana/card.jpg"
+  },
+  {
+    "slug": "himachal-pradesh",
+    "name": "Himachal Pradesh",
+    "type": "state",
+    "lat": 31.1048,
+    "lng": 77.1734,
+    "hero_image": "states/himachal-pradesh/hero.jpg",
+    "intro": "A Himalayan playground of hill stations, apple orchards, high-altitude Spiti and Kinnaur, and countless trekking trails.",
+    "languages": [
+      "Hindi",
+      "Pahari",
+      "Kinnauri"
+    ],
+    "best_time_to_visit": "March to June and September to November; Spiti in summer.",
+    "culture": "From the colonial charm of Shimla to the Buddhist Trans-Himalaya of Spiti, Himachal spans lush valleys and cold deserts.",
+    "famous_food": [
+      "Dham (festive thali)",
+      "Siddu",
+      "Chana Madra",
+      "Babru"
+    ],
+    "festivals": [
+      {
+        "name": "Kullu Dussehra",
+        "time": "October"
+      },
+      {
+        "name": "Losar",
+        "time": "February"
+      },
+      {
+        "name": "Halda",
+        "time": "January"
+      }
+    ],
+    "adventure_activities": [
+      "Trekking",
+      "Paragliding",
+      "Skiing",
+      "River rafting"
+    ],
+    "wildlife": [
+      "Great Himalayan National Park",
+      "Pin Valley National Park"
+    ],
+    "religious_destinations": [
+      "Jwalamukhi",
+      "Naina Devi",
+      "Key Monastery",
+      "Chintpurni"
+    ],
+    "nearby_states": [
+      "punjab",
+      "uttarakhand",
+      "haryana",
+      "ladakh"
+    ],
+    "travel_tips": [
+      "Spiti's high passes open only in summer.",
+      "Carry warm layers year-round in the higher valleys."
+    ],
+    "hero_credit": "UnpetitproleX · CC BY-SA 4.0",
+    "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Kullu_Valley_near_Manali,_Himachal_Pradesh,_India.jpg",
+    "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "hero_small": "states/himachal-pradesh/card.jpg"
+  },
+  {
+    "slug": "jharkhand",
+    "name": "Jharkhand",
+    "type": "state",
+    "lat": 23.6102,
+    "lng": 85.2799,
+    "hero_image": "states/jharkhand/hero.jpg",
+    "intro": "A forested plateau state of waterfalls, tribal heritage, the sacred Parasnath hill and rich mineral belts.",
+    "languages": [
+      "Hindi",
+      "Santali",
+      "Ho",
+      "Mundari"
+    ],
+    "best_time_to_visit": "October to March.",
+    "culture": "Home to numerous Adivasi communities, Jharkhand is known for Sohrai and Kohbar wall art and forest-based traditions.",
+    "famous_food": [
+      "Dhuska",
+      "Litti Chokha",
+      "Handia",
+      "Rugra"
+    ],
+    "festivals": [
+      {
+        "name": "Sarhul",
+        "time": "March–April"
+      },
+      {
+        "name": "Karma",
+        "time": "August–September"
+      }
+    ],
+    "adventure_activities": [
+      "Waterfall trails",
+      "Trekking",
+      "Wildlife safari"
+    ],
+    "wildlife": [
+      "Betla National Park",
+      "Dalma Wildlife Sanctuary"
+    ],
+    "religious_destinations": [
+      "Deoghar (Baidyanath Dham)",
+      "Parasnath (Shikharji)",
+      "Rajrappa"
+    ],
+    "nearby_states": [
+      "bihar",
+      "west-bengal",
+      "odisha",
+      "chhattisgarh"
+    ],
+    "travel_tips": [
+      "Waterfalls near Ranchi peak after the monsoon.",
+      "Parasnath is a major Jain pilgrimage climb."
+    ],
+    "hero_credit": "Nizil Shah · CC BY-SA 4.0",
+    "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Views_of_Shikharji_on_way_to_Anantnatha_Tonk_3.jpg",
+    "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "hero_small": "states/jharkhand/card.jpg"
+  },
+  {
+    "slug": "karnataka",
+    "name": "Karnataka",
+    "type": "state",
+    "lat": 15.3173,
+    "lng": 75.7139,
+    "hero_image": "states/karnataka/hero.jpg",
+    "intro": "A diverse southern state spanning the ruins of Hampi, the palaces of Mysore, Coorg's coffee hills and a quiet Konkan coast.",
+    "languages": [
+      "Kannada",
+      "Tulu",
+      "Konkani",
+      "Urdu"
+    ],
+    "best_time_to_visit": "October to March.",
+    "culture": "Karnataka pairs a glorious temple-building heritage (Chalukya, Hoysala, Vijayanagara) with a modern tech capital in Bengaluru.",
+    "famous_food": [
+      "Bisi Bele Bath",
+      "Mysore Masala Dosa",
+      "Neer Dosa",
+      "Dharwad Peda"
+    ],
+    "festivals": [
+      {
+        "name": "Mysuru Dasara",
+        "time": "September–October"
+      },
+      {
+        "name": "Hampi Utsav",
+        "time": "January–February"
+      }
+    ],
+    "adventure_activities": [
+      "Trekking",
+      "River rafting",
+      "Rock climbing",
+      "Beach trails"
+    ],
+    "wildlife": [
+      "Bandipur National Park",
+      "Nagarhole National Park",
+      "Dandeli"
+    ],
+    "religious_destinations": [
+      "Gokarna",
+      "Sringeri",
+      "Udupi",
+      "Shravanabelagola"
+    ],
+    "nearby_states": [
+      "goa",
+      "maharashtra",
+      "telangana",
+      "andhra-pradesh",
+      "tamil-nadu",
+      "kerala"
+    ],
+    "travel_tips": [
+      "Coorg and the Western Ghats are lush right after the monsoon.",
+      "Hampi needs at least two full days."
+    ],
+    "hero_credit": "Apadegal · CC BY-SA 3.0",
+    "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Hampi_virupaksha_temple.jpg",
+    "hero_license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "hero_small": "states/karnataka/card.jpg"
+  },
+  {
+    "slug": "kerala",
+    "name": "Kerala",
+    "type": "state",
+    "lat": 10.8505,
+    "lng": 76.2711,
+    "hero_image": "states/kerala/hero.jpg",
+    "intro": "'God's Own Country', a lush ribbon of backwaters, tea-clad hills, Ayurveda, spice gardens and vibrant Kathakali art.",
+    "languages": [
+      "Malayalam",
+      "Tamil"
+    ],
+    "best_time_to_visit": "September to March.",
+    "culture": "Kerala's culture spans temple festivals, Kathakali and Theyyam, martial art Kalaripayattu and a strong Ayurvedic tradition.",
+    "famous_food": [
+      "Kerala Sadya",
+      "Appam with Stew",
+      "Puttu and Kadala",
+      "Malabar Biryani"
+    ],
+    "festivals": [
+      {
+        "name": "Onam",
+        "time": "August–September"
+      },
+      {
+        "name": "Thrissur Pooram",
+        "time": "April–May"
+      }
+    ],
+    "adventure_activities": [
+      "Backwater cruise",
+      "Trekking",
+      "Paragliding",
+      "Wildlife safari"
+    ],
+    "wildlife": [
+      "Periyar Tiger Reserve",
+      "Eravikulam National Park",
+      "Silent Valley"
+    ],
+    "religious_destinations": [
+      "Sabarimala",
+      "Guruvayur",
+      "Padmanabhaswamy Temple"
+    ],
+    "nearby_states": [
+      "tamil-nadu",
+      "karnataka"
+    ],
+    "travel_tips": [
+      "Book Alleppey houseboats in advance in peak season.",
+      "Onam is the best time to experience Kerala culture."
+    ],
+    "hero_credit": "Saad Faruque from Bangalore, India · CC BY-SA 2.0",
+    "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Boathouse_(7063399547).jpg",
+    "hero_license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "hero_small": "states/kerala/card.jpg"
+  },
+  {
+    "slug": "madhya-pradesh",
+    "name": "Madhya Pradesh",
+    "type": "state",
+    "lat": 22.9734,
+    "lng": 78.6569,
+    "hero_image": "states/madhya-pradesh/hero.jpg",
+    "intro": "The 'Heart of India', home to the temples of Khajuraho, tiger reserves, the marble rocks of Bhedaghat and Bundela Orchha.",
+    "languages": [
+      "Hindi",
+      "Bundeli",
+      "Malvi"
+    ],
+    "best_time_to_visit": "October to March.",
+    "culture": "Madhya Pradesh holds superb temple and fort heritage, tribal art, and some of India's finest tiger habitat.",
+    "famous_food": [
+      "Poha-Jalebi",
+      "Bhutte ki Kees",
+      "Dal Bafla",
+      "Bhopali Gosht"
+    ],
+    "festivals": [
+      {
+        "name": "Khajuraho Dance Festival",
+        "time": "February"
+      },
+      {
+        "name": "Lokrang",
+        "time": "January"
+      }
+    ],
+    "adventure_activities": [
+      "Wildlife safari",
+      "River rafting",
+      "Trekking"
+    ],
+    "wildlife": [
+      "Kanha National Park",
+      "Bandhavgarh National Park",
+      "Pench"
+    ],
+    "religious_destinations": [
+      "Ujjain (Mahakaleshwar)",
+      "Omkareshwar",
+      "Maheshwar"
+    ],
+    "nearby_states": [
+      "uttar-pradesh",
+      "rajasthan",
+      "gujarat",
+      "maharashtra",
+      "chhattisgarh"
+    ],
+    "travel_tips": [
+      "Bandhavgarh offers among the best tiger-sighting odds.",
+      "Khajuraho's Western Group is unmissable."
+    ],
+    "hero_credit": "Dennis G. Jarvis · CC BY-SA 2.0",
+    "hero_credit_url": "https://commons.wikimedia.org/wiki/File:India-5749_-_Visvanatha_Temple_-_Flickr_-_archer10_(Dennis).jpg",
+    "hero_license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "hero_small": "states/madhya-pradesh/card.jpg"
+  },
+  {
+    "slug": "maharashtra",
+    "name": "Maharashtra",
+    "type": "state",
+    "lat": 19.7515,
+    "lng": 75.7139,
+    "hero_image": "states/maharashtra/hero.jpg",
+    "intro": "A powerhouse state of the Ajanta and Ellora caves, Sahyadri forts, hill stations and the metropolis of Mumbai.",
+    "languages": [
+      "Marathi",
+      "Hindi",
+      "English"
+    ],
+    "best_time_to_visit": "October to March; the Sahyadris are magical in the monsoon.",
+    "culture": "Maharashtra blends Maratha history, Warli tribal art, Ganesh festival fervour and a leading film and business culture.",
+    "famous_food": [
+      "Vada Pav",
+      "Puran Poli",
+      "Misal Pav",
+      "Modak"
+    ],
+    "festivals": [
+      {
+        "name": "Ganesh Chaturthi",
+        "time": "August–September"
+      },
+      {
+        "name": "Ellora-Ajanta Festival",
+        "time": "varies"
+      }
+    ],
+    "adventure_activities": [
+      "Fort trekking",
+      "Waterfall rappelling",
+      "Caving",
+      "Beach activities"
+    ],
+    "wildlife": [
+      "Tadoba Andhari Tiger Reserve",
+      "Sanjay Gandhi National Park"
+    ],
+    "religious_destinations": [
+      "Shirdi",
+      "Ashtavinayak temples",
+      "Trimbakeshwar",
+      "Pandharpur"
+    ],
+    "nearby_states": [
+      "gujarat",
+      "madhya-pradesh",
+      "chhattisgarh",
+      "telangana",
+      "karnataka",
+      "goa"
+    ],
+    "travel_tips": [
+      "Ajanta is closed on Mondays, Ellora on Tuesdays.",
+      "Sahyadri forts are lush and slippery in the monsoon."
+    ],
+    "hero_credit": "Dey.sandip · CC BY-SA 3.0",
+    "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Cave_26,_Ajanta.jpg",
+    "hero_license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "hero_small": "states/maharashtra/card.jpg"
+  },
+  {
+    "slug": "manipur",
+    "name": "Manipur",
+    "type": "state",
+    "lat": 24.6637,
+    "lng": 93.9063,
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/1/1c/%EA%AF%85%EA%AF%A3%EA%AF%A1%EA%AF%83%EA%AF%A5%EA%AF%8F%EA%AF%86%EA%AF%A4%EA%AF%A1_%EA%AF%86%EA%AF%A4%EA%AF%A1%EA%AF%92%EA%AF%A4_%EA%AF%82%EA%AF%A5%EA%AF%8F%EA%AF%85%EA%AF%A4%EA%AF%A1%EA%AF%8A%EA%AF%A7_%EA%AF%81%EA%AF%85%EA%AF%A5%EA%AF%83%EA%AF%8D%EA%AF%A4_%EA%AF%82%EA%AF%A5%EA%AF%8F%EA%AF%81%EA%AF%AA_%28%EA%AF%81%EA%AF%85%EA%AF%A5%EA%AF%83%EA%AF%8D%EA%AF%A4_%EA%AF%80%EA%AF%A4%EA%AF%8C%EA%AF%A3%EA%AF%A1%29%EA%AF%92%EA%AF%A4_%EA%AF%91%EA%AF%8B%EA%AF%A5%EA%AF%A1_%EA%AF%85%EA%AF%A3%EA%AF%A1%EA%AF%86%EA%AF%A8%EA%AF%9E_%EA%AF%8A%EA%AF%AA%EA%AF%95_%EA%AF%83%EA%AF%A5%EA%AF%8F%EA%AF%80%EA%AF%A9%EA%AF%97%EA%AF%92%EA%AF%A4_%EA%AF%80%EA%AF%A5%EA%AF%9E%EA%AF%84_%EA%AF%83%EA%AF%83%EA%AF%A4.jpg",
+    "intro": "A 'jewelled land' of the floating Loktak Lake, classical Manipuri dance and the world's only floating national park.",
+    "languages": [
+      "Meitei (Manipuri)",
+      "English"
+    ],
+    "best_time_to_visit": "October to March.",
+    "culture": "Manipur is the birthplace of the graceful Manipuri classical dance and Polo, with rich Meitei and hill-tribe traditions.",
+    "famous_food": [
+      "Eromba",
+      "Chak-hao (black rice)",
+      "Singju",
+      "Kangshoi"
+    ],
+    "festivals": [
+      {
+        "name": "Yaoshang",
+        "time": "February–March"
+      },
+      {
+        "name": "Sangai Festival",
+        "time": "November"
+      }
+    ],
+    "adventure_activities": [
+      "Boating",
+      "Trekking",
+      "Bird watching"
+    ],
+    "wildlife": [
+      "Keibul Lamjao National Park (floating park)",
+      "Sangai deer habitat"
+    ],
+    "religious_destinations": [
+      "Shri Govindajee Temple",
+      "Kangla Fort"
+    ],
+    "nearby_states": [
+      "nagaland",
+      "assam",
+      "mizoram"
+    ],
+    "travel_tips": [
+      "Loktak's phumdis (floating islands) are the highlight.",
+      "Check local advisories before travelling."
+    ],
+    "hero_credit": "Haoreima · CC BY-SA 4.0",
+    "hero_credit_url": "https://commons.wikimedia.org/wiki/File:ꯅꯣꯡꯃꯥꯏꯆꯤꯡ_ꯆꯤꯡꯒꯤ_ꯂꯥꯏꯅꯤꯡꯊꯧ_ꯁꯅꯥꯃꯍꯤ_ꯂꯥꯏꯁꯪ_(ꯁꯅꯥꯃꯍꯤ_ꯀꯤꯌꯣꯡ)ꯒꯤ_ꯑꯋꯥꯡ_ꯅꯣꯡꯆꯨꯞ_ꯊꯪꯕ_ꯃꯥꯏꯀꯩꯗꯒꯤ_ꯀꯥꯞꯄ_ꯃꯃꯤ.jpg",
+    "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "slug": "meghalaya",
+    "name": "Meghalaya",
+    "type": "state",
+    "lat": 25.467,
+    "lng": 91.3662,
+    "hero_image": "states/meghalaya/hero.jpg",
+    "intro": "The 'abode of clouds', a land of living root bridges, thundering waterfalls, crystal rivers and matrilineal Khasi culture.",
+    "languages": [
+      "Khasi",
+      "Garo",
+      "Pnar",
+      "English"
+    ],
+    "best_time_to_visit": "October to April; the monsoon is spectacular but very wet.",
+    "culture": "Meghalaya's Khasi, Jaintia and Garo peoples maintain matrilineal societies and remarkable bioengineering of root bridges.",
+    "famous_food": [
+      "Jadoh",
+      "Dohneiiong",
+      "Tungrymbai",
+      "Pumaloi"
+    ],
+    "festivals": [
+      {
+        "name": "Nongkrem Dance",
+        "time": "November"
+      },
+      {
+        "name": "Wangala",
+        "time": "November"
+      },
+      {
+        "name": "Shillong Cherry Blossom Festival",
+        "time": "November"
+      }
+    ],
+    "adventure_activities": [
+      "Trekking",
+      "Caving",
+      "River kayaking",
+      "Camping"
+    ],
+    "wildlife": [
+      "Nokrek National Park",
+      "Balpakram National Park"
+    ],
+    "religious_destinations": [
+      "Nartiang Durga Temple",
+      "Cathedral of Mary Help of Christians"
+    ],
+    "nearby_states": [
+      "assam"
+    ],
+    "travel_tips": [
+      "The Double Decker root bridge is a strenuous full-day trek.",
+      "Umngot river at Dawki is clearest in winter."
+    ],
+    "hero_credit": "Madhumita Das · CC BY-SA 4.0",
+    "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Dawki_River,_Meghalaya,_India.jpg",
+    "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "hero_small": "states/meghalaya/card.jpg"
+  },
+  {
+    "slug": "mizoram",
+    "name": "Mizoram",
+    "type": "state",
+    "lat": 23.1645,
+    "lng": 92.9376,
+    "hero_image": "states/mizoram/hero.jpg",
+    "intro": "A serene state of rolling blue hills, bamboo forests, tidy villages and the warm, musical Mizo community.",
+    "languages": [
+      "Mizo",
+      "English"
+    ],
+    "best_time_to_visit": "October to March.",
+    "culture": "Mizoram's close-knit, largely Christian society is known for community harmony, bamboo dance and choral singing.",
+    "famous_food": [
+      "Bai",
+      "Vawksa Rep (smoked pork)",
+      "Sawhchiar",
+      "Zu (rice beer)"
+    ],
+    "festivals": [
+      {
+        "name": "Chapchar Kut",
+        "time": "March"
+      },
+      {
+        "name": "Anthurium Festival",
+        "time": "varies"
+      }
+    ],
+    "adventure_activities": [
+      "Trekking",
+      "Bird watching",
+      "Camping"
+    ],
+    "wildlife": [
+      "Dampa Tiger Reserve",
+      "Murlen National Park"
+    ],
+    "religious_destinations": [
+      "Solomon's Temple (Aizawl)"
+    ],
+    "nearby_states": [
+      "assam",
+      "manipur",
+      "tripura"
+    ],
+    "travel_tips": [
+      "Chapchar Kut is the best time to see the famous bamboo dance.",
+      "Reisiek and Phawngpui offer fine trekking."
+    ]
+  },
+  {
+    "slug": "nagaland",
+    "name": "Nagaland",
+    "type": "state",
+    "lat": 26.1584,
+    "lng": 94.5624,
+    "hero_image": "states/nagaland/hero.jpg",
+    "intro": "A vibrant hill state of proud Naga tribes, the grand Hornbill Festival and the flower-filled Dzukou Valley.",
+    "languages": [
+      "English",
+      "Nagamese",
+      "Angami",
+      "Ao"
+    ],
+    "best_time_to_visit": "October to May; the Hornbill Festival is in early December.",
+    "culture": "Nagaland's 16+ major tribes maintain distinct dress, music, headhunting-era history and warrior traditions.",
+    "famous_food": [
+      "Smoked Pork with Bamboo Shoot",
+      "Axone dishes",
+      "Galho",
+      "Zutho (rice beer)"
+    ],
+    "festivals": [
+      {
+        "name": "Hornbill Festival",
+        "time": "December"
+      },
+      {
+        "name": "Moatsu",
+        "time": "May"
+      },
+      {
+        "name": "Sekrenyi",
+        "time": "February"
+      }
+    ],
+    "adventure_activities": [
+      "Trekking",
+      "Camping",
+      "Village tourism"
+    ],
+    "wildlife": [
+      "Intanki National Park",
+      "Pulie Badze Sanctuary"
+    ],
+    "religious_destinations": [
+      "Kohima Cathedral"
+    ],
+    "nearby_states": [
+      "assam",
+      "arunachal-pradesh",
+      "manipur"
+    ],
+    "travel_tips": [
+      "The Hornbill Festival at Kisama is the cultural highlight of the year.",
+      "An Inner Line Permit is required."
+    ],
+    "hero_credit": "Suduvelu Rhakho · CC BY-SA 4.0",
+    "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Kapamodzu.jpg",
+    "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "hero_small": "states/nagaland/card.jpg"
+  },
+  {
+    "slug": "odisha",
+    "name": "Odisha",
+    "type": "state",
+    "lat": 20.9517,
+    "lng": 85.0985,
+    "hero_image": "states/odisha/hero.jpg",
+    "intro": "A coastal state of the Jagannath temple at Puri, the Sun Temple of Konark, Chilika lagoon and Odissi classical dance.",
+    "languages": [
+      "Odia",
+      "Hindi"
+    ],
+    "best_time_to_visit": "October to March.",
+    "culture": "Odisha is renowned for the Kalinga school of temple architecture, Odissi dance, Pattachitra painting and appliqué craft.",
+    "famous_food": [
+      "Dalma",
+      "Chhena Poda",
+      "Pakhala",
+      "Rasagola"
+    ],
+    "festivals": [
+      {
+        "name": "Rath Yatra (Puri)",
+        "time": "June–July"
+      },
+      {
+        "name": "Konark Dance Festival",
+        "time": "December"
+      }
+    ],
+    "adventure_activities": [
+      "Beach activities",
+      "Boating",
+      "Wildlife safari"
+    ],
+    "wildlife": [
+      "Similipal National Park",
+      "Bhitarkanika (crocodiles)",
+      "Chilika (dolphins & birds)"
+    ],
+    "religious_destinations": [
+      "Puri Jagannath Temple",
+      "Konark Sun Temple",
+      "Lingaraj Temple"
+    ],
+    "nearby_states": [
+      "west-bengal",
+      "jharkhand",
+      "chhattisgarh",
+      "andhra-pradesh"
+    ],
+    "travel_tips": [
+      "Puri Rath Yatra draws enormous crowds—plan ahead.",
+      "Chilika is best in winter for migratory birds and dolphins."
+    ],
+    "hero_credit": "Udayakuni · CC BY-SA 3.0",
+    "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Brahmeswar_Temple,_Bhubaneswar.JPG",
+    "hero_license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "hero_small": "states/odisha/card.jpg"
+  },
+  {
+    "slug": "punjab",
+    "name": "Punjab",
+    "type": "state",
+    "lat": 31.1471,
+    "lng": 75.3412,
+    "hero_image": "states/punjab/hero.jpg",
+    "intro": "The land of the Golden Temple, five rivers, golden wheat fields, exuberant Bhangra and legendary hospitality.",
+    "languages": [
+      "Punjabi",
+      "Hindi"
+    ],
+    "best_time_to_visit": "October to March.",
+    "culture": "Punjab pulses with Sikh heritage, Bhangra and Gidda dance, langar culture and a hearty, generous spirit.",
+    "famous_food": [
+      "Sarson da Saag with Makki di Roti",
+      "Amritsari Kulcha",
+      "Chole Bhature",
+      "Lassi"
+    ],
+    "festivals": [
+      {
+        "name": "Baisakhi",
+        "time": "April"
+      },
+      {
+        "name": "Hola Mohalla",
+        "time": "March"
+      }
+    ],
+    "adventure_activities": [
+      "Village tourism",
+      "Heritage walks"
+    ],
+    "wildlife": [
+      "Harike Wetland",
+      "Bir Moti Bagh Sanctuary"
+    ],
+    "religious_destinations": [
+      "Golden Temple (Amritsar)",
+      "Anandpur Sahib",
+      "Fatehgarh Sahib"
+    ],
+    "nearby_states": [
+      "haryana",
+      "himachal-pradesh",
+      "rajasthan"
+    ],
+    "travel_tips": [
+      "Witness the Wagah border ceremony near Amritsar.",
+      "The Golden Temple langar serves thousands daily."
+    ]
+  },
+  {
+    "slug": "rajasthan",
+    "name": "Rajasthan",
+    "type": "state",
+    "lat": 27.0238,
+    "lng": 74.2179,
+    "hero_image": "states/rajasthan/hero.jpg",
+    "intro": "The royal desert state of mighty forts, lake palaces, colourful bazaars, camel safaris and living Rajput traditions.",
+    "languages": [
+      "Hindi",
+      "Rajasthani",
+      "Marwari"
+    ],
+    "best_time_to_visit": "October to March.",
+    "culture": "Rajasthan is a treasury of forts and palaces, folk music, puppetry, miniature painting and desert life.",
+    "famous_food": [
+      "Dal Baati Churma",
+      "Gatte ki Sabzi",
+      "Laal Maas",
+      "Ghevar"
+    ],
+    "festivals": [
+      {
+        "name": "Pushkar Camel Fair",
+        "time": "November"
+      },
+      {
+        "name": "Desert Festival (Jaisalmer)",
+        "time": "February"
+      },
+      {
+        "name": "Teej",
+        "time": "August"
+      }
+    ],
+    "adventure_activities": [
+      "Desert safari",
+      "Hot-air ballooning",
+      "Zip-lining",
+      "Trekking"
+    ],
+    "wildlife": [
+      "Ranthambore National Park",
+      "Sariska Tiger Reserve",
+      "Keoladeo (Bharatpur)"
+    ],
+    "religious_destinations": [
+      "Pushkar (Brahma Temple)",
+      "Ajmer Sharif",
+      "Ranakpur",
+      "Nathdwara"
+    ],
+    "nearby_states": [
+      "gujarat",
+      "madhya-pradesh",
+      "haryana",
+      "punjab",
+      "uttar-pradesh"
+    ],
+    "travel_tips": [
+      "Book Ranthambore safaris well in advance.",
+      "Summers are extremely hot—travel in winter."
+    ],
+    "hero_credit": "Wikimedia Commons · CC BY-SA 3.0",
+    "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Thar_Khuri.jpg",
+    "hero_license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "hero_small": "states/rajasthan/card.jpg"
+  },
+  {
+    "slug": "sikkim",
+    "name": "Sikkim",
+    "type": "state",
+    "lat": 27.533,
+    "lng": 88.5122,
+    "hero_image": "states/sikkim/hero.jpg",
+    "intro": "A tiny Himalayan state watched over by Kanchenjunga, dotted with monasteries, alpine lakes and India's first fully organic farms.",
+    "languages": [
+      "Nepali",
+      "Bhutia",
+      "Lepcha",
+      "English"
+    ],
+    "best_time_to_visit": "March to May and October to November.",
+    "culture": "Sikkim blends Nepali, Bhutia and Lepcha cultures with Tibetan Buddhism and a pioneering organic, eco-conscious identity.",
+    "famous_food": [
+      "Momos",
+      "Thukpa",
+      "Gundruk",
+      "Sel Roti",
+      "Phagshapa"
+    ],
+    "festivals": [
+      {
+        "name": "Losar",
+        "time": "February"
+      },
+      {
+        "name": "Saga Dawa",
+        "time": "May–June"
+      },
+      {
+        "name": "Pang Lhabsol",
+        "time": "August–September"
+      }
+    ],
+    "adventure_activities": [
+      "Trekking",
+      "River rafting",
+      "Mountain biking",
+      "Camping"
+    ],
+    "wildlife": [
+      "Khangchendzonga National Park",
+      "Fambong Lho Sanctuary"
+    ],
+    "religious_destinations": [
+      "Rumtek Monastery",
+      "Pemayangtse",
+      "Tashiding"
+    ],
+    "nearby_states": [
+      "west-bengal"
+    ],
+    "travel_tips": [
+      "Permits are needed for Tsomgo, Nathula and North Sikkim.",
+      "Sikkim is largely plastic-restricted—carry a reusable bottle."
+    ],
+    "hero_credit": "Original: Yoghya Derivative work: UnpetitproleX · CC BY-SA 4.0",
+    "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Gurudongmar_Lake_Sikkim,_India_(edit).jpg",
+    "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "hero_small": "states/sikkim/card.jpg"
+  },
+  {
+    "slug": "tamil-nadu",
+    "name": "Tamil Nadu",
+    "type": "state",
+    "lat": 11.1271,
+    "lng": 78.6569,
+    "hero_image": "states/tamil-nadu/hero.jpg",
+    "intro": "A southern heartland of towering temple gopurams, Chola bronzes, hill stations, Bharatanatyam and a rich Tamil literary tradition.",
+    "languages": [
+      "Tamil",
+      "English"
+    ],
+    "best_time_to_visit": "November to March.",
+    "culture": "Tamil Nadu preserves one of the world's oldest living languages, magnificent Dravidian temples and classical music and dance.",
+    "famous_food": [
+      "Idli-Sambar",
+      "Dosa varieties",
+      "Chettinad Chicken",
+      "Filter Coffee"
+    ],
+    "festivals": [
+      {
+        "name": "Pongal",
+        "time": "January"
+      },
+      {
+        "name": "Natyanjali (Chidambaram)",
+        "time": "February–March"
+      }
+    ],
+    "adventure_activities": [
+      "Trekking",
+      "Beach activities",
+      "Wildlife safari"
+    ],
+    "wildlife": [
+      "Mudumalai National Park",
+      "Anamalai Tiger Reserve",
+      "Point Calimere"
+    ],
+    "religious_destinations": [
+      "Madurai Meenakshi Temple",
+      "Rameswaram",
+      "Thanjavur",
+      "Chidambaram"
+    ],
+    "nearby_states": [
+      "kerala",
+      "karnataka",
+      "andhra-pradesh"
+    ],
+    "travel_tips": [
+      "The temple towns of the Kaveri delta are unmissable.",
+      "Ooty and Kodaikanal offer a cool escape."
+    ],
+    "hero_credit": "https://www.flickr.com/photos/pnglife/ · CC BY-SA 2.0",
+    "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Mamallapuram_view.jpg",
+    "hero_license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "hero_small": "states/tamil-nadu/card.jpg"
+  },
+  {
+    "slug": "telangana",
+    "name": "Telangana",
+    "type": "state",
+    "lat": 18.1124,
+    "lng": 79.0193,
+    "hero_image": "states/telangana/hero.jpg",
+    "intro": "A Deccan state of the Charminar and Golconda, the grand Kakatiya temples of Warangal and a distinctive Hyderabadi culture.",
+    "languages": [
+      "Telugu",
+      "Urdu"
+    ],
+    "best_time_to_visit": "October to February.",
+    "culture": "Telangana blends Qutb Shahi and Nizami heritage with Deccan temple traditions and the famous Bathukamma flower festival.",
+    "famous_food": [
+      "Hyderabadi Biryani",
+      "Haleem",
+      "Sarva Pindi",
+      "Qubani ka Meetha"
+    ],
+    "festivals": [
+      {
+        "name": "Bathukamma",
+        "time": "September–October"
+      },
+      {
+        "name": "Bonalu",
+        "time": "July–August"
+      }
+    ],
+    "adventure_activities": [
+      "Trekking",
+      "Boating",
+      "Heritage walks"
+    ],
+    "wildlife": [
+      "Kawal Tiger Reserve",
+      "Amrabad Tiger Reserve"
+    ],
+    "religious_destinations": [
+      "Yadagirigutta",
+      "Bhadrachalam",
+      "Thousand Pillar Temple (Warangal)"
+    ],
+    "nearby_states": [
+      "andhra-pradesh",
+      "karnataka",
+      "maharashtra",
+      "chhattisgarh"
+    ],
+    "travel_tips": [
+      "Hyderabad's old city is best explored on foot.",
+      "Ramoji Film City is a full-day outing."
+    ]
+  },
+  {
+    "slug": "tripura",
+    "name": "Tripura",
+    "type": "state",
+    "lat": 23.9408,
+    "lng": 91.9882,
+    "hero_image": "states/tripura/hero.jpg",
+    "intro": "A small northeastern state of royal palaces, rock-cut carvings at Unakoti and the lakeside Neermahal water palace.",
+    "languages": [
+      "Bengali",
+      "Kokborok",
+      "English"
+    ],
+    "best_time_to_visit": "October to March.",
+    "culture": "Tripura blends Bengali and indigenous Tripuri traditions, with a strong legacy of the Manikya royal dynasty.",
+    "famous_food": [
+      "Mui Borok",
+      "Chakhwi",
+      "Berma-based dishes",
+      "Muya Awandru"
+    ],
+    "festivals": [
+      {
+        "name": "Kharchi Puja",
+        "time": "July"
+      },
+      {
+        "name": "Garia Puja",
+        "time": "April"
+      }
+    ],
+    "adventure_activities": [
+      "Boating",
+      "Trekking",
+      "Heritage walks"
+    ],
+    "wildlife": [
+      "Sepahijala Wildlife Sanctuary",
+      "Trishna Sanctuary"
+    ],
+    "religious_destinations": [
+      "Tripura Sundari Temple (Udaipur, Tripura)",
+      "Unakoti",
+      "Chaturdasha Temple"
+    ],
+    "nearby_states": [
+      "assam",
+      "mizoram"
+    ],
+    "travel_tips": [
+      "Unakoti's giant rock reliefs are unique in India.",
+      "Neermahal is beautifully lit in the evening."
+    ],
+    "hero_credit": "Sharada Prasad CS · CC BY 2.0",
+    "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Ujjayanta_palace_Tripura_State_Museum_Agartala_India.jpg",
+    "hero_license_url": "https://creativecommons.org/licenses/by/2.0",
+    "hero_small": "states/tripura/card.jpg"
+  },
+  {
+    "slug": "uttar-pradesh",
+    "name": "Uttar Pradesh",
+    "type": "state",
+    "lat": 26.8467,
+    "lng": 80.9462,
+    "hero_image": "states/uttar-pradesh/hero.jpg",
+    "intro": "India's most populous state, holding the Taj Mahal, the sacred ghats of Varanasi and the spiritual heart of the Ganga plains.",
+    "languages": [
+      "Hindi",
+      "Urdu",
+      "Awadhi",
+      "Bhojpuri"
+    ],
+    "best_time_to_visit": "October to March.",
+    "culture": "Uttar Pradesh is a crossroads of Mughal, Awadhi and Hindu traditions, from Lucknow's tehzeeb to Varanasi's rituals.",
+    "famous_food": [
+      "Awadhi Biryani",
+      "Tunday Kebab",
+      "Petha",
+      "Banarasi Paan",
+      "Bedai-Jalebi"
+    ],
+    "festivals": [
+      {
+        "name": "Dev Deepawali (Varanasi)",
+        "time": "November"
+      },
+      {
+        "name": "Kumbh/Magh Mela (Prayagraj)",
+        "time": "January–February"
+      },
+      {
+        "name": "Taj Mahotsav",
+        "time": "February"
+      }
+    ],
+    "adventure_activities": [
+      "Boating",
+      "Heritage walks",
+      "Wildlife safari"
+    ],
+    "wildlife": [
+      "Dudhwa National Park",
+      "Chambal Sanctuary (gharials)"
+    ],
+    "religious_destinations": [
+      "Varanasi (Kashi Vishwanath)",
+      "Ayodhya",
+      "Mathura-Vrindavan",
+      "Prayagraj"
+    ],
+    "nearby_states": [
+      "uttarakhand",
+      "bihar",
+      "madhya-pradesh",
+      "rajasthan",
+      "haryana"
+    ],
+    "travel_tips": [
+      "See the Taj at sunrise; it is closed on Fridays.",
+      "Take a dawn boat ride on the Varanasi ghats."
+    ],
+    "hero_credit": "Yann ; edited by Jim Carter · CC BY-SA 4.0",
+    "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Taj_Mahal_(Edited).jpeg",
+    "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "slug": "uttarakhand",
+    "name": "Uttarakhand",
+    "type": "state",
+    "lat": 30.0668,
+    "lng": 79.0193,
+    "hero_image": "states/uttarakhand/hero.jpg",
+    "intro": "'Devbhumi', the land of the gods, home of the Char Dham pilgrimage, yoga in Rishikesh, alpine meadows and tiger-rich Corbett.",
+    "languages": [
+      "Hindi",
+      "Garhwali",
+      "Kumaoni"
+    ],
+    "best_time_to_visit": "March to June and September to November; Char Dham in summer.",
+    "culture": "Uttarakhand fuses Himalayan pilgrimage traditions with Garhwali and Kumaoni folk culture and a deep spiritual identity.",
+    "famous_food": [
+      "Kafuli",
+      "Bhatt ki Churkani",
+      "Aloo ke Gutke",
+      "Bal Mithai"
+    ],
+    "festivals": [
+      {
+        "name": "Kumbh Mela (Haridwar)",
+        "time": "cyclical"
+      },
+      {
+        "name": "Nanda Devi Raj Jat",
+        "time": "cyclical"
+      },
+      {
+        "name": "International Yoga Festival",
+        "time": "March"
+      }
+    ],
+    "adventure_activities": [
+      "Trekking",
+      "River rafting",
+      "Skiing",
+      "Camping"
+    ],
+    "wildlife": [
+      "Jim Corbett National Park",
+      "Rajaji National Park",
+      "Valley of Flowers"
+    ],
+    "religious_destinations": [
+      "Kedarnath",
+      "Badrinath",
+      "Gangotri",
+      "Yamunotri",
+      "Haridwar"
+    ],
+    "nearby_states": [
+      "himachal-pradesh",
+      "uttar-pradesh",
+      "haryana"
+    ],
+    "travel_tips": [
+      "Char Dham needs registration and good acclimatisation.",
+      "The Valley of Flowers blooms July–August."
+    ],
+    "hero_credit": "Paul Hamilton · CC BY-SA 2.0",
+    "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Nanda_Devi_-_Hidden_Summit,_Uttarakhand_India_2013.jpg",
+    "hero_license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "hero_small": "states/uttarakhand/card.jpg"
+  },
+  {
+    "slug": "west-bengal",
+    "name": "West Bengal",
+    "type": "state",
+    "lat": 22.9868,
+    "lng": 87.855,
+    "hero_image": "states/west-bengal/hero.jpg",
+    "intro": "From the Darjeeling hills and toy train to the Sundarbans mangroves and cultural capital Kolkata, a state of remarkable range.",
+    "languages": [
+      "Bengali",
+      "Hindi",
+      "Nepali",
+      "English"
+    ],
+    "best_time_to_visit": "October to March.",
+    "culture": "West Bengal is a heartland of literature, art, cinema, sweets and the all-embracing Durga Puja festival.",
+    "famous_food": [
+      "Machher Jhol",
+      "Kosha Mangsho",
+      "Rosogolla",
+      "Mishti Doi",
+      "Puchka"
+    ],
+    "festivals": [
+      {
+        "name": "Durga Puja",
+        "time": "September–October"
+      },
+      {
+        "name": "Poush Mela (Santiniketan)",
+        "time": "December"
+      }
+    ],
+    "adventure_activities": [
+      "Trekking",
+      "Wildlife safari",
+      "Toy train ride"
+    ],
+    "wildlife": [
+      "Sundarbans (Royal Bengal Tiger)",
+      "Singalila National Park",
+      "Neora Valley"
+    ],
+    "religious_destinations": [
+      "Dakshineswar",
+      "Kalighat",
+      "Belur Math",
+      "Tarapith"
+    ],
+    "nearby_states": [
+      "sikkim",
+      "bihar",
+      "jharkhand",
+      "odisha",
+      "assam"
+    ],
+    "travel_tips": [
+      "Durga Puja transforms Kolkata—book stays early.",
+      "The Darjeeling toy train is a UNESCO heritage ride."
+    ],
+    "hero_credit": "Shubhankar.sengupta19 · CC BY-SA 3.0",
+    "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Howrah_bridge_betwixt_Lights.jpg",
+    "hero_license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "hero_small": "states/west-bengal/card.jpg"
+  },
+  {
+    "slug": "andaman-nicobar",
+    "name": "Andaman & Nicobar Islands",
+    "type": "union_territory",
+    "lat": 11.7401,
+    "lng": 92.6586,
+    "hero_image": "states/andaman-nicobar/hero.jpg",
+    "intro": "A remote archipelago of turquoise seas, coral reefs, world-class diving and the poignant colonial history of the Cellular Jail.",
+    "languages": [
+      "Hindi",
+      "English",
+      "Bengali",
+      "Tamil"
+    ],
+    "best_time_to_visit": "October to May.",
+    "culture": "A cosmopolitan settler mix alongside protected indigenous communities, with a strong maritime and colonial-history layer.",
+    "famous_food": [
+      "Grilled Fish",
+      "Coconut-based Seafood Curry",
+      "Prawns",
+      "Tropical Fruit"
+    ],
+    "festivals": [
+      {
+        "name": "Island Tourism Festival",
+        "time": "December–January"
+      }
+    ],
+    "adventure_activities": [
+      "Scuba diving",
+      "Snorkelling",
+      "Sea walking",
+      "Kayaking"
+    ],
+    "wildlife": [
+      "Mahatma Gandhi Marine National Park",
+      "Saddle Peak National Park"
+    ],
+    "religious_destinations": [
+      "Local temples and churches in Port Blair"
+    ],
+    "nearby_states": [],
+    "travel_tips": [
+      "Radhanagar Beach on Havelock is world-famous.",
+      "Some islands need permits; Nicobar is largely off-limits."
+    ],
+    "hero_credit": "Ritiks · CC BY-SA 3.0",
+    "hero_credit_url": "https://commons.wikimedia.org/wiki/File:The_Coral_Reef_at_the_Andaman_Islands.jpg",
+    "hero_license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "hero_small": "states/andaman-nicobar/card.jpg"
+  },
+  {
+    "slug": "chandigarh",
+    "name": "Chandigarh",
+    "type": "union_territory",
+    "lat": 30.7333,
+    "lng": 76.7794,
+    "hero_image": "states/chandigarh/hero.jpg",
+    "intro": "India's first planned city, designed by Le Corbusier, known for its ordered greenery, the Rock Garden and Sukhna Lake.",
+    "languages": [
+      "Hindi",
+      "Punjabi",
+      "English"
+    ],
+    "best_time_to_visit": "October to March.",
+    "culture": "A modernist showcase of urban planning, with a relaxed, well-ordered lifestyle and vibrant food and cafe scene.",
+    "famous_food": [
+      "Chole Bhature",
+      "Butter Chicken",
+      "Kulcha",
+      "Lassi"
+    ],
+    "festivals": [
+      {
+        "name": "Rose Festival",
+        "time": "February"
+      },
+      {
+        "name": "Mango Festival",
+        "time": "July"
+      }
+    ],
+    "adventure_activities": [
+      "Boating",
+      "Cycling"
+    ],
+    "wildlife": [
+      "Sukhna Wildlife Sanctuary"
+    ],
+    "religious_destinations": [
+      "ISKCON Chandigarh",
+      "Nada Sahib (nearby)"
+    ],
+    "nearby_states": [
+      "punjab",
+      "haryana",
+      "himachal-pradesh"
+    ],
+    "travel_tips": [
+      "The Rock Garden of Nek Chand is a must-see.",
+      "Sectors make navigation easy and logical."
+    ],
+    "hero_credit": "Raakesh Blokhra · CC BY-SA 2.0",
+    "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Open_Hand_monument,_Chandigarh.jpg",
+    "hero_license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "hero_small": "states/chandigarh/card.jpg"
+  },
+  {
+    "slug": "dadra-nagar-haveli-daman-diu",
+    "name": "Dadra & Nagar Haveli and Daman & Diu",
+    "type": "union_territory",
+    "lat": 20.3974,
+    "lng": 72.8328,
+    "hero_image": "states/dadra-nagar-haveli-daman-diu/hero.jpg",
+    "intro": "A former Portuguese pocket of quiet beaches, sea forts and colonial churches along the western coast.",
+    "languages": [
+      "Gujarati",
+      "Hindi",
+      "Marathi",
+      "English"
+    ],
+    "best_time_to_visit": "October to March.",
+    "culture": "A relaxed coastal blend of Gujarati and Portuguese influences, with tribal heritage in the Dadra & Nagar Haveli hills.",
+    "famous_food": [
+      "Seafood Curry",
+      "Portuguese-style Bakes",
+      "Coastal Thali"
+    ],
+    "festivals": [
+      {
+        "name": "Nariyal Purnima",
+        "time": "August"
+      }
+    ],
+    "adventure_activities": [
+      "Beach activities",
+      "Water sports"
+    ],
+    "wildlife": [
+      "Vasona Lion Safari (Dadra & Nagar Haveli)"
+    ],
+    "religious_destinations": [
+      "St. Paul's Church (Diu)",
+      "Bom Jesus Church (Daman)"
+    ],
+    "nearby_states": [
+      "gujarat",
+      "maharashtra"
+    ],
+    "travel_tips": [
+      "Diu Fort and Nagoa Beach are the highlights.",
+      "It makes an easy add-on from Gujarat."
+    ],
+    "hero_credit": "Sharada Prasad CS from Berkeley, India · CC BY 2.0",
+    "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Dadra_and_Nagar_Haveli_Silvassa.jpg",
+    "hero_license_url": "https://creativecommons.org/licenses/by/2.0",
+    "hero_small": "states/dadra-nagar-haveli-daman-diu/card.jpg"
+  },
+  {
+    "slug": "delhi",
+    "name": "Delhi (NCT)",
+    "type": "union_territory",
+    "lat": 28.7041,
+    "lng": 77.1025,
+    "hero_image": "states/delhi/hero.jpg",
+    "intro": "India's capital, a layered city of Mughal monuments, colonial avenues, bustling bazaars and world-class food.",
+    "languages": [
+      "Hindi",
+      "English",
+      "Punjabi",
+      "Urdu"
+    ],
+    "best_time_to_visit": "October to March.",
+    "culture": "Delhi layers Sultanate, Mughal, colonial and modern India into one dense, cosmopolitan metropolis.",
+    "famous_food": [
+      "Chole Bhature",
+      "Butter Chicken",
+      "Paranthe (Chandni Chowk)",
+      "Chaat",
+      "Kebabs"
+    ],
+    "festivals": [
+      {
+        "name": "Republic Day Parade",
+        "time": "January"
+      },
+      {
+        "name": "Qutub Festival",
+        "time": "varies"
+      }
+    ],
+    "adventure_activities": [
+      "Heritage walks",
+      "Cycling tours"
+    ],
+    "wildlife": [
+      "Asola Bhatti Wildlife Sanctuary",
+      "Yamuna Biodiversity Park"
+    ],
+    "religious_destinations": [
+      "Akshardham",
+      "Jama Masjid",
+      "Lotus Temple",
+      "Bangla Sahib"
+    ],
+    "nearby_states": [
+      "haryana",
+      "uttar-pradesh",
+      "rajasthan"
+    ],
+    "travel_tips": [
+      "The Metro is the easiest way to get around.",
+      "Old Delhi is best explored on a food walk."
+    ],
+    "hero_credit": "Marcin Białek · CC BY-SA 4.0",
+    "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Jama_Masjid_2011.jpg",
+    "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "hero_small": "states/delhi/card.jpg"
+  },
+  {
+    "slug": "jammu-kashmir",
+    "name": "Jammu & Kashmir",
+    "type": "union_territory",
+    "lat": 33.7782,
+    "lng": 76.5762,
+    "hero_image": "states/jammu-kashmir/hero.jpg",
+    "intro": "The fabled 'paradise on earth' of Dal Lake shikaras, Mughal gardens, alpine meadows and the Vaishno Devi pilgrimage.",
+    "languages": [
+      "Kashmiri",
+      "Dogri",
+      "Urdu",
+      "Hindi"
+    ],
+    "best_time_to_visit": "March to October; winter for snow at Gulmarg.",
+    "culture": "A blend of Kashmiri, Dogra and Pahari cultures, famed for handicrafts, Sufi traditions and Wazwan cuisine.",
+    "famous_food": [
+      "Rogan Josh",
+      "Wazwan",
+      "Yakhni",
+      "Kahwa"
+    ],
+    "festivals": [
+      {
+        "name": "Tulip Festival (Srinagar)",
+        "time": "March–April"
+      },
+      {
+        "name": "Shikara Festival",
+        "time": "varies"
+      }
+    ],
+    "adventure_activities": [
+      "Skiing (Gulmarg)",
+      "Trekking",
+      "Shikara rides",
+      "Gondola"
+    ],
+    "wildlife": [
+      "Dachigam National Park (hangul deer)"
+    ],
+    "religious_destinations": [
+      "Vaishno Devi",
+      "Amarnath",
+      "Hazratbal",
+      "Shankaracharya Temple"
+    ],
+    "nearby_states": [
+      "ladakh",
+      "himachal-pradesh",
+      "punjab"
+    ],
+    "travel_tips": [
+      "The Srinagar Tulip Garden blooms briefly in spring.",
+      "Check current travel advisories before planning."
+    ]
+  },
+  {
+    "slug": "ladakh",
+    "name": "Ladakh",
+    "type": "union_territory",
+    "lat": 34.2268,
+    "lng": 77.5619,
+    "hero_image": "states/ladakh/hero.jpg",
+    "intro": "A high-altitude cold desert of Buddhist monasteries, the blue Pangong Lake, dramatic passes and the Nubra valley.",
+    "languages": [
+      "Ladakhi",
+      "Hindi",
+      "English"
+    ],
+    "best_time_to_visit": "May to September.",
+    "culture": "Ladakh's Tibetan Buddhist culture shapes its monasteries, festivals, prayer flags and mountain-desert way of life.",
+    "famous_food": [
+      "Thukpa",
+      "Momos",
+      "Skyu",
+      "Butter Tea",
+      "Apricot dishes"
+    ],
+    "festivals": [
+      {
+        "name": "Hemis Festival",
+        "time": "June–July"
+      },
+      {
+        "name": "Losar",
+        "time": "December–February"
+      },
+      {
+        "name": "Ladakh Festival",
+        "time": "September"
+      }
+    ],
+    "adventure_activities": [
+      "Trekking",
+      "Mountain biking",
+      "River rafting",
+      "Camping"
+    ],
+    "wildlife": [
+      "Hemis National Park (snow leopard)",
+      "Changthang (kiang, marmots)"
+    ],
+    "religious_destinations": [
+      "Thiksey Monastery",
+      "Hemis Monastery",
+      "Diskit Monastery"
+    ],
+    "nearby_states": [
+      "jammu-kashmir",
+      "himachal-pradesh"
+    ],
+    "travel_tips": [
+      "Spend a day or two acclimatising in Leh.",
+      "Many areas need Inner Line Permits."
+    ],
+    "hero_credit": "This Photo was taken by Timothy A. Gonsalves . Feel free to use my photos, but please mention me as the author. I would much appreciate if you send me an email tagooty@yahoo.com or write on my talk page , for my information. Please contact me before commercial use. Please do not upload an edited image here without consulting me. I would like to make corrections only at my own source to ensure that the changes improve the image and are preserved. Otherwise you may upload an edited image with a new name. Please use one of the templates derivative or extract . · CC BY-SA 4.0",
+    "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Road_Padum_Zanskar_Range_Jun24_A7CR_00818.jpg",
+    "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "hero_small": "states/ladakh/card.jpg"
+  },
+  {
+    "slug": "lakshadweep",
+    "name": "Lakshadweep",
+    "type": "union_territory",
+    "lat": 10.5667,
+    "lng": 72.6417,
+    "hero_image": "states/lakshadweep/hero.jpg",
+    "intro": "India's smallest union territory, a scatter of coral atolls with lagoons, pristine reefs and superb water sports.",
+    "languages": [
+      "Malayalam",
+      "Mahl",
+      "English"
+    ],
+    "best_time_to_visit": "October to March.",
+    "culture": "An island culture with strong Malayali and maritime roots and a delicate coral-reef ecology.",
+    "famous_food": [
+      "Coconut-based Seafood",
+      "Tuna dishes",
+      "Mus Kavaab"
+    ],
+    "festivals": [
+      {
+        "name": "Eid celebrations",
+        "time": "varies"
+      }
+    ],
+    "adventure_activities": [
+      "Scuba diving",
+      "Snorkelling",
+      "Kayaking",
+      "Sailing"
+    ],
+    "wildlife": [
+      "Coral reefs",
+      "Sea turtles",
+      "Reef fish"
+    ],
+    "religious_destinations": [
+      "Ujra Mosque (Kavaratti)"
+    ],
+    "nearby_states": [
+      "kerala"
+    ],
+    "travel_tips": [
+      "Entry requires a permit; access is via Kochi.",
+      "Agatti and Bangaram are the main visitor islands."
+    ]
+  },
+  {
+    "slug": "puducherry",
+    "name": "Puducherry",
+    "type": "union_territory",
+    "lat": 11.9416,
+    "lng": 79.8083,
+    "hero_image": "states/puducherry/hero.jpg",
+    "intro": "A former French colony of mustard-yellow villas, seaside promenades, the Sri Aurobindo Ashram and the utopian township of Auroville.",
+    "languages": [
+      "Tamil",
+      "French",
+      "English",
+      "Telugu"
+    ],
+    "best_time_to_visit": "October to March.",
+    "culture": "Puducherry fuses Tamil and French cultures in its cuisine, architecture and a strong spiritual-community presence.",
+    "famous_food": [
+      "French-Tamil fusion",
+      "Seafood",
+      "Baguettes and Croissants",
+      "Podi Dosa"
+    ],
+    "festivals": [
+      {
+        "name": "Bastille Day",
+        "time": "July"
+      },
+      {
+        "name": "Masi Magam",
+        "time": "February–March"
+      }
+    ],
+    "adventure_activities": [
+      "Scuba diving",
+      "Kayaking",
+      "Cycling"
+    ],
+    "wildlife": [
+      "Ousteri Wetland",
+      "Mangroves near Pichavaram (nearby)"
+    ],
+    "religious_destinations": [
+      "Sri Aurobindo Ashram",
+      "Manakula Vinayagar Temple",
+      "Basilica of the Sacred Heart"
+    ],
+    "nearby_states": [
+      "tamil-nadu"
+    ],
+    "travel_tips": [
+      "The French Quarter is best explored on foot or by cycle.",
+      "Visit Auroville's Matrimandir with a prior booking."
+    ]
+  }
+]

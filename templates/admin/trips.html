@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Managed trips — Atulya Yatra Admin{% endblock %}
+{% block content %}
+<section class="container section admin-shell">
+  <header class="admin-head">
+    <div><div class="eyebrow">Private administration</div><h1>Managed trips</h1><p class="muted">{{ curated_count }} version-controlled trips remain read-only. Drafts below are private until published.</p></div>
+    <div class="admin-actions"><a class="btn btn-sm" href="{{ url_for('admin.new_trip') }}">Create trip</a><a class="btn btn-sm btn-outline" href="{{ url_for('admin.contacts') }}">Contact requests</a><form method="post" action="{{ url_for('admin.logout') }}"><input type="hidden" name="csrf_token" value="{{ admin_csrf_token() }}"><button class="btn btn-sm btn-outline" type="submit">Sign out</button></form></div>
+  </header>
+  {% if trips %}
+    <div class="admin-table-wrap"><table class="admin-table"><thead><tr><th>Trip</th><th>State</th><th>Duration</th><th>Status</th><th>Updated</th><th>Action</th></tr></thead><tbody>
+      {% for trip in trips %}<tr><td><strong>{{ trip.name }}</strong><small>/trip/{{ trip.slug }}</small></td><td>{{ trip.state_slug.replace('-', ' ')|title }}</td><td>{{ trip.duration_days }} days</td><td><span class="status-pill {{ trip.status }}">{{ trip.status }}</span></td><td>{{ trip.updated_at.strftime('%d %b %Y') }}</td><td><form method="post" action="{{ url_for('admin.toggle_publication', trip_id=trip.id) }}"><input type="hidden" name="csrf_token" value="{{ admin_csrf_token() }}"><input type="hidden" name="status" value="{{ 'draft' if trip.status == 'published' else 'published' }}"><button class="btn btn-sm btn-outline" type="submit">{{ 'Unpublish' if trip.status == 'published' else 'Publish' }}</button></form></td></tr>{% endfor %}
+    </tbody></table></div>
+  {% else %}<div class="empty admin-card">No admin-created trips yet. Contact requests can be converted into drafts.</div>{% endif %}
+</section>
+{% endblock %}

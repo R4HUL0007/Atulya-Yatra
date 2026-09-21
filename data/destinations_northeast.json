@@ -1,0 +1,515 @@
+[
+  {
+    "slug": "tawang",
+    "name": "Tawang",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Arunachal Pradesh",
+    "state_slug": "arunachal-pradesh",
+    "region": "Tawang district",
+    "lat": 27.5859,
+    "lng": 91.8594,
+    "type": "mountain",
+    "categories": [
+      "Mountains",
+      "Spiritual",
+      "Culture",
+      "Adventure"
+    ],
+    "tags": [
+      "Mountains",
+      "Spiritual",
+      "Culture",
+      "Popular"
+    ],
+    "rating": 4.7,
+    "reviews": 21000,
+    "popularity": 60,
+    "data_quality": 0.86,
+    "short_intro": "A high-altitude Monpa Buddhist town holding one of the largest monasteries in India, reached via the dramatic Sela Pass.",
+    "overview": "Tawang sits near the disputed tri-junction with Tibet and Bhutan, and its 17th-century Tawang Monastery is the largest in India and second-largest in the world after Lhasa's Potala Palace, housing over 500 monks. The town is the ancestral home of the Monpa people and was also the birthplace-region legend of the 6th Dalai Lama. Reaching Tawang means crossing Sela Pass at over 4,000 metres, a dramatic high-altitude gateway ringed by a sacred lake.",
+    "images": {
+      "hero": "places/tawang/hero.jpg",
+      "gallery": [
+        "places/tawang/monastery.jpg",
+        "places/tawang/sela-pass.jpg",
+        "places/tawang/madhuri-lake.jpg"
+      ],
+      "hero_credit": "Kthatapalli · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:The_buddist_monastry.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/tawang/card.jpg"
+    },
+    "best_season": [
+      "March",
+      "April",
+      "May",
+      "September",
+      "October",
+      "November"
+    ],
+    "best_time_to_visit": "March to November; winter brings heavy snow and pass closures.",
+    "attractions": [
+      {
+        "name": "Tawang Monastery",
+        "category": "Spiritual",
+        "description": "The largest Buddhist monastery in India, housing centuries of manuscripts and murals."
+      },
+      {
+        "name": "Sela Pass",
+        "category": "Mountains",
+        "description": "A high mountain pass at over 4,170m with a sacred lake."
+      }
+    ],
+    "culture": {
+      "summary": "The Monpa community practises Tibetan Buddhism and maintains distinct wood-carving, mask-dance and thangka-painting traditions tied to the monastery's ritual calendar.",
+      "art_handicrafts": [
+        "Thangka painting",
+        "Wood carving"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Torgya Festival",
+        "time": "January",
+        "description": "A masked ritual dance festival at Tawang Monastery to ward off evil spirits.",
+        "significance": "One of the region's most important monastic festivals."
+      }
+    ],
+    "activities": [
+      "Trekking",
+      "Photography",
+      "Cultural experiences"
+    ],
+    "food": [
+      {
+        "name": "Thukpa",
+        "type": "Meal",
+        "description": "A warming noodle soup suited to Tawang's cold climate."
+      }
+    ],
+    "travel_info": {
+      "airport": "Tenzing Rinpoche Airport, Tawang or Guwahati (~500 km).",
+      "railway": "Guwahati is the nearest railhead.",
+      "local_transport": "Hired taxis; roads are winding and slow.",
+      "suggested_duration": "3–4 days",
+      "budget": "Moderate."
+    },
+    "safety": {
+      "tips": [
+        "Inner Line Permit required.",
+        "Acclimatise gradually — altitude sickness is a real risk near Sela Pass."
+      ],
+      "emergency": "Dial 112; medical facilities are limited."
+    }
+  },
+  {
+    "slug": "kohima",
+    "name": "Kohima",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Nagaland",
+    "state_slug": "nagaland",
+    "region": "Kohima district",
+    "lat": 25.6751,
+    "lng": 94.1086,
+    "type": "hill_station",
+    "categories": [
+      "Culture",
+      "Historical",
+      "Mountains"
+    ],
+    "tags": [
+      "Culture",
+      "History",
+      "Popular"
+    ],
+    "rating": 4.5,
+    "reviews": 13000,
+    "popularity": 56,
+    "data_quality": 0.84,
+    "short_intro": "Nagaland's hill capital, site of a pivotal WWII battle and host to the vibrant Hornbill Festival at nearby Kisama.",
+    "overview": "Kohima was the site of the 1944 Battle of Kohima, a turning point of the Second World War's Southeast Asian theatre, commemorated at the Kohima War Cemetery where thousands of Allied soldiers are buried among terraced flower beds. Today the town anchors Nagaland's cultural calendar through the nearby Kisama Heritage Village, which hosts the December Hornbill Festival — a gathering of all major Naga tribes showcasing traditional dress, food, music and the region's distinctive log-drum and warrior dances.",
+    "images": {
+      "hero": "places/kohima/hero.jpg",
+      "gallery": [
+        "places/kohima/war-cemetery.jpg",
+        "places/kohima/hornbill-festival.jpg",
+        "places/kohima/kisama-village.jpg"
+      ],
+      "hero_credit": "The Anonymous Earthling · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Capital_Cultural_Hall.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/kohima/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January"
+    ],
+    "best_time_to_visit": "Early December for the Hornbill Festival; October to May generally pleasant.",
+    "attractions": [
+      {
+        "name": "Kohima War Cemetery",
+        "category": "Historical",
+        "description": "A WWII memorial cemetery for Allied soldiers who died in the Battle of Kohima."
+      },
+      {
+        "name": "Kisama Heritage Village",
+        "category": "Culture",
+        "description": "Home to the annual Hornbill Festival showcasing all major Naga tribes."
+      }
+    ],
+    "culture": {
+      "summary": "Nagaland's many distinct tribes converge culturally at Kohima's festivals, each preserving unique dress, dialects and warrior-era traditions now expressed through music and dance.",
+      "art_handicrafts": [
+        "Naga shawl weaving",
+        "Wood carving"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Hornbill Festival",
+        "time": "1–10 December",
+        "description": "A ten-day showcase of all major Naga tribes' culture, food and music.",
+        "significance": "Nagaland's flagship cultural event, drawing visitors nationally and internationally."
+      }
+    ],
+    "food": [
+      {
+        "name": "Smoked Pork with Bamboo Shoot",
+        "type": "Meal",
+        "description": "A defining Naga dish combining smoked meat with fermented bamboo shoot."
+      }
+    ],
+    "activities": [
+      "Cultural experiences",
+      "Trekking",
+      "Photography"
+    ],
+    "travel_info": {
+      "airport": "Dimapur (~74 km).",
+      "railway": "Dimapur railway station.",
+      "local_transport": "Shared taxis from Dimapur.",
+      "suggested_duration": "2 days (longer during Hornbill Festival)",
+      "budget": "Moderate."
+    },
+    "safety": {
+      "tips": [
+        "Inner Line Permit required for non-residents.",
+        "Hornbill Festival accommodation books out early."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "imphal",
+    "name": "Imphal",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Manipur",
+    "state_slug": "manipur",
+    "region": "Imphal valley",
+    "lat": 24.817,
+    "lng": 93.9368,
+    "type": "city",
+    "categories": [
+      "Culture",
+      "Historical",
+      "Nature"
+    ],
+    "tags": [
+      "Culture",
+      "History",
+      "Unexplored"
+    ],
+    "rating": 4.3,
+    "reviews": 8600,
+    "popularity": 44,
+    "data_quality": 0.78,
+    "short_intro": "Manipur's capital, gateway to the floating Loktak Lake and birthplace of classical Manipuri dance and modern polo.",
+    "overview": "Imphal sits in a fertile valley ringed by hills, historically the seat of the Meitei kingdom, whose Kangla Fort once served as the royal citadel and remains a symbol of Manipuri sovereignty. The city is closely tied to Loktak Lake, roughly 50 km south, famous for its floating phumdi islands and the world's only floating national park, Keibul Lamjao, sanctuary to the endangered Sangai deer. Manipur is also recognised as the birthplace of both classical Manipuri dance and the modern sport of polo.",
+    "images": {
+      "hero": "places/imphal/hero.jpg",
+      "gallery": [
+        "places/imphal/kangla-fort.jpg",
+        "places/imphal/loktak-lake.jpg",
+        "places/imphal/manipuri-dance.jpg"
+      ],
+      "hero_credit": "DeepanjanGhosh · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Imphal_At_Dusk.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/imphal/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to February.",
+    "attractions": [
+      {
+        "name": "Kangla Fort",
+        "category": "Heritage",
+        "description": "The historic seat of Manipuri kings, a symbol of the state's sovereignty."
+      },
+      {
+        "name": "Shri Govindajee Temple",
+        "category": "Spiritual",
+        "description": "A key Vaishnavite temple central to Meitei religious life."
+      }
+    ],
+    "culture": {
+      "summary": "Manipur's Meitei culture produced classical Manipuri dance and the ancestral form of polo (sagol kangjei), alongside distinct textile and martial-art traditions.",
+      "art_handicrafts": [
+        "Manipuri handloom weaving",
+        "Longpi black pottery"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Yaoshang",
+        "time": "February–March",
+        "description": "A five-day Holi-adjacent festival with Thabal Chongba folk dance under moonlight.",
+        "significance": "One of Manipur's most joyous community festivals."
+      }
+    ],
+    "activities": [
+      "Cultural experiences",
+      "Boating",
+      "Photography"
+    ],
+    "food": [
+      {
+        "name": "Eromba",
+        "type": "Meal",
+        "description": "A mashed vegetable-and-fermented-fish dish central to Meitei cuisine."
+      },
+      {
+        "name": "Chak-hao Kheer",
+        "type": "Sweet",
+        "description": "A pudding made from Manipur's distinctive black rice."
+      }
+    ],
+    "travel_info": {
+      "airport": "Imphal Airport (IMF).",
+      "railway": "No direct rail; Dimapur is the nearest railhead (~215 km).",
+      "local_transport": "Autos and taxis; check local advisories before travel.",
+      "suggested_duration": "2 days",
+      "budget": "Budget."
+    },
+    "safety": {
+      "tips": [
+        "Check current regional travel advisories before planning.",
+        "Loktak Lake boat trips depend on water levels."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "aizawl",
+    "name": "Aizawl",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Mizoram",
+    "state_slug": "mizoram",
+    "region": "Aizawl district",
+    "lat": 23.7271,
+    "lng": 92.7176,
+    "type": "hill_station",
+    "categories": [
+      "Culture",
+      "Mountains",
+      "Nature"
+    ],
+    "tags": [
+      "Culture",
+      "Mountains",
+      "Unexplored"
+    ],
+    "rating": 4.4,
+    "reviews": 5200,
+    "popularity": 40,
+    "data_quality": 0.76,
+    "short_intro": "Mizoram's ridge-top capital, built across steep hillsides, known for its close-knit, largely Christian community life.",
+    "overview": "Aizawl is built along a narrow mountain ridge at over 1,100 metres, its houses stacked in tiers down the slopes on either side, giving the city one of India's most distinctive urban silhouettes. Mizo society here is notably close-knit and orderly, shaped by strong Presbyterian Christian influence and a village-council-based social structure called tlawmngaihna, an ethic of communal helpfulness. The Solomon's Temple, a large modern church, and panoramic ridge viewpoints define the city's character.",
+    "images": {
+      "hero": "places/aizawl/hero.jpg",
+      "gallery": [
+        "places/aizawl/hillside-view.jpg",
+        "places/aizawl/solomons-temple.jpg",
+        "places/aizawl/market.jpg"
+      ],
+      "hero_credit": "GeoEvan ( www.polgeonow.com ) · CC BY 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Mizoram_Assembly_House_(wider_view).jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by/4.0",
+      "hero_small": "places/aizawl/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "best_time_to_visit": "October to March.",
+    "attractions": [
+      {
+        "name": "Solomon's Temple",
+        "category": "Spiritual",
+        "description": "One of the largest churches in Northeast India, visible across the city."
+      },
+      {
+        "name": "Durtlang Hills",
+        "category": "Viewpoint",
+        "description": "A ridge offering panoramic views over Aizawl's tiered hillside layout."
+      }
+    ],
+    "culture": {
+      "summary": "Mizo society is shaped by tlawmngaihna, a cultural ethic of selfless communal helpfulness, and a strong choral and brass-band Christian musical tradition.",
+      "traditions": [
+        "Community-based village councils",
+        "Choral singing"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Chapchar Kut",
+        "time": "March",
+        "description": "A spring festival marking the end of jungle-clearing for cultivation, with the traditional bamboo dance (Cheraw).",
+        "significance": "Mizoram's most celebrated cultural festival."
+      }
+    ],
+    "activities": [
+      "Cultural experiences",
+      "Photography",
+      "Trekking"
+    ],
+    "food": [
+      {
+        "name": "Bai",
+        "type": "Meal",
+        "description": "A boiled vegetable-and-meat stew central to everyday Mizo cooking."
+      }
+    ],
+    "travel_info": {
+      "airport": "Lengpui Airport (AJL).",
+      "railway": "No rail; Silchar (Assam) is the nearest broader hub.",
+      "local_transport": "Taxis navigate the steep, winding streets.",
+      "suggested_duration": "1–2 days",
+      "budget": "Budget."
+    },
+    "safety": {
+      "tips": [
+        "Roads are steep and narrow — travel by day.",
+        "Alcohol sale is restricted in parts of the state."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "agartala",
+    "name": "Agartala",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Tripura",
+    "state_slug": "tripura",
+    "region": "West Tripura",
+    "lat": 23.8315,
+    "lng": 91.2868,
+    "type": "city",
+    "categories": [
+      "Heritage",
+      "Culture",
+      "Historical"
+    ],
+    "tags": [
+      "Heritage",
+      "Culture",
+      "Unexplored"
+    ],
+    "rating": 4.3,
+    "reviews": 6800,
+    "popularity": 42,
+    "data_quality": 0.78,
+    "short_intro": "Tripura's capital, home to the ornate Ujjayanta Palace and gateway to the lakeside Neermahal water palace.",
+    "overview": "Agartala grew as the seat of the Manikya dynasty, whose Ujjayanta Palace, completed in 1901, blends Mughal, colonial and local architectural elements around formal Mughal-style gardens and is now a state museum. A short drive away, the Neermahal water palace rises from the middle of Rudrasagar Lake, built as a royal summer retreat and best seen at dusk when its reflection doubles the structure across the still water.",
+    "images": {
+      "hero": "places/agartala/hero.jpg",
+      "gallery": [
+        "places/agartala/ujjayanta-palace.jpg",
+        "places/agartala/neermahal.jpg",
+        "places/agartala/lake.jpg"
+      ],
+      "hero_credit": "Sharada Prasad CS · CC BY 2.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Ujjayanta_palace_Tripura_State_Museum_Agartala_India.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by/2.0",
+      "hero_small": "places/agartala/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to February.",
+    "attractions": [
+      {
+        "name": "Ujjayanta Palace",
+        "category": "Heritage",
+        "description": "The former royal palace of the Manikya dynasty, now a museum."
+      },
+      {
+        "name": "Neermahal",
+        "category": "Heritage",
+        "description": "A lake palace built as a royal summer retreat on Rudrasagar Lake."
+      }
+    ],
+    "culture": {
+      "summary": "Tripura blends Bengali cultural influence with indigenous Tripuri, Reang and Jamatia traditions, reflected in its music, weaving and royal architectural legacy.",
+      "art_handicrafts": [
+        "Risa handloom weaving",
+        "Bamboo and cane craft"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Kharchi Puja",
+        "time": "July",
+        "description": "A week-long worship of fourteen deities at the Chaturdasha Temple.",
+        "significance": "One of Tripura's most significant religious festivals."
+      }
+    ],
+    "activities": [
+      "Heritage walks",
+      "Boating",
+      "Photography"
+    ],
+    "food": [
+      {
+        "name": "Mui Borok",
+        "type": "Meal",
+        "description": "Traditional Tripuri cuisine built around fermented fish and bamboo shoot."
+      }
+    ],
+    "travel_info": {
+      "airport": "Maharaja Bir Bikram Airport (IXA).",
+      "railway": "Agartala railway station.",
+      "local_transport": "Autos and taxis to Neermahal (~53 km).",
+      "suggested_duration": "1–2 days",
+      "budget": "Budget."
+    },
+    "safety": {
+      "tips": [
+        "Neermahal boat access depends on lake water levels.",
+        "Palace museum is closed on certain weekdays — check ahead."
+      ],
+      "emergency": "Dial 112."
+    }
+  }
+]

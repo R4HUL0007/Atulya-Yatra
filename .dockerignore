@@ -1,0 +1,24 @@
+# Never bake local environments, caches, or secrets into the image.
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# The original prototype project — not part of the v2 app, and it carries its
+# own (dead) venv and .git history that would bloat the build context hugely.
+Atulya-Yatra/
+
+# Local-only data/config
+.env
+instance/
+*.db
+.git/
+.gitignore
+
+# Editor/OS noise
+.vscode/
+.idea/
+*.log
+_*.txt
+_*.log

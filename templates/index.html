@@ -1,34 +1,153 @@
 {% extends "base.html" %}
+{% import "_macros.html" as ui %}
 
 {% block content %}
-<div class="hero-section text-center" style="background-image: url('{{ url_for('static', filename='images/hero.jpg') }}'); background-attachment: fixed; background-size: cover; background-position: center; position: relative;">
-    <!-- Overlay to enhance text readability -->
-    <div class="hero-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); z-index: 1;"></div>
-    
-    <!-- Content -->
-    <div class="hero-content" style="position: relative; z-index: 2; padding: 50px 20px;">
-        <h1 class="display-4 text-white" data-aos="fade-up">Discover the Beauty of India</h1>
-        <p class="lead text-white" data-aos="fade-up" data-aos-delay="100">Explore the most beautiful places around the country.</p>
-        <a href="#trending" class="btn btn-primary btn-lg mt-3" data-aos="fade-up" data-aos-delay="200">Explore Now</a>
-    </div>
-</div>
+{# ---------------------------------------------------------------- hero
+   A full-bleed rotating photograph. The scenery is the pitch, so the copy sits
+   on top of it rather than beside it. #}
+<section class="hero hero-nature{% if hero_candidates %} has-media{% endif %}" data-hero>
+  <div class="hero-slides">
+    {% for h in hero_candidates %}
+    <img class="hero-bg{% if loop.first %} active{% endif %}" data-hero-slide
+      data-name="{{ h.name }}" data-state="{{ h.state or 'India' }}"
+      data-url="{{ url_for('pages.destination', slug=h.slug) }}"
+      src="{{ entity_img(h, 'place', width=2560) }}"
+      srcset="{{ entity_srcset(h, 'place', widths=(1280, 1920, 2560)) }}"
+      sizes="100vw"
+      {% if loop.first %}fetchpriority="high"{% else %}loading="lazy"{% endif %}
+      alt="" aria-hidden="true">
+    {% endfor %}
+  </div>
+  <div class="hero-scrim" aria-hidden="true"></div>
+  <span class="hero-watermark" data-hero-watermark aria-hidden="true">{{ (hero_place.state if hero_place else 'India') or 'India' }}</span>
 
+  {% if hero_candidates %}
+  <button type="button" class="hero-edge hero-edge-prev" data-hero-prev aria-label="Previous destination">‹</button>
+  <button type="button" class="hero-edge hero-edge-next" data-hero-next aria-label="Next destination">›</button>
+  {% endif %}
 
-<div id="trending" class="mt-5">
-    <h2 class="text-center mb-4" data-aos="fade-right">Trending Places</h2>
-    <div class="row">
-        {% for place in trending_places %}
-        <div class="col-md-4 mb-4" data-aos="zoom-in">
-            <div class="card">
-                <img src="{{ url_for('static', filename='images/' + place.image) }}" class="card-img-top" alt="{{ place.name }}"  height="200px" width="400px">
-                <div class="card-body">
-                    <h5 class="card-title">{{ place.name }}</h5>
-                    <p class="card-text">{{ place.description[:100] }}...</p>
-                    <a href="{{ url_for('place_detail', place_id=place.id) }}" class="btn btn-primary">Explore</a>
-                </div>
-            </div>
-        </div>
-        {% endfor %}
+  <div class="container hero-inner">
+    <div class="hero-copy">
+      <div class="eyebrow hero-eyebrow">Atulya Yatra</div>
+      <h1>Find the India<br>you'd otherwise miss</h1>
+      <p class="tagline devnagari">भारत की अनसुनी कहानियाँ</p>
+      <p class="lead">Mountains, rivers, coastline and forest — search any Indian place to open its guide, with real photos, nearby attractions and hidden gems.</p>
+      {{ ui.search_box('Try Munnar, Spiti, Dawki, or any Indian place...') }}
+      <div class="search-tags">
+        <a href="{{ url_for('pages.place', q='Munnar') }}">Munnar</a>
+        <a href="{{ url_for('pages.place', q='Spiti Valley') }}">Spiti</a>
+        <a href="{{ url_for('pages.place', q='Coorg') }}">Coorg</a>
+        <a href="{{ url_for('pages.place', q='Dawki') }}">Dawki</a>
+        <a href="{{ url_for('pages.place', q='Havelock Island') }}">Havelock</a>
+      </div>
     </div>
-</div>
+  </div>
+
+  {% if hero_candidates %}
+  <div class="hero-dots" data-hero-dots aria-hidden="true"></div>
+  <a class="hero-featured-chip" data-hero-focus href="{{ url_for('pages.destination', slug=hero_place.slug) }}">
+    <span class="hfc-label">In focus</span>
+    <span class="hfc-name" data-hero-focus-name>{{ hero_place.name }}</span>
+    <span class="hfc-go" aria-hidden="true">→</span>
+  </a>
+  {% endif %}
+</section>
+
+<nav class="section-nav" aria-label="Explore this page"><div class="container section-nav-inner">
+  {% if landscape %}<a href="#landscapes">Landscapes</a>{% endif %}
+  {% if featured_gems %}<a href="#hidden-gems">Hidden gems</a>{% endif %}
+  {% if trending %}<a href="#popular-destinations">Destinations</a>{% endif %}
+  {% if trips %}<a href="#trips">Curated trips</a>{% endif %}
+  {% if states %}<a href="#states">States and UTs</a>{% endif %}
+</div></nav>
+
+{# ------------------------------------------------------- landscape themes
+   Four kinds of scenery, each shown as an actual place rather than a label. #}
+{% if landscape %}
+<section class="section" id="landscapes"><div class="container">
+  <div class="section-head">
+    <div class="eyebrow">Choose your landscape</div>
+    <h2>Pick the scenery, then the place</h2>
+    <p>Most trips start with a feeling: thin mountain air, moving water, salt wind, or forest quiet.</p>
+  </div>
+  <div class="landscape-grid">
+    {% for theme in landscape %}
+    <a class="landscape-tile" href="{{ url_for('pages.destinations', category=theme.category) }}">
+      <img loading="lazy" src="{{ entity_img(theme.place, 'place', width=900) }}"
+        srcset="{{ entity_srcset(theme.place, 'place') }}"
+        sizes="(max-width: 720px) 92vw, (max-width: 1100px) 46vw, 300px"
+        alt="{{ theme.title }} in India, pictured at {{ theme.place.name }}">
+      <div class="lt-body">
+        <strong>{{ theme.title }}</strong>
+        <p>{{ theme.blurb }}</p>
+        <span class="lt-place">Pictured: {{ theme.place.name }}{% if theme.place.state %}, {{ theme.place.state }}{% endif %}</span>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</div></section>
+{% endif %}
+
+{# ------------------------------------------------------------ hidden gems #}
+<section class="section section-green" id="hidden-gems"><div class="container">
+  <div class="section-head">
+    <div class="eyebrow">Our reason to exist</div>
+    <h2>India's best hidden gems</h2>
+    <p>Emerald valleys, quiet rivers and offbeat mountain trails most travellers never find.</p>
+  </div>
+  <div class="grid grid-3">{% for place in featured_gems %}{{ ui.place_card(place, show_directions=True) }}{% endfor %}</div>
+  <div class="text-center action-row"><a class="btn btn-outline" href="{{ url_for('pages.destinations') }}">Discover more places</a></div>
+</div></section>
+
+{# A full-width photographic break, so the page breathes between grids. #}
+{% if band_place %}
+<section class="nature-band">
+  <img loading="lazy" src="{{ entity_img(band_place, 'place', width=2560) }}"
+    srcset="{{ entity_srcset(band_place, 'place', widths=(1280, 1920, 2560)) }}" sizes="100vw"
+    alt="{{ band_place.name }}, {{ band_place.state }}">
+  <div class="nature-band-copy">
+    <span>India in every shade of green</span>
+    <strong>From misty hills to river valleys</strong>
+  </div>
+</section>
+{% endif %}
+
+{# ----------------------------------------------------------- destinations #}
+<section class="section" id="popular-destinations"><div class="container">
+  <div class="section-head">
+    <div class="eyebrow">Scenery first</div>
+    <h2>Destinations worth the journey</h2>
+    <p>Full guides from the Atulya Yatra catalogue, ranked by landscape rather than city size.</p>
+  </div>
+  <div class="grid grid-3">{% for place in trending %}{{ ui.place_card(place) }}{% endfor %}</div>
+  <div class="text-center action-row"><a class="btn btn-outline" href="{{ url_for('pages.destinations') }}">Browse all destinations</a></div>
+</div></section>
+
+{# ----------------------------------------------------------------- trips #}
+<section class="section journey-section" id="trips"><div class="container">
+  <div class="section-head">
+    <div class="eyebrow">Featured journeys</div>
+    <h2>Trips built around real experiences</h2>
+    <p>Curated itineraries, published by the Atulya Yatra team.</p>
+  </div>
+  <div class="grid grid-3">{% for trip in trips %}<a class="card" href="{{ url_for('pages.trip', slug=trip.slug) }}">
+    <div class="thumb"><span class="badge">{{ trip.duration_days }} days</span><img loading="lazy" src="{{ entity_img(trip, 'trip', width=900) }}" srcset="{{ entity_srcset(trip, 'trip') }}" sizes="(max-width: 720px) 92vw, (max-width: 1100px) 46vw, 400px" alt="{{ trip.name }}"></div>
+    <div class="body"><h3>{{ trip.name }}</h3><p class="place-desc">{{ trip.overview | truncate_words(20) }}</p><span class="btn btn-sm btn-outline">View itinerary</span></div>
+  </a>{% endfor %}</div>
+  <div class="text-center action-row"><a class="btn btn-ghost-dark" href="{{ url_for('pages.trips') }}">Explore all trips</a></div>
+</div></section>
+
+{# ---------------------------------------------------------------- states #}
+<section class="section" id="states"><div class="container">
+  <div class="section-head">
+    <div class="eyebrow">Explore India</div>
+    <h2>States and union territories</h2>
+    <p>Every state has its own pages for destinations, hidden gems, gallery, culture and trips.</p>
+  </div>
+  <div class="grid grid-4">{% for state in states[:8] %}<a class="card state-card" href="{{ url_for('pages.state', slug=state.slug) }}">
+    <div class="thumb" style="aspect-ratio:4/3"><img loading="lazy" src="{{ entity_img(state, 'state', width=900) }}" srcset="{{ entity_srcset(state, 'state', widths=(600, 900, 1400)) }}" sizes="(max-width: 720px) 46vw, 300px" alt="{{ state.name }}"></div>
+    <div class="body"><h3>{{ state.name }}</h3></div>
+  </a>{% endfor %}</div>
+  <div class="text-center action-row"><a class="btn btn-outline" href="{{ url_for('pages.states') }}">See all {{ state_total }} states and UTs</a></div>
+</div></section>
 {% endblock %}

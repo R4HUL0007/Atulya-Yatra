@@ -1,0 +1,39 @@
+{% extends "state_base.html" %}
+
+{% block state_section %}Trips{% endblock %}
+{% block state_heading %}Trips through {{ state.name }}{% endblock %}
+{% block state_lead %}Curated itineraries published by the Atulya Yatra team.{% endblock %}
+
+{% block state_content %}
+<div class="container section">
+  {% if state_trips %}
+  <div class="grid grid-3">
+    {% for trip in state_trips %}
+    <a class="card" href="{{ url_for('pages.trip', slug=trip.slug) }}">
+      <div class="thumb">
+        <span class="badge">{{ trip.duration_days }} days</span>
+        <img loading="lazy" src="{{ entity_img(trip, 'trip', width=1400) }}"
+          srcset="{{ entity_srcset(trip, 'trip') }}"
+          sizes="(max-width: 720px) 92vw, (max-width: 1100px) 46vw, 400px"
+          alt="{{ trip.name }}">
+      </div>
+      <div class="body">
+        <h3>{{ trip.name }}</h3>
+        <p class="place-desc">{{ trip.overview | truncate_words(20) }}</p>
+        <span class="btn btn-sm btn-outline">View itinerary</span>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="empty">
+    <p>No itineraries run through {{ state.name }} yet.</p>
+    <p class="muted"><a href="{{ url_for('pages.contact') }}">Ask us for a custom trip</a> and we will build one.</p>
+  </div>
+  {% endif %}
+
+  <div class="action-row text-center">
+    <a class="btn btn-ghost-dark" href="{{ url_for('pages.trips') }}">Browse all trips</a>
+  </div>
+</div>
+{% endblock %}

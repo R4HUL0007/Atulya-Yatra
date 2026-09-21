@@ -1,0 +1,724 @@
+[
+  {
+    "slug": "gir-forest",
+    "name": "Gir National Park",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Gujarat",
+    "state_slug": "gujarat",
+    "region": "Saurashtra",
+    "lat": 21.1591,
+    "lng": 70.7999,
+    "type": "wildlife",
+    "categories": [
+      "Wildlife",
+      "Nature",
+      "Adventure"
+    ],
+    "tags": [
+      "Wildlife",
+      "Nature",
+      "Popular"
+    ],
+    "rating": 4.6,
+    "reviews": 28000,
+    "popularity": 70,
+    "data_quality": 0.9,
+    "short_intro": "The only place on Earth where Asiatic lions roam wild, across dry deciduous forest and scrubland.",
+    "overview": "Gir National Park protects the last wild population of Asiatic lions, a subspecies once found across the Middle East and reduced to this single Gujarat forest by the early 1900s before a century of conservation brought numbers back. Jeep safaris through Gir's teak and acacia forest offer strong odds of lion sightings alongside leopards, deer species and marsh crocodiles, while the Maldhari pastoral community still herds cattle within buffer zones.",
+    "images": {
+      "hero": "places/gir-forest/hero.jpg",
+      "gallery": [
+        "places/gir-forest/lion.jpg",
+        "places/gir-forest/safari.jpg",
+        "places/gir-forest/forest.jpg"
+      ]
+    },
+    "best_season": [
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "best_time_to_visit": "December to March; the park closes mid-June to mid-October for monsoon.",
+    "attractions": [
+      {
+        "name": "Gir Jeep Safari Zones",
+        "category": "Wildlife",
+        "description": "Permitted safari routes with the highest odds of lion sightings."
+      },
+      {
+        "name": "Devalia Safari Park",
+        "category": "Wildlife",
+        "description": "A fenced interpretation zone for visitors without a full safari permit."
+      }
+    ],
+    "culture": {
+      "summary": "The semi-nomadic Maldhari community has coexisted with Gir's lions for generations, herding livestock within the forest's fringes."
+    },
+    "activities": [
+      "Wildlife safari",
+      "Photography",
+      "Camping"
+    ],
+    "food": [
+      {
+        "name": "Kathiyawadi Thali",
+        "type": "Meal",
+        "description": "A spicy Saurashtra-region platter of rotla, curries and chutneys."
+      }
+    ],
+    "travel_info": {
+      "airport": "Diu or Rajkot (~160 km); Ahmedabad for wider links.",
+      "railway": "Junagadh or Sasan Gir station.",
+      "local_transport": "Safari jeeps booked through the forest department.",
+      "suggested_duration": "2 days",
+      "budget": "Moderate."
+    },
+    "safety": {
+      "tips": [
+        "Book safari permits well in advance, especially weekends.",
+        "Stay inside the vehicle at all times during safaris."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "rann-of-kutch",
+    "name": "Rann of Kutch",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Gujarat",
+    "state_slug": "gujarat",
+    "region": "Kutch",
+    "lat": 23.8382,
+    "lng": 69.8617,
+    "type": "desert",
+    "categories": [
+      "Nature",
+      "Desert",
+      "Culture",
+      "Photography"
+    ],
+    "tags": [
+      "Nature",
+      "Desert",
+      "Unexplored",
+      "Popular"
+    ],
+    "rating": 4.7,
+    "reviews": 24000,
+    "popularity": 66,
+    "data_quality": 0.88,
+    "short_intro": "A blinding-white salt desert that hosts the winter Rann Utsav tented festival under full-moon skies.",
+    "overview": "The Great Rann of Kutch is a vast seasonal salt marsh that turns into a dazzling white salt desert during the dry winter months, stretching to the horizon in every direction. The government-run Rann Utsav festival pitches a tented city near Dhordo village from November to February, showcasing Kutchi music, mirror-work embroidery and handicrafts, with the full-moon nights over the white Rann drawing photographers from across the world.",
+    "images": {
+      "hero": "places/rann-of-kutch/hero.jpg",
+      "gallery": [
+        "places/rann-of-kutch/white-desert.jpg",
+        "places/rann-of-kutch/rann-utsav.jpg",
+        "places/rann-of-kutch/moonlight.jpg"
+      ],
+      "hero_credit": "Superfast1111 · CC BY-SA 3.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Rann_of_Kutch_-_White_Desert.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "hero_small": "places/rann-of-kutch/card.jpg"
+    },
+    "best_season": [
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "November to February, ideally around a full moon.",
+    "attractions": [
+      {
+        "name": "White Rann at Dhordo",
+        "category": "Nature",
+        "description": "The main viewing point for the salt desert, especially stunning at sunset and full moon."
+      },
+      {
+        "name": "Kala Dungar (Black Hill)",
+        "category": "Viewpoint",
+        "description": "Kutch's highest point, overlooking the Rann's full expanse."
+      }
+    ],
+    "culture": {
+      "summary": "Kutch is home to numerous pastoral and artisan communities renowned for mirror-work embroidery, block printing and metal bell-making.",
+      "art_handicrafts": [
+        "Bandhani tie-dye",
+        "Ajrakh block printing",
+        "Rogan art"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Rann Utsav",
+        "time": "November–February",
+        "description": "A tented cultural festival of music, crafts and desert camping.",
+        "significance": "Showcases Kutchi culture to visitors from across India and abroad."
+      }
+    ],
+    "food": [
+      {
+        "name": "Kutchi Dabeli",
+        "type": "Street food",
+        "description": "A spiced potato mixture in a bun, a Kutch original."
+      }
+    ],
+    "activities": [
+      "Photography",
+      "Cultural experiences",
+      "Camping"
+    ],
+    "travel_info": {
+      "airport": "Bhuj (~85 km).",
+      "railway": "Bhuj railway station.",
+      "local_transport": "Taxis from Bhuj; entry permits required near the border zone.",
+      "suggested_duration": "2 days",
+      "budget": "Moderate to premium during Rann Utsav."
+    },
+    "safety": {
+      "tips": [
+        "Nights get very cold in winter; carry warm layers.",
+        "Carry ID — this is a border-sensitive zone."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "somnath",
+    "name": "Somnath",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Gujarat",
+    "state_slug": "gujarat",
+    "region": "Saurashtra coast",
+    "lat": 20.888,
+    "lng": 70.4013,
+    "type": "spiritual",
+    "categories": [
+      "Spiritual",
+      "Historical",
+      "Heritage"
+    ],
+    "tags": [
+      "Spiritual",
+      "History",
+      "Popular"
+    ],
+    "rating": 4.7,
+    "reviews": 41000,
+    "popularity": 68,
+    "data_quality": 0.87,
+    "short_intro": "The first of the twelve Jyotirlinga shrines, rebuilt repeatedly through history, standing where the Arabian Sea meets the shore.",
+    "overview": "The Somnath Temple is considered the first among the twelve sacred Jyotirlinga shrines to Shiva, and its coastal location has made it a target of repeated historical destruction and rebuilding, from Mahmud of Ghazni's raid in 1024 CE to the current structure completed in 1951 under Sardar Patel's initiative. The temple's evening aarti against the sound of the Arabian Sea, and its adjoining Bhalka Tirth (where Krishna is believed to have been fatally wounded), give the site layered mythological weight.",
+    "images": {
+      "hero": "places/somnath/hero.jpg",
+      "gallery": [
+        "places/somnath/temple.jpg",
+        "places/somnath/seafront.jpg",
+        "places/somnath/aarti.jpg"
+      ],
+      "hero_credit": "B. SurajPatro1997 · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Somanath_mandir_(cropped).jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/somnath/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to February.",
+    "attractions": [
+      {
+        "name": "Somnath Temple",
+        "category": "Spiritual",
+        "description": "The Jyotirlinga shrine rebuilt in Chalukyan style, facing the Arabian Sea."
+      },
+      {
+        "name": "Bhalka Tirth",
+        "category": "Spiritual",
+        "description": "Believed to be where Krishna was struck by a hunter's arrow, ending his earthly life."
+      }
+    ],
+    "culture": {
+      "summary": "Somnath's identity is built around resilience — a temple destroyed and rebuilt across centuries, now a symbol of continuity in Gujarati religious life."
+    },
+    "festivals": [
+      {
+        "name": "Kartik Purnima",
+        "time": "November",
+        "description": "A major bathing and pilgrimage festival at the coast.",
+        "significance": "Marks a highly auspicious full moon for worship."
+      }
+    ],
+    "food": [
+      {
+        "name": "Gujarati Thali",
+        "type": "Meal",
+        "description": "A full vegetarian platter widely served in temple-town eateries."
+      }
+    ],
+    "activities": [
+      "Cultural experiences",
+      "Photography"
+    ],
+    "travel_info": {
+      "airport": "Diu (~85 km) or Rajkot.",
+      "railway": "Veraval station (~7 km).",
+      "local_transport": "Autos from Veraval.",
+      "suggested_duration": "1 day",
+      "budget": "Low."
+    },
+    "safety": {
+      "tips": [
+        "Photography is restricted inside the sanctum.",
+        "Evening aarti draws large crowds — arrive early."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "ajanta-ellora",
+    "name": "Ajanta and Ellora Caves",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Maharashtra",
+    "state_slug": "maharashtra",
+    "region": "Aurangabad",
+    "lat": 20.5519,
+    "lng": 75.7033,
+    "type": "heritage",
+    "categories": [
+      "Heritage",
+      "Historical",
+      "Spiritual",
+      "Adventure"
+    ],
+    "tags": [
+      "History",
+      "Heritage",
+      "Unexplored",
+      "Popular"
+    ],
+    "rating": 4.7,
+    "reviews": 39000,
+    "popularity": 72,
+    "data_quality": 0.92,
+    "short_intro": "Two UNESCO cave complexes near Aurangabad — Ajanta's painted Buddhist grottoes and Ellora's rock-cut Kailasa temple carved from a single hill.",
+    "overview": "Ajanta's 30 rock-cut caves, carved into a horseshoe gorge between the 2nd century BCE and 6th century CE, preserve some of the finest surviving ancient Buddhist murals and sculpture in the world. Roughly 100 km away, Ellora's 34 caves span Buddhist, Hindu and Jain traditions side by side, crowned by the Kailasa Temple — an entire temple excavated top-down out of a single basalt hillside, among the largest monolithic rock-cut structures anywhere.",
+    "images": {
+      "hero": "places/ajanta-ellora/hero.jpg",
+      "gallery": [
+        "places/ajanta-ellora/ajanta-murals.jpg",
+        "places/ajanta-ellora/kailasa-temple.jpg",
+        "places/ajanta-ellora/caves.jpg"
+      ]
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to February; Ajanta closed Mondays, Ellora closed Tuesdays.",
+    "attractions": [
+      {
+        "name": "Ajanta Cave 1 & 2 Murals",
+        "category": "Heritage",
+        "description": "Some of the best-preserved ancient Buddhist paintings in India."
+      },
+      {
+        "name": "Kailasa Temple (Ellora Cave 16)",
+        "category": "Heritage",
+        "description": "A monolithic rock-cut temple carved downward from a single hill."
+      }
+    ],
+    "culture": {
+      "summary": "The caves represent centuries of coexisting Buddhist, Hindu and Jain patronage, reflecting the Deccan's layered religious history."
+    },
+    "activities": [
+      "Heritage walks",
+      "Photography",
+      "Trekking"
+    ],
+    "food": [
+      {
+        "name": "Naan Qalia",
+        "type": "Meal",
+        "description": "A slow-cooked Aurangabad mutton curry with Mughal-Nizami roots."
+      }
+    ],
+    "travel_info": {
+      "airport": "Aurangabad Airport (IXU).",
+      "railway": "Aurangabad railway station.",
+      "local_transport": "Taxis for the Ajanta-Ellora circuit (roughly 100km apart).",
+      "suggested_duration": "2 days",
+      "budget": "Moderate."
+    },
+    "safety": {
+      "tips": [
+        "Wear comfortable shoes — extensive walking and steps.",
+        "Carry water; limited shade at Ajanta."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "lonavala-khandala",
+    "name": "Lonavala",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Maharashtra",
+    "state_slug": "maharashtra",
+    "region": "Sahyadri / Pune district",
+    "lat": 18.7546,
+    "lng": 73.4062,
+    "type": "hill_station",
+    "categories": [
+      "Nature",
+      "Adventure",
+      "Waterfall"
+    ],
+    "tags": [
+      "Nature",
+      "Adventure",
+      "Popular"
+    ],
+    "rating": 4.3,
+    "reviews": 52000,
+    "popularity": 76,
+    "data_quality": 0.85,
+    "short_intro": "A Sahyadri hill station famous for monsoon waterfalls, ancient rock-cut caves and chikki (nut brittle) shops.",
+    "overview": "Lonavala sits in the Sahyadri range between Mumbai and Pune, transforming into a lush green valley of waterfalls and mist during the monsoon. The Karla and Bhaja caves, 2nd-century BCE Buddhist rock-cut chaityas nearby, predate the town's popularity as a weekend retreat by two millennia. Nearby forts like Lohagad and Rajmachi draw trekkers, while the town's chikki (jaggery-nut brittle) is a signature souvenir.",
+    "images": {
+      "hero": "places/lonavala-khandala/hero.jpg",
+      "gallery": [
+        "places/lonavala-khandala/tiger-point.jpg",
+        "places/lonavala-khandala/bhaja-caves.jpg",
+        "places/lonavala-khandala/lohagad.jpg"
+      ]
+    },
+    "best_season": [
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "June to February; monsoon (June-Sept) is the most scenic but landslide-prone on treks.",
+    "attractions": [
+      {
+        "name": "Bhaja Caves",
+        "category": "Heritage",
+        "description": "2nd-century BCE Buddhist rock-cut caves with early stupas and viharas."
+      },
+      {
+        "name": "Lohagad Fort",
+        "category": "Fort",
+        "description": "A Maratha-era hill fort with a dramatic monsoon trek."
+      },
+      {
+        "name": "Tiger's Point (Tiger Leap)",
+        "category": "Viewpoint",
+        "description": "A cliff-edge viewpoint over the valley, especially misty in monsoon."
+      }
+    ],
+    "activities": [
+      "Trekking",
+      "Photography",
+      "Camping"
+    ],
+    "food": [
+      {
+        "name": "Lonavala Chikki",
+        "type": "Sweet",
+        "description": "Jaggery-and-peanut brittle, the town's best-known souvenir."
+      }
+    ],
+    "travel_info": {
+      "airport": "Pune (~65 km) or Mumbai (~100 km).",
+      "railway": "Lonavala railway station on the Mumbai-Pune line.",
+      "local_transport": "Autos and taxis to forts and waterfalls.",
+      "suggested_duration": "1–2 days",
+      "budget": "Budget to moderate."
+    },
+    "safety": {
+      "tips": [
+        "Monsoon treks are slippery — wear grip shoes.",
+        "Avoid standing near waterfall edges during heavy flow."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "mahabaleshwar",
+    "name": "Mahabaleshwar",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Maharashtra",
+    "state_slug": "maharashtra",
+    "region": "Satara district",
+    "lat": 17.9307,
+    "lng": 73.6477,
+    "type": "hill_station",
+    "categories": [
+      "Nature",
+      "Mountains",
+      "Food"
+    ],
+    "tags": [
+      "Nature",
+      "Mountains",
+      "Popular"
+    ],
+    "rating": 4.4,
+    "reviews": 34000,
+    "popularity": 62,
+    "data_quality": 0.83,
+    "short_intro": "Maharashtra's premier hill station, source of the Krishna river and famous for strawberry farms and viewpoint drives.",
+    "overview": "Mahabaleshwar was developed as a hill retreat by the British in the 1820s and remains Maharashtra's most popular hill station, perched on a plateau in the Western Ghats. It is traditionally identified as the source of the Krishna river, marked at the ancient Mahabaleshwar temple. Strawberry cultivation on the surrounding slopes has become a local specialty, sold fresh with cream at roadside stalls, alongside a string of viewpoints overlooking the Konkan escarpment.",
+    "images": {
+      "hero": "places/mahabaleshwar/hero.jpg",
+      "gallery": [
+        "places/mahabaleshwar/venna-lake.jpg",
+        "places/mahabaleshwar/arthur-seat.jpg",
+        "places/mahabaleshwar/strawberry-farm.jpg"
+      ],
+      "hero_credit": "Amitban77 · CC BY 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:MAHABALESWAR_LANDSCAPE.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by/4.0",
+      "hero_small": "places/mahabaleshwar/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "best_time_to_visit": "October to March; monsoon brings heavy rain and mist.",
+    "attractions": [
+      {
+        "name": "Arthur's Seat",
+        "category": "Viewpoint",
+        "description": "A cliff-edge viewpoint over the Konkan valley, called the 'Queen of all Points'."
+      },
+      {
+        "name": "Venna Lake",
+        "category": "Lake",
+        "description": "A boating lake in the town centre."
+      },
+      {
+        "name": "Mahabaleshwar Temple",
+        "category": "Spiritual",
+        "description": "An ancient temple marking the traditional source of the Krishna river."
+      }
+    ],
+    "food": [
+      {
+        "name": "Strawberries and Cream",
+        "type": "Snack",
+        "description": "Locally grown strawberries sold fresh at farm stalls and markets."
+      }
+    ],
+    "activities": [
+      "Trekking",
+      "Boating",
+      "Photography"
+    ],
+    "travel_info": {
+      "airport": "Pune (~120 km).",
+      "railway": "Satara or Pune railway station.",
+      "local_transport": "Taxis to viewpoints; horse rides available locally.",
+      "suggested_duration": "2 days",
+      "budget": "Moderate."
+    },
+    "safety": {
+      "tips": [
+        "Viewpoint edges can be unfenced — stay alert with children.",
+        "Roads are winding; avoid night driving."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "goa-south",
+    "name": "South Goa Beaches",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Goa",
+    "state_slug": "goa",
+    "region": "South Goa",
+    "lat": 15.1735,
+    "lng": 73.9862,
+    "type": "beach",
+    "categories": [
+      "Beach",
+      "Nature",
+      "Wellness"
+    ],
+    "tags": [
+      "Beaches",
+      "Peace",
+      "Popular"
+    ],
+    "rating": 4.5,
+    "reviews": 45000,
+    "popularity": 74,
+    "data_quality": 0.86,
+    "short_intro": "Quieter, palm-shaded beaches around Palolem and Colva, favoured over North Goa's louder party belt.",
+    "overview": "South Goa's coastline, anchored by Colva and the crescent-shaped Palolem, trades North Goa's club scene for a calmer, more laid-back stretch of white sand fringed by coconut palms. Fishing villages still operate alongside beach shacks, and the region is a base for spotting dolphins offshore or visiting the Portuguese-era Cabo de Rama fort perched on a cliff.",
+    "images": {
+      "hero": "places/goa-south/hero.jpg",
+      "gallery": [
+        "places/goa-south/palolem.jpg",
+        "places/goa-south/colva.jpg",
+        "places/goa-south/cabo-de-rama.jpg"
+      ]
+    },
+    "best_season": [
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "November to February.",
+    "attractions": [
+      {
+        "name": "Palolem Beach",
+        "category": "Beach",
+        "description": "A curved, calm beach popular for kayaking and dolphin-spotting trips."
+      },
+      {
+        "name": "Cabo de Rama Fort",
+        "category": "Fort",
+        "description": "A cliffside Portuguese-era fort with sweeping coastal views."
+      }
+    ],
+    "activities": [
+      "Water sports",
+      "Photography",
+      "Boating"
+    ],
+    "food": [
+      {
+        "name": "Goan Fish Thali",
+        "type": "Meal",
+        "description": "A full plate of rice, fish curry and fried fish, served at beach shacks."
+      }
+    ],
+    "travel_info": {
+      "airport": "Dabolim (~30 km).",
+      "railway": "Madgaon (Margao) Junction.",
+      "local_transport": "Rented scooters are the easiest way around.",
+      "suggested_duration": "2–3 days",
+      "budget": "Budget to moderate."
+    },
+    "safety": {
+      "tips": [
+        "Swim only where lifeguards are present.",
+        "Book dolphin trips with licensed boat operators."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "daman-diu",
+    "name": "Diu",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Dadra & Nagar Haveli and Daman & Diu",
+    "state_slug": "dadra-nagar-haveli-daman-diu",
+    "region": "Diu district",
+    "lat": 20.7144,
+    "lng": 70.9874,
+    "type": "beach",
+    "categories": [
+      "Beach",
+      "Heritage",
+      "Culture"
+    ],
+    "tags": [
+      "Beaches",
+      "Heritage",
+      "Unexplored"
+    ],
+    "rating": 4.4,
+    "reviews": 12000,
+    "popularity": 46,
+    "data_quality": 0.8,
+    "short_intro": "A former Portuguese colony of sea forts and quiet beaches, easily reached from Gujarat's Saurashtra coast.",
+    "overview": "Diu was a Portuguese territory until 1961 and retains that legacy in the imposing sea-facing Diu Fort, whitewashed churches, and a relaxed pace distinct from mainland Gujarat's dry-state restrictions, since alcohol is legally available here. Nagoa Beach's palm-lined crescent is the main draw, while the fort's ramparts and lighthouse offer sweeping Arabian Sea views.",
+    "images": {
+      "hero": "places/daman-diu/hero.jpg",
+      "gallery": [
+        "places/daman-diu/diu-fort.jpg",
+        "places/daman-diu/nagoa-beach.jpg",
+        "places/daman-diu/st-pauls-church.jpg"
+      ]
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "best_time_to_visit": "October to March.",
+    "attractions": [
+      {
+        "name": "Diu Fort",
+        "category": "Fort",
+        "description": "A 16th-century Portuguese sea fort with cannons and a working lighthouse."
+      },
+      {
+        "name": "Nagoa Beach",
+        "category": "Beach",
+        "description": "A calm, palm-fringed crescent beach good for swimming."
+      },
+      {
+        "name": "St. Paul's Church",
+        "category": "Heritage",
+        "description": "A baroque Portuguese-era church with elaborate carved façades."
+      }
+    ],
+    "activities": [
+      "Water sports",
+      "Photography",
+      "Heritage walks"
+    ],
+    "food": [
+      {
+        "name": "Goan-style Seafood",
+        "type": "Meal",
+        "description": "Portuguese-influenced seafood curries reflecting the colonial past."
+      }
+    ],
+    "travel_info": {
+      "airport": "Diu Airport (DIU) or Rajkot.",
+      "railway": "Nearest is Veraval or Una.",
+      "local_transport": "Scooters are the easiest way to explore.",
+      "suggested_duration": "1–2 days",
+      "budget": "Budget."
+    },
+    "safety": {
+      "tips": [
+        "Alcohol is legally sold here unlike mainland Gujarat — drink responsibly.",
+        "Fort ramparts have unguarded edges."
+      ],
+      "emergency": "Dial 112."
+    }
+  }
+]

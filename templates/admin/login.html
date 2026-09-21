@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Admin sign in — Atulya Yatra{% endblock %}
+{% block content %}
+<section class="container section admin-narrow">
+  <div class="admin-card">
+    <div class="eyebrow">Private administration</div>
+    <h1>Admin sign in</h1>
+    {% if configuration_error %}
+      <div class="admin-alert">
+        <strong>Admin access is disabled.</strong>
+        <p>Configure <code>ATULYA_ADMIN_USERNAME</code>, <code>ATULYA_ADMIN_PASSWORD_HASH</code>, and a strong <code>ATULYA_SECRET_KEY</code>, then recreate the container.</p>
+      </div>
+    {% else %}
+      <p class="muted">Manage traveller enquiries and publish custom trips.</p>
+      <form method="post" class="admin-form">
+        <input type="hidden" name="csrf_token" value="{{ admin_csrf_token() }}">
+        <div class="field"><label for="username">Username</label><input id="username" name="username" autocomplete="username" maxlength="120" required></div>
+        <div class="field"><label for="password">Password</label><input id="password" type="password" name="password" autocomplete="current-password" required></div>
+        <button class="btn" type="submit">Sign in</button>
+      </form>
+    {% endif %}
+  </div>
+</section>
+{% endblock %}

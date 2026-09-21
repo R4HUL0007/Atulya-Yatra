@@ -1,0 +1,54 @@
+{% extends "state_base.html" %}
+
+{% block state_section %}Culture &amp; food{% endblock %}
+{% block state_heading %}Culture and food of {{ state.name }}{% endblock %}
+{% block state_lead %}Traditions, festivals and the dishes the state is known for.{% endblock %}
+
+{% block state_content %}
+<div class="container section">
+  {% if state.culture %}
+  <div class="block prose" id="culture">
+    <h2>Culture and traditions</h2>
+    <div class="culture-feature">
+      <img loading="lazy" src="{{ named_img(state.name ~ ' traditional culture', context=state.name, category='culture') }}" alt="Culture of {{ state.name }}">
+      <p>{{ state.culture }}</p>
+    </div>
+  </div>
+  {% endif %}
+
+  {% if state.festivals %}
+  <div class="block">
+    <h2>Festivals</h2>
+    <div class="visual-grid">
+      {% for f in state.festivals %}
+      <article class="visual-tile">
+        <img loading="lazy" src="{{ named_img(f.name, context=state.name, category='culture') }}" alt="{{ f.name }}">
+        <div><span class="tag">{{ f.time }}</span><h4>{{ f.name }}</h4></div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  {% if state.famous_food %}
+  <div class="block">
+    <h2>Famous food</h2>
+    <div class="visual-grid">
+      {% for dish in state.famous_food %}
+      <article class="visual-tile">
+        <img loading="lazy" src="{{ named_img(dish ~ ' Indian food', context=state.name, category='food') }}" alt="{{ dish }}">
+        <div><span class="tag">Local food</span><h4>{{ dish }}</h4></div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  {% if guide and guide.spiritual_places %}
+  <div class="block">
+    <h2>Religious destinations</h2>
+    <div class="pill-row">{% for r in guide.spiritual_places %}<span class="chip">{{ r }}</span>{% endfor %}</div>
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

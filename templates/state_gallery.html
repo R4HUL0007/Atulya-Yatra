@@ -1,0 +1,43 @@
+{% extends "state_base.html" %}
+{% import "_macros.html" as ui %}
+
+{% block state_section %}Gallery{% endblock %}
+{% block state_heading %}{{ state.name }} in photos{% endblock %}
+{% block state_lead %}A visual tour of the state. Tap any photo to open that place.{% endblock %}
+
+{% block state_content %}
+<div class="container section">
+  {% if curated_tiles %}
+  <div class="block">
+    <h2>From our guides</h2>
+    <div class="state-gallery">
+      {% for g in curated_tiles %}
+        {{ ui.photo_tile(
+             url_for('pages.destination', slug=g.slug),
+             entity_img(g, 'place', width=1400),
+             g.name,
+             'Hidden Gem' if g.is_hidden_gem else '') }}
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  {% if discovered_tiles %}
+  <div class="block">
+    <h2>Across {{ state.name }}</h2>
+    <p class="sub">Live photography from Google Maps for places we have not written up yet.</p>
+    <div class="state-gallery">
+      {% for card in discovered_tiles %}
+        {{ ui.photo_tile(card.explore_url, card.image, card.name, card.type) }}
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  {% if not curated_tiles and not discovered_tiles %}
+  <div class="block"><div class="empty">
+    <p>No photos could be loaded for {{ state.name }} right now.</p>
+  </div></div>
+  {% endif %}
+</div>
+{% endblock %}

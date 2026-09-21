@@ -1,0 +1,701 @@
+[
+  {
+    "slug": "dakor",
+    "name": "Dakor",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Gujarat",
+    "state_slug": "gujarat",
+    "region": "Kheda district",
+    "lat": 22.7333,
+    "lng": 73.15,
+    "type": "temple",
+    "categories": [
+      "Spiritual",
+      "Culture"
+    ],
+    "tags": [
+      "Spiritual",
+      "Culture",
+      "Unexplored"
+    ],
+    "rating": 4.5,
+    "reviews": 6200,
+    "popularity": 36,
+    "data_quality": 0.78,
+    "short_intro": "A pilgrim town built entirely around the Ranchhodrai Krishna temple, where devotees still arrive on foot from great distances.",
+    "overview": "Dakor's Ranchhodrai Temple, dedicated to Krishna, has drawn foot-pilgrims for centuries, particularly on Sharad Purnima when tens of thousands walk from surrounding districts as an act of devotion. The temple's large Gomti Lake, ringed by ghats, anchors a small town whose economy and rhythm revolve entirely around the shrine, giving visitors a far less commercialised pilgrimage experience than Gujarat's larger temple towns.",
+    "images": {
+      "hero": "places/dakor/hero.jpg",
+      "gallery": [
+        "places/dakor/temple.jpg",
+        "places/dakor/gomti-lake.jpg"
+      ],
+      "hero_credit": "Ashesh Shah · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Dakore_temple_-_By_Ashesh_Shah.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/dakor/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to February; Sharad Purnima (Oct-Nov) is the peak pilgrimage period.",
+    "attractions": [
+      {
+        "name": "Ranchhodrai Temple",
+        "category": "Spiritual",
+        "description": "A Krishna temple that draws large foot-pilgrimages, especially at Sharad Purnima."
+      }
+    ],
+    "nearby_major_destination": "vadodara",
+    "activities": [
+      "Cultural experiences",
+      "Photography"
+    ],
+    "travel_info": {
+      "local_transport": "Taxi from Vadodara (~55 km) or Anand.",
+      "suggested_duration": "Half day",
+      "budget": "Low."
+    },
+    "safety": {
+      "tips": [
+        "Extremely crowded during Sharad Purnima — plan accordingly."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "wadhwan-lakhota",
+    "name": "Lakhota Fort & Lake, Jamnagar",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Gujarat",
+    "state_slug": "gujarat",
+    "region": "Jamnagar",
+    "lat": 22.4707,
+    "lng": 70.0577,
+    "type": "heritage",
+    "categories": [
+      "Heritage",
+      "Nature",
+      "Culture"
+    ],
+    "tags": [
+      "Heritage",
+      "Nature",
+      "Unexplored"
+    ],
+    "rating": 4.3,
+    "reviews": 4100,
+    "popularity": 30,
+    "data_quality": 0.74,
+    "short_intro": "A lake-island fort in the little-visited coastal city of Jamnagar, home to a museum of old royal armoury.",
+    "overview": "Lakhota Fort sits on a small island in the middle of Jamnagar's Ranmal Lake, connected by a causeway and now housing a modest museum of medieval weaponry and pottery from the former Jamnagar princely state. Jamnagar itself, a bandhani (tie-dye) textile centre and home to India's largest oil refinery, sees very little tourist traffic despite its coastal charm and the nearby Marine National Park's coral reefs.",
+    "images": {
+      "hero": "places/wadhwan-lakhota/hero.jpg",
+      "gallery": [
+        "places/wadhwan-lakhota/fort.jpg",
+        "places/wadhwan-lakhota/lake.jpg"
+      ]
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to February.",
+    "attractions": [
+      {
+        "name": "Lakhota Fort Museum",
+        "category": "Heritage",
+        "description": "A lake-island fort museum of regional armoury and pottery."
+      }
+    ],
+    "nearby_major_destination": "somnath",
+    "activities": [
+      "Photography",
+      "Heritage walks"
+    ],
+    "travel_info": {
+      "local_transport": "Taxi from Rajkot (~90 km).",
+      "suggested_duration": "Half day",
+      "budget": "Low."
+    },
+    "safety": {
+      "tips": [
+        "Museum has limited opening hours — check before visiting."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "modhera-sun-temple",
+    "name": "Modhera Sun Temple",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Gujarat",
+    "state_slug": "gujarat",
+    "region": "Mehsana district",
+    "lat": 23.5814,
+    "lng": 72.1322,
+    "type": "heritage",
+    "categories": [
+      "Heritage",
+      "Historical",
+      "Spiritual"
+    ],
+    "tags": [
+      "Heritage",
+      "History",
+      "Unexplored"
+    ],
+    "rating": 4.6,
+    "reviews": 8700,
+    "popularity": 38,
+    "data_quality": 0.82,
+    "short_intro": "An 11th-century Solanki-dynasty sun temple with a stepped tank of 108 shrines, aligned so the equinox sun strikes the sanctum directly.",
+    "overview": "Built in 1026-27 CE by the Solanki dynasty, the Modhera Sun Temple was engineered so that sunlight enters the sanctum directly during the equinoxes, a piece of astronomical precision matched by the intricacy of its carved pillars and torana gateway. In front of the temple lies the Surya Kund, a stepped rectangular tank lined with 108 miniature shrines, one of the finest surviving examples of stepwell architecture in Gujarat, and one that receives only a fraction of Modhera's namesake fame compared to Konark's better-known Sun Temple.",
+    "images": {
+      "hero": "places/modhera-sun-temple/hero.jpg",
+      "gallery": [
+        "places/modhera-sun-temple/temple.jpg",
+        "places/modhera-sun-temple/surya-kund.jpg"
+      ],
+      "hero_credit": "Musafir kanya · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Surya_mandhir.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/modhera-sun-temple/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "best_time_to_visit": "October to March; the equinox alignment is most notable in March and September.",
+    "attractions": [
+      {
+        "name": "Surya Kund",
+        "category": "Heritage",
+        "description": "A stepped tank with 108 miniature shrines, an architectural highlight."
+      }
+    ],
+    "nearby_major_destination": "vadodara",
+    "activities": [
+      "Heritage walks",
+      "Photography"
+    ],
+    "travel_info": {
+      "local_transport": "Taxi from Ahmedabad (~100 km) or Mehsana (~25 km).",
+      "suggested_duration": "Half day",
+      "budget": "Low."
+    },
+    "safety": {
+      "tips": [
+        "Carry water — the site has minimal shade."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "vasai-fort",
+    "name": "Vasai Fort",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Maharashtra",
+    "state_slug": "maharashtra",
+    "region": "Palghar district",
+    "lat": 19.3467,
+    "lng": 72.8058,
+    "type": "fort",
+    "categories": [
+      "Heritage",
+      "Historical"
+    ],
+    "tags": [
+      "History",
+      "Heritage",
+      "Unexplored"
+    ],
+    "rating": 4.3,
+    "reviews": 5100,
+    "popularity": 30,
+    "data_quality": 0.75,
+    "short_intro": "A crumbling Portuguese sea fort near Mumbai, its overgrown ramparts and churches rarely visited despite the dramatic ruins.",
+    "overview": "Vasai Fort was built by the Portuguese in the 16th century as a major stronghold and later captured by the Marathas in 1739 after a prolonged siege. Today its bastions, gateways and roofless churches stand overgrown with vegetation, largely unrestored and unpromoted compared to Mumbai's better-known heritage sites, giving it an atmospheric, forgotten-ruin quality that rewards travellers willing to make the short trip from the city.",
+    "images": {
+      "hero": "places/vasai-fort/hero.jpg",
+      "gallery": [
+        "places/vasai-fort/ramparts.jpg",
+        "places/vasai-fort/church-ruins.jpg"
+      ]
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to February.",
+    "attractions": [
+      {
+        "name": "Fort Ramparts and Church Ruins",
+        "category": "Heritage",
+        "description": "Overgrown Portuguese-era bastions and roofless churches."
+      }
+    ],
+    "nearby_major_destination": "goa-panaji",
+    "activities": [
+      "Photography",
+      "Heritage walks"
+    ],
+    "travel_info": {
+      "local_transport": "Local train to Vasai Road, then auto.",
+      "suggested_duration": "Half day",
+      "budget": "Low."
+    },
+    "safety": {
+      "tips": [
+        "Some structures are unstable — avoid climbing on ruins.",
+        "Overgrown areas may have snakes; stick to cleared paths."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "harishchandragad",
+    "name": "Harishchandragad Fort",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Maharashtra",
+    "state_slug": "maharashtra",
+    "region": "Ahmednagar district",
+    "lat": 19.3833,
+    "lng": 73.7667,
+    "type": "fort",
+    "categories": [
+      "Adventure",
+      "Heritage",
+      "Nature"
+    ],
+    "tags": [
+      "Adventure",
+      "Heritage",
+      "Unexplored"
+    ],
+    "rating": 4.7,
+    "reviews": 7400,
+    "popularity": 34,
+    "data_quality": 0.78,
+    "short_intro": "An ancient hill fort famous among trekkers for the Konkan Kada, a sheer cliff edge with a dramatic drop into the Konkan plains.",
+    "overview": "Harishchandragad is one of the Sahyadri range's most demanding and rewarding trekking forts, holding cave temples dedicated to Harishchandreshwar dating back over a thousand years, and the Kedareshwar Cave with a Shiva lingam surrounded by water. Its main draw for serious trekkers is the Konkan Kada, a massive concave cliff face plunging over 1,400 feet, considered one of Maharashtra's most spectacular viewpoints, seen by relatively few compared to Lonavala's easier attractions.",
+    "images": {
+      "hero": "places/harishchandragad/hero.jpg",
+      "gallery": [
+        "places/harishchandragad/konkan-kada.jpg",
+        "places/harishchandragad/cave-temple.jpg"
+      ]
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to February; monsoon treks are scenic but risky.",
+    "attractions": [
+      {
+        "name": "Konkan Kada",
+        "category": "Nature",
+        "description": "A dramatic concave cliff face with a sheer 1,400-foot drop."
+      }
+    ],
+    "nearby_major_destination": "lonavala-khandala",
+    "activities": [
+      "Trekking",
+      "Camping",
+      "Photography"
+    ],
+    "travel_info": {
+      "local_transport": "Taxi from Pune (~145 km) to the trek base village.",
+      "suggested_duration": "1–2 days (overnight trek)",
+      "budget": "Budget."
+    },
+    "safety": {
+      "tips": [
+        "A genuinely strenuous trek — go with an experienced group or guide.",
+        "Do not approach the Konkan Kada edge in fog or rain."
+      ],
+      "emergency": "Dial 112; remote — carry a first-aid kit."
+    }
+  },
+  {
+    "slug": "murud-janjira",
+    "name": "Murud-Janjira Fort",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Maharashtra",
+    "state_slug": "maharashtra",
+    "region": "Raigad district",
+    "lat": 18.0122,
+    "lng": 72.9767,
+    "type": "fort",
+    "categories": [
+      "Heritage",
+      "Historical",
+      "Beach"
+    ],
+    "tags": [
+      "Heritage",
+      "Beaches",
+      "Unexplored"
+    ],
+    "rating": 4.5,
+    "reviews": 8900,
+    "popularity": 36,
+    "data_quality": 0.79,
+    "short_intro": "An island sea fort along the Konkan coast that famously withstood every attack from the Marathas, Mughals and Portuguese alike.",
+    "overview": "Janjira Fort sits on an oval island just off Murud beach, built by the Siddis of Janjira and notable for having never been successfully conquered despite repeated sieges by regional powers including the Marathas and Portuguese. Reached only by sailboat across a short stretch of the Arabian Sea, its massive still-intact ramparts and bastions make it one of the most impressive and least crowded fort sites on Maharashtra's Konkan coast.",
+    "images": {
+      "hero": "places/murud-janjira/hero.jpg",
+      "gallery": [
+        "places/murud-janjira/island-fort.jpg",
+        "places/murud-janjira/boat-ride.jpg"
+      ]
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to February; sea crossings can be halted in rough weather.",
+    "attractions": [
+      {
+        "name": "Janjira Island Fort",
+        "category": "Fort",
+        "description": "A never-conquered island sea fort reached by sailboat."
+      }
+    ],
+    "nearby_major_destination": "goa-south",
+    "activities": [
+      "Boating",
+      "Heritage walks",
+      "Photography"
+    ],
+    "travel_info": {
+      "local_transport": "Taxi from Mumbai (~165 km) or Alibaug (~55 km), then sailboat.",
+      "suggested_duration": "1 day",
+      "budget": "Budget."
+    },
+    "safety": {
+      "tips": [
+        "Boat crossings depend on tide and weather.",
+        "Wear a life jacket during the crossing."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "reis-magos-fort",
+    "name": "Reis Magos Fort",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Goa",
+    "state_slug": "goa",
+    "region": "North Goa",
+    "lat": 15.5057,
+    "lng": 73.8067,
+    "type": "fort",
+    "categories": [
+      "Heritage",
+      "Culture"
+    ],
+    "tags": [
+      "Heritage",
+      "Culture",
+      "Unexplored"
+    ],
+    "rating": 4.4,
+    "reviews": 6100,
+    "popularity": 32,
+    "data_quality": 0.77,
+    "short_intro": "A restored 16th-century Portuguese fort across the Mandovi river from Panaji, now a cultural centre with sweeping river views.",
+    "overview": "Reis Magos Fort was built by the Portuguese in 1551 to guard the entrance to the Mandovi river and later restored into a cultural centre and art gallery, reopened in 2012 after years of decay. Its whitewashed ramparts overlook the river toward Panaji and Fort Aguada, offering an uncrowded, restored counterpoint to Goa's more famous but heavily touristed forts, with rotating art exhibitions inside its old barracks.",
+    "images": {
+      "hero": "places/reis-magos-fort/hero.jpg",
+      "gallery": [
+        "places/reis-magos-fort/fort.jpg",
+        "places/reis-magos-fort/river-view.jpg"
+      ],
+      "hero_credit": "Rajib Ghosh · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Reis_Magos_Fort_-_View_from_Mandovi_River.JPG",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/reis-magos-fort/card.jpg"
+    },
+    "best_season": [
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "November to February.",
+    "attractions": [
+      {
+        "name": "Reis Magos Fort Gallery",
+        "category": "Culture",
+        "description": "A restored fort now hosting art exhibitions with Mandovi river views."
+      }
+    ],
+    "nearby_major_destination": "goa-panaji",
+    "activities": [
+      "Photography",
+      "Heritage walks",
+      "Cultural experiences"
+    ],
+    "travel_info": {
+      "local_transport": "Short ferry or drive across the Mandovi from Panaji.",
+      "suggested_duration": "1–2 hours",
+      "budget": "Low."
+    },
+    "safety": {
+      "tips": [
+        "Check gallery opening days before visiting."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "chorla-ghat",
+    "name": "Chorla Ghat",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Goa",
+    "state_slug": "goa",
+    "region": "Western Ghats border (Goa-Karnataka)",
+    "lat": 15.5967,
+    "lng": 74.1039,
+    "type": "waterfall",
+    "categories": [
+      "Nature",
+      "Waterfall",
+      "Adventure"
+    ],
+    "tags": [
+      "Nature",
+      "Waterfalls",
+      "Unexplored"
+    ],
+    "rating": 4.6,
+    "reviews": 3400,
+    "popularity": 28,
+    "data_quality": 0.72,
+    "short_intro": "A misty Western Ghats mountain pass on Goa's border, hiding waterfalls and biodiverse forest largely unknown to beach-focused visitors.",
+    "overview": "Chorla Ghat sits where Goa, Karnataka and Maharashtra meet in the Western Ghats, a cool, forested plateau far removed from Goa's coastal image. Vajra and Devil's Canyon waterfalls tumble through dense forest here, part of a biodiversity corridor rich enough that new frog and plant species have been documented in the area in recent years, making it a genuine off-the-radar detour for travellers willing to leave the beaches behind.",
+    "images": {
+      "hero": "places/chorla-ghat/hero.jpg",
+      "gallery": [
+        "places/chorla-ghat/waterfall.jpg",
+        "places/chorla-ghat/forest.jpg"
+      ],
+      "hero_credit": "Vikram2784 · CC0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Chorla_ghat_sep_2020.ogv",
+      "hero_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "hero_small": "places/chorla-ghat/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January"
+    ],
+    "best_time_to_visit": "Just after monsoon (October-November) for full waterfall flow with safer access.",
+    "attractions": [
+      {
+        "name": "Vajra Waterfall",
+        "category": "Waterfall",
+        "description": "A forest waterfall reached via a moderate trek."
+      }
+    ],
+    "nearby_major_destination": "goa-panaji",
+    "activities": [
+      "Trekking",
+      "Photography"
+    ],
+    "travel_info": {
+      "local_transport": "Taxi from Panaji (~65 km).",
+      "suggested_duration": "1 day",
+      "budget": "Budget."
+    },
+    "safety": {
+      "tips": [
+        "Trails can be slippery and are best done with a local guide.",
+        "Mobile network is patchy in the area."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "mandu",
+    "name": "Mandu",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Madhya Pradesh",
+    "state_slug": "madhya-pradesh",
+    "region": "Dhar district",
+    "lat": 22.335,
+    "lng": 75.3861,
+    "type": "heritage",
+    "categories": [
+      "Heritage",
+      "Historical",
+      "Nature"
+    ],
+    "tags": [
+      "History",
+      "Heritage",
+      "Unexplored"
+    ],
+    "rating": 4.6,
+    "reviews": 9200,
+    "popularity": 36,
+    "data_quality": 0.8,
+    "short_intro": "A ruined Afghan-era hilltop city of palaces and pavilions, famed for the romantic legend of Baz Bahadur and Rani Roopmati.",
+    "overview": "Mandu (Mandav) was the fortified capital of the Malwa Sultanate, its ruins scattered across a plateau of ravines and lakes, including the elegant Jahaz Mahal ('Ship Palace') built between two reservoirs to appear afloat, and the tomb of Hoshang Shah, said to have influenced the Taj Mahal's design. The hilltop pavilion linked to the legendary romance between Sultan Baz Bahadur and Hindu queen Rani Roopmati adds a layer of folklore rarely matched by better-known Central India monuments.",
+    "images": {
+      "hero": "places/mandu/hero.jpg",
+      "gallery": [
+        "places/mandu/jahaz-mahal.jpg",
+        "places/mandu/roopmati-pavilion.jpg"
+      ]
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "July",
+      "August"
+    ],
+    "best_time_to_visit": "October to February for clear views; monsoon turns the plateau vividly green.",
+    "attractions": [
+      {
+        "name": "Jahaz Mahal",
+        "category": "Heritage",
+        "description": "A palace built between two lakes, designed to appear as a floating ship."
+      },
+      {
+        "name": "Roopmati's Pavilion",
+        "category": "Heritage",
+        "description": "A hilltop pavilion tied to a famous local romantic legend."
+      }
+    ],
+    "nearby_major_destination": "ujjain",
+    "activities": [
+      "Heritage walks",
+      "Photography",
+      "Cycling"
+    ],
+    "travel_info": {
+      "local_transport": "Taxi from Indore (~100 km).",
+      "suggested_duration": "1–2 days",
+      "budget": "Budget."
+    },
+    "safety": {
+      "tips": [
+        "Ruins are spread out — hire a bicycle or auto to cover the site.",
+        "Carry water in the dry season."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "pachmarhi",
+    "name": "Pachmarhi",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Madhya Pradesh",
+    "state_slug": "madhya-pradesh",
+    "region": "Satpura range",
+    "lat": 22.4676,
+    "lng": 78.4336,
+    "type": "hill_station",
+    "categories": [
+      "Nature",
+      "Mountains",
+      "Adventure"
+    ],
+    "tags": [
+      "Nature",
+      "Mountains",
+      "Unexplored"
+    ],
+    "rating": 4.5,
+    "reviews": 11000,
+    "popularity": 38,
+    "data_quality": 0.79,
+    "short_intro": "Central India's only hill station, a plateau of waterfalls, ancient cave paintings and colonial-era bungalows in the Satpura range.",
+    "overview": "Pachmarhi sits on a forested plateau in the Satpura range, developed by the British as a hot-weather retreat and now Madhya Pradesh's sole hill station, ringed by waterfalls like Bee Falls and Rajat Prapat. The surrounding Satpura Tiger Reserve and Pandav caves, decorated with prehistoric rock paintings, give the area both a wildlife and deep-history dimension well beyond most travellers' image of the Central Indian plains.",
+    "images": {
+      "hero": "places/pachmarhi/hero.jpg",
+      "gallery": [
+        "places/pachmarhi/bee-falls.jpg",
+        "places/pachmarhi/pandav-caves.jpg"
+      ],
+      "hero_credit": "Abhayashok · CC BY-SA 3.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Pachmarhi_valley_Madhya_Pradesh_INDIA.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "hero_small": "places/pachmarhi/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "best_time_to_visit": "October to March; monsoon is lush but trails get slippery.",
+    "attractions": [
+      {
+        "name": "Bee Falls",
+        "category": "Waterfall",
+        "description": "A popular waterfall for swimming near the town centre."
+      },
+      {
+        "name": "Pandav Caves",
+        "category": "Heritage",
+        "description": "Ancient rock-cut caves with prehistoric paintings."
+      }
+    ],
+    "nearby_major_destination": "bandhavgarh",
+    "activities": [
+      "Trekking",
+      "Wildlife safari",
+      "Photography"
+    ],
+    "travel_info": {
+      "local_transport": "Taxi from Pipariya railway station (~52 km).",
+      "suggested_duration": "2 days",
+      "budget": "Moderate."
+    },
+    "safety": {
+      "tips": [
+        "Some waterfall pools have currents; swim in marked safe zones only."
+      ],
+      "emergency": "Dial 112."
+    }
+  }
+]

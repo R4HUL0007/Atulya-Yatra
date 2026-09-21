@@ -1,0 +1,378 @@
+[
+  {
+    "slug": "khajuraho",
+    "name": "Khajuraho",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Madhya Pradesh",
+    "state_slug": "madhya-pradesh",
+    "region": "Chhatarpur district",
+    "lat": 24.8318,
+    "lng": 79.9199,
+    "type": "heritage",
+    "categories": [
+      "Heritage",
+      "Historical",
+      "Spiritual"
+    ],
+    "tags": [
+      "History",
+      "Heritage",
+      "Popular"
+    ],
+    "rating": 4.6,
+    "reviews": 33000,
+    "popularity": 70,
+    "data_quality": 0.9,
+    "short_intro": "A UNESCO temple complex famed for intricately carved Chandela-era sculpture, including its celebrated erotic friezes.",
+    "overview": "Built by the Chandela dynasty between the 9th and 12th centuries, Khajuraho's surviving temples are renowned worldwide for their exquisite sandstone carving, depicting deities, mythological scenes, daily life and, on a portion of the panels, explicit erotic sculpture believed to reflect Tantric philosophy or serve as a rite-of-passage lesson. The Western Group, including the towering Kandariya Mahadev temple, holds the finest and best-preserved carvings.",
+    "images": {
+      "hero": "places/khajuraho/hero.jpg",
+      "gallery": [
+        "places/khajuraho/kandariya-mahadev.jpg",
+        "places/khajuraho/carvings.jpg",
+        "places/khajuraho/western-group.jpg"
+      ],
+      "hero_credit": "PLBechly · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:1_Khajuraho.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/khajuraho/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to February; the Khajuraho Dance Festival runs in February.",
+    "attractions": [
+      {
+        "name": "Kandariya Mahadev Temple",
+        "category": "Heritage",
+        "description": "The largest and most ornately carved temple in the Western Group."
+      },
+      {
+        "name": "Lakshmana Temple",
+        "category": "Heritage",
+        "description": "One of the earliest and best-preserved Chandela temples."
+      }
+    ],
+    "culture": {
+      "summary": "Khajuraho's carvings are studied globally as a peak of Indian temple sculpture, and the annual dance festival keeps classical performance traditions alive on-site.",
+      "art_handicrafts": [
+        "Sandstone carving traditions still practised locally"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Khajuraho Dance Festival",
+        "time": "February",
+        "description": "A week of classical Indian dance performed against the temple backdrop.",
+        "significance": "Connects the site's sculptural heritage with living performing arts."
+      }
+    ],
+    "food": [
+      {
+        "name": "Bhutte ki Kees",
+        "type": "Snack",
+        "description": "Grated corn cooked with spices and milk, a Madhya Pradesh specialty."
+      }
+    ],
+    "activities": [
+      "Heritage walks",
+      "Photography",
+      "Cultural experiences"
+    ],
+    "travel_info": {
+      "airport": "Khajuraho Airport (HJR).",
+      "railway": "Khajuraho railway station.",
+      "local_transport": "Autos and cycles between temple groups.",
+      "suggested_duration": "1–2 days",
+      "budget": "Moderate."
+    },
+    "safety": {
+      "tips": [
+        "Hire an ASI-approved guide for context on the carvings.",
+        "Carry water — limited shade among the temples."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "bandhavgarh",
+    "name": "Bandhavgarh National Park",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Madhya Pradesh",
+    "state_slug": "madhya-pradesh",
+    "region": "Umaria district",
+    "lat": 23.687,
+    "lng": 80.995,
+    "type": "wildlife",
+    "categories": [
+      "Wildlife",
+      "Nature",
+      "Adventure"
+    ],
+    "tags": [
+      "Wildlife",
+      "Nature",
+      "Popular"
+    ],
+    "rating": 4.7,
+    "reviews": 26000,
+    "popularity": 68,
+    "data_quality": 0.9,
+    "short_intro": "One of India's best tiger-sighting reserves, centred on an ancient hilltop fort within the park.",
+    "overview": "Bandhavgarh has one of the highest tiger densities of any Indian reserve, making it a top choice for travellers hoping to actually see a wild tiger rather than just its pugmarks. The park is built around a 2,000-year-old hilltop fort, still containing ancient rock-cut caves and a reclining Vishnu statue, giving safaris an added historical layer beyond the wildlife.",
+    "images": {
+      "hero": "places/bandhavgarh/hero.jpg",
+      "gallery": [
+        "places/bandhavgarh/tiger.jpg",
+        "places/bandhavgarh/fort.jpg",
+        "places/bandhavgarh/safari.jpg"
+      ],
+      "hero_credit": "This Image was created by User:Archith . If you would like to use the image please mail me at archithrobber@gmail.com · CC BY-SA 3.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Tigress_in_Bandhavgarh_NP.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "hero_small": "places/bandhavgarh/card.jpg"
+    },
+    "best_season": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April"
+    ],
+    "best_time_to_visit": "November to April; closed during monsoon (July-Sept).",
+    "attractions": [
+      {
+        "name": "Bandhavgarh Fort",
+        "category": "Heritage",
+        "description": "An ancient fort within the core zone with rock-cut caves and inscriptions."
+      },
+      {
+        "name": "Tala Zone Safari",
+        "category": "Wildlife",
+        "description": "The park's core zone with the highest tiger-sighting frequency."
+      }
+    ],
+    "activities": [
+      "Wildlife safari",
+      "Photography"
+    ],
+    "food": [
+      {
+        "name": "Dal Bafla",
+        "type": "Meal",
+        "description": "Boiled-then-fried wheat balls served with dal, a Madhya Pradesh staple."
+      }
+    ],
+    "travel_info": {
+      "airport": "Jabalpur (~165 km) or Khajuraho (~240 km).",
+      "railway": "Umaria (~35 km) or Katni.",
+      "local_transport": "Safari jeeps booked through the forest department.",
+      "suggested_duration": "2 days",
+      "budget": "Moderate to premium."
+    },
+    "safety": {
+      "tips": [
+        "Book safari permits online well in advance.",
+        "Follow guide instructions strictly during safaris."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "ujjain",
+    "name": "Ujjain",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Madhya Pradesh",
+    "state_slug": "madhya-pradesh",
+    "region": "Malwa",
+    "lat": 23.1793,
+    "lng": 75.7849,
+    "type": "spiritual",
+    "categories": [
+      "Spiritual",
+      "Historical",
+      "Culture"
+    ],
+    "tags": [
+      "Spiritual",
+      "History",
+      "Popular"
+    ],
+    "rating": 4.6,
+    "reviews": 29000,
+    "popularity": 60,
+    "data_quality": 0.85,
+    "short_intro": "One of Hinduism's seven sacred cities and site of the Mahakaleshwar Jyotirlinga, host to the Simhastha Kumbh Mela.",
+    "overview": "Ujjain on the Shipra river is one of Hinduism's seven Sapta Puri sacred cities and holds the Mahakaleshwar Temple, one of twelve Jyotirlingas dedicated to Shiva, famous for its Bhasma Aarti performed with sacred ash before dawn. The city has also long served as an astronomical reference point in Indian tradition, home to a Vedic observatory (Jantar Mantar), and periodically hosts the Simhastha Kumbh Mela, one of the largest religious gatherings on Earth.",
+    "images": {
+      "hero": "places/ujjain/hero.jpg",
+      "gallery": [
+        "places/ujjain/mahakaleshwar.jpg",
+        "places/ujjain/shipra-ghat.jpg",
+        "places/ujjain/jantar-mantar.jpg"
+      ],
+      "hero_credit": "Ashverse · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Mahakaleshwar_Temple,_Ujjain.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/ujjain/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to February; Simhastha Kumbh occurs roughly every 12 years.",
+    "attractions": [
+      {
+        "name": "Mahakaleshwar Temple",
+        "category": "Spiritual",
+        "description": "One of the twelve Jyotirlinga shrines, famous for its pre-dawn Bhasma Aarti."
+      },
+      {
+        "name": "Ram Ghat",
+        "category": "Spiritual",
+        "description": "The main bathing ghat on the Shipra river, central to Kumbh Mela rituals."
+      },
+      {
+        "name": "Jantar Mantar Ujjain",
+        "category": "Heritage",
+        "description": "An 18th-century astronomical observatory built by Maharaja Jai Singh II."
+      }
+    ],
+    "festivals": [
+      {
+        "name": "Simhastha Kumbh Mela",
+        "time": "Cyclical (~every 12 years)",
+        "description": "One of the four Kumbh Mela sites, drawing millions of pilgrims.",
+        "significance": "Considered one of the most auspicious bathing festivals in Hinduism."
+      }
+    ],
+    "food": [
+      {
+        "name": "Poha-Jalebi",
+        "type": "Breakfast",
+        "description": "Flattened rice with a sweet fried jalebi, a Malwa-region breakfast staple."
+      }
+    ],
+    "activities": [
+      "Cultural experiences",
+      "Heritage walks",
+      "Photography"
+    ],
+    "travel_info": {
+      "airport": "Indore (~55 km).",
+      "railway": "Ujjain Junction.",
+      "local_transport": "Autos around temple areas.",
+      "suggested_duration": "1 day",
+      "budget": "Low."
+    },
+    "safety": {
+      "tips": [
+        "Bhasma Aarti requires early booking and modest dress.",
+        "Crowds swell heavily during Kumbh years."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "chitrakote-falls",
+    "name": "Chitrakote Falls",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Chhattisgarh",
+    "state_slug": "chhattisgarh",
+    "region": "Bastar",
+    "lat": 19.19,
+    "lng": 81.67,
+    "type": "waterfall",
+    "categories": [
+      "Nature",
+      "Waterfall",
+      "Adventure"
+    ],
+    "tags": [
+      "Nature",
+      "Waterfalls",
+      "Unexplored"
+    ],
+    "rating": 4.5,
+    "reviews": 7100,
+    "popularity": 42,
+    "data_quality": 0.8,
+    "short_intro": "Often called the 'Niagara of India', a broad horseshoe waterfall on the Indravati river in Bastar's tribal heartland.",
+    "overview": "Chitrakote Falls spans nearly 300 metres across the Indravati river, its horseshoe shape and thundering width during monsoon earning comparisons to Niagara Falls, though it is far less internationally known. The falls sit deep in Bastar, a region rich in Adivasi (tribal) culture, bronze Dhokra craftwork and the annual Bastar Dussehra, a festival distinct in form and meaning from the rest of India's Dussehra celebrations.",
+    "images": {
+      "hero": "places/chitrakote-falls/hero.jpg",
+      "gallery": [
+        "places/chitrakote-falls/falls.jpg",
+        "places/chitrakote-falls/monsoon.jpg",
+        "places/chitrakote-falls/boat.jpg"
+      ],
+      "hero_credit": "Iamg at English Wikipedia · CC BY-SA 3.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Chitrakot_waterfalls.JPG",
+      "hero_license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "hero_small": "places/chitrakote-falls/card.jpg"
+    },
+    "best_season": [
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "best_time_to_visit": "July to October for peak flow; winter shows a gentler, clearer falls.",
+    "attractions": [
+      {
+        "name": "Chitrakote Falls Viewpoint",
+        "category": "Nature",
+        "description": "The main viewing platform overlooking the falls' full width."
+      }
+    ],
+    "culture": {
+      "summary": "Bastar's Adivasi communities maintain distinct art, music and the Bastar Dussehra, a 75-day festival unrelated to the Ramayana-based Dussehra elsewhere in India."
+    },
+    "festivals": [
+      {
+        "name": "Bastar Dussehra",
+        "time": "September–October",
+        "description": "A months-long tribal festival built around chariot processions, unique to the region.",
+        "significance": "Celebrates the local deity Danteshwari, distinct from the mainstream Dussehra narrative."
+      }
+    ],
+    "activities": [
+      "Photography",
+      "Boating",
+      "Cultural experiences"
+    ],
+    "food": [
+      {
+        "name": "Chila",
+        "type": "Snack",
+        "description": "A rice-flour crepe typical of Chhattisgarhi cuisine."
+      }
+    ],
+    "travel_info": {
+      "airport": "Jagdalpur (~40 km) or Raipur (~300 km).",
+      "railway": "Jagdalpur railway station.",
+      "local_transport": "Taxis from Jagdalpur.",
+      "suggested_duration": "1 day",
+      "budget": "Low."
+    },
+    "safety": {
+      "tips": [
+        "Visit with a local guide in the interior Bastar region.",
+        "Rocks near the falls edge are slippery."
+      ],
+      "emergency": "Dial 112."
+    }
+  }
+]

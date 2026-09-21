@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% import "_macros.html" as ui %}
+{% block title %}{% if query %}Search: {{ query }}{% else %}Search{% endif %} — Atulya Yatra{% endblock %}
+
+{% block content %}
+<div class="container section">
+  <div class="section-head" style="text-align:left;margin:0 0 24px"><div class="eyebrow">Search</div><h2>{% if query %}Results for “{{ query }}”{% else %}Search Atulya Yatra{% endif %}</h2></div>
+  {% if live_unavailable %}<p class="live-note">We could not resolve a live location for “{{ query }}” right now. Here are the closest curated matches.</p>{% endif %}
+  <div class="search-box" style="max-width:620px;margin-bottom:36px">
+    <div class="search-field"><input type="text" value="{{ query }}" placeholder="Search a destination, city, state or landmark..." autocomplete="off"></div>
+    <div class="autocomplete"></div>
+  </div>
+  {% if grouped %}
+    {% set states = grouped.get('state') %}{% set dests = grouped.get('destination') %}{% set gems = grouped.get('hidden_gem') %}
+    {% if states %}<div class="block"><h2>States &amp; UTs</h2><div class="grid grid-4">{% for s in states %}<a class="card" href="{{ url_for('pages.state', slug=s.slug) }}"><div class="body"><h3 style="font-size:1rem">{{ s.name }}</h3><div class="place-state">{{ s.subtitle }}</div></div></a>{% endfor %}</div></div>{% endif %}
+    {% if dests %}<div class="block"><h2>Destinations</h2><div class="grid grid-3">{% for d in dests %}<a class="card" href="{{ url_for('pages.destination', slug=d.slug) }}"><div class="body"><h3>{{ d.name }}</h3><div class="place-state">{{ d.subtitle }}</div><span class="btn btn-sm btn-outline">Explore</span></div></a>{% endfor %}</div></div>{% endif %}
+    {% if gems %}<div class="block"><h2>Hidden gems</h2><div class="grid grid-3">{% for g in gems %}<a class="card" href="{{ url_for('pages.destination', slug=g.slug) }}"><div class="body"><h3>{{ g.name }}</h3><div class="place-state">{{ g.subtitle }}</div><span class="btn btn-sm btn-outline">Explore</span></div></a>{% endfor %}</div></div>{% endif %}
+    {% if not states and not dests and not gems %}<div class="empty"><p>Nothing matched “{{ query }}”.</p><a class="btn btn-outline" href="{{ url_for('pages.destinations') }}">Browse all destinations</a></div>{% endif %}
+  {% endif %}
+</div>
+{% endblock %}
