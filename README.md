@@ -160,13 +160,15 @@ tests/                 test suite
 
 ### Scripts
 
+All run standalone, e.g. `python scripts/validate_data.py`.
+
 | Script | Purpose |
 | --- | --- |
-| `fetch_places.py` | Pull place data from the Places API into `data/` |
-| `fetch_wiki_images.py` | Download photographs and record attribution |
-| `geo_audit.py` | Check coordinates for obvious errors |
-| `validate_data.py` | Schema-check the curated JSON |
-| `test_recommendations.py` | Spot-check recommendation output |
+| `validate_data.py` | Schema, coordinate sanity, slug uniqueness and state references. Exits non-zero on failure, so it can be wired into CI |
+| `geo_audit.py` | Coverage audit: attractions within 30 km and hidden gems within 100 km per destination, using the app's own distance function |
+| `fetch_wiki_images.py` | Download hero photography from Wikimedia Commons and record author and licence |
+| `fetch_places.py` | Discover POI candidates via Google Places for **moderated** enrichment. Results are never auto-promoted to hidden gems; a curator reviews them. Photo resource names are stored without API keys |
+| `test_recommendations.py` | Smoke test that different preferences actually produce different recommendations |
 
 ## Notes
 
