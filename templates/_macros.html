@@ -1,0 +1,101 @@
+{% macro place_card(place, show_distance=False, show_score=False, show_directions=False) %}
+{% set cat = (place.categories or [None])[0] %}
+<div class="card place-card">
+  <a class="card-media" href="{{ url_for('pages.destination', slug=place.slug) }}">
+    <div class="thumb">
+      {% if place.is_hidden_gem %}<span class="badge gem">Hidden Gem</span>{% endif %}
+      <img loading="lazy" src="{{ entity_img(place, 'place', width=900) }}"
+        srcset="{{ entity_srcset(place, 'place') }}"
+        sizes="(max-width: 720px) 92vw, (max-width: 1100px) 46vw, 400px"
+        alt="{{ place.name }}">
+    </div>
+  </a>
+  <div class="body">
+    <a class="card-title" href="{{ url_for('pages.destination', slug=place.slug) }}"><h3>{{ place.name }}</h3></a>
+    <div class="place-state">{{ place.state }}{% if place.region %} · {{ place.region }}{% endif %}</div>
+    <p class="place-desc">{{ place.short_intro or (place.overview | truncate_words(24)) }}</p>
+    <div class="card-foot">
+      {% if show_distance and place.distance_km is not none %}
+        <span class="badge dist">{{ place.distance_km }} km away</span>
+      {% elif place.rating %}
+        <span class="rating">Rated {{ place.rating }}</span>
+      {% else %}<span></span>{% endif %}
+      <a class="btn btn-sm btn-outline" href="{{ url_for('pages.destination', slug=place.slug) }}">Explore</a>
+    </div>
+    {% if show_directions %}<a class="btn btn-sm btn-ghost-dark directions-link" href="{{ directions_url(place) }}" target="_blank" rel="noopener noreferrer">Get Directions</a>{% endif %}
+  </div>
+</div>
+{% endmacro %}
+
+{% macro directions_button(entity, label='Get Directions', classes='btn btn-sm btn-outline') %}
+<a class="{{ classes }} directions-link" href="{{ directions_url(entity) }}" target="_blank" rel="noopener noreferrer">{{ label }}</a>
+{% endmacro %}
+
+{% macro gem_card(gem) %}
+<article class="gem-card">
+  <a class="gem-thumb" {% if gem.explore_url %}href="{{ gem.explore_url }}"{% endif %}>
+    <span class="badge gem">{{ gem.label or 'Hidden Gem' }}</span>
+    <img loading="lazy" src="{{ gem.image }}" alt="{{ gem.name }}">
+  </a>
+  <div class="gem-body">
+    <a class="gem-title" {% if gem.explore_url %}href="{{ gem.explore_url }}"{% endif %}><h3>{{ gem.name }}</h3></a>
+    <div class="gem-meta">
+      {% if gem.region %}<span>{{ gem.region }}</span>{% endif %}
+      {% if gem.category %}<span class="gem-cat">{{ gem.category }}</span>{% endif %}
+    </div>
+    {% if gem.description %}<p class="gem-desc">{{ gem.description }}</p>{% endif %}
+    <div class="gem-facts">
+      {% if gem.distance_km is not none %}<span>{{ gem.distance_km }} km away</span>{% endif %}
+      {% if gem.travel_time %}<span>{{ gem.travel_time }}</span>{% endif %}
+      {% if gem.rating %}<span class="rating">Rated {{ gem.rating }}</span>{% endif %}
+    </div>
+    {% if gem.why %}<p class="gem-why">{{ gem.why }}</p>{% endif %}
+    <div class="gem-actions">
+      {% if gem.explore_url %}<a class="btn btn-sm" href="{{ gem.explore_url }}">Explore</a>{% endif %}
+      <a class="btn btn-sm btn-outline directions-link" href="{{ gem.directions_url }}" target="_blank" rel="noopener noreferrer">Get Directions</a>
+    </div>
+  </div>
+</article>
+{% endmacro %}
+
+{% macro search_box(placeholder='Search a destination, city, state or landmark...') %}
+<div class="search-box">
+  <div class="search-field">
+    <input type="text" placeholder="{{ placeholder }}" autocomplete="off" aria-label="Search destinations">
+    <button type="button" class="search-go" aria-label="Search">Search</button>
+  </div>
+  <div class="autocomplete"></div>
+</div>
+{% endmacro %}
+
+{# A place discovered live through Google Places. It has no curated guide yet,
+   so it always links to the live /place page rather than /destination. #}
+{% macro live_card(card) %}
+<div class="card place-card">
+  <a class="card-media" href="{{ card.explore_url }}">
+    <div class="thumb">
+      {% if card.label %}<span class="badge gem">{{ card.label }}</span>{% endif %}
+      <img loading="lazy" src="{{ card.image }}" alt="{{ card.name }}">
+    </div>
+  </a>
+  <div class="body">
+    <a class="card-title" href="{{ card.explore_url }}"><h3>{{ card.name }}</h3></a>
+    <div class="place-state">{{ card.type or card.state }}</div>
+    {% if card.address %}<p class="place-desc">{{ card.address | truncate_words(14) }}</p>{% endif %}
+    <div class="card-foot">
+      {% if card.rating %}
+        <span class="rating">Rated {{ card.rating }}{% if card.reviews %} · {{ card.reviews }} reviews{% endif %}</span>
+      {% else %}<span></span>{% endif %}
+      <a class="btn btn-sm btn-outline" href="{{ card.explore_url }}">Explore</a>
+    </div>
+  </div>
+</div>
+{% endmacro %}
+
+{# Compact photo tile used by the state gallery grids. #}
+{% macro photo_tile(href, image, label, sub='') %}
+<a class="state-gallery-tile" href="{{ href }}">
+  <img loading="lazy" src="{{ image }}" alt="{{ label }}">
+  <span class="sg-name">{{ label }}{% if sub %} · {{ sub }}{% endif %}</span>
+</a>
+{% endmacro %}

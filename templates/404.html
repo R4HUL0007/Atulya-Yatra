@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Not found — Atulya Yatra{% endblock %}
+
+{% block content %}
+<div class="container section">
+  <div class="empty" style="padding:90px 20px">
+    <h1 style="font-size:4rem;color:var(--primary)">404</h1>
+    <h2>This trail leads nowhere</h2>
+    <p class="muted">The page you're looking for doesn't exist. Let's get you back on the road.</p>
+    <div style="margin-top:20px;display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="btn" href="{{ url_for('pages.index') }}">Back home</a>
+      <a class="btn btn-outline" href="{{ url_for('pages.destinations') }}">Browse destinations</a>
+    </div>
+  </div>
+</div>
+{% endblock %}

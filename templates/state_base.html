@@ -1,0 +1,42 @@
+{# Shared shell for every state page.
+
+   Each part of a state (destinations, gems, gallery, culture, trips, tips) is a
+   real page with its own URL rather than an anchor on one long page, so it can
+   be linked, bookmarked and paged independently. #}
+{% extends "base.html" %}
+
+{% block title %}{{ self.state_section() }} — {{ state.name }} — Atulya Yatra{% endblock %}
+{% block description %}{% block state_description %}{{ state.intro }}{% endblock %}{% endblock %}
+
+{% block state_section %}Overview{% endblock %}
+
+{% block content %}
+<section class="state-hero">
+  <img class="bg" src="{{ entity_img(state, 'state', width=2560) }}"
+    srcset="{{ entity_srcset(state, 'state', widths=(1280, 1920, 2560)) }}" sizes="100vw"
+    alt="{{ state.name }}">
+  <div class="scrim"></div>
+  <div class="container sh-inner">
+    <div class="eyebrow hero-eyebrow">
+      {{ 'Union Territory' if state.type == 'union_territory' else 'State' }} · {{ self.state_section() }}
+    </div>
+    <h1>{% block state_heading %}{{ state.name }}{% endblock %}</h1>
+    <p class="hero-summary">{% block state_lead %}{{ state.intro }}{% endblock %}</p>
+    <div class="meta hero-meta">
+      {% if state.languages %}<span>Languages: {{ state.languages | join(', ') }}</span>{% endif %}
+      {% if state.best_time_to_visit %}<span>Best time: {{ state.best_time_to_visit }}</span>{% endif %}
+    </div>
+  </div>
+{# Credited on /credits, not over the photograph. #}
+</section>
+
+<nav class="section-nav state-nav" aria-label="{{ state.name }} pages"><div class="container section-nav-inner">
+  {% for item in state_nav %}
+  <a href="{{ url_for(item.endpoint, slug=state.slug) }}"
+    class="{{ 'active' if request.endpoint == item.endpoint }}"
+    {% if request.endpoint == item.endpoint %}aria-current="page"{% endif %}>{{ item.label }}</a>
+  {% endfor %}
+</div></nav>
+
+{% block state_content %}{% endblock %}
+{% endblock %}

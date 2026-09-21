@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Contact requests — Atulya Yatra Admin{% endblock %}
+{% block content %}
+<section class="container section admin-shell">
+  <header class="admin-head">
+    <div><div class="eyebrow">Private administration</div><h1>Traveller requests</h1><p class="muted">Review enquiries and turn approved custom-trip requests into draft itineraries.</p></div>
+    <div class="admin-actions"><a class="btn btn-sm" href="{{ url_for('admin.new_trip') }}">Create trip</a><a class="btn btn-sm btn-outline" href="{{ url_for('admin.trips') }}">Manage trips</a><form method="post" action="{{ url_for('admin.logout') }}"><input type="hidden" name="csrf_token" value="{{ admin_csrf_token() }}"><button class="btn btn-sm btn-outline" type="submit">Sign out</button></form></div>
+  </header>
+  <nav class="admin-filters" aria-label="Contact status">
+    <a class="{{ 'active' if not active_status }}" href="{{ url_for('admin.contacts') }}">All</a>
+    {% for status in statuses %}<a class="{{ 'active' if active_status == status }}" href="{{ url_for('admin.contacts', status=status) }}">{{ status|title }}</a>{% endfor %}
+  </nav>
+  {% if contacts %}
+    <div class="admin-list">
+      {% for contact in contacts %}
+        <article class="admin-card contact-record">
+          <div class="record-head"><div><span class="status-pill {{ contact.status }}">{{ contact.status }}</span><h2>{{ contact.name }}</h2><a href="mailto:{{ contact.email }}">{{ contact.email }}</a></div><time>{{ contact.created_at.strftime('%d %b %Y, %H:%M') }}</time></div>
+          <div class="place-state">{{ contact.request_type.replace('_', ' ')|title }}</div>
+          <p class="contact-message">{{ contact.message }}</p>
+          <div class="record-actions">
+            <a class="btn btn-sm" href="{{ url_for('admin.new_trip', contact=contact.id) }}">Create trip from request</a>
+            <form method="post" action="{{ url_for('admin.update_contact_status', contact_id=contact.id) }}"><input type="hidden" name="csrf_token" value="{{ admin_csrf_token() }}"><select name="status" aria-label="Status for {{ contact.name }}">{% for status in statuses %}<option value="{{ status }}" {{ 'selected' if status == contact.status }}>{{ status|title }}</option>{% endfor %}</select><button class="btn btn-sm btn-outline" type="submit">Update</button></form>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  {% else %}<div class="empty admin-card">No contact requests match this view.</div>{% endif %}
+</section>
+{% endblock %}

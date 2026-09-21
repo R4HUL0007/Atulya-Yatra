@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Explore Indian States & UTs — Atulya Yatra{% endblock %}
+
+{% block content %}
+<section class="state-hero">
+  {% if hero_state %}
+  <img class="bg" src="{{ entity_img(hero_state, 'state', width=2560) }}"
+    srcset="{{ entity_srcset(hero_state, 'state', widths=(1280, 1920, 2560)) }}" sizes="100vw"
+    alt="{{ hero_state.name }}">
+  {% endif %}
+  <div class="scrim"></div>
+  <div class="container sh-inner">
+    <div class="eyebrow hero-eyebrow">Explore India</div>
+    <h1 style="color:#fff">States &amp; Union Territories</h1>
+    <p class="hero-summary" style="max-width:600px">All {{ total }} states and union territories, each a tourism hub of culture, food, festivals and destinations.</p>
+  </div>
+{# Credited on /credits, not over the photograph. #}
+</section>
+
+<div class="container section">
+  {% for label, states in grouped.items() %}
+  {% if states %}
+  <div class="section-head" style="text-align:left;margin-left:0">
+    <h2>{{ label }}s <span class="muted" style="font-size:1rem">({{ states|length }})</span></h2>
+  </div>
+  <div class="grid grid-4" style="margin-bottom:40px">
+    {% for state in states %}
+    <a class="card" href="{{ url_for('pages.state', slug=state.slug) }}">
+      <div class="thumb" style="aspect-ratio:4/3">
+        <img loading="lazy" src="{{ entity_img(state, 'state', width=700) }}" alt="{{ state.name }}">
+      </div>
+      <div class="body">
+        <h3 style="font-size:1.02rem">{{ state.name }}</h3>
+        <p class="place-desc">{{ state.intro | truncate_words(16) }}</p>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+  {% endif %}
+  {% endfor %}
+</div>
+{% endblock %}

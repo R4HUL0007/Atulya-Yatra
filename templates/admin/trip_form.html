@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Create trip — Atulya Yatra Admin{% endblock %}
+{% block content %}
+<section class="container section admin-shell">
+  <header class="admin-head"><div><div class="eyebrow">Private administration</div><h1>Create a custom trip</h1><p class="muted">Save privately as a draft, or publish immediately after reviewing every detail.</p></div><div class="admin-actions"><a class="btn btn-sm btn-outline" href="{{ url_for('admin.trips') }}">Cancel</a></div></header>
+  {% if errors %}<div class="admin-alert"><strong>Please correct these fields:</strong><ul>{% for error in errors %}<li>{{ error }}</li>{% endfor %}</ul></div>{% endif %}
+  <form method="post" class="admin-card admin-trip-form">
+    <input type="hidden" name="csrf_token" value="{{ admin_csrf_token() }}">
+    <div class="form-grid">
+      <div class="field"><label for="name">Trip name</label><input id="name" name="name" maxlength="180" value="{{ form.get('name', '') }}" required></div>
+      <div class="field"><label for="slug">URL slug</label><input id="slug" name="slug" maxlength="120" pattern="[a-z0-9]+(?:-[a-z0-9]+)*" value="{{ form.get('slug', '') }}" placeholder="auto-generated-if-empty"></div>
+      <div class="field"><label for="state_slug">State or union territory</label><select id="state_slug" name="state_slug" required><option value="">Select one</option>{% for state in states %}<option value="{{ state.slug }}" {{ 'selected' if form.get('state_slug') == state.slug }}>{{ state.name }}</option>{% endfor %}</select></div>
+      <div class="field"><label for="duration_days">Duration in days</label><input id="duration_days" name="duration_days" type="number" min="1" max="30" value="{{ form.get('duration_days', '') }}" required></div>
+      <div class="field form-span-2"><label for="source_contact_id">Source contact request</label><select id="source_contact_id" name="source_contact_id"><option value="">No linked request</option>{% for contact in contacts %}<option value="{{ contact.id }}" {{ 'selected' if form.get('source_contact_id', request.args.get('contact', ''))|string == contact.id|string }}>#{{ contact.id }} — {{ contact.name }} ({{ contact.email }})</option>{% endfor %}</select></div>
+      <div class="field form-span-2"><label for="overview">Overview</label><textarea id="overview" name="overview" rows="5" minlength="30" maxlength="5000" required>{{ form.get('overview', '') }}</textarea></div>
+      <div class="field"><label for="best_season">Best season</label><textarea id="best_season" name="best_season" rows="3" placeholder="October, November, March">{{ form.get('best_season', '') }}</textarea></div>
+      <div class="field"><label for="themes">Themes</label><textarea id="themes" name="themes" rows="3" placeholder="Nature, Culture, Heritage">{{ form.get('themes', '') }}</textarea></div>
+      <div class="field form-span-2"><label for="destinations">Destination slugs</label><textarea id="destinations" name="destinations" rows="3" placeholder="udaipur, kumbhalgarh">{{ form.get('destinations', '') }}</textarea><small>Use slugs from the curated destination catalogue. Leave blank to derive them from itinerary days.</small></div>
+      <div class="field"><label for="activities">Activities</label><textarea id="activities" name="activities" rows="4">{{ form.get('activities', '') }}</textarea></div>
+      <div class="field"><label for="recommended_experiences">Recommended experiences</label><textarea id="recommended_experiences" name="recommended_experiences" rows="4">{{ form.get('recommended_experiences', '') }}</textarea></div>
+      <div class="field form-span-2"><label for="itinerary">Day-by-day itinerary JSON</label><textarea id="itinerary" name="itinerary" rows="14" spellcheck="false" required>{{ form.get('itinerary', '[\n  {"day": 1, "title": "Arrival", "places": [], "detail": "Arrival, hotel check-in and a relaxed local orientation."}\n]') }}</textarea><small>Include exactly one object per day. Place values must be existing destination slugs.</small></div>
+      <div class="field"><label for="travel_tips">Travel tips</label><textarea id="travel_tips" name="travel_tips" rows="4">{{ form.get('travel_tips', '') }}</textarea></div>
+      <div class="field"><label for="hero_image">Optional hero image</label><input id="hero_image" name="hero_image" maxlength="400" value="{{ form.get('hero_image', '') }}" placeholder="Leave blank for a Google Places photo"><small>Use an existing static image path or an HTTPS image URL.</small></div>
+    </div>
+    <label class="check-field"><input type="checkbox" name="publish" {{ 'checked' if form.get('publish') == 'on' }}> Publish this trip immediately</label>
+    <div class="admin-actions"><button class="btn" type="submit">Save trip</button><a class="btn btn-outline" href="{{ url_for('admin.trips') }}">Cancel</a></div>
+  </form>
+</section>
+{% endblock %}

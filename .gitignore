@@ -1,0 +1,41 @@
+# --- secrets -----------------------------------------------------------------
+# Never commit. Holds the Google Maps and Gemini API keys.
+.env
+.env.*
+!.env.example
+
+# --- python ------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# --- runtime data ------------------------------------------------------------
+# SQLite holds visitor feedback, enquiries, community submissions and assistant
+# conversations, so it stays local.
+instance/
+*.db
+*.sqlite3
+*.sqlite3-query
+
+# --- the previous version of the site ----------------------------------------
+# A stale clone of this same repository sits in Atulya-Yatra/. It is superseded
+# by the project at the repository root and must not be committed inside itself.
+Atulya-Yatra/
+
+# --- scratch -----------------------------------------------------------------
+# Throwaway diagnostic scripts and their output are prefixed with an underscore.
+_*.ps1
+_*.txt
+_*.py
+_*.log
+
+# --- editor / OS -------------------------------------------------------------
+.kiro/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

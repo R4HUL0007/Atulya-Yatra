@@ -1,26 +1,36 @@
 {% extends "base.html" %}
+{% block title %}Contact &amp; Custom Trips — Atulya Yatra{% endblock %}
 
 {% block content %}
-<div class="contact-header text-center" style="background-image: url('{{ url_for('static', filename='images/contact-bg.jpg') }}'); height: 300px; background-size: cover; background-position: center;">
-    <h1 class="display-4 text-white" data-aos="fade-down">Contact Support</h1>
-</div>
-
-<div class="mt-5" data-aos="fade-up">
-    <h3 class="text-center mb-4">Get in Touch</h3>
-    <form method="POST" action="{{ url_for('contact') }}">
-        <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
-        </div>
-        <div class="form-group">
-            <label for="email">Email address</label>
-            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
-        </div>
-        <div class="form-group">
-            <label for="message">Message</label>
-            <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+<div class="container section">
+  <div class="layout">
+    <div class="main">
+      <div class="eyebrow">Plan with our team</div>
+      <h2>Request a custom trip</h2>
+      <p class="muted" style="max-width:620px">Tell us where you want to go, your dates, group size, interests and approximate budget. Your request stays private while an administrator reviews it. A trip appears publicly only after it is deliberately published.</p>
+      <form method="POST" action="{{ url_for('pages.contact') }}" style="max-width:620px;margin-top:20px">
+        <div class="field"><label for="request_type">How can we help?</label><select id="request_type" name="request_type"><option value="custom_trip">Create a custom trip</option><option value="general">General question</option><option value="destination_suggestion">Suggest a destination</option></select></div>
+        <div class="field"><label for="name">Name</label><input id="name" name="name" minlength="2" maxlength="120" autocomplete="name" required></div>
+        <div class="field"><label for="email">Email</label><input id="email" type="email" name="email" maxlength="200" autocomplete="email" required></div>
+        <div class="field"><label for="message">Trip details or message</label><textarea id="message" name="message" rows="7" minlength="10" maxlength="5000" placeholder="Travel dates, travellers, preferred places, interests, pace and budget…" required></textarea></div>
+        <button class="btn" type="submit">Send private request</button>
+      </form>
+    </div>
+    <aside class="aside">
+      <div class="panel">
+        <h3>What happens next</h3>
+        <ol class="workflow-list"><li>Your message is saved for the private admin team.</li><li>An administrator prepares and reviews the itinerary.</li><li>The trip stays a draft until an administrator publishes it.</li></ol>
+        <a class="btn btn-sm btn-outline" href="{{ url_for('pages.trips') }}">Browse published trips</a>
+      </div>
+      <div class="panel">
+        <h3>Emergency</h3>
+        <ul class="info-list">
+          <li><strong>All-in-one</strong><span>112</span></li>
+          <li><strong>Ambulance</strong><span>108</span></li>
+          <li><strong>Tourist helpline</strong><span>1363</span></li>
+        </ul>
+      </div>
+    </aside>
+  </div>
 </div>
 {% endblock %}

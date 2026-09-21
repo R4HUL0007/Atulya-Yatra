@@ -1,0 +1,1660 @@
+[
+  {
+    "slug": "vadodara",
+    "name": "Vadodara",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Gujarat",
+    "state_slug": "gujarat",
+    "region": "Central Gujarat",
+    "lat": 22.3072,
+    "lng": 73.1812,
+    "type": "city",
+    "categories": [
+      "heritage",
+      "culture",
+      "city",
+      "architecture"
+    ],
+    "tags": [
+      "Culture",
+      "History",
+      "Architecture",
+      "Temples",
+      "Popular"
+    ],
+    "rating": 4.4,
+    "reviews": 4200,
+    "popularity": 74,
+    "data_quality": 0.95,
+    "short_intro": "The cultural capital of Gujarat, shaped by the royal Gaekwad dynasty and its palaces, museums and university.",
+    "overview": "Vadodara, historically known as Baroda, grew into a refined princely city under the Gaekwads of the Maratha confederacy. It is best known for the vast Laxmi Vilas Palace, the Maharaja Sayajirao University and a thriving arts and music scene. The city blends grand Indo-Saracenic architecture with a relaxed, liveable pace, making it an easy base for exploring central Gujarat.",
+    "images": {
+      "hero": "places/vadodara/hero.jpg",
+      "gallery": [
+        "places/vadodara/laxmi-vilas.jpg",
+        "places/vadodara/sayaji-baug.jpg",
+        "places/vadodara/museum.jpg",
+        "places/vadodara/kirti-mandir.jpg"
+      ],
+      "hero_credit": "Sharadsy · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:LakshmiVilas_Palace.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/vadodara/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to February, when the weather is dry and pleasant. Summers are hot and best avoided.",
+    "attractions": [
+      {
+        "name": "Laxmi Vilas Palace",
+        "category": "Heritage",
+        "description": "A sprawling Indo-Saracenic palace, reputedly several times larger than Buckingham Palace, still home to the royal family."
+      },
+      {
+        "name": "Sayaji Baug",
+        "category": "Park",
+        "description": "A large public garden with a zoo, planetarium and a toy train, laid out along the Vishwamitri river."
+      },
+      {
+        "name": "Maharaja Fateh Singh Museum",
+        "category": "Museum",
+        "description": "Royal art collection including works by Raja Ravi Varma."
+      },
+      {
+        "name": "Kirti Mandir",
+        "category": "Heritage",
+        "description": "The Gaekwad family cenotaph, decorated with murals by Nandalal Bose."
+      }
+    ],
+    "culture": {
+      "summary": "Vadodara is a university town with deep roots in classical music, painting and theatre. The Faculty of Fine Arts has shaped generations of Indian artists.",
+      "traditions": [
+        "Garba and Navratri celebrations",
+        "Classical music gharana traditions"
+      ],
+      "art_handicrafts": [
+        "Miniature painting",
+        "Contemporary fine art"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Navratri",
+        "time": "September–October",
+        "description": "Nine nights of Garba and Dandiya dance, among the most vibrant in Gujarat.",
+        "significance": "Devotion to goddess Amba, celebrated with community dance."
+      },
+      {
+        "name": "Uttarayan (Kite Festival)",
+        "time": "14 January",
+        "description": "The winter kite-flying festival fills the sky over the city.",
+        "significance": "Marks the sun's northward journey."
+      }
+    ],
+    "food": [
+      {
+        "name": "Sev Usal",
+        "type": "Street food",
+        "description": "Spicy white peas curry topped with sev, a Baroda specialty."
+      },
+      {
+        "name": "Lilva Kachori",
+        "type": "Snack",
+        "description": "Kachori stuffed with seasonal pigeon peas."
+      },
+      {
+        "name": "Gujarati Thali",
+        "type": "Meal",
+        "description": "A balanced platter of dals, sabzis, rotli, farsan and sweets."
+      }
+    ],
+    "activities": [
+      "Photography",
+      "Heritage walks",
+      "Museum visits",
+      "Cultural experiences"
+    ],
+    "travel_info": {
+      "airport": "Vadodara Airport (BDQ), ~6 km from the centre.",
+      "railway": "Vadodara Junction, a major stop on the Mumbai–Delhi line.",
+      "bus": "Well connected by state and private buses across Gujarat.",
+      "local_transport": "Autos, app cabs and city buses.",
+      "suggested_duration": "1–2 days",
+      "budget": "Moderate; comfortable mid-range stays and affordable food."
+    },
+    "safety": {
+      "tips": [
+        "Generally very safe for travellers, including solo visitors.",
+        "Carry water and sun protection in summer."
+      ],
+      "emergency": "Dial 112 for emergencies; 108 for ambulance.",
+      "etiquette": [
+        "Dress modestly at temples and heritage sites."
+      ]
+    }
+  },
+  {
+    "slug": "agra",
+    "name": "Agra",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Uttar Pradesh",
+    "state_slug": "uttar-pradesh",
+    "region": "Braj / Western Uttar Pradesh",
+    "lat": 27.1767,
+    "lng": 78.0081,
+    "type": "heritage",
+    "categories": [
+      "heritage",
+      "history",
+      "architecture",
+      "city"
+    ],
+    "tags": [
+      "History",
+      "Architecture",
+      "Heritage",
+      "Temples",
+      "Popular"
+    ],
+    "rating": 4.6,
+    "reviews": 98000,
+    "popularity": 98,
+    "data_quality": 0.97,
+    "short_intro": "Home of the Taj Mahal and a trio of Mughal World Heritage Sites on the banks of the Yamuna.",
+    "overview": "Agra was the seat of the Mughal empire at its zenith and preserves three UNESCO World Heritage Sites: the Taj Mahal, Agra Fort and nearby Fatehpur Sikri. Beyond the marble mausoleum, the city rewards travellers who linger with riverside views, Mughal gardens and a living tradition of marble inlay craft.",
+    "images": {
+      "hero": "places/agra/hero.jpg",
+      "gallery": [
+        "places/agra/taj-mahal.jpg",
+        "places/agra/agra-fort.jpg",
+        "places/agra/mehtab-bagh.jpg",
+        "places/agra/itmad-ud-daulah.jpg"
+      ],
+      "hero_credit": "Yann · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Taj_Mahal,_Agra,_India.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/agra/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "February",
+      "March"
+    ],
+    "best_time_to_visit": "October to March. Visit the Taj at sunrise to avoid crowds and harsh light. Closed on Fridays.",
+    "attractions": [
+      {
+        "name": "Taj Mahal",
+        "category": "Heritage",
+        "description": "The ivory-white marble mausoleum built by Shah Jahan for Mumtaz Mahal, a UNESCO World Heritage Site."
+      },
+      {
+        "name": "Agra Fort",
+        "category": "Fort",
+        "description": "A red-sandstone Mughal fort and palace complex, also a World Heritage Site."
+      },
+      {
+        "name": "Mehtab Bagh",
+        "category": "Garden",
+        "description": "A riverside Mughal garden offering the classic reflected view of the Taj at sunset."
+      },
+      {
+        "name": "Itmad-ud-Daulah",
+        "category": "Heritage",
+        "description": "The delicate 'Baby Taj', an early marble tomb that influenced the Taj Mahal."
+      }
+    ],
+    "culture": {
+      "summary": "Agra carries a strong Mughal legacy in its cuisine, crafts and Urdu heritage. Marble inlay (pietra dura) is still practised by descendants of the Taj artisans.",
+      "traditions": [
+        "Mughlai culinary tradition",
+        "Marble inlay craftsmanship"
+      ],
+      "art_handicrafts": [
+        "Marble pietra dura",
+        "Leather goods",
+        "Zardozi embroidery"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Taj Mahotsav",
+        "time": "February",
+        "description": "A ten-day arts, crafts and food festival celebrating the region's heritage.",
+        "significance": "Showcases Braj culture and craftsmanship."
+      }
+    ],
+    "food": [
+      {
+        "name": "Agra Petha",
+        "type": "Sweet",
+        "description": "Translucent candied ash-gourd sweet, the city's signature."
+      },
+      {
+        "name": "Mughlai Curries",
+        "type": "Meal",
+        "description": "Rich, slow-cooked kebabs and gravies from the Mughal kitchen."
+      },
+      {
+        "name": "Bedai and Jalebi",
+        "type": "Breakfast",
+        "description": "Spicy stuffed puri with a sweet jalebi, a classic Agra morning."
+      }
+    ],
+    "activities": [
+      "Photography",
+      "Heritage walks",
+      "Cultural experiences"
+    ],
+    "travel_info": {
+      "airport": "Agra Airport (AGR); most travellers use Delhi (~230 km).",
+      "railway": "Agra Cantt is well connected; the Gatimaan Express reaches from Delhi in ~100 minutes.",
+      "bus": "Frequent buses on the Yamuna Expressway from Delhi.",
+      "local_transport": "Autos, e-rickshaws and cabs; battery vehicles near the Taj.",
+      "suggested_duration": "1–2 days",
+      "budget": "Moderate; a wide range of stays from budget to luxury."
+    },
+    "safety": {
+      "tips": [
+        "Beware of unofficial 'guides' and touts around the Taj.",
+        "Buy tickets online to skip queues."
+      ],
+      "emergency": "Dial 112; tourist police operate around major monuments.",
+      "etiquette": [
+        "Photography is restricted inside the Taj mausoleum chamber."
+      ]
+    }
+  },
+  {
+    "slug": "spiti-valley",
+    "name": "Spiti Valley",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Himachal Pradesh",
+    "state_slug": "himachal-pradesh",
+    "region": "Trans-Himalaya",
+    "lat": 32.2464,
+    "lng": 78.0349,
+    "type": "valley",
+    "categories": [
+      "nature",
+      "adventure",
+      "mountains",
+      "spiritual",
+      "detox"
+    ],
+    "tags": [
+      "Nature",
+      "Adventure",
+      "Mountains",
+      "Detox",
+      "Spiritual",
+      "Unexplored"
+    ],
+    "rating": 4.7,
+    "reviews": 15600,
+    "popularity": 72,
+    "data_quality": 0.94,
+    "short_intro": "A high-altitude cold desert of monasteries, moonscapes and some of the highest villages on earth.",
+    "overview": "Spiti, meaning 'the middle land', is a remote Trans-Himalayan valley wedged between India and Tibet. Ancient Buddhist monasteries cling to ochre cliffs, glacial rivers cut through barren mountains, and villages like Komic and Hikkim sit above 4,500 metres. It is a demanding, deeply rewarding landscape for travellers seeking silence and scale.",
+    "images": {
+      "hero": "places/spiti-valley/hero.jpg",
+      "gallery": [
+        "places/spiti-valley/key-monastery.jpg",
+        "places/spiti-valley/chandratal.jpg",
+        "places/spiti-valley/langza.jpg",
+        "places/spiti-valley/kaza.jpg"
+      ],
+      "hero_credit": "This Photo was taken by Timothy A. Gonsalves . Feel free to use my photos, but please mention me as the author. I would much appreciate if you send me an email tagooty@yahoo.com or write on my talk page , for my information. Please contact me before commercial use. Please do not upload an edited image here without consulting me. I would like to make corrections only at my own source to ensure that the changes improve the image and are preserved. Otherwise you may upload an edited image with a new name. Please use one of the templates derivative or extract . · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Spiti_River_Kaza_Himachal_Jun18_D72_7232.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/spiti-valley/card.jpg"
+    },
+    "best_season": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "best_time_to_visit": "June to September for road access via Manali. The Shimla–Kaza route stays open longer but Kunzum Pass closes in winter.",
+    "attractions": [
+      {
+        "name": "Key Monastery",
+        "category": "Monastery",
+        "description": "The largest monastery in Spiti, a thousand-year-old Buddhist complex above the Spiti river."
+      },
+      {
+        "name": "Chandratal Lake",
+        "category": "Lake",
+        "description": "A crescent-shaped high-altitude lake near Kunzum Pass, famed for its changing colours."
+      },
+      {
+        "name": "Langza",
+        "category": "Village",
+        "description": "A village with a giant Buddha statue and marine fossils from the ancient Tethys sea."
+      },
+      {
+        "name": "Hikkim",
+        "category": "Village",
+        "description": "Home to one of the world's highest post offices."
+      }
+    ],
+    "culture": {
+      "summary": "Spiti follows Tibetan Buddhism, with monastic life at the heart of its villages. Homestays offer barley-based food, butter tea and a window into high-desert living.",
+      "traditions": [
+        "Tibetan Buddhist rituals",
+        "Losar new year"
+      ],
+      "art_handicrafts": [
+        "Thangka painting",
+        "Woollen weaving"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Losar",
+        "time": "February",
+        "description": "Tibetan New Year celebrated with masked dances and prayers.",
+        "significance": "Marks renewal and the lunar new year."
+      },
+      {
+        "name": "Ladarcha Fair",
+        "time": "July–August",
+        "description": "A trade and cultural fair once linking Spiti, Ladakh and Tibet.",
+        "significance": "Historic cross-Himalayan trade gathering."
+      }
+    ],
+    "food": [
+      {
+        "name": "Thukpa",
+        "type": "Meal",
+        "description": "Warming noodle soup with vegetables or meat."
+      },
+      {
+        "name": "Momos",
+        "type": "Snack",
+        "description": "Steamed dumplings, a Himalayan staple."
+      },
+      {
+        "name": "Butter Tea",
+        "type": "Drink",
+        "description": "Salted tea churned with butter, essential at altitude."
+      }
+    ],
+    "activities": [
+      "Trekking",
+      "Camping",
+      "Photography",
+      "Cultural experiences",
+      "Wildlife"
+    ],
+    "travel_info": {
+      "airport": "Bhuntar (Kullu) is the nearest airport; most reach by road from Manila or Shimla.",
+      "railway": "Nearest railheads are Shimla (narrow gauge) and Chandigarh.",
+      "bus": "HRTC buses run Shimla–Kaza and Manali–Kaza in season.",
+      "local_transport": "Shared taxis and self-drive; a hardy vehicle is recommended.",
+      "suggested_duration": "6–9 days",
+      "budget": "Moderate; homestays keep costs low but travel is time-intensive."
+    },
+    "safety": {
+      "tips": [
+        "Acclimatise for a day or two to avoid altitude sickness.",
+        "Carry cash; ATMs are scarce beyond Kaza.",
+        "Fuel up at Kaza, the only reliable pump."
+      ],
+      "emergency": "Dial 112; medical facilities are limited, so carry basic medication.",
+      "etiquette": [
+        "Walk clockwise around monasteries and stupas.",
+        "Ask before photographing monks or interiors."
+      ]
+    }
+  },
+  {
+    "slug": "ziro-valley",
+    "name": "Ziro Valley",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Arunachal Pradesh",
+    "state_slug": "arunachal-pradesh",
+    "region": "Central Arunachal",
+    "lat": 27.5447,
+    "lng": 93.8256,
+    "type": "valley",
+    "categories": [
+      "nature",
+      "culture",
+      "peace",
+      "adventure"
+    ],
+    "tags": [
+      "Nature",
+      "Peace",
+      "Culture",
+      "Valleys",
+      "Unexplored"
+    ],
+    "rating": 4.6,
+    "reviews": 8900,
+    "popularity": 61,
+    "data_quality": 0.92,
+    "short_intro": "A gentle green valley of paddy fields and pine hills, home of the Apatani tribe and a famous music festival.",
+    "overview": "Ziro is a wide, undulating valley in Arunachal Pradesh, celebrated for the ingenious wet-rice-and-fish farming of the Apatani people and its UNESCO tentative-list cultural landscape. Pine-clad hills frame emerald paddy fields, and the annual Ziro Festival of Music has made it a favourite with independent travellers.",
+    "images": {
+      "hero": "places/ziro-valley/hero.jpg",
+      "gallery": [
+        "places/ziro-valley/paddy-fields.jpg",
+        "places/ziro-valley/apatani.jpg",
+        "places/ziro-valley/tarin-fishery.jpg",
+        "places/ziro-valley/festival.jpg"
+      ]
+    },
+    "best_season": [
+      "March",
+      "April",
+      "May",
+      "September",
+      "October"
+    ],
+    "best_time_to_visit": "March to October; late September for the Ziro Festival of Music. Carry an Inner Line Permit.",
+    "attractions": [
+      {
+        "name": "Apatani Villages",
+        "category": "Culture",
+        "description": "Traditional villages like Hong and Hija with bamboo homes and terraced fields."
+      },
+      {
+        "name": "Talley Valley Wildlife Sanctuary",
+        "category": "Wildlife",
+        "description": "A biodiverse reserve of silver fir and clouded-leopard habitat."
+      },
+      {
+        "name": "Tarin Fish Farm",
+        "category": "Nature",
+        "description": "Showcases the Apatani paddy-cum-pisciculture technique."
+      },
+      {
+        "name": "Meghna Cave Temple",
+        "category": "Spiritual",
+        "description": "A hilltop cave shrine with valley views."
+      }
+    ],
+    "culture": {
+      "summary": "The Apatani are known for sustainable agriculture, distinctive facial tattoos among elders, and a strong sense of community governance.",
+      "traditions": [
+        "Myoko and Dree festivals",
+        "Apatani agricultural practices"
+      ],
+      "art_handicrafts": [
+        "Bamboo and cane craft",
+        "Handwoven shawls"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Dree Festival",
+        "time": "July",
+        "description": "An agricultural festival praying for a good harvest.",
+        "significance": "Central to Apatani farming life."
+      },
+      {
+        "name": "Ziro Festival of Music",
+        "time": "September",
+        "description": "An outdoor independent-music festival in the paddy fields.",
+        "significance": "Draws artists and travellers from across India."
+      }
+    ],
+    "food": [
+      {
+        "name": "Pika Pila",
+        "type": "Side",
+        "description": "A tangy fermented pickle of pork fat and bamboo shoot."
+      },
+      {
+        "name": "Rice with Fish",
+        "type": "Meal",
+        "description": "Local rice paired with fish raised in the paddies."
+      },
+      {
+        "name": "Apong",
+        "type": "Drink",
+        "description": "Traditional rice beer served at celebrations."
+      }
+    ],
+    "activities": [
+      "Trekking",
+      "Photography",
+      "Cultural experiences",
+      "Camping"
+    ],
+    "travel_info": {
+      "airport": "Lilabari (North Lakhimpur, Assam) is nearest; Hollongi (Itanagar) is developing.",
+      "railway": "Naharlagun is the closest railhead.",
+      "bus": "Shared sumos run from Itanagar and North Lakhimpur.",
+      "local_transport": "Shared taxis; hire a vehicle for village visits.",
+      "suggested_duration": "3–4 days",
+      "budget": "Budget to moderate; homestays are the highlight."
+    },
+    "safety": {
+      "tips": [
+        "Indian citizens need an Inner Line Permit; foreigners need a Protected Area Permit.",
+        "Nights are cold even in summer."
+      ],
+      "emergency": "Dial 112; carry basic medicines as facilities are limited.",
+      "etiquette": [
+        "Seek permission before photographing elders.",
+        "Respect village customs and sacred groves."
+      ]
+    }
+  },
+  {
+    "slug": "goa-panaji",
+    "name": "Panaji",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Goa",
+    "state_slug": "goa",
+    "region": "North Goa",
+    "lat": 15.4909,
+    "lng": 73.8278,
+    "type": "city",
+    "categories": [
+      "culture",
+      "beach",
+      "heritage",
+      "city"
+    ],
+    "tags": [
+      "Culture",
+      "Beaches",
+      "Heritage",
+      "Architecture",
+      "Popular"
+    ],
+    "rating": 4.4,
+    "reviews": 21000,
+    "popularity": 82,
+    "data_quality": 0.9,
+    "short_intro": "Goa's riverfront capital, where Portuguese-era Latin Quarter lanes meet the Mandovi's cruise boats.",
+    "overview": "Panaji (Panjim) is the compact, walkable capital of Goa, set where the Mandovi river meets the Arabian Sea. Its Fontainhas Latin Quarter preserves ochre-and-blue Portuguese houses, chapels and bakeries, while nearby Old Goa holds grand cathedrals. It is a calmer, culture-first counterpoint to Goa's beach scene.",
+    "images": {
+      "hero": "places/goa-panaji/hero.jpg",
+      "gallery": [
+        "places/goa-panaji/fontainhas.jpg",
+        "places/goa-panaji/church.jpg",
+        "places/goa-panaji/mandovi.jpg",
+        "places/goa-panaji/old-goa.jpg"
+      ],
+      "hero_credit": "Макс Вальтер · CC BY-SA 3.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Panaji_City.JPG",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "hero_small": "places/goa-panaji/card.jpg"
+    },
+    "best_season": [
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "November to February for dry, mild weather. The monsoon (June–September) is lush but wet.",
+    "attractions": [
+      {
+        "name": "Fontainhas Latin Quarter",
+        "category": "Heritage",
+        "description": "A colourful old neighbourhood of narrow lanes and Portuguese villas."
+      },
+      {
+        "name": "Church of Our Lady of the Immaculate Conception",
+        "category": "Heritage",
+        "description": "The iconic whitewashed church above Panaji's old market."
+      },
+      {
+        "name": "Basilica of Bom Jesus (Old Goa)",
+        "category": "Heritage",
+        "description": "A UNESCO World Heritage baroque church holding the relics of St. Francis Xavier."
+      },
+      {
+        "name": "Miramar Beach",
+        "category": "Beach",
+        "description": "A city beach at the mouth of the Mandovi."
+      }
+    ],
+    "culture": {
+      "summary": "Goan culture fuses Konkani and Portuguese influences in its food, music, susegad pace of life and Indo-Portuguese architecture.",
+      "traditions": [
+        "Feasts and church festivals",
+        "Fado and Konkani music"
+      ],
+      "art_handicrafts": [
+        "Azulejo tiles",
+        "Crochet and lacework"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Goa Carnival",
+        "time": "February",
+        "description": "A colourful pre-Lent street parade with floats and music.",
+        "significance": "A Portuguese-era tradition unique in India."
+      },
+      {
+        "name": "Feast of St. Francis Xavier",
+        "time": "December",
+        "description": "A major pilgrimage at Old Goa.",
+        "significance": "Honours Goa's patron saint."
+      }
+    ],
+    "food": [
+      {
+        "name": "Goan Fish Curry Rice",
+        "type": "Meal",
+        "description": "Coconut-and-tamarind fish curry over rice, the everyday classic."
+      },
+      {
+        "name": "Pork Vindaloo",
+        "type": "Meal",
+        "description": "A fiery, tangy Indo-Portuguese pork curry."
+      },
+      {
+        "name": "Bebinca",
+        "type": "Sweet",
+        "description": "A layered coconut-and-egg dessert."
+      }
+    ],
+    "activities": [
+      "Heritage walks",
+      "Photography",
+      "Boating",
+      "Cultural experiences"
+    ],
+    "travel_info": {
+      "airport": "Dabolim (GOI) and Mopa/Manohar (GOX) international airports.",
+      "railway": "Karmali is the nearest station; Madgaon is the main junction.",
+      "bus": "Frequent state and interstate buses; Kadamba terminal in Panaji.",
+      "local_transport": "Rented scooters, cabs and app taxis.",
+      "suggested_duration": "1–2 days in Panaji within a longer Goa trip",
+      "budget": "Moderate; ranges widely by season."
+    },
+    "safety": {
+      "tips": [
+        "Swim only in flagged zones; heed lifeguard warnings.",
+        "Prices peak sharply around New Year."
+      ],
+      "emergency": "Dial 112; drishti lifeguards patrol main beaches.",
+      "etiquette": [
+        "Dress modestly when visiting churches."
+      ]
+    }
+  },
+  {
+    "slug": "cherrapunji",
+    "name": "Cherrapunji (Sohra)",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Meghalaya",
+    "state_slug": "meghalaya",
+    "region": "East Khasi Hills",
+    "lat": 25.2841,
+    "lng": 91.7215,
+    "type": "hill_station",
+    "categories": [
+      "nature",
+      "adventure",
+      "waterfall",
+      "mountains"
+    ],
+    "tags": [
+      "Nature",
+      "Adventure",
+      "Waterfalls",
+      "Mountains",
+      "Unexplored"
+    ],
+    "rating": 4.5,
+    "reviews": 18500,
+    "popularity": 70,
+    "data_quality": 0.92,
+    "short_intro": "One of the wettest places on earth, famed for living root bridges, plunging waterfalls and misty gorges.",
+    "overview": "Cherrapunji, known locally as Sohra, sits on the edge of the Khasi Hills where the plateau drops dramatically towards Bangladesh. Monsoon clouds crash into these cliffs, feeding towering waterfalls and the region's unique living root bridges, grown over generations by the Khasi people from the roots of rubber fig trees.",
+    "images": {
+      "hero": "places/cherrapunji/hero.jpg",
+      "gallery": [
+        "places/cherrapunji/double-decker.jpg",
+        "places/cherrapunji/nohkalikai.jpg",
+        "places/cherrapunji/mawsmai-cave.jpg",
+        "places/cherrapunji/valley.jpg"
+      ]
+    },
+    "best_season": [
+      "September",
+      "October",
+      "November",
+      "March",
+      "April"
+    ],
+    "best_time_to_visit": "September to April for clearer skies and green valleys. The monsoon is spectacular but roads and treks get slippery.",
+    "attractions": [
+      {
+        "name": "Double Decker Living Root Bridge",
+        "category": "Nature",
+        "description": "A two-tiered bridge of woven fig roots reached by a steep descent near Nongriat."
+      },
+      {
+        "name": "Nohkalikai Falls",
+        "category": "Waterfall",
+        "description": "One of India's tallest plunge waterfalls, dropping into a turquoise pool."
+      },
+      {
+        "name": "Mawsmai Cave",
+        "category": "Cave",
+        "description": "An illuminated limestone cave easy to walk through."
+      },
+      {
+        "name": "Seven Sisters Falls",
+        "category": "Waterfall",
+        "description": "A seven-segmented waterfall best seen after rain."
+      }
+    ],
+    "culture": {
+      "summary": "The Khasi are a matrilineal community. Their bioengineering of living root bridges is a globally rare example of sustainable indigenous knowledge.",
+      "traditions": [
+        "Matrilineal inheritance",
+        "Root-bridge cultivation"
+      ],
+      "art_handicrafts": [
+        "Cane and bamboo work",
+        "Khasi handloom"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Nongkrem Dance Festival",
+        "time": "November",
+        "description": "A Khasi thanksgiving festival with ceremonial dance.",
+        "significance": "Prays for a good harvest and community wellbeing."
+      }
+    ],
+    "food": [
+      {
+        "name": "Jadoh",
+        "type": "Meal",
+        "description": "Khasi rice cooked with pork and spices."
+      },
+      {
+        "name": "Tungrymbai",
+        "type": "Side",
+        "description": "Fermented soybean relish."
+      },
+      {
+        "name": "Pumaloi",
+        "type": "Snack",
+        "description": "Steamed powdered-rice cake."
+      }
+    ],
+    "activities": [
+      "Trekking",
+      "Photography",
+      "Camping",
+      "Cultural experiences"
+    ],
+    "travel_info": {
+      "airport": "Shillong (Umroi) is nearest; Guwahati has the major airport (~150 km).",
+      "railway": "Guwahati is the nearest major railhead.",
+      "bus": "Shared taxis and buses from Shillong (~55 km).",
+      "local_transport": "Hired taxis; treks are on foot.",
+      "suggested_duration": "2–3 days",
+      "budget": "Budget to moderate."
+    },
+    "safety": {
+      "tips": [
+        "The Double Decker trek involves thousands of steep steps; carry water and go slow.",
+        "Leeches appear in the wet season."
+      ],
+      "emergency": "Dial 112; carry a basic first-aid kit for treks.",
+      "etiquette": [
+        "Do not litter on trails; respect village entry fees and rules."
+      ]
+    }
+  },
+  {
+    "slug": "shillong",
+    "name": "Shillong",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Meghalaya",
+    "state_slug": "meghalaya",
+    "region": "East Khasi Hills",
+    "lat": 25.5788,
+    "lng": 91.8933,
+    "type": "hill_station",
+    "categories": [
+      "nature",
+      "culture",
+      "city",
+      "peace"
+    ],
+    "tags": [
+      "Nature",
+      "Culture",
+      "Mountains",
+      "Peace",
+      "Popular"
+    ],
+    "rating": 4.4,
+    "reviews": 26000,
+    "popularity": 78,
+    "data_quality": 0.9,
+    "short_intro": "The 'Scotland of the East', a pine-clad hill capital known for waterfalls, lakes and a live-music culture.",
+    "overview": "Shillong, the capital of Meghalaya, spreads across rolling pine hills at around 1,500 metres. Colonial-era architecture, clear lakes and a famously strong music scene give the city an easygoing charm. It is the natural gateway to Meghalaya's waterfalls, caves and living root bridges.",
+    "images": {
+      "hero": "places/shillong/hero.jpg",
+      "gallery": [
+        "places/shillong/umiam-lake.jpg",
+        "places/shillong/elephant-falls.jpg",
+        "places/shillong/police-bazaar.jpg",
+        "places/shillong/shillong-peak.jpg"
+      ],
+      "hero_credit": "Prasanta Kr Dutta · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Elephant_Falls_II,_Shillong.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/shillong/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "March",
+      "April",
+      "May"
+    ],
+    "best_time_to_visit": "October to May for pleasant weather; the monsoon brings heavy rain.",
+    "attractions": [
+      {
+        "name": "Umiam Lake",
+        "category": "Lake",
+        "description": "A large reservoir with boating and viewpoints north of the city."
+      },
+      {
+        "name": "Elephant Falls",
+        "category": "Waterfall",
+        "description": "A tiered waterfall a short drive from Shillong."
+      },
+      {
+        "name": "Shillong Peak",
+        "category": "Viewpoint",
+        "description": "The highest point, offering panoramic city views."
+      },
+      {
+        "name": "Ward's Lake",
+        "category": "Lake",
+        "description": "A landscaped garden lake in the city centre."
+      }
+    ],
+    "culture": {
+      "summary": "Shillong blends Khasi traditions with a Western-influenced music culture; it is often called the rock capital of India.",
+      "traditions": [
+        "Khasi matrilineal society",
+        "Live music and choir singing"
+      ],
+      "art_handicrafts": [
+        "Bamboo craft",
+        "Handwoven textiles"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Shillong Cherry Blossom Festival",
+        "time": "November",
+        "description": "Celebrates the autumn cherry bloom with music and food.",
+        "significance": "A modern festival that draws national artists."
+      },
+      {
+        "name": "Wangala",
+        "time": "November",
+        "description": "The Garo harvest festival of a hundred drums.",
+        "significance": "Thanksgiving to the sun deity."
+      }
+    ],
+    "food": [
+      {
+        "name": "Jadoh",
+        "type": "Meal",
+        "description": "Khasi pork-and-rice dish."
+      },
+      {
+        "name": "Dohneiiong",
+        "type": "Meal",
+        "description": "Pork cooked with black sesame."
+      },
+      {
+        "name": "Momos and Thukpa",
+        "type": "Snack",
+        "description": "Popular Himalayan street food."
+      }
+    ],
+    "activities": [
+      "Photography",
+      "Boating",
+      "Trekking",
+      "Cultural experiences"
+    ],
+    "travel_info": {
+      "airport": "Umroi (Shillong); Guwahati for wider connectivity.",
+      "railway": "Guwahati (~100 km).",
+      "bus": "Frequent shared taxis and buses from Guwahati.",
+      "local_transport": "Local taxis run on shared routes.",
+      "suggested_duration": "2–3 days",
+      "budget": "Moderate."
+    },
+    "safety": {
+      "tips": [
+        "Traffic can be slow; plan waterfall day-trips early.",
+        "Carry a light raincoat year-round."
+      ],
+      "emergency": "Dial 112.",
+      "etiquette": [
+        "Respect local customs; many sites have entry rules."
+      ]
+    }
+  },
+  {
+    "slug": "gangtok",
+    "name": "Gangtok",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Sikkim",
+    "state_slug": "sikkim",
+    "region": "East Sikkim",
+    "lat": 27.3389,
+    "lng": 88.6065,
+    "type": "hill_station",
+    "categories": [
+      "mountains",
+      "culture",
+      "spiritual",
+      "nature"
+    ],
+    "tags": [
+      "Mountains",
+      "Culture",
+      "Spiritual",
+      "Nature",
+      "Popular"
+    ],
+    "rating": 4.5,
+    "reviews": 41000,
+    "popularity": 84,
+    "data_quality": 0.9,
+    "short_intro": "Sikkim's clean, cheerful hill capital with Himalayan views, monasteries and a lively pedestrian mall.",
+    "overview": "Gangtok is the capital of Sikkim, terraced across a Himalayan ridge with views of Kanchenjunga on clear days. Buddhist monasteries, a spotless reputation, a ropeway and the buzzing MG Marg promenade make it one of the most traveller-friendly hill towns in the country and the base for high-altitude excursions.",
+    "images": {
+      "hero": "places/gangtok/hero.jpg",
+      "gallery": [
+        "places/gangtok/mg-marg.jpg",
+        "places/gangtok/rumtek.jpg",
+        "places/gangtok/tsomgo-lake.jpg",
+        "places/gangtok/kanchenjunga.jpg"
+      ],
+      "hero_credit": "Ashinpt at enwiki · CC BY-SA 3.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Kangch-Goechala.jpg",
+      "hero_license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "hero_small": "places/gangtok/card.jpg"
+    },
+    "best_season": [
+      "March",
+      "April",
+      "May",
+      "October",
+      "November"
+    ],
+    "best_time_to_visit": "March to May and October to November for clear mountain views.",
+    "attractions": [
+      {
+        "name": "MG Marg",
+        "category": "Promenade",
+        "description": "A litter-free, vehicle-free boulevard lined with cafes and shops."
+      },
+      {
+        "name": "Rumtek Monastery",
+        "category": "Monastery",
+        "description": "A major seat of Tibetan Buddhism near the city."
+      },
+      {
+        "name": "Tsomgo (Changu) Lake",
+        "category": "Lake",
+        "description": "A glacial lake at ~3,750 m, reached via a permit."
+      },
+      {
+        "name": "Ganesh Tok",
+        "category": "Viewpoint",
+        "description": "A hilltop shrine with sweeping valley views."
+      }
+    ],
+    "culture": {
+      "summary": "Sikkim blends Nepali, Bhutia and Lepcha cultures with strong Buddhist traditions and a pioneering organic-farming identity.",
+      "traditions": [
+        "Tibetan Buddhist practice",
+        "Losar and Saga Dawa"
+      ],
+      "art_handicrafts": [
+        "Thangka painting",
+        "Carpet weaving",
+        "Handmade paper"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Losar",
+        "time": "February",
+        "description": "Tibetan New Year with monastery dances.",
+        "significance": "Marks the lunar new year."
+      },
+      {
+        "name": "Saga Dawa",
+        "time": "May–June",
+        "description": "A sacred Buddhist month commemorating the Buddha's life.",
+        "significance": "One of Sikkim's holiest observances."
+      }
+    ],
+    "food": [
+      {
+        "name": "Momos",
+        "type": "Snack",
+        "description": "Steamed or fried dumplings with dips."
+      },
+      {
+        "name": "Thukpa",
+        "type": "Meal",
+        "description": "Hearty noodle soup."
+      },
+      {
+        "name": "Gundruk",
+        "type": "Side",
+        "description": "Fermented leafy greens, a Nepali staple."
+      }
+    ],
+    "activities": [
+      "Photography",
+      "Cultural experiences",
+      "Trekking",
+      "Camping"
+    ],
+    "travel_info": {
+      "airport": "Pakyong (PYG) near Gangtok; Bagdogra is the main regional airport.",
+      "railway": "New Jalpaiguri (NJP) is the nearest major railhead.",
+      "bus": "Shared taxis from NJP/Siliguri are the common route.",
+      "local_transport": "Shared and reserved taxis; the town centre is walkable.",
+      "suggested_duration": "3–4 days",
+      "budget": "Moderate."
+    },
+    "safety": {
+      "tips": [
+        "Permits are required for Tsomgo Lake and Nathula.",
+        "Book high-altitude trips through registered operators."
+      ],
+      "emergency": "Dial 112.",
+      "etiquette": [
+        "Sikkim is largely plastic-restricted; carry a reusable bottle."
+      ]
+    }
+  },
+  {
+    "slug": "udaipur",
+    "name": "Udaipur",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Rajasthan",
+    "state_slug": "rajasthan",
+    "region": "Mewar",
+    "lat": 24.5854,
+    "lng": 73.7125,
+    "type": "city",
+    "categories": [
+      "heritage",
+      "culture",
+      "lake",
+      "city",
+      "romantic"
+    ],
+    "tags": [
+      "History",
+      "Culture",
+      "Lakes",
+      "Heritage",
+      "Popular"
+    ],
+    "rating": 4.6,
+    "reviews": 62000,
+    "popularity": 90,
+    "data_quality": 0.94,
+    "short_intro": "The City of Lakes, a Rajput capital of palaces mirrored in shimmering water.",
+    "overview": "Udaipur, founded by Maharana Udai Singh II in 1559, is the historic capital of Mewar and one of India's most romantic cities. Whitewashed havelis and grand palaces line a chain of interconnected lakes framed by the Aravalli hills, with the vast City Palace and the island Lake Palace as its centrepieces.",
+    "images": {
+      "hero": "places/udaipur/hero.jpg",
+      "gallery": [
+        "places/udaipur/city-palace.jpg",
+        "places/udaipur/lake-pichola.jpg",
+        "places/udaipur/jagdish-temple.jpg",
+        "places/udaipur/saheliyon-ki-bari.jpg"
+      ],
+      "hero_credit": "Geri from Biel/Bienne, Schweiz · CC BY-SA 2.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Evening_view,_City_Palace,_Udaipur.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "hero_small": "places/udaipur/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "best_time_to_visit": "October to March; summers are very hot.",
+    "attractions": [
+      {
+        "name": "City Palace",
+        "category": "Heritage",
+        "description": "A sprawling lakeside palace complex of courtyards, museums and balconies."
+      },
+      {
+        "name": "Lake Pichola",
+        "category": "Lake",
+        "description": "The city's central lake, famous for sunset boat rides."
+      },
+      {
+        "name": "Jagdish Temple",
+        "category": "Temple",
+        "description": "An ornate 17th-century Vishnu temple in the old city."
+      },
+      {
+        "name": "Saheliyon Ki Bari",
+        "category": "Garden",
+        "description": "A garden of fountains and lotus pools built for royal ladies."
+      }
+    ],
+    "culture": {
+      "summary": "Udaipur carries a proud Mewar Rajput heritage of miniature painting, folk music and a living palace tradition.",
+      "traditions": [
+        "Rajput valour and pride",
+        "Miniature painting"
+      ],
+      "art_handicrafts": [
+        "Pichwai painting",
+        "Silver jewellery",
+        "Puppetry"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Mewar Festival",
+        "time": "March–April",
+        "description": "Celebrates the arrival of spring with processions and folk performances.",
+        "significance": "Tied to the Gangaur festival honouring goddess Parvati."
+      },
+      {
+        "name": "Shilpgram Utsav",
+        "time": "December",
+        "description": "A crafts and performing-arts fair on the city's edge.",
+        "significance": "Showcases western-India folk culture."
+      }
+    ],
+    "food": [
+      {
+        "name": "Dal Baati Churma",
+        "type": "Meal",
+        "description": "Baked wheat balls with lentils and a sweet crumble."
+      },
+      {
+        "name": "Gatte ki Sabzi",
+        "type": "Meal",
+        "description": "Gram-flour dumplings in a spiced yoghurt curry."
+      },
+      {
+        "name": "Mawa Kachori",
+        "type": "Sweet",
+        "description": "A rich fried pastry filled with sweetened khoya."
+      }
+    ],
+    "activities": [
+      "Boating",
+      "Photography",
+      "Heritage walks",
+      "Cultural experiences"
+    ],
+    "travel_info": {
+      "airport": "Maharana Pratap Airport (UDR), ~22 km.",
+      "railway": "Udaipur City station is well connected.",
+      "bus": "Good bus links across Rajasthan and to Gujarat.",
+      "local_transport": "Autos and cabs; the old city is best explored on foot.",
+      "suggested_duration": "2–3 days",
+      "budget": "Moderate to premium; iconic heritage hotels available."
+    },
+    "safety": {
+      "tips": [
+        "Agree on auto fares in advance.",
+        "Old-city lanes are narrow; watch for scooters."
+      ],
+      "emergency": "Dial 112; tourist police present at major sites.",
+      "etiquette": [
+        "Cover shoulders and knees at temples."
+      ]
+    }
+  },
+  {
+    "slug": "rishikesh",
+    "name": "Rishikesh",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Uttarakhand",
+    "state_slug": "uttarakhand",
+    "region": "Garhwal",
+    "lat": 30.0869,
+    "lng": 78.2676,
+    "type": "city",
+    "categories": [
+      "spiritual",
+      "adventure",
+      "nature",
+      "detox",
+      "river"
+    ],
+    "tags": [
+      "Spiritual",
+      "Adventure",
+      "Nature",
+      "Detox",
+      "Rivers",
+      "Popular"
+    ],
+    "rating": 4.5,
+    "reviews": 71000,
+    "popularity": 88,
+    "data_quality": 0.92,
+    "short_intro": "The yoga capital of the world, where the Ganga leaves the Himalaya amid ashrams and white-water rapids.",
+    "overview": "Rishikesh sits where the Ganga emerges from the mountains onto the plains, a town of ashrams, riverside temples and the famous Lakshman Jhula and Ram Jhula suspension bridges. It is simultaneously a centre of yoga and meditation and India's white-water rafting hub, giving it a rare blend of the spiritual and the adventurous.",
+    "images": {
+      "hero": "places/rishikesh/hero.jpg",
+      "gallery": [
+        "places/rishikesh/ganga-aarti.jpg",
+        "places/rishikesh/rafting.jpg",
+        "places/rishikesh/laxman-jhula.jpg",
+        "places/rishikesh/beatles-ashram.jpg"
+      ],
+      "hero_credit": "VK1983 · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Trayambakeshwar_Temple_VK.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/rishikesh/card.jpg"
+    },
+    "best_season": [
+      "September",
+      "October",
+      "November",
+      "February",
+      "March",
+      "April"
+    ],
+    "best_time_to_visit": "September to April; rafting season peaks in autumn and spring. Summer is warm and the monsoon swells the river.",
+    "attractions": [
+      {
+        "name": "Triveni Ghat",
+        "category": "Spiritual",
+        "description": "The main riverside ghat, famous for the evening Ganga Aarti."
+      },
+      {
+        "name": "Lakshman Jhula & Ram Jhula",
+        "category": "Landmark",
+        "description": "Iconic suspension footbridges over the Ganga."
+      },
+      {
+        "name": "The Beatles Ashram",
+        "category": "Heritage",
+        "description": "The atmospheric ruins of Maharishi Mahesh Yogi's ashram, covered in murals."
+      },
+      {
+        "name": "Neelkanth Mahadev Temple",
+        "category": "Temple",
+        "description": "A hill Shiva temple set in forest above the town."
+      }
+    ],
+    "culture": {
+      "summary": "Rishikesh is a vegetarian, alcohol-free spiritual town where yoga, Ayurveda and Ganga worship shape daily rhythms.",
+      "traditions": [
+        "Ganga Aarti",
+        "Yoga and meditation retreats"
+      ],
+      "art_handicrafts": [
+        "Rudraksha crafts",
+        "Ayurvedic products"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "International Yoga Festival",
+        "time": "March",
+        "description": "A week of yoga, workshops and talks drawing practitioners worldwide.",
+        "significance": "Cements Rishikesh's yoga identity."
+      },
+      {
+        "name": "Ganga Dussehra",
+        "time": "May–June",
+        "description": "Celebrates the descent of the Ganga.",
+        "significance": "A major river-worship festival."
+      }
+    ],
+    "food": [
+      {
+        "name": "Sattvic Thali",
+        "type": "Meal",
+        "description": "Simple vegetarian meals served in ashrams and cafes."
+      },
+      {
+        "name": "Aloo Puri",
+        "type": "Breakfast",
+        "description": "A popular fried breakfast at riverside stalls."
+      },
+      {
+        "name": "Herbal & Ayurvedic Teas",
+        "type": "Drink",
+        "description": "Widely served in the cafe scene."
+      }
+    ],
+    "activities": [
+      "Rafting",
+      "Trekking",
+      "Camping",
+      "Cultural experiences",
+      "Photography"
+    ],
+    "travel_info": {
+      "airport": "Dehradun (Jolly Grant), ~20 km.",
+      "railway": "Rishikesh and Haridwar (better connected) stations.",
+      "bus": "Frequent buses from Delhi, Dehradun and Haridwar.",
+      "local_transport": "Autos, shared vikrams and cabs.",
+      "suggested_duration": "2–4 days",
+      "budget": "Budget to moderate; retreats can be premium."
+    },
+    "safety": {
+      "tips": [
+        "Raft only with licensed operators and wear the provided gear.",
+        "River currents are strong; do not swim unsupervised."
+      ],
+      "emergency": "Dial 112; 108 for ambulance.",
+      "etiquette": [
+        "Alcohol and non-veg food are prohibited in the core town.",
+        "Dress modestly near temples and ghats."
+      ]
+    }
+  },
+  {
+    "slug": "hampi",
+    "name": "Hampi",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Karnataka",
+    "state_slug": "karnataka",
+    "region": "Deccan / Tungabhadra",
+    "lat": 15.335,
+    "lng": 76.462,
+    "type": "heritage",
+    "categories": [
+      "heritage",
+      "history",
+      "adventure",
+      "spiritual"
+    ],
+    "tags": [
+      "History",
+      "Heritage",
+      "Adventure",
+      "Temples",
+      "Unexplored"
+    ],
+    "rating": 4.6,
+    "reviews": 33000,
+    "popularity": 76,
+    "data_quality": 0.93,
+    "short_intro": "A surreal UNESCO landscape of boulder hills and the ruined splendour of the Vijayanagara empire.",
+    "overview": "Hampi was the capital of the Vijayanagara empire and, in the 16th century, one of the largest and richest cities in the world. Today its temples, bazaars, aqueducts and royal enclosures lie scattered across a dramatic landscape of giant granite boulders beside the Tungabhadra river, a UNESCO World Heritage Site that feels both ancient and otherworldly.",
+    "images": {
+      "hero": "places/hampi/hero.jpg",
+      "gallery": [
+        "places/hampi/virupaksha.jpg",
+        "places/hampi/stone-chariot.jpg",
+        "places/hampi/boulders.jpg",
+        "places/hampi/vittala.jpg"
+      ],
+      "hero_credit": "iMahesh · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Wide_angle_of_Galigopuram_of_Virupaksha_Temple,_Hampi_(04)_(cropped).jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/hampi/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to February; the Deccan summer is punishing.",
+    "attractions": [
+      {
+        "name": "Virupaksha Temple",
+        "category": "Temple",
+        "description": "A living temple with a towering gopuram, active since the 7th century."
+      },
+      {
+        "name": "Vittala Temple & Stone Chariot",
+        "category": "Heritage",
+        "description": "Famous for its musical pillars and the iconic stone chariot."
+      },
+      {
+        "name": "Hemakuta Hill",
+        "category": "Viewpoint",
+        "description": "A cluster of shrines with the best sunset views."
+      },
+      {
+        "name": "Royal Enclosure",
+        "category": "Heritage",
+        "description": "Palace platforms, stepped tanks and the elephant stables."
+      }
+    ],
+    "culture": {
+      "summary": "Hampi preserves Vijayanagara temple architecture and art, and the surrounding Hampi bazaar retains a pilgrimage and backpacker culture.",
+      "traditions": [
+        "Temple worship at Virupaksha",
+        "Coracle river crossings"
+      ],
+      "art_handicrafts": [
+        "Stone carving",
+        "Banana-fibre crafts"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Hampi Utsav",
+        "time": "January–February",
+        "description": "A state cultural festival with music, dance and light shows amid the ruins.",
+        "significance": "Revives Vijayanagara-era grandeur."
+      }
+    ],
+    "food": [
+      {
+        "name": "North Karnataka Thali",
+        "type": "Meal",
+        "description": "Jowar roti, spicy curries and chutneys."
+      },
+      {
+        "name": "Cafe Fare",
+        "type": "Meal",
+        "description": "Backpacker cafes across the river serve global comfort food."
+      }
+    ],
+    "activities": [
+      "Trekking",
+      "Photography",
+      "Boating",
+      "Cultural experiences"
+    ],
+    "travel_info": {
+      "airport": "Hubballi (HBX) or Vidyanagar (Toranagallu); Bengaluru for wider links.",
+      "railway": "Hosapete (Hospet) Junction, ~13 km.",
+      "bus": "Regular buses from Hosapete and Bengaluru.",
+      "local_transport": "Autos, cycles, scooters and coracles.",
+      "suggested_duration": "2–3 days",
+      "budget": "Budget to moderate."
+    },
+    "safety": {
+      "tips": [
+        "Carry water and sun protection; ruins have little shade.",
+        "Alcohol is restricted on the temple-town side."
+      ],
+      "emergency": "Dial 112.",
+      "etiquette": [
+        "Do not climb on carvings; respect active temples."
+      ]
+    }
+  },
+  {
+    "slug": "munnar",
+    "name": "Munnar",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Kerala",
+    "state_slug": "kerala",
+    "region": "Western Ghats / Idukki",
+    "lat": 10.0889,
+    "lng": 77.0595,
+    "type": "hill_station",
+    "categories": [
+      "nature",
+      "peace",
+      "mountains",
+      "detox"
+    ],
+    "tags": [
+      "Nature",
+      "Peace",
+      "Mountains",
+      "Detox",
+      "Popular"
+    ],
+    "rating": 4.5,
+    "reviews": 58000,
+    "popularity": 86,
+    "data_quality": 0.9,
+    "short_intro": "Rolling tea gardens, misty peaks and cool Western Ghats air at the meeting of three mountain streams.",
+    "overview": "Munnar is a high-range hill station in Kerala's Idukki district, blanketed in emerald tea estates first planted by the British. Set among some of South India's highest peaks, it offers cool weather, waterfalls, spice gardens and the rare Neelakurinji bloom that colours the hills purple once every twelve years.",
+    "images": {
+      "hero": "places/munnar/hero.jpg",
+      "gallery": [
+        "places/munnar/tea-gardens.jpg",
+        "places/munnar/eravikulam.jpg",
+        "places/munnar/mattupetty.jpg",
+        "places/munnar/tea-museum.jpg"
+      ],
+      "hero_credit": "Kondephy · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Munnar_Overview.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/munnar/card.jpg"
+    },
+    "best_season": [
+      "September",
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "best_time_to_visit": "September to March for clear, cool weather.",
+    "attractions": [
+      {
+        "name": "Eravikulam National Park",
+        "category": "Wildlife",
+        "description": "Home to the endangered Nilgiri tahr and rolling grasslands."
+      },
+      {
+        "name": "Tea Gardens & Tea Museum",
+        "category": "Nature",
+        "description": "Sprawling estates and a museum tracing Munnar's tea history."
+      },
+      {
+        "name": "Mattupetty Dam",
+        "category": "Lake",
+        "description": "A scenic reservoir with boating."
+      },
+      {
+        "name": "Top Station",
+        "category": "Viewpoint",
+        "description": "A high viewpoint over the Western Ghats and Tamil Nadu plains."
+      }
+    ],
+    "culture": {
+      "summary": "Munnar's culture is shaped by its plantation history and a mix of Tamil estate-worker and Malayali communities.",
+      "traditions": [
+        "Tea-plucking heritage",
+        "Estate life"
+      ],
+      "art_handicrafts": [
+        "Spice and tea products",
+        "Homemade chocolates"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Neelakurinji Bloom",
+        "time": "Once in 12 years",
+        "description": "The hills turn purple as the Neelakurinji flowers en masse.",
+        "significance": "A rare natural spectacle, last in 2018."
+      }
+    ],
+    "food": [
+      {
+        "name": "Kerala Sadya",
+        "type": "Meal",
+        "description": "A vegetarian feast served on a banana leaf."
+      },
+      {
+        "name": "Appam with Stew",
+        "type": "Meal",
+        "description": "Lacy rice pancakes with coconut-milk stew."
+      },
+      {
+        "name": "Fresh Cardamom Tea",
+        "type": "Drink",
+        "description": "Estate-fresh spiced tea."
+      }
+    ],
+    "activities": [
+      "Trekking",
+      "Photography",
+      "Boating",
+      "Wildlife"
+    ],
+    "travel_info": {
+      "airport": "Cochin International (COK), ~110 km.",
+      "railway": "Aluva or Ernakulam are the nearest railheads.",
+      "bus": "Regular buses from Kochi, Madurai and Munnar KSRTC.",
+      "local_transport": "Taxis and jeeps for estate and viewpoint tours.",
+      "suggested_duration": "2–3 days",
+      "budget": "Moderate."
+    },
+    "safety": {
+      "tips": [
+        "Mountain roads are winding; avoid night driving.",
+        "Carry a light layer; evenings are cold."
+      ],
+      "emergency": "Dial 112.",
+      "etiquette": [
+        "Stick to marked trails inside the national park."
+      ]
+    }
+  }
+]

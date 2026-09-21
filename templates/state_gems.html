@@ -1,0 +1,37 @@
+{% extends "state_base.html" %}
+{% import "_macros.html" as ui %}
+
+{% block state_section %}Hidden gems{% endblock %}
+{% block state_heading %}Hidden gems in {{ state.name }}{% endblock %}
+{% block state_lead %}Lesser-known places worth the detour — quiet valleys, small towns and viewpoints that rarely make an itinerary.{% endblock %}
+
+{% block state_content %}
+<div class="container section">
+  {% if curated %}
+  <div class="block">
+    <h2>Gems we cover</h2>
+    <p class="sub">Written up in full, with directions.</p>
+    <div class="grid grid-3">{% for g in curated %}{{ ui.place_card(g, show_directions=True) }}{% endfor %}</div>
+  </div>
+  {% endif %}
+
+  {% if discovered %}
+  <div class="block">
+    <h2>More to discover</h2>
+    <p class="sub">Offbeat places across {{ state.name }} found live on Google Maps. Open any one for its full detail page.</p>
+    <div class="grid grid-3">{% for card in discovered %}{{ ui.live_card(card) }}{% endfor %}</div>
+  </div>
+  {% endif %}
+
+  {% if not curated and not discovered %}
+  <div class="block"><div class="empty">
+    <p>No hidden gems have been found for {{ state.name }} yet.</p>
+    <p class="muted">Know one? <a href="{{ url_for('pages.submit_gem') }}">Recommend a gem</a> and we will review it.</p>
+  </div></div>
+  {% endif %}
+
+  <div class="action-row text-center">
+    <a class="btn btn-outline" href="{{ url_for('pages.submit_gem') }}">Recommend a gem in {{ state.name }}</a>
+  </div>
+</div>
+{% endblock %}

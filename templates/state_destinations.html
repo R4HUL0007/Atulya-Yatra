@@ -1,0 +1,42 @@
+{% extends "state_base.html" %}
+{% import "_macros.html" as ui %}
+
+{% block state_section %}Destinations{% endblock %}
+{% block state_heading %}Places to visit in {{ state.name }}{% endblock %}
+{% block state_lead %}
+  {% if discovered_total %}{{ discovered_total }} place{{ 's' if discovered_total != 1 }} found across {{ state.name }}{% if curated %}, plus {{ curated|length }} full guide{{ 's' if curated|length != 1 }} of our own{% endif %}.
+  {% else %}Destinations across {{ state.name }}.{% endif %}
+{% endblock %}
+
+{% block state_content %}
+<div class="container section">
+  {% if curated %}
+  <div class="block">
+    <h2>In our guides</h2>
+    <p class="sub">Written up in full, with nearby attractions, hidden gems and directions.</p>
+    <div class="grid grid-3">{% for d in curated %}{{ ui.place_card(d, show_directions=True) }}{% endfor %}</div>
+  </div>
+  {% endif %}
+
+  {% if discovered %}
+  <div class="block">
+    <h2>More across {{ state.name }}</h2>
+    <p class="sub">Real places from Google Maps. Open any one for photos, nearby attractions and hidden gems.</p>
+    <div class="grid grid-3">{% for card in discovered %}{{ ui.live_card(card) }}{% endfor %}</div>
+
+    {% if total_pages > 1 %}
+    <nav class="pager" aria-label="More destinations">
+      {% if page > 1 %}<a class="btn btn-sm btn-outline" href="{{ url_for('pages.state_destinations', slug=state.slug, page=page-1) }}">Previous</a>{% endif %}
+      <span class="muted">Page {{ page }} of {{ total_pages }}</span>
+      {% if page < total_pages %}<a class="btn btn-sm btn-outline" href="{{ url_for('pages.state_destinations', slug=state.slug, page=page+1) }}">Next</a>{% endif %}
+    </nav>
+    {% endif %}
+  </div>
+  {% elif not curated %}
+  <div class="block"><div class="empty">
+    <p>No destinations could be loaded for {{ state.name }} right now.</p>
+    <p class="muted">Live discovery needs the Google Maps key to be configured. The culture, food and travel tips pages do not.</p>
+  </div></div>
+  {% endif %}
+</div>
+{% endblock %}

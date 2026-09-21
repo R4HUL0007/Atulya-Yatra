@@ -1,0 +1,371 @@
+[
+  {
+    "slug": "havelock-island",
+    "name": "Havelock Island (Swaraj Dweep)",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Andaman & Nicobar Islands",
+    "state_slug": "andaman-nicobar",
+    "region": "Ritchie's Archipelago",
+    "lat": 11.9673,
+    "lng": 92.9825,
+    "type": "island",
+    "categories": [
+      "Beach",
+      "Adventure",
+      "Nature"
+    ],
+    "tags": [
+      "Beaches",
+      "Adventure",
+      "Popular"
+    ],
+    "rating": 4.8,
+    "reviews": 38000,
+    "popularity": 74,
+    "data_quality": 0.87,
+    "short_intro": "The Andamans' most popular island, home to Radhanagar Beach and some of India's best scuba-diving reefs.",
+    "overview": "Havelock, officially renamed Swaraj Dweep, is the most visited island in the Andaman archipelago, anchored by Radhanagar Beach's white sand and turquoise water, once ranked among Asia's best beaches by Time magazine. Beyond the beach, Havelock is India's premier scuba-diving base, with dive schools operating year-round on reefs holding parrotfish, reef sharks and seasonal manta ray sightings, largely undisturbed given the islands' remoteness from the mainland.",
+    "images": {
+      "hero": "places/havelock-island/hero.jpg",
+      "gallery": [
+        "places/havelock-island/radhanagar-beach.jpg",
+        "places/havelock-island/scuba-diving.jpg",
+        "places/havelock-island/elephant-beach.jpg"
+      ],
+      "hero_credit": "Dr. K. Vedhagiri · CC BY-SA 3.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Havelock,_Andaman_&_Nicobar_Islands.JPG",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "hero_small": "places/havelock-island/card.jpg"
+    },
+    "best_season": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April"
+    ],
+    "best_time_to_visit": "November to April; monsoon (May-October) brings rough seas.",
+    "attractions": [
+      {
+        "name": "Radhanagar Beach",
+        "category": "Beach",
+        "description": "A crescent white-sand beach widely rated among Asia's finest."
+      },
+      {
+        "name": "Elephant Beach",
+        "category": "Beach",
+        "description": "A snorkelling and water-sports beach reached by boat or forest trail."
+      }
+    ],
+    "activities": [
+      "Scuba diving",
+      "Snorkelling",
+      "Sea walking",
+      "Kayaking"
+    ],
+    "food": [
+      {
+        "name": "Grilled Reef Fish",
+        "type": "Meal",
+        "description": "Fresh-caught fish grilled at beachfront shacks."
+      }
+    ],
+    "travel_info": {
+      "airport": "Port Blair (~57 km, then ferry).",
+      "railway": "None; access is by air to Port Blair then ferry.",
+      "local_transport": "Scooters and shared autos on the island.",
+      "suggested_duration": "2–3 days",
+      "budget": "Moderate."
+    },
+    "safety": {
+      "tips": [
+        "Dive only with PADI/SSI-certified operators.",
+        "Ferry schedules are weather-dependent — build in buffer days."
+      ],
+      "emergency": "Dial 112; medical evacuation may require Port Blair."
+    }
+  },
+  {
+    "slug": "port-blair",
+    "name": "Port Blair",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Andaman & Nicobar Islands",
+    "state_slug": "andaman-nicobar",
+    "region": "South Andaman",
+    "lat": 11.6234,
+    "lng": 92.7265,
+    "type": "city",
+    "categories": [
+      "Historical",
+      "Beach",
+      "Culture"
+    ],
+    "tags": [
+      "History",
+      "Beaches",
+      "Popular"
+    ],
+    "rating": 4.5,
+    "reviews": 26000,
+    "popularity": 62,
+    "data_quality": 0.85,
+    "short_intro": "The Andamans' capital, holding the colonial Cellular Jail where independence-era prisoners were held in solitary confinement.",
+    "overview": "Port Blair is the gateway to the Andaman Islands and site of the Cellular Jail, a British colonial prison built in 1906 whose radiating wings of solitary cells once held Indian freedom fighters, including Veer Savarkar, in brutal isolation. The jail is now a national memorial, its evening light-and-sound show narrating the independence struggle. The Anthropological Museum and nearby Chidiya Tapu, known for sunset viewing, round out the city beyond its role as a transit hub to the outer islands.",
+    "images": {
+      "hero": "places/port-blair/hero.jpg",
+      "gallery": [
+        "places/port-blair/cellular-jail.jpg",
+        "places/port-blair/chidiya-tapu.jpg",
+        "places/port-blair/corbyns-cove.jpg"
+      ],
+      "hero_credit": "(WT-en) Prateek4 at English Wikivoyage · Public domain",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:View_from_South_Point,_(Port_Blair,_India).jpg",
+      "hero_license_url": "",
+      "hero_small": "places/port-blair/card.jpg"
+    },
+    "best_season": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April"
+    ],
+    "best_time_to_visit": "November to April.",
+    "attractions": [
+      {
+        "name": "Cellular Jail",
+        "category": "Historical",
+        "description": "A colonial-era prison memorial to India's independence movement, with an evening light-and-sound show."
+      },
+      {
+        "name": "Chidiya Tapu",
+        "category": "Beach",
+        "description": "A sunset-viewing point and beach at the island's southern tip."
+      }
+    ],
+    "culture": {
+      "summary": "Port Blair's population is a settler mix from across mainland India relocated over generations, distinct from the islands' protected indigenous communities."
+    },
+    "activities": [
+      "Heritage walks",
+      "Photography",
+      "Beach activities"
+    ],
+    "food": [
+      {
+        "name": "Coconut Prawn Curry",
+        "type": "Meal",
+        "description": "A coastal curry reflecting the islands' fresh seafood and tropical produce."
+      }
+    ],
+    "travel_info": {
+      "airport": "Veer Savarkar International Airport (IXZ).",
+      "railway": "None.",
+      "local_transport": "Autos, taxis and ferries to outer islands.",
+      "suggested_duration": "1–2 days",
+      "budget": "Moderate."
+    },
+    "safety": {
+      "tips": [
+        "Book the Cellular Jail light-and-sound show in advance.",
+        "Ferries to outer islands fill up quickly in peak season."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "agatti-island",
+    "name": "Agatti Island",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Lakshadweep",
+    "state_slug": "lakshadweep",
+    "region": "Lakshadweep atolls",
+    "lat": 10.85,
+    "lng": 72.1833,
+    "type": "island",
+    "categories": [
+      "Beach",
+      "Nature",
+      "Adventure"
+    ],
+    "tags": [
+      "Beaches",
+      "Nature",
+      "Unexplored"
+    ],
+    "rating": 4.7,
+    "reviews": 4100,
+    "popularity": 38,
+    "data_quality": 0.78,
+    "short_intro": "The main gateway island of Lakshadweep, a slender coral atoll with a lagoon prized for its exceptional water clarity.",
+    "overview": "Agatti holds Lakshadweep's only civilian airstrip, making it most visitors' entry point to this remote coral archipelago off Kerala's coast. The island's lagoon is exceptionally shallow and clear, allowing visibility of coral and reef fish without diving gear, and its lack of large-scale tourism development compared to more famous island destinations keeps the atmosphere quiet and largely undeveloped, governed by strict environmental regulation to protect the fragile reef ecosystem.",
+    "images": {
+      "hero": "places/agatti-island/hero.jpg",
+      "gallery": [
+        "places/agatti-island/lagoon.jpg",
+        "places/agatti-island/coral-reef.jpg",
+        "places/agatti-island/beach.jpg"
+      ],
+      "hero_credit": "Julio · CC BY-SA 2.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Agatti_Airstrip.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "hero_small": "places/agatti-island/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "best_time_to_visit": "October to March; monsoon restricts island access.",
+    "attractions": [
+      {
+        "name": "Agatti Lagoon",
+        "category": "Nature",
+        "description": "An exceptionally clear shallow lagoon ideal for snorkelling."
+      }
+    ],
+    "activities": [
+      "Snorkelling",
+      "Kayaking",
+      "Photography"
+    ],
+    "food": [
+      {
+        "name": "Tuna Curry",
+        "type": "Meal",
+        "description": "A coconut-based fish curry central to Lakshadweep's island cuisine."
+      }
+    ],
+    "travel_info": {
+      "airport": "Agatti Aerodrome (AGX).",
+      "railway": "None; access via Kochi by air or ship.",
+      "local_transport": "Walking and cycling; the island is small.",
+      "suggested_duration": "2 days",
+      "budget": "Moderate to premium."
+    },
+    "safety": {
+      "tips": [
+        "Permits are mandatory and processed in advance — plan ahead.",
+        "Respect local Islamic customs; alcohol is restricted."
+      ],
+      "emergency": "Dial 112; medical facilities are basic."
+    }
+  },
+  {
+    "slug": "puducherry-town",
+    "name": "Puducherry",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Puducherry",
+    "state_slug": "puducherry",
+    "region": "Union Territory",
+    "lat": 11.9416,
+    "lng": 79.8083,
+    "type": "city",
+    "categories": [
+      "Heritage",
+      "Beach",
+      "Spiritual",
+      "Culture"
+    ],
+    "tags": [
+      "Heritage",
+      "Beaches",
+      "Popular"
+    ],
+    "rating": 4.6,
+    "reviews": 47000,
+    "popularity": 70,
+    "data_quality": 0.87,
+    "short_intro": "A former French colony where mustard-yellow colonial villas meet the Sri Aurobindo Ashram and the planned township of Auroville.",
+    "overview": "Puducherry (Pondicherry) was a French colonial outpost from the 17th century until 1954, and its Quartier Français, or White Town, still preserves grid-planned streets of colonial villas, bougainvillea-covered walls and church spires facing the Bay of Bengal promenade. The city is also home to the Sri Aurobindo Ashram, a major spiritual community, and lies beside Auroville, an experimental international township founded on ideals of human unity, centred on the golden geodesic Matrimandir meditation dome.",
+    "images": {
+      "hero": "places/puducherry-town/hero.jpg",
+      "gallery": [
+        "places/puducherry-town/french-quarter.jpg",
+        "places/puducherry-town/promenade.jpg",
+        "places/puducherry-town/auroville.jpg"
+      ]
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "best_time_to_visit": "October to March.",
+    "attractions": [
+      {
+        "name": "French Quarter (White Town)",
+        "category": "Heritage",
+        "description": "Colonial-era streets of yellow villas and bougainvillea, best explored on foot or bicycle."
+      },
+      {
+        "name": "Auroville & Matrimandir",
+        "category": "Spiritual",
+        "description": "An international experimental township centred on a golden geodesic meditation dome."
+      },
+      {
+        "name": "Promenade Beach",
+        "category": "Beach",
+        "description": "A rocky seafront promenade lined with colonial-era buildings and a lighthouse."
+      }
+    ],
+    "culture": {
+      "summary": "Puducherry's identity is a genuine Franco-Tamil fusion, visible in its bilingual signage, French-influenced cuisine and distinct colonial-era urban planning.",
+      "traditions": [
+        "Bastille Day celebrations",
+        "Ashram meditation practice"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Bastille Day",
+        "time": "14 July",
+        "description": "A French national day parade held in Puducherry, a legacy of its colonial past.",
+        "significance": "One of the few places in India where this French holiday is formally observed."
+      }
+    ],
+    "food": [
+      {
+        "name": "Pondicherry-style Seafood",
+        "type": "Meal",
+        "description": "French-Tamil fusion seafood dishes distinctive to the city's cafes."
+      },
+      {
+        "name": "Croissants and Baguettes",
+        "type": "Snack",
+        "description": "French-style bakery items widely available in the White Town cafes."
+      }
+    ],
+    "activities": [
+      "Cycling",
+      "Photography",
+      "Cultural experiences"
+    ],
+    "travel_info": {
+      "airport": "Puducherry Airport (PNY) or Chennai (~165 km).",
+      "railway": "Puducherry railway station.",
+      "local_transport": "Bicycles and autos suit the compact French Quarter.",
+      "suggested_duration": "1–2 days",
+      "budget": "Moderate."
+    },
+    "safety": {
+      "tips": [
+        "Book Matrimandir viewing passes in advance at Auroville's visitor centre.",
+        "Beach areas can have strong undertows — swim cautiously."
+      ],
+      "emergency": "Dial 112."
+    }
+  }
+]

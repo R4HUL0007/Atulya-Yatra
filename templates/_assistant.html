@@ -1,0 +1,34 @@
+{# `plan_slug` / `plan_query` let a destination page hand its place straight to
+   the assistant, which then opens on the "how many days?" question instead of a
+   generic welcome. See static/js/app assistant boot. #}
+{% macro assistant_widget(variant='floating', context_type='', context_slug='', plan_slug='', plan_query='', plan_label='') %}
+<section class="chat-panel {{ 'chat-page-panel' if variant == 'page' }}"
+  data-chat-root data-chat-variant="{{ variant }}"
+  data-context-type="{{ context_type }}" data-context-slug="{{ context_slug }}"
+  data-plan-slug="{{ plan_slug }}" data-plan-query="{{ plan_query }}"
+  data-plan-label="{{ plan_label }}"
+  aria-label="Atulya Yatra travel assistant">
+  <header class="chat-head">
+    <span class="avatar" aria-hidden="true">AY</span>
+    <div class="chat-head-copy">
+      <h4>Yatra Assistant</h4>
+      <small>Plans trips · answers travel questions</small>
+    </div>
+    <button class="chat-icon-btn" data-chat-reset type="button" aria-label="Start a new conversation">New</button>
+    {% if variant == 'floating' %}
+    <button class="chat-icon-btn" data-chat-close type="button" aria-label="Close assistant">Close</button>
+    {% endif %}
+  </header>
+  <div class="chat-body" data-chat-body role="log" aria-live="polite" aria-relevant="additions"></div>
+  <div class="chat-options" data-chat-options aria-label="Suggested replies"></div>
+  <div class="chat-status" data-chat-status role="status"></div>
+  <form class="chat-composer" data-chat-form>
+    <label class="sr-only" for="chat-input-{{ variant }}">Ask about a place, or plan a trip</label>
+    <input id="chat-input-{{ variant }}" data-chat-input maxlength="1000" autocomplete="off"
+      placeholder="Try “3 days in Jaipur” or “best time for Ladakh”"
+      aria-label="Ask about a place, or plan a trip">
+    <button type="submit">Send</button>
+  </form>
+  <p class="chat-trust">Details can change. Confirm timings and local access before you travel.</p>
+</section>
+{% endmacro %}

@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% from "_assistant.html" import assistant_widget %}
+
+{% block title %}Travel Assistant — Atulya Yatra{% endblock %}
+{% block description %}Plan a day-by-day India itinerary, or ask about food, festivals, culture and the best time to visit.{% endblock %}
+
+{% block content %}
+<section class="assistant-page-hero">
+  {# A photograph instead of a flat colour panel: the plan's own destination when
+     we know it, otherwise the shared scenic backdrop. #}
+  {% set hero_shot = plan_place or footer_photo() %}
+  {% if hero_shot %}
+  <img class="assistant-hero-bg" aria-hidden="true" alt=""
+    src="{{ entity_img(hero_shot, 'place', width=2200) }}"
+    srcset="{{ entity_srcset(hero_shot, 'place', widths=(1280, 1920, 2200)) }}" sizes="100vw">
+  {% endif %}
+  <div class="container">
+    <span class="assistant-kicker">Travel assistant</span>
+    {% if plan_place %}
+    <h1>Planning {{ plan_place.name }}</h1>
+    <p>Tell me how many days you have and I'll lay out the trip day by day, then show you what else is nearby.</p>
+    {% elif plan_name %}
+    <h1>Planning {{ plan_name }}</h1>
+    <p>Tell me how many days you have and I'll lay out the trip day by day.</p>
+    {% else %}
+    <h1>Plan a trip, or just ask</h1>
+    <p>Say where you're going and how long you have. Or ask about food, festivals, culture, or the best time to visit anywhere in India.</p>
+    {% endif %}
+  </div>
+</section>
+
+<section class="container assistant-page-layout">
+  {# Starter prompts: the fastest way to show someone what this can do is to let
+     them click a real question rather than face an empty box. #}
+  {% if not plan_place and not plan_name %}
+  <div class="assistant-starters" aria-label="Example things to ask">
+    <span class="assistant-starters-label">Try</span>
+    <a class="assistant-starter" href="{{ url_for('pages.assistant', plan='jaipur') }}">Plan a trip to Jaipur</a>
+    <a class="assistant-starter" href="{{ url_for('pages.assistant', plan='munnar') }}">Plan a trip to Munnar</a>
+    <a class="assistant-starter" href="{{ url_for('pages.assistant', plan='spiti-valley') }}">Plan Spiti Valley</a>
+  </div>
+  {% endif %}
+
+  <div class="assistant-page-chat">
+    {{ assistant_widget(
+         'page',
+         plan_slug=plan_slug,
+         plan_query=plan_name,
+         plan_label=(plan_place.name if plan_place else '')) }}
+  </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/assistant.js') }}"></script>
+{% endblock %}

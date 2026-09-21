@@ -1,0 +1,783 @@
+[
+  {
+    "slug": "nizamuddin-dargah",
+    "name": "Hazrat Nizamuddin Dargah",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Delhi (NCT)",
+    "state_slug": "delhi",
+    "region": "Central Delhi",
+    "lat": 28.5933,
+    "lng": 77.2507,
+    "type": "spiritual",
+    "categories": [
+      "Spiritual",
+      "Culture",
+      "Historical"
+    ],
+    "tags": [
+      "Spiritual",
+      "Culture",
+      "Unexplored"
+    ],
+    "rating": 4.6,
+    "reviews": 9800,
+    "popularity": 38,
+    "data_quality": 0.82,
+    "short_intro": "A living Sufi shrine complex tucked in an old basti, where Thursday-night qawwali still fills the courtyard.",
+    "overview": "The 14th-century shrine of Sufi saint Nizamuddin Auliya sits deep within a dense, unplanned neighbourhood of the same name, reached through narrow lanes of flower and food stalls rather than a grand approach. Thursday evenings bring live qawwali singing in the marble courtyard, a tradition running unbroken for over 700 years. Poet Amir Khusrau's tomb stands within the same complex, and the surrounding basti retains a working-class, devotional character overlooked by most tourist itineraries in the capital.",
+    "images": {
+      "hero": "places/nizamuddin-dargah/hero.jpg",
+      "gallery": [
+        "places/nizamuddin-dargah/courtyard.jpg",
+        "places/nizamuddin-dargah/qawwali.jpg"
+      ],
+      "hero_credit": "https://www.flickr.com/photos/varunshiv/ · CC BY 2.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Nizamuddin_Dargah_and_Jamaat_Khana_Masjid,_Delhi.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by/2.0",
+      "hero_small": "places/nizamuddin-dargah/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "best_time_to_visit": "Thursday evenings for qawwali; October to March for comfortable weather.",
+    "attractions": [
+      {
+        "name": "Qawwali Courtyard",
+        "category": "Culture",
+        "description": "Weekly live Sufi devotional music performances."
+      }
+    ],
+    "nearby_major_destination": "delhi-city",
+    "activities": [
+      "Cultural experiences",
+      "Photography"
+    ],
+    "travel_info": {
+      "local_transport": "Delhi Metro to Jor Bagh or Hazrat Nizamuddin station.",
+      "suggested_duration": "2–3 hours",
+      "budget": "Free (donations welcome)."
+    },
+    "safety": {
+      "tips": [
+        "Dress modestly; women may be asked to cover heads.",
+        "Lanes are narrow and crowded — watch belongings."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "lodhi-garden",
+    "name": "Lodhi Garden",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Delhi (NCT)",
+    "state_slug": "delhi",
+    "region": "Central Delhi",
+    "lat": 28.5931,
+    "lng": 77.2197,
+    "type": "heritage",
+    "categories": [
+      "Heritage",
+      "Nature",
+      "Peace"
+    ],
+    "tags": [
+      "Heritage",
+      "Peace",
+      "Unexplored"
+    ],
+    "rating": 4.7,
+    "reviews": 14000,
+    "popularity": 44,
+    "data_quality": 0.83,
+    "short_intro": "15th-century Sayyid and Lodhi-dynasty tombs scattered through a landscaped park, mostly visited by joggers rather than tourists.",
+    "overview": "Lodhi Garden holds a cluster of 15th and 16th-century tombs — Mohammed Shah's Tomb, the Bara Gumbad, and the Sheesh Gumbad among them — built by the Sayyid and Lodhi dynasties who ruled Delhi before the Mughals. Unlike Humayun's Tomb or the Red Fort, these monuments sit informally within a public garden used daily by local walkers, giving visitors a quieter, unticketed way to encounter pre-Mughal Delhi architecture.",
+    "images": {
+      "hero": "places/lodhi-garden/hero.jpg",
+      "gallery": [
+        "places/lodhi-garden/bara-gumbad.jpg",
+        "places/lodhi-garden/sheesh-gumbad.jpg"
+      ]
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "best_time_to_visit": "Early morning or late afternoon, October to March.",
+    "attractions": [
+      {
+        "name": "Bara Gumbad",
+        "category": "Heritage",
+        "description": "A large domed monument with an adjoining mosque, built in 1494."
+      }
+    ],
+    "nearby_major_destination": "delhi-city",
+    "activities": [
+      "Photography",
+      "Heritage walks"
+    ],
+    "travel_info": {
+      "local_transport": "Delhi Metro to Jor Bagh station.",
+      "suggested_duration": "1–2 hours",
+      "budget": "Free."
+    },
+    "safety": {
+      "tips": [
+        "Popular with morning joggers — busiest before 8am."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "sultanpur-bird-sanctuary",
+    "name": "Sultanpur National Park",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Haryana",
+    "state_slug": "haryana",
+    "region": "Gurugram district",
+    "lat": 28.4595,
+    "lng": 76.8964,
+    "type": "wildlife",
+    "categories": [
+      "Wildlife",
+      "Nature"
+    ],
+    "tags": [
+      "Wildlife",
+      "Nature",
+      "Unexplored"
+    ],
+    "rating": 4.3,
+    "reviews": 5200,
+    "popularity": 34,
+    "data_quality": 0.78,
+    "short_intro": "A wetland bird sanctuary an hour from Delhi, hosting thousands of migratory birds each winter.",
+    "overview": "Sultanpur National Park is a small but significant wetland just outside Gurugram, drawing migratory birds from Siberia and Central Asia each winter, including flamingos, painted storks and Siberian cranes in good years. Wooden watchtowers overlook the marsh, and despite its proximity to the National Capital Region, the sanctuary sees a fraction of the footfall of Delhi's monuments, making it a genuinely offbeat half-day trip for nature-minded travellers.",
+    "images": {
+      "hero": "places/sultanpur-bird-sanctuary/hero.jpg",
+      "gallery": [
+        "places/sultanpur-bird-sanctuary/wetland.jpg",
+        "places/sultanpur-bird-sanctuary/migratory-birds.jpg"
+      ],
+      "hero_credit": "Vishalbhatia93 · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Sultanpur_Bird_Sanctuary,_Gurgaon.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/sultanpur-bird-sanctuary/card.jpg"
+    },
+    "best_season": [
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "November to February for migratory bird season.",
+    "attractions": [
+      {
+        "name": "Watchtowers",
+        "category": "Wildlife",
+        "description": "Elevated viewing points over the wetland marsh."
+      }
+    ],
+    "nearby_major_destination": "delhi-city",
+    "activities": [
+      "Photography",
+      "Wildlife"
+    ],
+    "travel_info": {
+      "local_transport": "Taxi from Gurugram or Delhi (~50 km from central Delhi).",
+      "suggested_duration": "Half day",
+      "budget": "Low."
+    },
+    "safety": {
+      "tips": [
+        "Carry binoculars; birds keep a distance from paths.",
+        "Early morning visits have the best sightings."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "pushkar",
+    "name": "Pushkar",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Rajasthan",
+    "state_slug": "rajasthan",
+    "region": "Ajmer district",
+    "lat": 26.4899,
+    "lng": 74.5511,
+    "type": "spiritual",
+    "categories": [
+      "Spiritual",
+      "Culture",
+      "Lake"
+    ],
+    "tags": [
+      "Spiritual",
+      "Culture",
+      "Unexplored"
+    ],
+    "rating": 4.6,
+    "reviews": 31000,
+    "popularity": 52,
+    "data_quality": 0.84,
+    "short_intro": "A holy lake town near Jaipur with one of the very few temples to Brahma in India, transformed each November by a legendary camel fair.",
+    "overview": "Pushkar's sacred lake is ringed by 52 bathing ghats and holds one of India's only temples dedicated to Brahma the creator, a rarity given his limited worship compared to Vishnu and Shiva. The town's laid-back, backpacker-friendly bazaar contrasts with its intense religious significance, and each November the Pushkar Camel Fair transforms the surrounding desert into a trading and cultural spectacle of thousands of camels, folk performances and competitions.",
+    "images": {
+      "hero": "places/pushkar/hero.jpg",
+      "gallery": [
+        "places/pushkar/lake-ghats.jpg",
+        "places/pushkar/brahma-temple.jpg",
+        "places/pushkar/camel-fair.jpg"
+      ],
+      "hero_credit": "Bernard Gagnon · CC BY-SA 3.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Pushkar.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "hero_small": "places/pushkar/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to February; Camel Fair is in November.",
+    "attractions": [
+      {
+        "name": "Pushkar Lake",
+        "category": "Spiritual",
+        "description": "A sacred lake with 52 ghats for ritual bathing."
+      },
+      {
+        "name": "Brahma Temple",
+        "category": "Spiritual",
+        "description": "One of very few temples in India dedicated to Brahma."
+      }
+    ],
+    "nearby_major_destination": "jaipur",
+    "activities": [
+      "Cultural experiences",
+      "Photography",
+      "Camping"
+    ],
+    "travel_info": {
+      "local_transport": "Taxi or bus from Jaipur (~145 km) or Ajmer (~15 km).",
+      "suggested_duration": "1–2 days",
+      "budget": "Budget."
+    },
+    "safety": {
+      "tips": [
+        "Remove shoes and avoid photographing bathers at the ghats.",
+        "Camel Fair accommodation books out months ahead."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "sariska-tiger-reserve",
+    "name": "Sariska Tiger Reserve",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Rajasthan",
+    "state_slug": "rajasthan",
+    "region": "Alwar district",
+    "lat": 27.3346,
+    "lng": 76.4275,
+    "type": "wildlife",
+    "categories": [
+      "Wildlife",
+      "Nature",
+      "Heritage"
+    ],
+    "tags": [
+      "Wildlife",
+      "Nature",
+      "Unexplored"
+    ],
+    "rating": 4.4,
+    "reviews": 9600,
+    "popularity": 40,
+    "data_quality": 0.8,
+    "short_intro": "A tiger reserve within striking distance of Jaipur, with a ruined fort and ancient temple hidden inside its forest.",
+    "overview": "Sariska Tiger Reserve occupies a former royal hunting ground of the Alwar princely state, its dry deciduous forest now protecting a recovering tiger population reintroduced after local extinction in the mid-2000s. Deep within the reserve lie the ruins of Kankwadi Fort and the ancient Pandupol Hanuman Temple, giving safaris here a layered heritage-and-wildlife character less crowded than Ranthambore, its more famous Rajasthan counterpart.",
+    "images": {
+      "hero": "places/sariska-tiger-reserve/hero.jpg",
+      "gallery": [
+        "places/sariska-tiger-reserve/forest.jpg",
+        "places/sariska-tiger-reserve/kankwadi-fort.jpg"
+      ]
+    },
+    "best_season": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "best_time_to_visit": "November to March; closed during monsoon.",
+    "attractions": [
+      {
+        "name": "Pandupol Hanuman Temple",
+        "category": "Spiritual",
+        "description": "An ancient temple deep within the reserve, linked to Mahabharata legend."
+      }
+    ],
+    "nearby_major_destination": "jaipur",
+    "activities": [
+      "Wildlife safari",
+      "Photography"
+    ],
+    "travel_info": {
+      "local_transport": "Taxi from Jaipur (~110 km) or Alwar (~35 km).",
+      "suggested_duration": "1–2 days",
+      "budget": "Moderate."
+    },
+    "safety": {
+      "tips": [
+        "Book safari permits through the forest department in advance."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "nahargarh-fort",
+    "name": "Nahargarh Fort",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Rajasthan",
+    "state_slug": "rajasthan",
+    "region": "Jaipur",
+    "lat": 26.9373,
+    "lng": 75.8153,
+    "type": "fort",
+    "categories": [
+      "Heritage",
+      "Historical",
+      "Adventure"
+    ],
+    "tags": [
+      "Heritage",
+      "History",
+      "Unexplored"
+    ],
+    "rating": 4.5,
+    "reviews": 21000,
+    "popularity": 48,
+    "data_quality": 0.82,
+    "short_intro": "A hilltop fort overlooking Jaipur, quieter than Amber Fort and best known for its sunset views over the Pink City.",
+    "overview": "Nahargarh Fort was built in 1734 as a defensive extension to Jaipur's fortifications and later expanded with a series of identical apartments for the maharaja's queens. It draws a fraction of Amber Fort's crowds despite offering some of the best sunset views over Jaipur's grid-planned old city, and its ramparts and courtyards are relatively uncrowded even in peak season, making it a favoured escape for a quieter perspective on the Pink City.",
+    "images": {
+      "hero": "places/nahargarh-fort/hero.jpg",
+      "gallery": [
+        "places/nahargarh-fort/sunset-view.jpg",
+        "places/nahargarh-fort/ramparts.jpg"
+      ]
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "best_time_to_visit": "Late afternoon for sunset, October to March.",
+    "attractions": [
+      {
+        "name": "Madhavendra Bhawan",
+        "category": "Heritage",
+        "description": "A palace of identical suites built for the maharaja's queens."
+      }
+    ],
+    "nearby_major_destination": "jaipur",
+    "activities": [
+      "Photography",
+      "Heritage walks"
+    ],
+    "travel_info": {
+      "local_transport": "Taxi or auto from Jaipur city (~15 km).",
+      "suggested_duration": "2–3 hours",
+      "budget": "Low."
+    },
+    "safety": {
+      "tips": [
+        "Ramparts have some unguarded edges — take care with children."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "vaishno-devi",
+    "name": "Vaishno Devi",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Jammu & Kashmir",
+    "state_slug": "jammu-kashmir",
+    "region": "Reasi district",
+    "lat": 33.0303,
+    "lng": 74.9496,
+    "type": "spiritual",
+    "categories": [
+      "Spiritual",
+      "Mountains",
+      "Adventure"
+    ],
+    "tags": [
+      "Spiritual",
+      "Mountains",
+      "Popular"
+    ],
+    "rating": 4.7,
+    "reviews": 58000,
+    "popularity": 58,
+    "data_quality": 0.86,
+    "short_intro": "A cave shrine to the goddess reached by a steep 13km mountain trek, among the most-visited pilgrimages in North India.",
+    "overview": "The Vaishno Devi shrine sits in a mountain cave at Trikuta hills, reached only by foot, pony or helicopter along a paved 13km trail that pilgrims of all ages regularly complete, some as an act of devotion barefoot. The natural rock formations inside the cave are worshipped as manifestations of the goddess, and the trek itself, lined with dhabas and langar stalls run by devotees, has become a defining pilgrimage experience distinct from the temple visit alone.",
+    "images": {
+      "hero": "places/vaishno-devi/hero.jpg",
+      "gallery": [
+        "places/vaishno-devi/trail.jpg",
+        "places/vaishno-devi/cave-shrine.jpg"
+      ]
+    },
+    "best_season": [
+      "March",
+      "April",
+      "May",
+      "September",
+      "October",
+      "November"
+    ],
+    "best_time_to_visit": "March to May and September to November; avoid peak summer heat on the trail.",
+    "attractions": [
+      {
+        "name": "Bhawan Cave Shrine",
+        "category": "Spiritual",
+        "description": "The cave sanctum housing the goddess's natural rock manifestations."
+      }
+    ],
+    "nearby_major_destination": "srinagar",
+    "activities": [
+      "Trekking",
+      "Cultural experiences"
+    ],
+    "travel_info": {
+      "local_transport": "Base camp Katra reached by road/rail from Jammu; trek or pony/helicopter to the shrine.",
+      "suggested_duration": "1–2 days",
+      "budget": "Budget to moderate."
+    },
+    "safety": {
+      "tips": [
+        "Register online (Yatra Slip) before starting the trek.",
+        "Carry water; the climb is strenuous in warm months."
+      ],
+      "emergency": "Dial 112; medical posts line the trekking route."
+    }
+  },
+  {
+    "slug": "gulmarg",
+    "name": "Gulmarg",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Jammu & Kashmir",
+    "state_slug": "jammu-kashmir",
+    "region": "Baramulla district",
+    "lat": 34.0484,
+    "lng": 74.3805,
+    "type": "mountain",
+    "categories": [
+      "Mountains",
+      "Adventure",
+      "Nature"
+    ],
+    "tags": [
+      "Mountains",
+      "Adventure",
+      "Unexplored"
+    ],
+    "rating": 4.7,
+    "reviews": 27000,
+    "popularity": 50,
+    "data_quality": 0.83,
+    "short_intro": "A meadow-and-ski destination near Srinagar, home to one of the world's highest cable cars, the Gulmarg Gondola.",
+    "overview": "Gulmarg means 'meadow of flowers', a wide alpine bowl in the Pir Panjal range that turns into India's premier ski destination each winter and a lush green trekking base in summer. The Gulmarg Gondola rises in two stages to nearly 3,980 metres, among the highest cable cars in the world, offering views toward Nanga Parbat on clear days without requiring any climbing at all, making high-altitude Himalayan scenery unusually accessible.",
+    "images": {
+      "hero": "places/gulmarg/hero.jpg",
+      "gallery": [
+        "places/gulmarg/gondola.jpg",
+        "places/gulmarg/meadow.jpg",
+        "places/gulmarg/skiing.jpg"
+      ],
+      "hero_credit": "Anurag Kumar · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Ancient_Temple,_Gulmarg.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/gulmarg/card.jpg"
+    },
+    "best_season": [
+      "December",
+      "January",
+      "February",
+      "March",
+      "May",
+      "June"
+    ],
+    "best_time_to_visit": "December to March for skiing; May-June for green meadows.",
+    "attractions": [
+      {
+        "name": "Gulmarg Gondola",
+        "category": "Mountains",
+        "description": "A two-stage cable car reaching close to 3,980m."
+      }
+    ],
+    "nearby_major_destination": "srinagar",
+    "activities": [
+      "Skiing",
+      "Trekking",
+      "Photography"
+    ],
+    "travel_info": {
+      "local_transport": "Taxi from Srinagar (~50 km).",
+      "suggested_duration": "1–2 days",
+      "budget": "Moderate."
+    },
+    "safety": {
+      "tips": [
+        "Ski only with certified instructors and rented gear.",
+        "Weather changes fast — check gondola operating status."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "nubra-valley",
+    "name": "Nubra Valley",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Ladakh",
+    "state_slug": "ladakh",
+    "region": "Leh district",
+    "lat": 34.687,
+    "lng": 77.559,
+    "type": "valley",
+    "categories": [
+      "Nature",
+      "Adventure",
+      "Culture"
+    ],
+    "tags": [
+      "Nature",
+      "Adventure",
+      "Unexplored"
+    ],
+    "rating": 4.7,
+    "reviews": 11000,
+    "popularity": 44,
+    "data_quality": 0.82,
+    "short_intro": "A high-altitude valley of sand dunes and double-humped Bactrian camels, reached over the Khardung La pass from Leh.",
+    "overview": "Nubra Valley sits beyond Khardung La, one of the world's highest motorable passes, and holds an unlikely landscape of cold-desert sand dunes at Hunder where Bactrian camels — a legacy of old Silk Route trade caravans — can still be ridden. The valley's Diskit Monastery, topped by a giant 32-metre Maitreya Buddha statue overlooking the Shyok river, adds a striking cultural landmark to the stark, high-altitude scenery.",
+    "images": {
+      "hero": "places/nubra-valley/hero.jpg",
+      "gallery": [
+        "places/nubra-valley/sand-dunes.jpg",
+        "places/nubra-valley/diskit-monastery.jpg",
+        "places/nubra-valley/bactrian-camels.jpg"
+      ],
+      "hero_credit": "Addy6697 · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:5_Nubra_valley.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/nubra-valley/card.jpg"
+    },
+    "best_season": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "best_time_to_visit": "June to September; Khardung La is snowbound otherwise.",
+    "attractions": [
+      {
+        "name": "Hunder Sand Dunes",
+        "category": "Nature",
+        "description": "Cold-desert dunes where Bactrian camel rides are offered."
+      },
+      {
+        "name": "Diskit Monastery",
+        "category": "Spiritual",
+        "description": "A monastery topped by a giant Maitreya Buddha statue."
+      }
+    ],
+    "nearby_major_destination": "leh",
+    "activities": [
+      "Camping",
+      "Photography",
+      "Cultural experiences"
+    ],
+    "travel_info": {
+      "local_transport": "Taxi from Leh via Khardung La (~120 km); Inner Line Permit required.",
+      "suggested_duration": "1–2 days",
+      "budget": "Moderate."
+    },
+    "safety": {
+      "tips": [
+        "Acclimatise in Leh before crossing Khardung La.",
+        "Carry warm clothing even in summer."
+      ],
+      "emergency": "Dial 112; facilities are limited."
+    }
+  },
+  {
+    "slug": "orchha-hidden",
+    "name": "Orchha",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Madhya Pradesh",
+    "state_slug": "madhya-pradesh",
+    "region": "Bundelkhand",
+    "lat": 25.3518,
+    "lng": 78.642,
+    "type": "heritage",
+    "categories": [
+      "Heritage",
+      "Historical",
+      "Spiritual",
+      "Peace"
+    ],
+    "tags": [
+      "History",
+      "Heritage",
+      "Peace",
+      "Unexplored"
+    ],
+    "rating": 4.6,
+    "reviews": 14000,
+    "popularity": 52,
+    "data_quality": 0.88,
+    "short_intro": "A time-capsule Bundela town of riverside cenotaphs, painted palaces and a temple where Ram is worshipped as a king.",
+    "overview": "Orchha, founded by the Bundela Rajputs in the 16th century, is a serene town on the Betwa river studded with palaces, temples and royal cenotaphs (chhatris). The Ram Raja Temple is unique in India for worshipping Rama as a king, complete with an armed guard of honour. Riverfront chhatris glowing at sunset are its signature image, and the town sees far fewer visitors than Khajuraho despite comparable heritage value.",
+    "images": {
+      "hero": "places/orchha-hidden/hero.jpg",
+      "gallery": [
+        "places/orchha-hidden/chhatris.jpg",
+        "places/orchha-hidden/jahangir-mahal.jpg"
+      ],
+      "hero_credit": "Yann · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Chaturbhuj_Temple,_Orchha.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/orchha-hidden/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to March; pair with Khajuraho and Gwalior.",
+    "attractions": [
+      {
+        "name": "Orchha Fort Complex",
+        "category": "Heritage",
+        "description": "Jahangir Mahal and Raj Mahal with murals and river views."
+      }
+    ],
+    "nearby_major_destination": "khajuraho",
+    "activities": [
+      "Rafting",
+      "Heritage walks",
+      "Photography"
+    ],
+    "travel_info": {
+      "local_transport": "Auto or taxi from Jhansi (~18 km).",
+      "suggested_duration": "1–2 days",
+      "budget": "Low to moderate."
+    },
+    "safety": {
+      "tips": [
+        "River rafting is seasonal; use licensed operators."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "panna-national-park",
+    "name": "Panna National Park",
+    "kind": "hidden_gem",
+    "is_hidden_gem": true,
+    "state": "Madhya Pradesh",
+    "state_slug": "madhya-pradesh",
+    "region": "Panna district",
+    "lat": 24.6167,
+    "lng": 80.1667,
+    "type": "wildlife",
+    "categories": [
+      "Wildlife",
+      "Nature"
+    ],
+    "tags": [
+      "Wildlife",
+      "Nature",
+      "Unexplored"
+    ],
+    "rating": 4.4,
+    "reviews": 6300,
+    "popularity": 36,
+    "data_quality": 0.79,
+    "short_intro": "A tiger reserve carved by the Ken river gorge, a quieter and far less crowded safari alternative near Khajuraho.",
+    "overview": "Panna National Park follows the dramatic gorge of the Ken river, its tiger population rebuilt through one of India's most notable reintroduction success stories after local extinction in 2009. The park also protects gharials and marsh crocodiles along the river and sees a fraction of the visitor traffic of Bandhavgarh or Kanha, offering safaris in a rugged, plateau-and-gorge landscape that pairs naturally with a Khajuraho temple visit.",
+    "images": {
+      "hero": "places/panna-national-park/hero.jpg",
+      "gallery": [
+        "places/panna-national-park/ken-gorge.jpg",
+        "places/panna-national-park/safari.jpg"
+      ],
+      "hero_credit": "Mehaknoni · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Peaceful_time_away_from_the_wild_hustle._01.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/panna-national-park/card.jpg"
+    },
+    "best_season": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "best_time_to_visit": "November to March; closed during monsoon.",
+    "attractions": [
+      {
+        "name": "Ken River Gorge Boat Safari",
+        "category": "Wildlife",
+        "description": "A boat safari through the gorge spotting gharials and birdlife."
+      }
+    ],
+    "nearby_major_destination": "khajuraho",
+    "activities": [
+      "Wildlife safari",
+      "Boating",
+      "Photography"
+    ],
+    "travel_info": {
+      "local_transport": "Taxi from Khajuraho (~25 km).",
+      "suggested_duration": "1 day",
+      "budget": "Moderate."
+    },
+    "safety": {
+      "tips": [
+        "Book safari slots through the forest department in advance."
+      ],
+      "emergency": "Dial 112."
+    }
+  }
+]

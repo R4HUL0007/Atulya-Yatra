@@ -1,0 +1,55 @@
+{% extends "state_base.html" %}
+
+{% block state_section %}Travel tips{% endblock %}
+{% block state_heading %}Planning a trip to {{ state.name }}{% endblock %}
+{% block state_lead %}Practical information for getting the timing, packing and route right.{% endblock %}
+
+{% block state_content %}
+<div class="container section">
+  <div class="grid grid-2">
+    <div class="panel">
+      <h3>Quick facts</h3>
+      <ul class="info-list">
+        {% if state.best_time_to_visit %}<li><strong>Best time</strong><span>{{ state.best_time_to_visit }}</span></li>{% endif %}
+        {% if state.languages %}<li><strong>Languages</strong><span>{{ state.languages | join(', ') }}</span></li>{% endif %}
+        <li><strong>Type</strong><span>{{ 'Union Territory' if state.type == 'union_territory' else 'State' }}</span></li>
+      </ul>
+    </div>
+
+    {% if state.travel_tips %}
+    <div class="panel">
+      <h3>Travel tips</h3>
+      <ul class="info-list">{% for tip in state.travel_tips %}<li><span>{{ tip }}</span></li>{% endfor %}</ul>
+    </div>
+    {% endif %}
+
+    {% if state.adventure_activities %}
+    <div class="panel">
+      <h3>Adventure</h3>
+      <div class="pill-row">{% for a in state.adventure_activities %}<span class="chip">{{ a }}</span>{% endfor %}</div>
+    </div>
+    {% endif %}
+
+    {% if state.wildlife %}
+    <div class="panel">
+      <h3>Wildlife</h3>
+      <div class="pill-row">{% for w in state.wildlife %}<span class="chip">{{ w }}</span>{% endfor %}</div>
+    </div>
+    {% endif %}
+
+    {% if state.religious_destinations %}
+    <div class="panel">
+      <h3>Religious destinations</h3>
+      <div class="pill-row">{% for r in state.religious_destinations %}<span class="chip">{{ r }}</span>{% endfor %}</div>
+    </div>
+    {% endif %}
+
+    {% if nearby_states %}
+    <div class="panel">
+      <h3>Nearby regions</h3>
+      <div class="pill-row">{% for ns in nearby_states %}<a class="chip" href="{{ url_for('pages.state', slug=ns.slug) }}">{{ ns.name }}</a>{% endfor %}</div>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

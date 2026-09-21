@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block title %}Photo credits — Atulya Yatra{% endblock %}
+{% block description %}Photographers and licences for the photography used across Atulya Yatra.{% endblock %}
+
+{% block content %}
+<section class="catalog-head"><div class="container">
+  <div class="eyebrow">Credits</div>
+  <h1>Photo credits</h1>
+  <p>
+    Our destination and state photography comes from Wikimedia Commons. Most of it is
+    published under Creative Commons licences that ask for the photographer and licence
+    to be named, so every image is credited here rather than over the picture itself.
+  </p>
+</div></section>
+
+<div class="container section">
+  {% if entries %}
+  <p class="muted">{{ entries|length }} photograph{{ 's' if entries|length != 1 }} credited.</p>
+  <ul class="credit-list">
+    {% for entry in entries %}
+    <li class="credit-row">
+      <div class="credit-place">
+        <a href="{{ entry.url }}">{{ entry.name }}</a>
+        {% if entry.context %}<span class="muted">{{ entry.context }}</span>{% endif %}
+      </div>
+      <div class="credit-meta">
+        {% if entry.source %}
+          <a href="{{ entry.source }}" target="_blank" rel="noopener noreferrer nofollow">{{ entry.text }}</a>
+        {% else %}{{ entry.text }}{% endif %}
+        {% if entry.license_url %}
+          · <a href="{{ entry.license_url }}" target="_blank" rel="noopener noreferrer nofollow license">licence</a>
+        {% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <div class="empty"><p>No credited photography yet.</p></div>
+  {% endif %}
+
+  <p class="muted" style="margin-top:28px">
+    Live place photos shown for search results come from the Google Places API and are
+    credited to Google Places where they appear.
+  </p>
+</div>
+{% endblock %}

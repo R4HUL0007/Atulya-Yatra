@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% import "_macros.html" as ui %}
+{% block title %}{{ trip.name }} — Atulya Yatra{% endblock %}
+{% block description %}{{ trip.overview }}{% endblock %}
+
+{% block content %}
+<section class="detail-hero" style="min-height:48vh">
+  <img class="bg" src="{{ entity_img(trip, 'trip', width=1600) }}" alt="{{ trip.name }}">
+  <div class="scrim"></div>
+  <div class="container dh-inner">
+    <h1>{{ trip.name }}</h1>
+    <div class="meta">
+      <span>{{ trip.duration_days }} days</span>
+      {% if state %}<span><a href="{{ url_for('pages.state', slug=state.slug) }}" style="color:#fff;text-decoration:underline">{{ state.name }}</a></span>{% endif %}
+      {% if trip.best_season %}<span>Best: {{ trip.best_season | join(', ') }}</span>{% endif %}
+      {% if trip.themes %}<span>{{ trip.themes | join(' · ') }}</span>{% endif %}
+    </div>
+  </div>
+</section>
+
+<div class="container section">
+  <div class="layout">
+    <div class="main">
+      <div class="block prose"><h2>Overview</h2><p>{{ trip.overview }}</p></div>
+      <div class="block"><h2>Day-by-day itinerary</h2><div class="timeline">
+        {% for day in trip.itinerary %}<div class="tl-item">
+          <div class="tl-day">Day {{ day.day }}</div><h4>{{ day.title }}</h4><p style="color:var(--ink-soft);margin:0 0 .5rem">{{ day.detail }}</p>
+          {% if day._places %}<div class="pill-row">{% for p in day._places %}<a class="chip" href="{{ url_for('pages.destination', slug=p.slug) }}">{{ p.name }} →</a>{% endfor %}</div>{% endif %}
+        </div>{% endfor %}
+      </div></div>
+      {% if destinations %}<div class="block"><h2>Destinations on this trip</h2><div class="grid grid-3">{% for d in destinations %}{{ ui.place_card(d) }}{% endfor %}</div></div>{% endif %}
+    </div>
+    <aside class="aside">
+      {% if trip.recommended_experiences %}<div class="panel"><h3>Recommended experiences</h3><ul class="info-list">{% for e in trip.recommended_experiences %}<li><span>{{ e }}</span></li>{% endfor %}</ul></div>{% endif %}
+      {% if trip.activities %}<div class="panel"><h3>Activities</h3><div class="pill-row">{% for a in trip.activities %}<span class="chip">{{ a }}</span>{% endfor %}</div></div>{% endif %}
+      {% if trip.travel_tips %}<div class="panel"><h3>Travel tips</h3><ul class="info-list">{% for t in trip.travel_tips %}<li><span>{{ t }}</span></li>{% endfor %}</ul></div>{% endif %}
+    </aside>
+  </div>
+</div>
+{% endblock %}

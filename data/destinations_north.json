@@ -1,0 +1,988 @@
+[
+  {
+    "slug": "jaipur",
+    "name": "Jaipur",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Rajasthan",
+    "state_slug": "rajasthan",
+    "region": "Dhundhar",
+    "lat": 26.9124,
+    "lng": 75.7873,
+    "type": "heritage",
+    "categories": [
+      "Heritage",
+      "Historical",
+      "Culture",
+      "Architecture"
+    ],
+    "tags": [
+      "Heritage",
+      "History",
+      "Culture",
+      "Popular"
+    ],
+    "aliases": [
+      "Pink City"
+    ],
+    "rating": 4.6,
+    "reviews": 165000,
+    "popularity": 94,
+    "data_quality": 0.95,
+    "short_intro": "The 'Pink City', a meticulously planned 18th-century capital of forts, palaces and a rooftop astronomical observatory.",
+    "overview": "Jaipur was founded in 1727 by Maharaja Sawai Jai Singh II, a keen astronomer, and laid out on Vastu Shastra planning principles as one of India's first grid-planned cities, later painted pink in 1876 to welcome the Prince of Wales. The hilltop Amber Fort, City Palace's courtyards, and Hawa Mahal's honeycomb façade of 953 windows built for royal women to observe street life unseen all reflect the Kachhwaha rulers' blend of Rajput and Mughal architectural taste. Jantar Mantar, the largest of Jai Singh's five observatories, still functions as a working stone-and-marble astronomical instrument.",
+    "images": {
+      "hero": "places/jaipur/hero.jpg",
+      "gallery": [
+        "places/jaipur/hawa-mahal.jpg",
+        "places/jaipur/amber-fort.jpg",
+        "places/jaipur/city-palace.jpg",
+        "places/jaipur/jantar-mantar.jpg"
+      ],
+      "hero_credit": "Chainwit. · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:East_facade_Hawa_Mahal_Jaipur_from_ground_level_(July_2022)_-_img_01.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/jaipur/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "best_time_to_visit": "October to March; summers exceed 40°C.",
+    "attractions": [
+      {
+        "name": "Amber Fort",
+        "category": "Fort",
+        "description": "A hilltop fort-palace with mirrored halls, reached by jeep or elephant ride."
+      },
+      {
+        "name": "Hawa Mahal",
+        "category": "Heritage",
+        "description": "A pink sandstone façade of 953 small windows, built for royal women's private street views."
+      },
+      {
+        "name": "City Palace",
+        "category": "Heritage",
+        "description": "The former royal residence, still partly home to the Jaipur royal family."
+      },
+      {
+        "name": "Jantar Mantar",
+        "category": "Heritage",
+        "description": "A UNESCO-listed stone astronomical observatory with the world's largest sundial."
+      }
+    ],
+    "culture": {
+      "summary": "Jaipur is a centre of Rajasthani miniature painting, blue pottery, gemstone cutting and traditional puppet (kathputli) performance.",
+      "traditions": [
+        "Gangaur festival processions",
+        "Elephant Festival"
+      ],
+      "art_handicrafts": [
+        "Blue pottery",
+        "Gemstone and jewellery crafting",
+        "Bandhani tie-dye",
+        "Kathputli puppetry"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Jaipur Literature Festival",
+        "time": "January",
+        "description": "One of the world's largest free literary festivals.",
+        "significance": "A major modern cultural draw alongside the city's heritage."
+      },
+      {
+        "name": "Teej",
+        "time": "July–August",
+        "description": "A monsoon festival celebrated with processions honouring Goddess Parvati.",
+        "significance": "A major women-centred Rajasthani festival."
+      }
+    ],
+    "food": [
+      {
+        "name": "Dal Baati Churma",
+        "type": "Meal",
+        "description": "Baked wheat balls with lentils and a sweet crumble, Rajasthan's signature meal."
+      },
+      {
+        "name": "Laal Maas",
+        "type": "Meal",
+        "description": "A fiery red mutton curry from the Rajput hunting tradition."
+      },
+      {
+        "name": "Ghewar",
+        "type": "Sweet",
+        "description": "A disc-shaped syrup-soaked sweet especially made for Teej."
+      }
+    ],
+    "activities": [
+      "Heritage walks",
+      "Photography",
+      "Cultural experiences",
+      "Hot-air ballooning"
+    ],
+    "travel_info": {
+      "airport": "Jaipur International Airport (JAI).",
+      "railway": "Jaipur Junction.",
+      "bus": "Well connected across Rajasthan and to Delhi/Agra.",
+      "local_transport": "Autos, cabs and the Jaipur Metro.",
+      "suggested_duration": "2–3 days",
+      "budget": "Moderate."
+    },
+    "safety": {
+      "tips": [
+        "Bargain at bazaars like Johari and Bapu Market.",
+        "Book Amber Fort elephant rides only through official counters."
+      ],
+      "emergency": "Dial 112; tourist police active near major sites."
+    }
+  },
+  {
+    "slug": "delhi-city",
+    "name": "Delhi",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Delhi (NCT)",
+    "state_slug": "delhi",
+    "region": "National Capital Territory",
+    "lat": 28.6139,
+    "lng": 77.209,
+    "type": "city",
+    "categories": [
+      "Heritage",
+      "Historical",
+      "Culture",
+      "Food"
+    ],
+    "tags": [
+      "History",
+      "Culture",
+      "Architecture",
+      "Popular"
+    ],
+    "aliases": [
+      "New Delhi",
+      "NCT"
+    ],
+    "rating": 4.4,
+    "reviews": 145000,
+    "popularity": 96,
+    "data_quality": 0.95,
+    "short_intro": "Layered capital of Mughal monuments, colonial avenues, and Sultanate-era ruins spanning eight historic cities.",
+    "overview": "Delhi has been the seat of power for successive empires for nearly a millennium, and the city wears every layer of that history at once. Qutub Minar's Indo-Islamic tower rises from 12th-century ruins; Humayun's Tomb prefigures the Taj Mahal's garden-tomb design; Lutyens' colonial avenues frame Rashtrapati Bhavan; and Old Delhi's Chandni Chowk still runs the food and trade routes laid out by Shah Jahan. Modern Delhi adds Akshardham's carved sandstone and the Lotus Temple's petalled concrete to that timeline.",
+    "images": {
+      "hero": "places/delhi-city/hero.jpg",
+      "gallery": [
+        "places/delhi-city/qutub-minar.jpg",
+        "places/delhi-city/humayun-tomb.jpg",
+        "places/delhi-city/chandni-chowk.jpg",
+        "places/delhi-city/india-gate.jpg"
+      ],
+      "hero_credit": "Marcin Białek · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Jama_Masjid_2011.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/delhi-city/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "best_time_to_visit": "October to March; summers exceed 40°C and the monsoon is humid.",
+    "attractions": [
+      {
+        "name": "Qutub Minar",
+        "category": "Heritage",
+        "description": "A 73-metre 12th-century minaret and UNESCO World Heritage Site marking the start of Indo-Islamic architecture in India."
+      },
+      {
+        "name": "Humayun's Tomb",
+        "category": "Heritage",
+        "description": "A Mughal garden-tomb built in 1570 that directly inspired the Taj Mahal's design."
+      },
+      {
+        "name": "Red Fort",
+        "category": "Fort",
+        "description": "Shah Jahan's red-sandstone Mughal citadel, site of the annual Independence Day flag-hoisting."
+      },
+      {
+        "name": "Chandni Chowk",
+        "category": "Market",
+        "description": "A 17th-century bazaar street famous for street food, wedding-wear shopping and spice trading."
+      }
+    ],
+    "culture": {
+      "summary": "Delhi blends Mughal-era Urdu poetry and cuisine with Punjabi post-Partition energy and a modern political-capital cosmopolitanism.",
+      "traditions": [
+        "Sufi qawwali at Nizamuddin Dargah",
+        "Kite flying on Independence Day"
+      ],
+      "art_handicrafts": [
+        "Zardozi embroidery",
+        "Meenakari jewellery"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Republic Day Parade",
+        "time": "26 January",
+        "description": "A grand military and cultural parade down Rajpath.",
+        "significance": "Marks the adoption of India's constitution."
+      }
+    ],
+    "food": [
+      {
+        "name": "Chandni Chowk Paranthe",
+        "type": "Street food",
+        "description": "Stuffed fried breads served in a century-old lane dedicated to them."
+      },
+      {
+        "name": "Butter Chicken",
+        "type": "Meal",
+        "description": "Tomato-and-cream chicken curry, invented in Delhi's Moti Mahal in the 1950s."
+      },
+      {
+        "name": "Chaat",
+        "type": "Snack",
+        "description": "Tangy, spiced savoury snacks like golgappa and aloo tikki sold citywide."
+      }
+    ],
+    "activities": [
+      "Heritage walks",
+      "Photography",
+      "Food tours",
+      "Museum visits"
+    ],
+    "travel_info": {
+      "airport": "Indira Gandhi International Airport (DEL).",
+      "railway": "New Delhi, Old Delhi and Hazrat Nizamuddin stations.",
+      "bus": "ISBT terminals connect across North India.",
+      "local_transport": "Delhi Metro covers most tourist areas.",
+      "suggested_duration": "3–4 days",
+      "budget": "Budget to premium; wide range available."
+    },
+    "safety": {
+      "tips": [
+        "Use registered taxis or the Metro at night.",
+        "Bargain firmly in markets.",
+        "Air quality worsens in winter — check AQI."
+      ],
+      "emergency": "Dial 112.",
+      "etiquette": [
+        "Dress modestly at religious sites."
+      ]
+    }
+  },
+  {
+    "slug": "kurukshetra",
+    "name": "Kurukshetra",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Haryana",
+    "state_slug": "haryana",
+    "region": "Kurukshetra district",
+    "lat": 29.9695,
+    "lng": 76.8783,
+    "type": "spiritual",
+    "categories": [
+      "Spiritual",
+      "Historical",
+      "Heritage"
+    ],
+    "tags": [
+      "Spiritual",
+      "History",
+      "Popular"
+    ],
+    "rating": 4.3,
+    "reviews": 8200,
+    "popularity": 52,
+    "data_quality": 0.85,
+    "short_intro": "The legendary battlefield of the Mahabharata, where the Bhagavad Gita was said to be recited, centred on the sacred Brahma Sarovar tank.",
+    "overview": "Kurukshetra is revered as the site of the Kurukshetra War described in the Mahabharata and the setting where Krishna is said to have delivered the Bhagavad Gita to Arjuna. The town's spiritual geography centres on Brahma Sarovar, one of the largest and holiest water tanks in India, ringed by ghats and temples. The Jyotisar shrine marks the exact spot linked to the Gita's recitation.",
+    "images": {
+      "hero": "places/kurukshetra/hero.jpg",
+      "gallery": [
+        "places/kurukshetra/brahma-sarovar.jpg",
+        "places/kurukshetra/jyotisar.jpg",
+        "places/kurukshetra/sannihit-sarovar.jpg"
+      ]
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to February; the Gita Mahotsav runs in November-December.",
+    "attractions": [
+      {
+        "name": "Brahma Sarovar",
+        "category": "Spiritual",
+        "description": "A vast sacred tank considered one of the holiest bathing sites in Hindu tradition."
+      },
+      {
+        "name": "Jyotisar",
+        "category": "Spiritual",
+        "description": "The site traditionally identified as where the Bhagavad Gita was recited."
+      },
+      {
+        "name": "Sannihit Sarovar",
+        "category": "Spiritual",
+        "description": "A tank believed to be visited by all sacred rivers during solar eclipses."
+      }
+    ],
+    "culture": {
+      "summary": "Kurukshetra's identity is built entirely around Mahabharata mythology, drawing pilgrims and scholars of the epic year-round.",
+      "traditions": [
+        "Ritual bathing during eclipses",
+        "Gita recitation gatherings"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Gita Mahotsav",
+        "time": "November–December",
+        "description": "A month-long cultural and spiritual festival around Brahma Sarovar.",
+        "significance": "Celebrates the Gita's teachings with music, dance and discourse."
+      }
+    ],
+    "food": [
+      {
+        "name": "Bajra Khichdi",
+        "type": "Meal",
+        "description": "A hearty millet-and-lentil dish typical of rural Haryana."
+      },
+      {
+        "name": "Lassi",
+        "type": "Drink",
+        "description": "Thick churned-yoghurt drink served everywhere in the region."
+      }
+    ],
+    "activities": [
+      "Heritage walks",
+      "Cultural experiences",
+      "Photography"
+    ],
+    "travel_info": {
+      "airport": "Chandigarh (~90 km) or Delhi (~160 km).",
+      "railway": "Kurukshetra Junction.",
+      "bus": "Well connected to Delhi, Chandigarh and Ambala.",
+      "local_transport": "Autos and taxis around the tank circuit.",
+      "suggested_duration": "1 day",
+      "budget": "Low."
+    },
+    "safety": {
+      "tips": [
+        "Crowds swell heavily during Gita Mahotsav.",
+        "Footwear removal expected at ghats."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "amritsar",
+    "name": "Amritsar",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Punjab",
+    "state_slug": "punjab",
+    "region": "Majha",
+    "lat": 31.634,
+    "lng": 74.8723,
+    "type": "spiritual",
+    "categories": [
+      "Spiritual",
+      "Culture",
+      "Historical",
+      "Food"
+    ],
+    "tags": [
+      "Spiritual",
+      "Culture",
+      "Popular"
+    ],
+    "rating": 4.8,
+    "reviews": 210000,
+    "popularity": 92,
+    "data_quality": 0.95,
+    "short_intro": "Home to the golden-domed Harmandir Sahib and the nightly patriotic spectacle at the Wagah border.",
+    "overview": "Amritsar is Sikhism's holiest city, built around the Golden Temple, whose gold-plated sanctum sits amid a marble courtyard and sacred pool, the Amrit Sarovar. The temple's free community kitchen serves over 100,000 people daily regardless of faith. A short drive away, the Wagah border ceremony turns India-Pakistan flag lowering into a roaring nightly show, while Jallianwala Bagh preserves the memory of the 1919 massacre.",
+    "images": {
+      "hero": "places/amritsar/hero.jpg",
+      "gallery": [
+        "places/amritsar/golden-temple.jpg",
+        "places/amritsar/wagah-border.jpg",
+        "places/amritsar/jallianwala-bagh.jpg",
+        "places/amritsar/langar.jpg"
+      ],
+      "hero_credit": "Shubhashish · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Golden_Temple_Amritsar_Gurudwara_(cropped).jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/amritsar/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "best_time_to_visit": "October to March; summer is very hot.",
+    "attractions": [
+      {
+        "name": "Golden Temple (Harmandir Sahib)",
+        "category": "Spiritual",
+        "description": "Sikhism's holiest gurdwara, gold-plated and set in a sacred pool."
+      },
+      {
+        "name": "Wagah Border",
+        "category": "Landmark",
+        "description": "The India-Pakistan border ceremony with synchronized drills and crowds cheering both sides."
+      },
+      {
+        "name": "Jallianwala Bagh",
+        "category": "Historical",
+        "description": "A memorial garden marking the 1919 massacre site, a turning point in the independence movement."
+      }
+    ],
+    "culture": {
+      "summary": "Amritsar embodies Sikh values of seva (selfless service) and langar (community kitchen), alongside a robust Punjabi culture of music, food and hospitality.",
+      "traditions": [
+        "Langar community meals",
+        "Kirtan devotional singing"
+      ],
+      "art_handicrafts": [
+        "Phulkari embroidery",
+        "Punjabi juttis"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Baisakhi",
+        "time": "April",
+        "description": "Punjab's harvest and Khalsa-founding festival celebrated with Bhangra and Gidda.",
+        "significance": "Marks the Sikh new year and Khalsa formation."
+      }
+    ],
+    "food": [
+      {
+        "name": "Amritsari Kulcha",
+        "type": "Meal",
+        "description": "Stuffed leavened bread baked in a tandoor, a city signature."
+      },
+      {
+        "name": "Makhi Fish",
+        "type": "Meal",
+        "description": "Punjabi-spiced fried river fish, an Amritsar specialty."
+      },
+      {
+        "name": "Langar Prasad",
+        "type": "Meal",
+        "description": "Simple communal meal served free at the Golden Temple to all visitors."
+      }
+    ],
+    "activities": [
+      "Heritage walks",
+      "Cultural experiences",
+      "Photography"
+    ],
+    "travel_info": {
+      "airport": "Sri Guru Ram Dass Jee International Airport (ATQ).",
+      "railway": "Amritsar Junction.",
+      "bus": "Frequent buses across Punjab and to Delhi/Chandigarh.",
+      "local_transport": "Autos and cycle-rickshaws around the old city.",
+      "suggested_duration": "1–2 days",
+      "budget": "Budget to moderate."
+    },
+    "safety": {
+      "tips": [
+        "Cover your head and remove footwear at the Golden Temple.",
+        "Arrive early for Wagah border seating."
+      ],
+      "emergency": "Dial 112.",
+      "etiquette": [
+        "No smoking, alcohol or leather items inside the Golden Temple complex."
+      ]
+    }
+  },
+  {
+    "slug": "srinagar",
+    "name": "Srinagar",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Jammu & Kashmir",
+    "state_slug": "jammu-kashmir",
+    "region": "Kashmir Valley",
+    "lat": 34.0837,
+    "lng": 74.7973,
+    "type": "hill_station",
+    "categories": [
+      "Nature",
+      "Culture",
+      "Lake",
+      "Mountains"
+    ],
+    "tags": [
+      "Nature",
+      "Lakes",
+      "Mountains",
+      "Popular"
+    ],
+    "rating": 4.6,
+    "reviews": 68000,
+    "popularity": 80,
+    "data_quality": 0.88,
+    "short_intro": "Kashmir's summer capital, built around Dal Lake's houseboats and Mughal terraced gardens.",
+    "overview": "Srinagar sits on the banks of the Jhelum river and around Dal Lake, where cedar-wood houseboats and shikara boats have hosted travellers since Mughal times. The Mughal emperors laid out terraced gardens like Shalimar Bagh and Nishat Bagh specifically to enjoy the valley's scenery, and that legacy of leisurely, garden-framed beauty still defines the city, alongside a strong handicraft tradition in wood-carving, papier-mâché and Kashmiri shawls.",
+    "images": {
+      "hero": "places/srinagar/hero.jpg",
+      "gallery": [
+        "places/srinagar/dal-lake.jpg",
+        "places/srinagar/shalimar-bagh.jpg",
+        "places/srinagar/houseboats.jpg",
+        "places/srinagar/hazratbal.jpg"
+      ],
+      "hero_credit": "Abdars · CC BY-SA 3.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Red_and_Yellow_Tulips.JPG",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "hero_small": "places/srinagar/card.jpg"
+    },
+    "best_season": [
+      "April",
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "best_time_to_visit": "April to October; snowfall closes many roads in winter.",
+    "attractions": [
+      {
+        "name": "Dal Lake",
+        "category": "Lake",
+        "description": "The iconic lake with houseboats, floating gardens and shikara rides."
+      },
+      {
+        "name": "Shalimar Bagh",
+        "category": "Garden",
+        "description": "A Mughal terraced garden built by Jahangir for Empress Nur Jahan."
+      },
+      {
+        "name": "Hazratbal Shrine",
+        "category": "Spiritual",
+        "description": "A white-marble mosque on Dal Lake's shore holding a relic of the Prophet."
+      }
+    ],
+    "culture": {
+      "summary": "Kashmiri culture blends Persian-influenced Sufi traditions with distinct cuisine, poetry and one of India's finest handicraft traditions.",
+      "traditions": [
+        "Sufi shrine visits",
+        "Wazwan feast etiquette"
+      ],
+      "art_handicrafts": [
+        "Pashmina and Kani shawls",
+        "Papier-mâché",
+        "Walnut wood carving"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Tulip Festival",
+        "time": "March–April",
+        "description": "Asia's largest tulip garden blooms at the foot of the Zabarwan hills.",
+        "significance": "A modern festival celebrating spring in the valley."
+      }
+    ],
+    "food": [
+      {
+        "name": "Rogan Josh",
+        "type": "Meal",
+        "description": "A slow-cooked, deep-red lamb curry central to Kashmiri Wazwan."
+      },
+      {
+        "name": "Kahwa",
+        "type": "Drink",
+        "description": "Saffron-and-almond spiced green tea served throughout the valley."
+      }
+    ],
+    "activities": [
+      "Boating",
+      "Photography",
+      "Cultural experiences"
+    ],
+    "travel_info": {
+      "airport": "Sheikh ul-Alam International Airport (SXR).",
+      "railway": "No direct rail; nearest is Jammu Tawi, then road.",
+      "local_transport": "Shikaras, autos and taxis.",
+      "suggested_duration": "3–4 days",
+      "budget": "Moderate."
+    },
+    "safety": {
+      "tips": [
+        "Check current travel advisories before planning.",
+        "Agree houseboat/shikara rates in advance."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "leh",
+    "name": "Leh",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Ladakh",
+    "state_slug": "ladakh",
+    "region": "Leh district",
+    "lat": 34.1526,
+    "lng": 77.5771,
+    "type": "mountain",
+    "categories": [
+      "Mountains",
+      "Adventure",
+      "Spiritual",
+      "Culture"
+    ],
+    "tags": [
+      "Mountains",
+      "Adventure",
+      "Spiritual",
+      "Popular"
+    ],
+    "rating": 4.7,
+    "reviews": 54000,
+    "popularity": 82,
+    "data_quality": 0.9,
+    "short_intro": "The high-desert capital of Ladakh, ringed by Buddhist monasteries and some of the world's highest motorable passes.",
+    "overview": "Leh sits at over 3,500 metres in a stark Trans-Himalayan desert, its old town climbing toward the ruined Leh Palace beneath the Namgyal Tsemo monastery. It is the springboard for Ladakh's dramatic geography: Pangong Lake's blue expanse, the Nubra valley's sand dunes, and passes like Khardung La among the highest roads on earth. Tibetan Buddhist culture runs deep, from prayer-flag-strung ridgelines to butter-lamp-lit monasteries.",
+    "images": {
+      "hero": "places/leh/hero.jpg",
+      "gallery": [
+        "places/leh/leh-palace.jpg",
+        "places/leh/shanti-stupa.jpg",
+        "places/leh/pangong.jpg",
+        "places/leh/market.jpg"
+      ],
+      "hero_credit": "Anirvan Shukla · CC BY-SA 3.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Leh_City_seen_from_Shanti_Stupa.JPG",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "hero_small": "places/leh/card.jpg"
+    },
+    "best_season": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "best_time_to_visit": "May to September; passes are snowbound the rest of the year.",
+    "attractions": [
+      {
+        "name": "Leh Palace",
+        "category": "Heritage",
+        "description": "A 17th-century royal palace overlooking the old town, modelled on Lhasa's Potala Palace."
+      },
+      {
+        "name": "Shanti Stupa",
+        "category": "Spiritual",
+        "description": "A white-domed Buddhist stupa with panoramic Leh valley views."
+      },
+      {
+        "name": "Pangong Lake",
+        "category": "Lake",
+        "description": "A vast high-altitude lake changing colour through the day, straddling the India-China border area."
+      }
+    ],
+    "culture": {
+      "summary": "Ladakhi culture is rooted in Tibetan Buddhism, with monastery festivals, mask dances and a resilient high-altitude farming tradition.",
+      "traditions": [
+        "Cham mask dances",
+        "Prayer wheel rituals"
+      ],
+      "art_handicrafts": [
+        "Thangka painting",
+        "Pashmina weaving"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Hemis Festival",
+        "time": "June–July",
+        "description": "A masked-dance festival at Hemis Monastery marking Guru Padmasambhava's birth.",
+        "significance": "One of Ladakh's largest monastic festivals."
+      }
+    ],
+    "food": [
+      {
+        "name": "Skyu",
+        "type": "Meal",
+        "description": "A hand-shaped pasta-and-vegetable stew suited to the cold climate."
+      },
+      {
+        "name": "Butter Tea",
+        "type": "Drink",
+        "description": "Salted, buttered tea essential at altitude."
+      }
+    ],
+    "activities": [
+      "Trekking",
+      "Mountain biking",
+      "Photography",
+      "Camping"
+    ],
+    "travel_info": {
+      "airport": "Kushok Bakula Rimpochee Airport (IXL).",
+      "railway": "None; nearest is Jammu Tawi, far by road.",
+      "local_transport": "Taxis and hired bikes; permits required beyond Leh.",
+      "suggested_duration": "5–7 days",
+      "budget": "Moderate."
+    },
+    "safety": {
+      "tips": [
+        "Rest a day or two in Leh before higher altitudes.",
+        "Inner Line Permits required for Pangong, Nubra and Khardung La."
+      ],
+      "emergency": "Dial 112; medical facilities are limited outside Leh."
+    }
+  },
+  {
+    "slug": "chandigarh-city",
+    "name": "Chandigarh",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Chandigarh",
+    "state_slug": "chandigarh",
+    "region": "Union Territory",
+    "lat": 30.7333,
+    "lng": 76.7794,
+    "type": "city",
+    "categories": [
+      "Culture",
+      "Nature",
+      "Architecture"
+    ],
+    "tags": [
+      "Architecture",
+      "Popular"
+    ],
+    "rating": 4.4,
+    "reviews": 31000,
+    "popularity": 68,
+    "data_quality": 0.86,
+    "short_intro": "India's first planned city, laid out by Le Corbusier in strict grid sectors around Sukhna Lake and the Rock Garden.",
+    "overview": "Chandigarh was conceived after Partition as a fresh capital for Punjab, designed from scratch by Swiss-French architect Le Corbusier with wide avenues, numbered sectors and modernist civic buildings. Nek Chand's Rock Garden, built secretly from industrial and household waste over decades, sits in striking contrast — a folk-art sculpture park within a rationalist city. Sukhna Lake offers a calm morning-walk counterpoint.",
+    "images": {
+      "hero": "places/chandigarh-city/hero.jpg",
+      "gallery": [
+        "places/chandigarh-city/rock-garden.jpg",
+        "places/chandigarh-city/sukhna-lake.jpg",
+        "places/chandigarh-city/capitol-complex.jpg"
+      ],
+      "hero_credit": "Raakesh Blokhra · CC BY-SA 2.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Open_Hand_monument,_Chandigarh.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "hero_small": "places/chandigarh-city/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "best_time_to_visit": "October to March.",
+    "attractions": [
+      {
+        "name": "Rock Garden",
+        "category": "Art",
+        "description": "A sprawling sculpture garden made entirely from recycled waste and rocks by artist Nek Chand."
+      },
+      {
+        "name": "Sukhna Lake",
+        "category": "Lake",
+        "description": "A man-made lake at the foothills of the Shivaliks, popular for boating and walks."
+      },
+      {
+        "name": "Capitol Complex",
+        "category": "Architecture",
+        "description": "Le Corbusier's UNESCO-listed government buildings, a landmark of modernist architecture."
+      }
+    ],
+    "culture": {
+      "summary": "Chandigarh's identity is defined by deliberate urban planning and a relaxed, orderly Punjabi-inflected lifestyle rare among Indian cities.",
+      "traditions": [
+        "Sector-based community life"
+      ],
+      "art_handicrafts": [
+        "Outsider/folk sculpture (Rock Garden style)"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Chandigarh Carnival",
+        "time": "November",
+        "description": "A citywide cultural and food festival.",
+        "significance": "Celebrates the city's founding and civic identity."
+      }
+    ],
+    "food": [
+      {
+        "name": "Chole Bhature",
+        "type": "Meal",
+        "description": "Spiced chickpeas with fried bread, a North Indian staple widely available here."
+      },
+      {
+        "name": "Sector 17 Street Food",
+        "type": "Street food",
+        "description": "A concentrated food-stall scene in the city's central plaza."
+      }
+    ],
+    "activities": [
+      "Cycling",
+      "Boating",
+      "Photography"
+    ],
+    "travel_info": {
+      "airport": "Chandigarh International Airport (IXC).",
+      "railway": "Chandigarh Junction.",
+      "bus": "ISBT Sector 43 connects across Punjab, Haryana and HP.",
+      "local_transport": "Autos and app cabs.",
+      "suggested_duration": "1–2 days",
+      "budget": "Moderate."
+    },
+    "safety": {
+      "tips": [
+        "Sectors follow a grid; note your sector number to navigate easily."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "mathura-vrindavan",
+    "name": "Mathura-Vrindavan",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Uttar Pradesh",
+    "state_slug": "uttar-pradesh",
+    "region": "Braj",
+    "lat": 27.5806,
+    "lng": 77.6738,
+    "type": "spiritual",
+    "categories": [
+      "Spiritual",
+      "Culture",
+      "Historical"
+    ],
+    "tags": [
+      "Spiritual",
+      "Culture",
+      "Popular"
+    ],
+    "rating": 4.6,
+    "reviews": 62000,
+    "popularity": 74,
+    "data_quality": 0.87,
+    "short_intro": "Krishna's legendary birthplace and childhood playground, twin temple towns alive with devotional colour, especially at Holi.",
+    "overview": "Mathura is revered as Krishna's birthplace, marked by the Krishna Janmabhoomi temple complex, while nearby Vrindavan is where he is said to have spent his childhood among the gopis, celebrated in temples like Banke Bihari and ISKCON's Krishna-Balaram Mandir. The twin towns form the heart of the Braj region's devotional culture, reaching a peak at the exuberant, colour-drenched Holi celebrations that draw pilgrims from across the world.",
+    "images": {
+      "hero": "places/mathura-vrindavan/hero.jpg",
+      "gallery": [
+        "places/mathura-vrindavan/banke-bihari.jpg",
+        "places/mathura-vrindavan/janmabhoomi.jpg",
+        "places/mathura-vrindavan/iskcon.jpg"
+      ],
+      "hero_credit": "Umang108 · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Vishram_Ghat.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/mathura-vrindavan/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "best_time_to_visit": "October to March; Holi (Feb-March) is the biggest, most crowded draw.",
+    "attractions": [
+      {
+        "name": "Krishna Janmabhoomi Temple",
+        "category": "Spiritual",
+        "description": "A temple complex marking Krishna's traditional birthplace."
+      },
+      {
+        "name": "Banke Bihari Temple",
+        "category": "Spiritual",
+        "description": "Vrindavan's most visited Krishna temple, famous for its unusual curtain-based darshan ritual."
+      },
+      {
+        "name": "ISKCON Krishna-Balaram Mandir",
+        "category": "Spiritual",
+        "description": "A major International Society for Krishna Consciousness temple and pilgrim hub."
+      }
+    ],
+    "culture": {
+      "summary": "Braj culture centres entirely on Krishna devotion, expressed through Raslila dance-dramas, temple rituals and the region's famous Holi festivities.",
+      "traditions": [
+        "Raslila performances",
+        "Lathmar Holi in nearby Barsana"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Holi",
+        "time": "February–March",
+        "description": "Days of colour-throwing celebrations across Mathura, Vrindavan and Barsana.",
+        "significance": "Celebrates Krishna's playful colour games with Radha and the gopis."
+      },
+      {
+        "name": "Janmashtami",
+        "time": "August–September",
+        "description": "Krishna's birthday, marked with midnight celebrations and temple decoration.",
+        "significance": "The most important festival in the Krishna devotional calendar."
+      }
+    ],
+    "food": [
+      {
+        "name": "Peda",
+        "type": "Sweet",
+        "description": "Mathura's famous milk-based sweet, sold in shops across the old town."
+      },
+      {
+        "name": "Kachori-Sabzi",
+        "type": "Breakfast",
+        "description": "Fried lentil-stuffed bread with spiced potato curry."
+      }
+    ],
+    "activities": [
+      "Cultural experiences",
+      "Photography",
+      "Heritage walks"
+    ],
+    "travel_info": {
+      "airport": "Agra (~55 km) or Delhi (~160 km).",
+      "railway": "Mathura Junction and Vrindavan station.",
+      "bus": "Frequent buses from Delhi and Agra.",
+      "local_transport": "Autos and cycle-rickshaws between temples.",
+      "suggested_duration": "1–2 days",
+      "budget": "Budget."
+    },
+    "safety": {
+      "tips": [
+        "Holi crowds are intense; guard belongings.",
+        "Footwear must be removed at all temples."
+      ],
+      "emergency": "Dial 112."
+    }
+  }
+]

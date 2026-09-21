@@ -1,0 +1,513 @@
+[
+  {
+    "slug": "shree-swaminarayan-mandir-vadtal-ethcqu",
+    "name": "Shree Swaminarayan Mandir, Vadtal",
+    "kind": "external_attraction",
+    "is_hidden_gem": false,
+    "source": "google_places_api",
+    "google_place_id": "ChIJAQAAQEpQXjkRFgjLSetHcQU",
+    "lat": 22.591588,
+    "lng": 72.873975,
+    "type": "hindu temple",
+    "categories": [
+      "Spiritual"
+    ],
+    "tags": [
+      "Spiritual",
+      "Unexplored"
+    ],
+    "rating": 4.8,
+    "reviews": 10983,
+    "popularity": 97.2,
+    "data_quality": 0.55,
+    "short_intro": "A hindu temple near Vadodara, rated 4.8/5 on Google, from 10,983 reviews, about 44.7 km away.",
+    "overview": "A hindu temple near Vadodara, rated 4.8/5 on Google, from 10,983 reviews, about 44.7 km away.",
+    "address": "Mandir, Narsanda - Vadtal Rd, Vadtal, Gujarat 387375, India",
+    "google_maps_url": "https://maps.google.com/?cid=392173718438873110&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+    "nearby_major_destination": "vadodara",
+    "images": {
+      "hero": null,
+      "gallery": []
+    },
+    "state": "Gujarat",
+    "state_slug": "gujarat",
+    "region": "",
+    "google_photo_names": [
+      "places/ChIJAQAAQEpQXjkRFgjLSetHcQU/photos/AVoNoXTxmdVAuEimpK3-Z0b5mSA1yLtP1R6j1BPYRPhdkzstLQuIYFcZXxuEfkGnkBpY7KEe6IoDWg9XVf8K5iaQoFAVBnvYp7QmFLGIb83j-tq0pl1nZM6ssE7ybzaFZgfF2e-4dDQUJnqBBh4KHJnWtoxPzHuFpz52g7PJ86tn7Ol2rXOh5bgL8And-8GsA_jyfLgyHkOydYFoD57WMOslsqJwn5hJgMrjPkCM3GdqiDguxRiDZ7kJEEtD_0iYOhaCTvp8mAkW8SNLP6keaxWyD0WBYNEnuDpkmJoLFLaHYFHygeTKgpGBzExA59JNCBzJqYJci_wDDSEjFO7M5DQurlx_EAxoejPB01qcTBacW7zB6dLREMw57X9fMXxINFicjyzsVownkKO3okSYm_YDoZcsVSifkC8RgmnhaNvUcsPXCg",
+      "places/ChIJAQAAQEpQXjkRFgjLSetHcQU/photos/AVoNoXRSaffTEwRUuuhURtW8zgA-F-QAkyk5Vb1lwBJ5gueG3tzj64N5BP7-YbBUhvfdfvzYKY_x8_7AU5FSyN7gPGBwknqklVhX_bKGm21HvUDke6CsCLIaZGYd-5CzYwCnv1-w5CoMtKmYSaqKosvDVycxjtWPB4z4-Y_VlLULgCTHRp3CWIbarDBnPj0d8XGHxHg8aL22_6wmjW_VQrbxOXTUYNDw6sZTNiRgV1CGWLEEpu1KRR5zNInmr8CvRTdQdTx8WCFiZkQCBpUI5zdKOdUnVcVD0cmzIGuqdVouAvLAaI_vlgn5mAf0zoNzJtKCHOaTXAhSPkXk2dSGPTuIfw4QyUwFrVmBYtfmRy60yebygUxl3YVjgNUcbZK0vuNtEAj1ut3M8opQxFaxFVhvupXvwe5fObREWhc5STmahJ_jxA",
+      "places/ChIJAQAAQEpQXjkRFgjLSetHcQU/photos/AVoNoXRH5SJYdQqCkKp1ihsbcigZ5h7MsrABFQQyTNaYHwnkC8xDveqki89kDENujiATy8WwsjuprKkzYGTx---LKAy12S6Lw6lkkS46RrX-IdpTPv-MChxZKOngOO5lhUcCNKKvnaslqX2viRBuRYMnph3uBiO7AGS1YEOBKUcqC3XszWEmbo7jCICLpbQiEnHU3f7LRNEWYzchzrTIOWPJE2c9wWfD3vu2I820ElwVaCr7eiuardLKpPCyHgox2vOqLcSMY8wYZlu7NFLMxCamDRPb3KeYLFFOeIZGtuBVs8-ud23MtMB5yv1BrqOgN-ZfaR4JOJGDJ1jcC3RznY6BErxrLO30fOpUSLrXtwIrNqNEfJ7fv0dcikKuPKOTZSvcT57i_qYaV3qGnQVs_oB7VWcUOwESX0afN3M-HSZ076QduwVLeY03Sxz1a_lst521",
+      "places/ChIJAQAAQEpQXjkRFgjLSetHcQU/photos/AVoNoXQWlC-36GyHl3PKdjvZxrHft9sfWd2zIu7ZlV6UA0VT-Rz8QiRui-Q5CQbiXkJfoHGRMMCrdJk9D88gmmK7XM0i-O9KFRXiB7pjj7YYk5yMuAUZ5vK0RE3XkLha5YVz8Z_7mDeJ903t4V-HQlNXWFnv73lg6rx1L_gtL5b0XP4pbws0JqKT796xkcW2_qFic3mpki1eTmhOyHcMjOaJr9D5xN8xkxmMgQSB68sojE-EqL6FHjgDy2KKerrkZRkvXK65FunbG1DBhiFlxXQT1qz2UTIZYPGp1HERk_sBQ7IT3yvbEcfTjEHfwghIQLHwH0XjGNP_6kmNRXMo66Zkx6cn2uOaIx6RBaA0bngcTXzBVQrbhmaItKCwX8Cu7k67au4bs4tCaIu7HNaQU7dUbk3jWrkAcYTYEEYlRLkrT_kAlYQQNaX2MYq0uHMPyxF8",
+      "places/ChIJAQAAQEpQXjkRFgjLSetHcQU/photos/AVoNoXSlL9afxxY__UcJcZFFeZVdKA_MbjnQCw78b27fHIi2fIyXZad80YLVqVdMimoBqNB3vB9hVzLRPnvJrLTeeHYUTI7KlpvmH73nvXEu0iBkuoKZBeFGF99xHR5Fl4a5toOetcOVcJ9dy3GtY6fvVfYVy-a9h2t8Hht4SNfQL9kftg96Y8Pp5kZdbAKeF3Lo7jy_GVJ2UDV2wGOgC4X-yGb_4LFv5Sz1FUpD8UjHijpqTp11n-u74sfOS0Ki228-D6i9wTbbATnrLyZS6RmpY8QPNueeQJLOZyxsvR91XIYyXv1evY-boH9xGhkuMhQocAf7v89o5ll7uI4XoXDqYSgt8ZiOlLqa2R-AKSDY2-CgBcGuLlqkCcNFdRKI0f69G6E6o4xwfULhlGYVcT_lO6KqBMC5BnicOYgZHbNZuryq6UEL"
+    ],
+    "moderation_status": "candidate"
+  },
+  {
+    "slug": "madhubhan-resort-spa-40qokw",
+    "name": "Madhubhan Resort & Spa",
+    "kind": "external_attraction",
+    "is_hidden_gem": false,
+    "source": "google_places_api",
+    "google_place_id": "ChIJO0Jv9dJNXjkRuGunj40qokw",
+    "lat": 22.536652,
+    "lng": 72.94052,
+    "type": "resort hotel",
+    "categories": [
+      "Culture"
+    ],
+    "tags": [
+      "Culture",
+      "Unexplored"
+    ],
+    "rating": 4.8,
+    "reviews": 11846,
+    "popularity": 97.2,
+    "data_quality": 0.55,
+    "short_intro": "A resort hotel near Vadodara, rated 4.8/5 on Google, from 11,846 reviews, about 35.5 km away.",
+    "overview": "A resort hotel near Vadodara, rated 4.8/5 on Google, from 11,846 reviews, about 35.5 km away.",
+    "address": "Anand - Sojitra Rd, Vithal Udyognagar, Vallabh Vidyanagar, Anand, Gujarat 388120, India",
+    "google_maps_url": "https://maps.google.com/?cid=5522022880598518712&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+    "nearby_major_destination": "vadodara",
+    "images": {
+      "hero": null,
+      "gallery": []
+    },
+    "state": "Gujarat",
+    "state_slug": "gujarat",
+    "region": "",
+    "google_photo_names": [
+      "places/ChIJO0Jv9dJNXjkRuGunj40qokw/photos/AVoNoXSww1N6FiDYGUKPwOXvyZAmQR6MGCKw-aWURbzqMiTjk2Od20CT8Fq5j4fmB46VjuY4ei5z-f1zYMkRlCliUWafuoEfcaqDlGeWRF3kpMy7q7prUNFbt2vpfozBi-n_wJoEOpOGS7dwO28uY9EKo1tpMlSJ62n6YzgQwwTxOSOiDBseXuwqZjs-hdInSA_YPa7HK_XLiPhQzCgZIrYzMF5eeqqcPLeK0gSSdVFQJPeSVlShIWG7kB9UF_870xGaSHFV412aTQ0TXFm4YTnFORk7eJtiMtNbBLlGZR8QXkI565WrmBvhQvSBt6C8hlhQPTI_ZvDR-YZdNRf7d5Hak7G1-LtazxiiydB09IWv5kOt2cu_SIit6GpQS8JI_x2qi0V06CE6cTDR5jNmG_EoZQKTSCmzGXjiGDT9C_Ha6b4H7SI",
+      "places/ChIJO0Jv9dJNXjkRuGunj40qokw/photos/AVoNoXTDD7A9X0MxKRmcVrE7AuHKmKyjHU-cN9XYIE4QL_JQSOyKJoa4VZn2rmx1-zUY2uB89BS2DPy0iRvnLYy-_ud0SqQH6vJetHW2dZsOw2sG0C1_n5d4YW3HNMtjB_DCWHCwD-EYjfmOZaqEGtk9fbXbpo_NcddfzTbD25i5sgvyy1WESJrsFtXCKN2oZJ09yUtfM6S0StDRkaPQxbljpZXVPh2ZkNgIfPG1dU-Vic1S98DslDq4zFpaxswLF5ASu5-z09_fcdU9gG0oa2n9Iu59ypswYX8Or--C6-AY72DcInvkaS46EX5aj-v5KUv_I1EFnoixghRTqFfEFI4LJYO4Pct51cZHa_a8BjXL1WXGM7E0wHrTLSocTkE-Q71qBZpGq812wXlRfYXy3AlC1cApP7m4tLdUCYOnLf_RyBBwb2JT",
+      "places/ChIJO0Jv9dJNXjkRuGunj40qokw/photos/AVoNoXRl00iBqlCfPsf0K5VgSYbIC3iGAuDEG8K8gpr-e9g_y4zGpul3N41iZWqzABbYEhaThMeu8LNdvTPRln55QcCz7uPwXqjHvCeYbCzmnkddppoPZbMbEQoFQzTFoFbCHZx8I6DIJSuNlnvlkUhz0OI6qlm8_kQJho9pq4GxFTXrqE7Lyu40kprubDgn9Xvs4TUfdncIvONVXhBboWtT8v1G-qL1rGJd2VLE-SpilXv4CNKD57OrwI619RYWxXM6Q-6Crh85z4wviv-bdO1M1VCMKHMTdhXWrcFyjANp15OUtmYQUem_Syxf6ec8h14A-U6hiwbSa3Q4d75MTr-_-HEQOqeVPKhA17AjXbz-tWCJUVodyghK3gAx9AQVfnHYs-F5FZe_Z6nmLasYLELGahQsD-rsxzq-ofcrCSxuaNtbWg",
+      "places/ChIJO0Jv9dJNXjkRuGunj40qokw/photos/AVoNoXS3gFxfvp0sxriZwHTvoDwnAY_SNkZkIKOVKA9nYMoB5liRd7DLsk3llP1l0rtXBIHb0d7ihXJrsRv4rbIdE1wr6F7towzJbtHbpaW5yB_GWwKGDLPCsiM9t9SlJQzMmsyMsEiVcAkzpzw__Jwwna0rmXyF_-11oJjtZcm4jLQ9azCkhwXckJMt0yUmhzxisVtKeMX-bxfLkuxLAe2Y8LAH47YPbTKBiodtw6RfFr26McLFPpl5T9Q6LOqq5Hz18Ir53WQqpzAApzpY-QMugR2OXBIIq7USFix4lZGxfVk1lBzOK6ylMGbkzi5T9wQuhLOeI-l4UEYs511t5RkNrFlg8-y1AzH6wa9IdoxPK7taUq3gZ2N2iAzeBFfqDuyU0HfzNupYdDHOZ9XzdXBGYDei2e97-GSliPOtFqsZiGc4qRPO",
+      "places/ChIJO0Jv9dJNXjkRuGunj40qokw/photos/AVoNoXRc1XTbM9_o1EVpkxMjgnhsOjAlgVyUVbrVa-ptbsf5yEw2ngy5KHmhJ1v4Mzk28w6XJOmf2lnjqqRuRDdZmGdDPAEpgcPZcv8FpqxW9K_MuSC9oRWNLD6zXckxTIZ8yD81kgMLl4uSSjQHJI66abjqyQOho4qUg9T2MUkTRaePjSFKt4wBYTbuxbLDorj65l8rIjHnea1i4NFhW0B_-Bt_SCybIaw_PnavhDfGPaXJ8V5E3c8kcwpLlj0-7f52Sn7R-MQdnBOXH7W8ZhGuNliOxXiSqBIbJunMT_xxscRgr4lkCwB40v6fy8f7EK9RPKK4XVY3qKOLGwD5N6SC4YCdzWXPEkBVGS2YNAQbh_KLn2eIYPIFKWMd0D4zm6b4GOsFE2aTVGfWDpwSCpX8jbZz39JfVfPus7kBCyEpLU4"
+    ],
+    "moderation_status": "candidate"
+  },
+  {
+    "slug": "ganpatipura-ganpati-mandir-egzlfm",
+    "name": "Ganpatipura, Ganpati Mandir",
+    "kind": "external_attraction",
+    "is_hidden_gem": false,
+    "source": "google_places_api",
+    "google_place_id": "ChIJaSkBCljCXjkRied5jEgzLFM",
+    "lat": 22.616856,
+    "lng": 72.296691,
+    "type": "hindu temple",
+    "categories": [
+      "Spiritual",
+      "Culture"
+    ],
+    "tags": [
+      "Spiritual",
+      "Culture",
+      "Unexplored"
+    ],
+    "rating": 4.8,
+    "reviews": 23139,
+    "popularity": 97.2,
+    "data_quality": 0.55,
+    "short_intro": "A hindu temple near Vadodara, rated 4.8/5 on Google, from 23,139 reviews, about 97.2 km away.",
+    "overview": "A hindu temple near Vadodara, rated 4.8/5 on Google, from 23,139 reviews, about 97.2 km away.",
+    "address": "Ganapatipura, Gujarat 382240, India",
+    "google_maps_url": "https://maps.google.com/?cid=5993221590810748809&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+    "nearby_major_destination": "vadodara",
+    "images": {
+      "hero": null,
+      "gallery": []
+    },
+    "state": "Gujarat",
+    "state_slug": "gujarat",
+    "region": "",
+    "google_photo_names": [
+      "places/ChIJaSkBCljCXjkRied5jEgzLFM/photos/AVoNoXRmhc0znztk0JUZKTtTXWJlc0JgGBP09p7xnZ-yJqc9PQjLVdFGBDO0HVhvuaziJxL9AIan5ES8GbrGh3ub8O8YpCk83slFZSm00bHRVNT7qnaEi62QkwzYiwtSsOQFielgiiTm0f91NHNAGjvpC4J0jLs1MlYnYKOI0GX6bnhhjP6PbMUFsnSVm6rgho7lMWA5VKvYbs6VhbpvvStyoqnKVgG8mQUCUxu7tzST5hBSEHF5OQTCYOduTaG9MoEqEtCBCJhZBMgJpmwOBmgOpkIFqrUW0blC4E0My_yT4eFTZbt9jQv7gsoBKpcBU_VlEONiKBNO1BtH88reE9t1tdWmXqqKztjL2c6DZU2UzCybYl8qhZn0mFBQC66UldE-rmCAj5pgRzL6oYim_5O9huj1z2JqNntrN3SCqDoETBQ1VQ",
+      "places/ChIJaSkBCljCXjkRied5jEgzLFM/photos/AVoNoXQFWw6cw418YYOvR36VJNamHLEYONzSUeRK9p0qu6-KZy6DztWJ9hCzSzsNsvv5Cj9Ym0F756kv6NNksfujruGokCiYRfzZ5jTcNTZgLuXhwgbhjkB4tBtxhCyK6zBGi8ld5oaNYD-A82M8cAW90Vcr7CAfjazMcMMOix3wVmp3mAQQCWDtCZEdlU2JR_zczBsibQj6exljZd5-8IBxknFGmtFpm6K0BqYwLxSIBEfA2b_9PgR7Z-Sk7zHfoKAxgOBuPOqLkYKSlZDozrYhc3qon_kbaIrNtZU5tTAQy1f3d4lv5Xzuf-uuPhJUI7wfAyFio-rC9FJSz37YJ7c8Y4Bb9hyUJ2ezlkdmWHlJSs9oUjhdCjxG0G1KyMSQZ47p8Wfno3bvGkm_hzJ8ouU5MClFFuCCWkVdXdB4NeK49pM",
+      "places/ChIJaSkBCljCXjkRied5jEgzLFM/photos/AVoNoXQ32qpceHasgtLyPsRrtw4nPKcXVVwi991c8j5RrqQk3Mvb-vSsRTB7BjttQzYEqp4O67QhILcyU0Xi8V536lgxc48olrxW_jSUngb3BoV3Hr3Ado4mg9F5OcA98T3xhfB5G1Ojj0NBVG6TUoQ2BUKdk_nLThhhjq766BbGisPotV9gDQS1DlqcyA7OLWi5C2kUpJFo3juLoLfNWQCXWYYUEvKTPp8tKjcaXfHK9Z4ZU9wtHKMDOHiqx-YSx1TsNrtHOz0JsuSddQg1-teNvFTUO23xiYTkpDJ_66LvuxnezRpwxqhSQm5_7KiwYZbY0pT9RYI-2YijdKomMyQa-x9Z9zVLPIhrYYzHILkhnGBCVPKBcmKtU2UVms19SqzG0QusdwQfnsKJKIYrLC5UX1ppH02BMjPrw3XxS67U_b2nPA",
+      "places/ChIJaSkBCljCXjkRied5jEgzLFM/photos/AVoNoXSn_Pr_34LelO88flkKy74CKZJn4Jinii05qlaz6OYoWGdsRg2zGO-K-8fxEo8PWn43T68YSbzGBn5ddcTXPuLKhAG_8w0hnp6mQRf9DV49IiTvJZOrJIQvQl4sIFGfRDIN2H7Y_RRKcjEOOrX2s-kDru9KWzNQJstTeRjuY1pXYc05fvquz0mg_O2dmAewf9tFtcJJJIiv7uGfw1oAE4Oiow2o9pil0RBA_5VtXYujZttFDTmstE2zOGIVtDFJwubv51Q5qjQcrNAwgojo1eDokyiEO3unXw_Ur-tNw1BWPi8UbWtYyO-4-BVLmljymvIcPW77-WjKOWwXFTGWdMc6evKulR_G0F4o6TrhTDtQtAs_Cwu3xx6lXryJ24PyeXqCxC8J77NeX30RfEXB7boXj-lq55QYeBtB_1a2pRKx9A",
+      "places/ChIJaSkBCljCXjkRied5jEgzLFM/photos/AVoNoXSU1DerIKq72Bhpjf5eF2Bfwa8baf9Czyjekf6CuRPY9NQzQvmuaz3251-8G0B95tEaP78ozM2Nrd0siWXA3N2kWnLVL4fWGwi4ngP0RwXQzcHGuDt_I_E_4cybNAx-DD-xe3SdK9YZYuWZoE05_l3v4KC8PBfgnDVwwahN-ZJvHL8EIgkmu6hVdr8slCmcqszzl1b2rp3SHi5YOl1fzgY2ni7SaBTMeE1oRYIIVfYGiFzDcFBvak3rIiAbBw8IWef47qTR-B3hGgLPSa2t2laEzRcBw0tiSEq61tMnvS2Zig1UO5AXFJdx53E8kdF0ff4Wz7azk_XqQhGAMluwLiQscxE2aN9RFMF-9C3w0VXehkvYI9okcqO2Yd7_S1Kq7TY_cGIp2X-VDe4OxybnFoPdUJRy2B0mX09v0Ouj0Jk1khs"
+    ],
+    "moderation_status": "candidate"
+  },
+  {
+    "slug": "manilaxmi-jain-tirth-t6c1ng",
+    "name": "Manilaxmi Jain Tirth",
+    "kind": "external_attraction",
+    "is_hidden_gem": false,
+    "source": "google_places_api",
+    "google_place_id": "ChIJpXcQj0hVXjkRCzgepT6c1Ng",
+    "lat": 22.445513,
+    "lng": 72.730219,
+    "type": "place of worship",
+    "categories": [
+      "Spiritual"
+    ],
+    "tags": [
+      "Spiritual",
+      "Unexplored"
+    ],
+    "rating": 4.8,
+    "reviews": 11042,
+    "popularity": 97.2,
+    "data_quality": 0.55,
+    "short_intro": "A place of worship near Vadodara, rated 4.8/5 on Google, from 11,042 reviews, about 48.9 km away.",
+    "overview": "A place of worship near Vadodara, rated 4.8/5 on Google, from 11,042 reviews, about 48.9 km away.",
+    "address": "NH 8, near Big Canal, Manej, Gujarat 388150, India",
+    "google_maps_url": "https://maps.google.com/?cid=15624284800127219723&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+    "nearby_major_destination": "vadodara",
+    "images": {
+      "hero": null,
+      "gallery": []
+    },
+    "state": "Gujarat",
+    "state_slug": "gujarat",
+    "region": "",
+    "google_photo_names": [
+      "places/ChIJpXcQj0hVXjkRCzgepT6c1Ng/photos/AVoNoXTP4YWZog6htSredu-vrmTYEIQqrkoQYBftK42vSGf6A4VeuY_qYCZl1y3Iw_iVES6elHYh_7lUn0i6SUCSs6YwZOLkdZ-wEi6uKHHCxDSCwQLe7Gc9tJeVgp8ybi-lqzcvDD_SxBt5U0zOq91NmeIzE69rVRhdGjwJG5yHeZLKQ_pUZW1dH63KFG9nhEL8diF8lcezMzshWuJOPJ3Rg4PKkOfH0vqWSAAoJGVWHz37TtWWfViTJ3-ulT6AIKlz-Wni_FujZYWudSwaWOGSU9MJVnwqfeqwNbqJxqPCqM65u4bQXNxyUfiZRrTYx_gP8kK-_rkyRyXSS3_qqt8Nv-pao8iOpLj3W0WdGnOvwpEcanxq_RSj2i05stGx4BSj2kSnJ7maOfxUvdltiELfGRGzhslFCaDLZJz6aFsMBhvXMzmf",
+      "places/ChIJpXcQj0hVXjkRCzgepT6c1Ng/photos/AVoNoXRDSkoE8nTauRzwSTDMtdhlz56qtyKCd4TuJVq6cBi046mNttHoqXU-R2oQsjxihYALDYopTvVgLlXQgzd8XeUwoLn6YU5i1m-rLRF9wzo3t7lEmOOKR-cNdjSTBs5IKu7NOY5GNlVvU9_bfTL69muU3VcGzt1THkncciPJgFdrV2tgPCmH2CgIkyrdhLgJcEeYXB27JjRm4RZPlEJ76VY58ytTNlJhPbxjx2QbFk-hzNB6xdHtaJLQ5m8dTwvVNyyZ0b7eleE318M-7-8B7nFzpHw0EiTSIXbJwxacMiWUs0dOvlFjbmxPniETwYLV_unr06XUd-QOLYl4XaqZ1lZRZ1WC4z-ftDxHufgjxnUAH6bJgf49zQo8Vt1_K1wL9BEbh3q0CNh-8pKyCrBhVfuTcyMEN8WZORj2gcsTlRjd3A",
+      "places/ChIJpXcQj0hVXjkRCzgepT6c1Ng/photos/AVoNoXTw_MJ0oeWfVCK-XWtuSQwNeE8n0XgqxI6FHSxjChLrjv5i4eN8jPjnAorITTSiNEA2sFUUlmZqvRJ93ZSXq5syzzj0w581Re-LD5xa2M0yr0yeykHc6cSIi2vWmKyNS1Q_IOlUbJxC5YVzYkmBMKXQEKMe3rWhFmfV66H7WoaXkL_i6WhBpf9_aG6ELii6JZczKq7xvFUNjywo_abMrRwUvaq1MFEegnwuJCkQoLEDVmHyDcgOEqL3UxeiHhFmcvWz44aquRsjw4RZnm1-y1IEpUG4OPdSRBFUP-LRbesvrhMsvrvkpytOP6yOYZKzWtm93hyVNvLKo3yMCiPwPs7ToGX19QYLti8B3ANgLxXJRPAY5FwEBqHeayUWfVqW6Ln69JOxJ-XINaMUaVHcCLlyVIOhNArqQxHr0Ioc9GpnIP7y",
+      "places/ChIJpXcQj0hVXjkRCzgepT6c1Ng/photos/AVoNoXThG1jTCXDemlvM1B7wKeuJFGQKTzLVsm5I9BRMNEyYfGnIFI-_wiK61PwR7ixe58CZUaqOsSC4XJsdnAyjMqVJw_6zPST6qG2uSoMN3Tv2t41JzzGzneRLuby143xre9S6-Suli3JrhWZaUsHq9o0SI8nSEVxtPgRfOnTg1eK4JJCuzm65U79nNDtDLYt5yaLt9WoQekU6f9SCnGpyGXgvjSIpYi7ndqH0159Ju_Yc8VjxWho133pQRBYDa0OFRWXAYbomaWz-HoDLALFWqp-qDt5bS9GLvrpcM-FeWWN7If9LUt0HCXUD-QZHDzS2QqSNDFou-eMMpDrmiN1MN8Khpa5b2P0zBIO9i_xXwaHiyks_xFLX8YOcvbEXRmGrJ_oaaI26ZwAqeAzBc6cduqpkDAgEbnhxE3QCaUk2JNsVEvI",
+      "places/ChIJpXcQj0hVXjkRCzgepT6c1Ng/photos/AVoNoXTL5WB2HOJ6eGxKqVuCxbc_ruMZLlMEiwg-3bbQ-OXeqXiT8gLeJ49vvroM83TkAeEGZHvbtHFFRpBmVuhN_P_Vpewk8Av0eiKtmkk1Soq0Ap02jLIBW6xuylvuKdo1Xpj8tX3QqK90QDFox59WADwiAJb5PfNSsHAN1t4JrvNY-f9N6dZ1UzJkFIr71AWBf0CBvR8E9UWbB9MFGxiMr1GinCMRomVEeAURWE34_Z9Ats_Kmy-g5gXg8VuqsbkH_Sf0XEBupX_SCSPVdexarpUyvomXuLXfWqi8MGkyQHm40rndFZby695l-M9A_xYVH82pqrb4KyDrIMZmaC5trqRw7y9sO-b3PU2BnCG9Mm1UriCFVxslltOVVln-NzGTiQTSuggUQgOkcRsbstea0PTjMnNdpd9Nc_RqufLzBqKu_g"
+    ],
+    "moderation_status": "candidate"
+  },
+  {
+    "slug": "shri-ranchhodraiji-maharaj-mandir-dakor-yjz2ss",
+    "name": "Shri Ranchhodraiji Maharaj Mandir , Dakor",
+    "kind": "external_attraction",
+    "is_hidden_gem": false,
+    "source": "google_places_api",
+    "google_place_id": "ChIJteEOX0M5XjkRomz7XYJz2Ss",
+    "lat": 22.754384,
+    "lng": 73.14909,
+    "type": "hindu temple",
+    "categories": [
+      "Spiritual"
+    ],
+    "tags": [
+      "Spiritual",
+      "Unexplored"
+    ],
+    "rating": 4.7,
+    "reviews": 29010,
+    "popularity": 95.8,
+    "data_quality": 0.55,
+    "short_intro": "A hindu temple near Vadodara, rated 4.7/5 on Google, from 29,010 reviews, about 49.8 km away.",
+    "overview": "A hindu temple near Vadodara, rated 4.7/5 on Google, from 29,010 reviews, about 49.8 km away.",
+    "address": "Dakor, Gujarat 388225, India",
+    "google_maps_url": "https://maps.google.com/?cid=3159683617336814754&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+    "nearby_major_destination": "vadodara",
+    "images": {
+      "hero": null,
+      "gallery": []
+    },
+    "state": "Gujarat",
+    "state_slug": "gujarat",
+    "region": "",
+    "google_photo_names": [
+      "places/ChIJteEOX0M5XjkRomz7XYJz2Ss/photos/AVoNoXSUdE9wsVIr6qaDv-Z176LeKsWCpqH7TswX7Om3NMWnvfh6WqKxNCB_XjQL8uil9mlfzE07ShpLD14jRCsk3Ft4g5iWsdtVMucFMR4A_cmXcbNXkUfeBmH-nAFIdf0X4IZ7FKpV8kAvy7JArclMxnnMixMR2GVGzFMltDID_dA7AGcWxObTHNrhPh8Xf9NVjie5fWAZJTZASVxDXJIgomRbiQ1TT66SNIZM60hKxcaNGmV7aqdt9X5mJmiUiqtqcO1kLkcPi83FtOuT3CNI5wRDXKS8wmO3SwvKQLb_8hJN17fJTzL8S4Tw7_VawySXwdFKEaqOnlxjwcLgU4JKqTVJ6aTXRam4aG07K-_TdIwqB0MYwO30d0vV2Bnwl909BNEtZOv24CHjjSfoUa0PbnZFVEHb1OdjshAXDU56lJdo3jL7",
+      "places/ChIJteEOX0M5XjkRomz7XYJz2Ss/photos/AVoNoXQqFZNHAfstLq2eK_k5qKyBSOozkeW-6CQBFx22rxIehqrOCoafXWWL3-ZdrqrI6CSU5aQyeCc9ntiljFL55w9ztd3UvW9Yrbe6EkDP68sF_HPkB0dl3BBXH6o2jWbDwMkE9k-jpU8a3Qx03T-WTV_qAETSSZUk9v-Sx0OUGQFNo0xOWk6_OeAQOJyry_Enr-d0YS6C96kiir4AQVoiAUSEKrglJiihEDsB5KWXJ8o0OzHOmdCEZO2OGO4c0ZsUdyf0Mr3wZMPNUwBj_5IAwibqfAzaN21VJNguOOR4rgV2GFKziMjQ68sSJkw9CY7I2A6OYAN2lM3TMlmatu7wib99MXIHk8tPb-4ZE79UFSiRS08Qgl5BThQtFrWVKItv0AoJ8XvnELbBxqtqekWq283qKUYxLE2iX77W8E1kZ-M",
+      "places/ChIJteEOX0M5XjkRomz7XYJz2Ss/photos/AVoNoXQrGKlo-kJVQkpVvi1RFI7AfZSeYqqtSS8fMQQyHPTJopyeHfed1iwb03RYlhVsHHkUXUB06feGqJAn6SS3L5e4-c4S0HDf6XtBvywDivf0Kkmg-q3X6xnOjWY1Bt4erWTgU6eZiG0m4HcbjatiFkNh2HqwSlKJQ99Jg3Zlo1Bc1yp1jGqpkhYzd-vWZWOYMCi8ADbrsQ4PphJ3rAtJek6fIVLs1AiqLeVmYR99kZ2Hp9sIqBiKDfFGm2x0LDjhRKvCOR059xoP7Q9sDUrTGrhplJJHNwnernnMzvonFfbERvJg2EecXfPaQm1dZ8TTmaIpWVHa-M5wjPUPGlS_ZaZ2X8MuQ6f5bJXWwdYJmgBAHrN3hbq3PMJVqpqPgAct_q_ZI_2AXJfXqllBcWdf9TpXj3st7TFAY1NJ6ARKIzjpNQ",
+      "places/ChIJteEOX0M5XjkRomz7XYJz2Ss/photos/AVoNoXTUYuJX6HSkU5n_3PDdK-G8AgYI822W8LyLYCV7FOckuTKDUT3mTXHevrh2f8urAYvGaDIFP9e3R0d4xrNIjgM927rUi79HvhR-fBIaYdUoo0Je_5F-VzB64TC0KBLi-8mt1RfPNtidatfL9pk-WfL6c-o_plt0Ow0BXQp5WnUQ77u49GVxD_-aLVFtpGFMBmvbvEtK6GObUSAFcNxmCr-DGhYY5cON83pbLymSRMnEqmbZX5CenrBbeK4TuQupD4R8j2u3Caws7Fln203vvOcCtKmFVdRxChy5QwBDB_11VASWnPvblzvwMVbGeeME_YStR0xoMs0PAUe1sQPFxH3aJOMmFL1L9RReSaGiICY2JjzfHyjYiUOA5COwg0N2nT0JE0XXuFalAHsBnuTsfPmZARds0e0jC4ghdq2ZsELIeA",
+      "places/ChIJteEOX0M5XjkRomz7XYJz2Ss/photos/AVoNoXTf_Zy4t99R3t5uMjkadjx3u0_2nYgaJ5626DAvlEkykWxeeTvZJoysL8nowvoQBIrapIPkbxbMr5AXf6DuOO1CHq-eMR2Vn9qMoNEGqx7txFbmyvMwsivI9R5I_h2alnVNirBndtKFIROTmYGmRAU7v6-H8CQrbiUyP4yY9_8dLi8fY7y7S0_TODpysYiDDZfbcTMgCv_jQFqCVRUSGzqX1dz0pgaRJsljkrz1mjP0rW7ZZ4oK8UE9t1xGQfPkxgNOCK00uk-pdAXWYYHkP0rO8YZ6VBsfITVul2Avnlr5D75yM-l0D5WcUKrc-mV0w5Ny_QsbBlGgNs6d5vBoAW2fssPuPjXYvbro0yvMZOF15AnCyLieVdQZgGYW69_R88IsYCoJEIiBJNkoBjBPq36iCqMgIvKXoD75n-LGkN8iUEahR6y79F_23DOT3sdA"
+    ],
+    "moderation_status": "candidate"
+  },
+  {
+    "slug": "sri-siddhivinayak-devasthan-mahemdavad-ihe0jm",
+    "name": "Sri Siddhivinayak Devasthan | Mahemdavad",
+    "kind": "external_attraction",
+    "is_hidden_gem": false,
+    "source": "google_places_api",
+    "google_place_id": "ChIJZ-4MdfNgXjkRjs5OeIhE0jM",
+    "lat": 22.833165,
+    "lng": 72.76468,
+    "type": "hindu temple",
+    "categories": [
+      "Spiritual",
+      "Culture"
+    ],
+    "tags": [
+      "Spiritual",
+      "Culture",
+      "Unexplored"
+    ],
+    "rating": 4.7,
+    "reviews": 22527,
+    "popularity": 95.8,
+    "data_quality": 0.55,
+    "short_intro": "A hindu temple near Vadodara, rated 4.7/5 on Google, from 22,527 reviews, about 72.5 km away.",
+    "overview": "A hindu temple near Vadodara, rated 4.7/5 on Google, from 22,527 reviews, about 72.5 km away.",
+    "address": "GJ SH 3, near Vatrak River, Mahemdavad, Gujarat 387130, India",
+    "google_maps_url": "https://maps.google.com/?cid=3734122393968234126&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+    "nearby_major_destination": "vadodara",
+    "images": {
+      "hero": null,
+      "gallery": []
+    },
+    "state": "Gujarat",
+    "state_slug": "gujarat",
+    "region": "",
+    "google_photo_names": [
+      "places/ChIJZ-4MdfNgXjkRjs5OeIhE0jM/photos/AVoNoXQuJ7phpJKtK6rLgNhJ21TzXJ69HPwHODq5LYkHJI5sXUMe73ooR6boND7NUhxBTpvAoNGCQF1pa5C7Vdy-DIr5fUAD43EuhyrZh9IkzqpvB4rgttJgYnGygAXgSsMUKyHPY2XilSygv-hiTZngp0si4Ym2aNpUHvOTBFpGTMfiMTiDfg4lQd0bTTLbKmwTnO5l2B4pRmACksLgtv6jUel8B4ubj5QCvTr-V_PkSDHUwPk6OPYNOAKPSO9bmpPPrDfB0TNYFS_5qE38348ikUK_znn3imCja4jHKjzQd_DbNRPHBJMYXLdtXFnjPtyGtjGTnsSn6XCo-vNvRtXfDXwhhGaZpFxi08sUmkFQHKXvO6svEKcqdDpZzC13RDxPcTPD4SiBq0HtCGHrWuED56YkP5AcjHWqeDLNSn1FRLjHWwGl",
+      "places/ChIJZ-4MdfNgXjkRjs5OeIhE0jM/photos/AVoNoXRZ_lyGcUvHjrsMvrWKCRbsWQG8dXl8ygGyYbdVVCaGVYv-TqjoK6GAIO4lFg877NSyghzQinMr0NRAnjyFMJ6HnWHUcBJXgEVzbI0YEklUu876zWWtzu8NhmL2vwFWcLOiQmljwP7wJaJfyfuTaWCOMQFvTctvZ7GJmO3xTef8ChQ9vIrVYk7TNVHe2RhXmPqymNzzHGqUJfUisdKFZWQNMd7wGiiVObn3_2Qs4QWo4b6FJWkph6RDmBXJq6dCDtgf7ZMmDtSJra1tLr2xl6hCYsDvvf7VvwqU9pbRKinfsWWMW3CSCTiLb0ZOG36H49zf8bwTeyvdb_ZaFxSV-UoEF03XjOfYoLIZjO5K9P1QjWNKEs_32cFzNLpcFR4KO8HfsGxDJ_xkHJqbZgZAhOs1DgXxxfRxNmBLSVBUvK-gX0gP",
+      "places/ChIJZ-4MdfNgXjkRjs5OeIhE0jM/photos/AVoNoXT03wf_24N-LuXRTNdBXOKmetSCHfdriR4ApW3kOJ-KeIoZeUzUOk812ewpmv9_ak_UhMixEdQDesviHPjKaWwNdOCGgGJVxic9K8caDNoSx4r2XzeZKXW6U8FAzDotkAsm1eJfNgjM5SJQOrnFmY0WkEsk9DjvK7clFL2vkP1e4Ul6Jq5d-pB32AUUKUX2hUQy4QR1RHoohLOnZugrIpHLzoNoBIexe6g712DeLj-Hi9DTgvaec0RaCfMP3eMTe4eJ5gvnWCjP6UM_-BOTTiqm3b7lr6ihx66mXM3TtUs9zitubEHg02hA4dNHR_5NoQHpQR_b4lgNF6cqj4vq5Lo4aItKw2VpMoN7Q-4NQicEhy5trod5526K89rvWm-4_UOcy4BCb1IcssX0FBF4Fo8Ni8LDbKyoeJ4uL6AkUoPVLg",
+      "places/ChIJZ-4MdfNgXjkRjs5OeIhE0jM/photos/AVoNoXSDsKTI9hUZEW8qHVv7d5ywTdPeIIVzjtljgOCWme53Jet8aKQU5n5GL1f2qYaHWchBTT2B1posDVY4mgdim8Z00LTUSn6_moPUTvfI4YFUOX-WRDPVZ0CVra210rsQVdr9ETJlwz5Ez8iJTCVCi--fbgH_WvhQwHrZG9ZC-wAXb8kjUUVjH4Fz2ubZ3bNMc-3K8RPZuV-gPZJLTcmwiAlnhTRTchpqi4OqEyWEAbJlhxooDVRNwQHFdnnzn5bClTcan0NXRJQ2AyWYb-2676EijGzg2fAAXZ7wMzF7JycB52aTGwnf1emuNdF-diDNqsozpqtyigdsRNectyEkQkaX6yW3MyvS2a5ugdzcq1JUrz6XwUtUX8Oy4BU7GfXEhQJH8rU7aHei2byPNBV-Enc79lBmFVQoZCEzpizlSV4xz9N2fuiB15qKoxszvJyn",
+      "places/ChIJZ-4MdfNgXjkRjs5OeIhE0jM/photos/AVoNoXTc7ft1SUUIOmQ3cYOiKdxU_0e1rBytRvO2F2m8NLfwRrMb_y9dE8wViXrFxwBuEj5C1Mrx4nJN63kN2mjJWqWC8FSaCst-l5FQkJHg8tnV3ZuA7EGWNQ4-Dew0VdSY1e7EFvRQ_Y7gFN6d91hjBRPxNf2ugIRy9TMXZylg5BYEC1dtlQZoV2Phl3A38TUVlwoVk00SZgHhtKLR8KAwiCfpydBtHWKENrPdotOS-QZpuh2ZmXQvg9EBtcEhk_0bEdc2RUT6snfmuWqjriD7eIDRRRcf97b46U_S7LcYLtJ4hsYaiwAC-F1otBsUZbY5WHcONO-WkzSsajDk_31ZgEIwqrH7-LFqRtDOco_1hljAt0FMG5U0jdAddPBk3KPv5PvKLPYg2P_fuFTMlWnkl7e1ZThnrLNf4dTjw7FFaWiSxp0u"
+    ],
+    "moderation_status": "candidate"
+  },
+  {
+    "slug": "shree-santram-samadhi-sthan-jm-ufq",
+    "name": "Shree Santram Samadhi Sthan",
+    "kind": "external_attraction",
+    "is_hidden_gem": false,
+    "source": "google_places_api",
+    "google_place_id": "ChIJXfWQ0hpbXjkRfxnxVjm-uFQ",
+    "lat": 22.689131,
+    "lng": 72.864034,
+    "type": "hindu temple",
+    "categories": [
+      "Spiritual"
+    ],
+    "tags": [
+      "Spiritual",
+      "Unexplored"
+    ],
+    "rating": 4.7,
+    "reviews": 10502,
+    "popularity": 95.8,
+    "data_quality": 0.55,
+    "short_intro": "A hindu temple near Vadodara, rated 4.7/5 on Google, from 10,502 reviews, about 53.5 km away.",
+    "overview": "A hindu temple near Vadodara, rated 4.7/5 on Google, from 10,502 reviews, about 53.5 km away.",
+    "address": "Shree, Shri Santram Mandir Marg, nr. Santram Mandir Road, Shanti Nagar, Nadiad, Gujarat 387001, India",
+    "google_maps_url": "https://maps.google.com/?cid=6104838448381761919&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+    "nearby_major_destination": "vadodara",
+    "images": {
+      "hero": null,
+      "gallery": []
+    },
+    "state": "Gujarat",
+    "state_slug": "gujarat",
+    "region": "",
+    "google_photo_names": [
+      "places/ChIJXfWQ0hpbXjkRfxnxVjm-uFQ/photos/AVoNoXTNT-Uk3FdBVOzIutJuhjK4ZpmbkfR3J_VdVIYN88C1uHDswvINK3Ty3oZ7GJJEIhbZEyaprWmpihLSSbD_nYTgAvPGUjfqdGFtPhld3DbezLDuV2C7u1xFfx6jQ6r9JmGIexJCFrhd6umMmduiNFF12wTYAdao7NFuNpiDHEHBUVh0uqUs9Y0qpTAPk5dLWINqNkd55hfpCAKjwqO1hglcouc7OVN-YLcd9qSZPYP9HOSl39yNB4hExlFHErUewApj_7jF1c54H5dnSgnJAL85klji-PEhq5ZlC9mqLupHwjSz6UIMkB9eGsoftQ6qd5hG0g7uWxS9TOO8rgMre21CPxSgbprt2lOCwn5PYEUbvxK-eT-chpSy3d7JudsYq297YI5rJWg1wM-yPuR5ddqgcEnq_9Pbu2DmavzxKT1zgYuwIvhiXxzDSz_ecgzU",
+      "places/ChIJXfWQ0hpbXjkRfxnxVjm-uFQ/photos/AVoNoXQLXyIzs79UZfLaSZAtGvLaCL7J4T1TUfVfJzIwno_lR87Fm6nTdvfEMmO9vxjxpadY-3wqbdmTOed0xBxv7uH-J8gt__ai30hX3jfC7A2ey0KmSEc-EnntPv8fh4KuoxI2Y0v1bg6HV4fuUk-NzQPzelA5goPgYI59OZh-jSAdkIXRAu1bdONz8n7GYiE1hlWcGRbPg3nyqIVhLjCPCC6YijyddrSWkYj_3oNI9t3966kd8bwln6ml1UVxoUji6EP4d7Y5-go2PHU35hC0qUel7HcF0JybnWo7i72eN8Jkdn-gUWh3lH3tZJlHxJHPYAxOW_mzDdlH3VtUOIH2SM6mpbtt8wcrC-Q7xYxZdQG_q2tTmkjveundUyJPpa63jtkEW_v_r0itr3ZEF3MWUABGB1qzs9BFNAHD_cqlzPGdow",
+      "places/ChIJXfWQ0hpbXjkRfxnxVjm-uFQ/photos/AVoNoXSZ-97ybmEOv7rBKVuZ7XVOWwlvxIk-4_TD4_aVdyCUBs0I10feRRkUGJ23Iwr4Ykl2h_DSxZXcxHVd8tFRVT3lN4cTLXqTnKFn7ggcWVI9FkzkCLDZwXczibzfxla7HCRy7ZYFJUu8UcovNJfPxnFHD_9jDHUUqheWnvBH0q1hrf5PvPTNg9momRGcsKvZ9avcbXTMTZM_KgbhbAcDl0pxT53fTOZIAYed4Pfn0cRd-jc4M6BlA0Xhfmgws9hZSbI8ttJMR2PzRVJ9TVgMsvleESGXOnQvp5KtxIPL6NVyqwGH4iZ_fOIqsxsD7LtMICNbJR3ry1DmxRYCWgDDZIpiCRiIZ2R5T3PR6QHraN3ecV52TKLG4rKQRwLyV1x4CSR8IDnBqBPV7Vvdv-GADcAfTfF0knk2b3wjuPqsh4hf-rcj",
+      "places/ChIJXfWQ0hpbXjkRfxnxVjm-uFQ/photos/AVoNoXRaIz85AGkposuqPi6DwAAsp0MYpS9V9l2POAHa4LEKOVruQJohiZAPBNrxLeK0HWG1A3qkQs8b2CYl4Lpqni0vAzcO9CYFdJciqzGsio8ykFsLgmkctTqwVY9YRT3nEHA80-bey7gKfg5mObvxgscW78c_6-7GQjANBOkM-Kknnqasok6SCG23Dz7mXWL-V7akQniKPZ7SX0SCytVNYf0okA8jjbelrMF3pbHixXN0zf8FukACw3dO3TnXTjURgcDSjS9h3uZa0KD1qHMk692lCWrihOARwMDfbA1BDO89ujDt5vqGjyx6UC53W3d6s4jpPpiatVROB2qZUCbcvwiIPj3-4MoPYBkWb8s-zmNtDKQEFBW5sIElkWeX6UPst3ZPTv4lq2CgnXbLW_YhOngdn_2k_HvpCqQs7rAQO6y3rSEpSqsfUaBtq2fwB0lJ",
+      "places/ChIJXfWQ0hpbXjkRfxnxVjm-uFQ/photos/AVoNoXRjLZorvgzlf6MxWdu3xLWYx-t9A1sc3uB3tTT0qO6NCdnuuHkh68vNIcqh7ognft7xRdiHBzUlpIhH1zy5OByQQFiWdJbuM5yXaF12mh3Vc9r70sS4o-IxO822PSV-pjfpOLIKfTN7DzjnMpYEP1AxUsxocSf7_SvnXsu6nwDpTmUFWozJKMOusMTT71q-KTbXgt9FykNlleHhp9Fea96ZvD0WCcDa1mJFkEc5UVwM-La9QwwTN789OEaCiGvOCOD7k9zVLSCHIIFwr1fBf6GJxmfl7Jy9bKQSp1eesN-Yp_vs6PBgcwXapdnma8lvkAxclisMZOdA5Dnn8-rp-6kDnnQiXSqkPOKOqKiIB_6iEHcLnXESdm5jNoHSU28zlufcyY3palhVpnWRt5e_BXRNcw2uFo5zARHDUCgmYoscDw"
+    ],
+    "moderation_status": "candidate"
+  },
+  {
+    "slug": "bhumapura-hanumanji-temple-xau5n8",
+    "name": "Bhumapura Hanumanji Temple",
+    "kind": "external_attraction",
+    "is_hidden_gem": false,
+    "source": "google_places_api",
+    "google_place_id": "ChIJNzymUA1hXjkRqcI6TXAU5N8",
+    "lat": 22.876513,
+    "lng": 72.768508,
+    "type": "hindu temple",
+    "categories": [
+      "Spiritual",
+      "Culture"
+    ],
+    "tags": [
+      "Spiritual",
+      "Culture",
+      "Unexplored"
+    ],
+    "rating": 4.8,
+    "reviews": 5065,
+    "popularity": 95.0,
+    "data_quality": 0.55,
+    "short_intro": "A hindu temple near Vadodara, rated 4.8/5 on Google, from 5,065 reviews, about 76.2 km away.",
+    "overview": "A hindu temple near Vadodara, rated 4.8/5 on Google, from 5,065 reviews, about 76.2 km away.",
+    "address": "VQG8+PXW Bhumapura, Modaj, Gujarat 387130, India",
+    "google_maps_url": "https://maps.google.com/?cid=16133042237712548521&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+    "nearby_major_destination": "vadodara",
+    "images": {
+      "hero": null,
+      "gallery": []
+    },
+    "state": "Gujarat",
+    "state_slug": "gujarat",
+    "region": "",
+    "google_photo_names": [
+      "places/ChIJNzymUA1hXjkRqcI6TXAU5N8/photos/AVoNoXQM2l9X0mNV3bdEUQKLdm9FIY1Aw7YAX0qhViG7TxPxN7hcURP0KIYjKgC6t8mL_PuIbgeguoqK6XQaE03X87gA_dByDb26mYb1YjGdbNPND6vXDuq8AzsOeGN1piwC0WqrwbcGtuxOMZ97KIpttvBu2DMhtMZ0v8QH5yDhv_E5zJXnUmAvwBDNCSktlBGMghXbPASAkr_U3JANyCyN2JVGZYPR-w0ZNN_fR5FM5iO7uz7hkc3DfmaIGPhvKJrpfrTM-mGTwgHq-njreZLHUGAUTxYvg9ZO7MUVEJoYNtbxGJ--LWFf37dBkDLyjHFuIy3MLGIplbsi9dCYhSKnoQPW_Sj3_oQlFcaE0o9HQLLoi3LhnRrpqCLGNNBBEImkcx3bSKeqB3bboszXyEjUmwZlom0OwEi-bQyKiwel63P_uoUN4qV5AhZggRQvhE6A",
+      "places/ChIJNzymUA1hXjkRqcI6TXAU5N8/photos/AVoNoXQ1gc0h7qARLohYZ7AHS7JOdsWTXzqaAHgGwFNMX6VAgoXw6V3AqELZEQpTHhF7UlSnORzYvHWqMorrs22Isk7nZkfp1397GpR5lfsLE61KV1xh1wSh_gxEQvK9GUhBgdzP25mhckh9EdrWY5uJ1Wal4p9oDJtj4-bPesKiy0FtPYvYX6htBFYrwtQPyc5XbeX4dK9x0fkP_SgIiKFmsjB9yLvMg_UIIZh-DxAYLw5ySKTUcFcA8hhP54qIptw8Lbwc3IpWhlwgusMG41ny2SDt23YujJ1BKVJwhpEl5biYWsuCTLdzQVKYZJHqvcGgHhCSd4JlHriRcGwGPhdYtmdT-ykeDKo-HCM7_-zT4uEhr5cfjODM5WaNH5fRt9aqHs4KuQUli_cQQNSeHMjf9oBBqf6hNLpNaMhWr7WOqFKUiA",
+      "places/ChIJNzymUA1hXjkRqcI6TXAU5N8/photos/AVoNoXTRfMYMjOAFZ3h4vRxRgfvHuHM2IlnNIEfBz4FeKdTHjGCLAzIMm__OIjm--7utrYEuccH5rctMQ4UgLyng426qbFY2mWUgePbLq_UtE8DSTGZqEHoQnHeha1jcFkVgxzFVPVkaYD3XSYzWdgidzxMwmrq6fwjHbL9YW2GJAOf06N_rxyQI11ya_92QvmgVGiNj1rqoOrLzrn8kcMz6UVparK-lIxpkIcxbzFXfObJcVslwUXeUuX3qHAxRFN7I3aEUnrVLtTZrHuKFas8kuLMrdFPbYuudNJlw19tNmq-1Jq2gFdLgyyGDL0AUCoPVzEYUySzj3bnebLYWqMNs2YmSilXbmwqS1xAPfFKOIKLLN67EhAQ0earCJnNdDR26-VyjXhAPodzmKbEqY5Hs_4E-3AJXXSPzx35GPwleOnWK0BUTpv58WEHuPYC8JHez",
+      "places/ChIJNzymUA1hXjkRqcI6TXAU5N8/photos/AVoNoXS1NSTXXxGF0I8mIaDOGzLrQyOMnaqmdAf94EHcjpDSMYS7EwNcAMvig3kBMRnkrrNnzg58yiyzVujnPpfBlniz_zeh1d_dUJv1oB9zjrBC_cTryzAguyLNJ_M5nP8LAvJxdtOlqJSrie-Alsa_gnowIOBKuCt5KPhxMmNgAWmCESC-hl7uvgBioWQArq3uR20SEAODe50QGPFsDQwzH2pzK8_J_iZss-O0zc25TKa4U-z21j0y59Lq6bpiMfPhalEdM1i3RMiXe01HvAwfx0DmpSMxRBF-HHNFp7OXiJ5OB27IuxEQXYEC3yhD8OoUAQBWsrpVYCBi2pz0ovM7xsovJbsPT9vut2NBDiSOVh9bcIevelGBQU8SLQLjM-V1zJmB3L614Ze5iZ0o4V5vRCCAUwWbQalsFoYTPGTqkdL53lmynXwSqk1ESIRi3qIl",
+      "places/ChIJNzymUA1hXjkRqcI6TXAU5N8/photos/AVoNoXQ0p_6KLetfawWdlHTuIl2XTuoTrN6g0yFx05rG7VnGAVH5DPS89FyIWsPEbwb3nqn9lQgjep5utakUtNiKCeZhZCmoRbocp9_Whj4nY3Ul1TmmV0qW1tNd3JXsGedADyFTRXB5ms9_pQmxmgBnJZqob3jgMiIkSSWq0R2uJQ3vOPIR7KTCca9ysXUJ2Xkxutrl9z92Oxza3T7QHMk-GMDb4Sr-lXvD4soPbOkCGk2SI0MpF27vxZonRZudcmTOnUGnqoH3rim2dqHFl5d6S8Kb8Uv0PkVP4K3Z1ixUwnX7woIGsONHhedKHTE7Wobcv7mPcb9AR0oEL0FiXwBbB7mEI7R77DfTTkDtjOlSRzMomPDXC-3Cypqj6pZE__sIueA_KwtNFxZI-mlPR9ZG0hGdhKbIJRoctT_vL-cD2V3taJ0C"
+    ],
+    "moderation_status": "candidate"
+  },
+  {
+    "slug": "ashapuri-dham-piplav-oeuzpm",
+    "name": "Ashapuri Dham Piplav",
+    "kind": "external_attraction",
+    "is_hidden_gem": false,
+    "source": "google_places_api",
+    "google_place_id": "ChIJufgMyidUXjkRN0uQwOEUzPM",
+    "lat": 22.529041,
+    "lng": 72.770268,
+    "type": "hindu temple",
+    "categories": [
+      "Spiritual"
+    ],
+    "tags": [
+      "Spiritual",
+      "Unexplored"
+    ],
+    "rating": 4.8,
+    "reviews": 4623,
+    "popularity": 94.7,
+    "data_quality": 0.55,
+    "short_intro": "A hindu temple near Vadodara, rated 4.8/5 on Google, from 4,623 reviews, about 48.9 km away.",
+    "overview": "A hindu temple near Vadodara, rated 4.8/5 on Google, from 4,623 reviews, about 48.9 km away.",
+    "address": "Ashapuri Temple Rd, Piplav, Gujarat 388460, India",
+    "google_maps_url": "https://maps.google.com/?cid=17567439206296341303&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+    "nearby_major_destination": "vadodara",
+    "images": {
+      "hero": null,
+      "gallery": []
+    },
+    "state": "Gujarat",
+    "state_slug": "gujarat",
+    "region": "",
+    "google_photo_names": [
+      "places/ChIJufgMyidUXjkRN0uQwOEUzPM/photos/AVoNoXRR55qBCmqd0q8ESy8cJznKgKZhJ1wIQmEw3qdd9WI1nshuEU3HZcVf3CEv5a1DndEr6lgZp7IGMZeuPuabEmTvfmLac6nT85k4ok8zdGYg_9q6S5g1nWYeJP5mcu_UIMsD_XCbILZfwJhPMoova6IQmNGcA_RVIt_G_4d45QUpGY4b7cmCCTHJDtW0oCHY8Xwm50QP-9teyHoB65EsAmzsZ7zu3w7sXMqj8Q4nC75OPo1Cy5hZLGoK9RoAavh6WKfA6Y7fu5md687hNkQMYn5qBWh1OGQKNKyqMybHmJzN2ibEQysGU93A9k1OhEmvD_B9YXAITbYCiPpCQxZZA6EzWNkEL3lqHlkhbuJl4zbEeONuqYB_Wa12d-M_4zhgfPs1SQ2waq7-TswEic3evQPKFUK4fCbH6cQUeKZizANFNhX-",
+      "places/ChIJufgMyidUXjkRN0uQwOEUzPM/photos/AVoNoXTQTVIpVc7DIxv2iAZyRnAYHPUFDnuSpUCK0ROp04JLQVsOSC_cqYR7Yvq2G2Gymqqla6tFnRcMUc_XaGFbNiEzarrd1l9hdDMoIleWxnkGZxw2sMY4i70INJBvYGQQgQ9RXna4VTCscyOqIypBrvFhvGheJC-nB-I4tfi7T63S94vgSCdLtumVP1I-MD5hWsP6ofwL3HKBhXcJjtSWAc8dBtKYf_lriCSA1dVfV77CK_V9rVT42IOpF8eREpKiepLfbiLWmpWWV-e36boar0uHf2Obsv5YjAqq9Y5BEnijLa0iNtexWUFkAoG9XVVqFsihw0nI4Jhr2aHKwOFPHa2oFbQkNsS7WKwocNMP4de43S3v7mNTDNRt2FE_b-gLRxzTjpV0Q8fmlz2mniQhmMfDOztbwyqCOcbU9AV8d10KNlM",
+      "places/ChIJufgMyidUXjkRN0uQwOEUzPM/photos/AVoNoXSztBHAqcnPoNA1Mve83JTA3YnHWhEbo7F3kNEBhqKMofzc3ayZnjALpuBDRRdrLlxShxUQ30hp34-nUeynNDAageOJm3JmYTp5hIYkexfu3vGd5SLZfqfQpldFdStMgiDQ2udw_G_IYR6XfxRazQuz4YdagLahZoIHv996a-Gijjv-nzGHiXaVmKxH0mL2MAqUNPvEwY53KZvvdfNpqifwIqvxXH9qI8DrFtrLJA5LZqQGLjDiDzlK83d-UhlVctlqYc6M1gxmYir_RwsKq6slMkKvXZj3fZydoFKTQAbYYkIVeZFcqT-9b_ub6nTmZtR33Zi206jmPPBfhXGeLIq3RopAS0qgqKQ8RIDYOrZr5sOXorZB6_-1oevcIIhkjLAWFW-dlsXoPl3TDewyPAryY3h6BCh9vlmlQpDZofcH5pg",
+      "places/ChIJufgMyidUXjkRN0uQwOEUzPM/photos/AVoNoXT830JGH4Fkv4fTwRLtNnS6CAOO0yq9ourCqqCzxMHK80Tf-_0xdZSmLLzXTMFLSQjXbCmz7cCPFoCsixcwdHfFzF48k920ahX380gHo8nTQVPCI_E6VRyiM7BZ28auF2BYZfQvbBKG-FgtuUFLxoIFSLLKJPAEMAip_zWwV08B4GOnzZREYQJmlsZeidQV7L39LYowz-Q6HnaDR0CzBzOdtcjZHQ9zX3Nq0dYcBQq6Llj5JHeObrgcPMFy-YDgcLrjZDbkmKi7j9F38UhIQymIbM93ZLaY6z6xGLtDJVMhdhMX4zx6SCfO7RjfUQQ44fR1PlmOVgZEjgd4McV6VC29sQiL87EJJheFpyymu6eOcE8OqorA_ONJJaR7uLoP8pbhu_6bE4uA_cBW7xzEdmj3tzCucCX4UKhjBbsQJEmTCQ",
+      "places/ChIJufgMyidUXjkRN0uQwOEUzPM/photos/AVoNoXTTaopmGjsvALM-CqfKk4hR3QbVu9fBa4R-AbTnjzp-mPzZbOtT3eqO8Z8gLmkSUmRFNgcYp1-YQuDH13MIxQ6Kq24FhVjyWaAAQHDPQmtpPzy2r86wtplfZ7oU-k6sC72f2xAk9cpdrT8BxnmmzOy_pba7WfKcA5POyRtnX4eEWQSkpDrSll7aVrBQZXdkvTBO30EtI_rtrKtp-tcO7nMpJ4G25TayeUrWjNLb0KI-U2kIEeJYA_Ew-3cEgfpzkx-yBhPfMzFL2z5RlY_jzyQwLk-8_ugCU2dyiO0p9bHu34IK-4qnYYLxzYWYHq5C9J7eHUKg-8gkG2UKEyBnBqjAeSVkQXLaV3VUOlfSClYT6TopHD9IZBECz3SuPk2L0Hf24Un4_dtQFqDiR9CaldCcolp4pxHxTIRAZ3Tb1oA"
+    ],
+    "moderation_status": "candidate"
+  },
+  {
+    "slug": "baps-shri-swaminarayan-mandir-atladra-gn4fgu",
+    "name": "BAPS Shri Swaminarayan Mandir, Atladra",
+    "kind": "external_attraction",
+    "is_hidden_gem": false,
+    "source": "google_places_api",
+    "google_place_id": "ChIJ3WzflT_GXzkR5Mt4Kgn4fGU",
+    "lat": 22.274589,
+    "lng": 73.156652,
+    "type": "hindu temple",
+    "categories": [
+      "Spiritual"
+    ],
+    "tags": [
+      "Spiritual"
+    ],
+    "rating": 4.7,
+    "reviews": 6900,
+    "popularity": 94.6,
+    "data_quality": 0.55,
+    "short_intro": "A hindu temple near Vadodara, rated 4.7/5 on Google, from 6,900 reviews, about 4.4 km away.",
+    "overview": "A hindu temple near Vadodara, rated 4.7/5 on Google, from 6,900 reviews, about 4.4 km away.",
+    "address": "Shastri Yagnapurush Marg Swaminarayan mandir, Narayanwadi, Atladara, Vadodara, Gujarat 390012, India",
+    "google_maps_url": "https://maps.google.com/?cid=7312992613193796580&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+    "nearby_major_destination": "vadodara",
+    "images": {
+      "hero": null,
+      "gallery": []
+    },
+    "state": "Gujarat",
+    "state_slug": "gujarat",
+    "region": "",
+    "google_photo_names": [
+      "places/ChIJ3WzflT_GXzkR5Mt4Kgn4fGU/photos/AVoNoXQpVY0Zsx4jtj4fIyPNDEE9QRKDBo9boOAq-SiOEXQphAY41NllZ-mey6XiKcM8UPjQ7jSjGcdWplfS4AyMZfMS3BQRCDhzQ4pkzb-nVkmVlQ51YvpCdrupd06_z9JjjhB1Kb0dRDS0uHyGxmHe_pKEyY0qR_TTPCK1Dnm1uedOGDttsqyk9HoTSh241q4qXYnN4st1qYWieUTP67FW5jSMCKGBLlhHqcK0WuIykboksfzsyEsSLI-j1YgkWlRp37yQiedwUOzu7Eai28iM1vUZ5InPM15CKKHk6_5GjZj0EOeGB9HJ1P3uBFZ50-ijxnsLKiZ9_yYcqIHNa682w4qJN7vDanK-A9vQOcMDptgmb5ozy-dizNBzmbDf53OWSNgYDIvLeE4J5yaQ4RZ66Vskrp8AUmLKFjlp70DEduxzImuU",
+      "places/ChIJ3WzflT_GXzkR5Mt4Kgn4fGU/photos/AVoNoXQVLZ12cNJdH3QEcamwUDHP7iaVl1kbX0--yYRGV8fg_0dLqDtiKtlOs6cR4jZM1io7NFCjYuYi3KYY7b5qNzQ1JSRI2Ynrp9B2Hrgtz0qjtQeS1k6-49F2liKv6SYSxIJNlgTivDl42ktziQJxsGE8LPgfSwYUeyL6xWty-mbypJHSuLdL1yHX5O5U91DVkDuXS3GUwv4Cz5aER-mkDCPSadMOAEizY4YbqntFvClCY7iG5z1NARPK14ke-HHsfou41jlWODZ9JwcJgwSnNl8hqW9BfOUAsTWMPDlFxDpbQ_5cg1tB__Okkm2_WPLOpFa7wZIsLRDWf8eOFD8774bxZceutIs_77usCQXwCctV96yTuEBneNRL2Nbaz1S_R-4MrAh-_yFJXt41d7j5uJaZkYbQiKvGAbjHib4UI--Pow",
+      "places/ChIJ3WzflT_GXzkR5Mt4Kgn4fGU/photos/AVoNoXSfzBjH5nm5_Hl40NYmAwc0weYFESFPSW_Ug5rggM5nhFH8JwXrsc4t_nFHww3ZLL8NqljVAHrm5rioZLLF6InweWjpONtu0fvUNWvsNNZpsN5WalekiQBdGLUqmiiaM0md8Q5o_6aWuBInwmfAVfk6Xebfr-L2rkc7JrVkF7GaTrVU8eCcO7ZnoZV2FyVIaFE6fjREi-lzBGX7FsJm_DW7zNky5Fh7P4eWegInsNUUM3H0ZX-oCyMa93ejtHa5OkNVW1xChyQz1u8WNowhGL8r4hilxQRTbLEa01S7gYXHomDQwhymHLuc2O8kCcI70ZPvcp8ZwlDaa_fVq9lh2HgHqJmwl7yJxVfWAtcma5eARlAPPmb5ozU7XQeFI_qGH24CbOivaM3NE87LE61h7R5J60YnZ0t9TnugoFi9lhmGSg",
+      "places/ChIJ3WzflT_GXzkR5Mt4Kgn4fGU/photos/AVoNoXQSGvNR5cxzxYLsbpL6sH_mysLv9OpeJSYL8yU3IgYLMywvpbPPTTOh0RyBlo6K7wf5gGwpCj2ndO6hbGg9mu4Os5B3B__n_hSr1UUgBJ83ZLG7DPJtJVYv6RZXgNNUbhrefDDobUlh1yO8R5nmUETkUJ5ODMRF9JoTXoTPMJaiV1fAL5xoV5eaOeuncKG--VnNN7rNxEWmu2LJHKLvkYUIGkU9CEVlSrFKR1HxT1xmVqcgrVh19gVrZK16T_2RxU6dR-ZrH6u5JeXyRh_exHn_z6tHFNF3HEfdTslia1QoTjAnB2Up2E0zXyp1mMwa-wJu7FIStE1sHjYQEjFEKQ-6NcWgHiqmlubmgAqVj8Xnf_1TH3snZxnt7HHzvoN2gan-g0F77ujv2TFGjf8pLw7u2FXdvESx_1ekWcN8nsw2mBM_",
+      "places/ChIJ3WzflT_GXzkR5Mt4Kgn4fGU/photos/AVoNoXTWMeiyXGPzepu3lDVCCZrpoilnxuGRuSW8kVkivflbXAFwJc2aweXFof4C4doAhlkQc9-mmJLKdvKuG6x_cXOchWiPz-_Li15GfmtcoKQqJIOTW7DN4mvU48ViPQskaCQLQ2hxleju-YUGvcLGCO3kdsr4MRxhfmqquAvT-ozkDsl-E2ooyTzNwhD_gzc1uKZf2Gt5C7OcWmzHfWAaYLHSzxk7pBVeYh7R00RzJrO7PWyJOFS1RnfhnAwvR40fLrV3_YD8JMUwTWbVnUlPqcn_aea4WwrdoUPpVUJv8IbY8fZ3B1xDuccNad9RXxqbMIWox3Ye-NOFJo_jDYmum0fWndnLfMbshvaRvFd2GVQaK0tAua2PvhHk9atxVYW6DoPQtidhuF6Z8o7eqhVR4I_i97PAKv1VlIz-OOkOi0wIuA"
+    ],
+    "moderation_status": "candidate"
+  },
+  {
+    "slug": "shree-mahakali-mataji-temple-pavagadh-c1mdtw",
+    "name": "Shree Mahakali Mataji Temple, Pavagadh",
+    "kind": "external_attraction",
+    "is_hidden_gem": false,
+    "source": "google_places_api",
+    "google_place_id": "ChIJYT7C_fx-YDkRat8nkC1Mdtw",
+    "lat": 22.463519,
+    "lng": 73.515428,
+    "type": "hindu temple",
+    "categories": [
+      "Spiritual",
+      "Adventure"
+    ],
+    "tags": [
+      "Spiritual",
+      "Adventure",
+      "Unexplored"
+    ],
+    "rating": 4.6,
+    "reviews": 20051,
+    "popularity": 94.4,
+    "data_quality": 0.55,
+    "short_intro": "A hindu temple near Vadodara, rated 4.6/5 on Google, from 20,051 reviews, about 38.5 km away.",
+    "overview": "A hindu temple near Vadodara, rated 4.6/5 on Google, from 20,051 reviews, about 38.5 km away.",
+    "address": "Shree Kalika Mataji Mandir Trust, Pavagadh Hill, Gujarat 389360, India",
+    "google_maps_url": "https://maps.google.com/?cid=15885968494171774826&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+    "nearby_major_destination": "vadodara",
+    "images": {
+      "hero": null,
+      "gallery": []
+    },
+    "state": "Gujarat",
+    "state_slug": "gujarat",
+    "region": "",
+    "google_photo_names": [
+      "places/ChIJYT7C_fx-YDkRat8nkC1Mdtw/photos/AVoNoXT94KeSebQ7on53SJrgd4SSamc-fMfdSniNMcgTQwbBlT104CkfC_y9ofB5PduNpIoyq2lIAYiLOTCowXxhKIPZrnld3AvjqxQFmJIlzrFZJN8GL2aD0Rl0j5tXSPEanfnNWM_gmQo8mN4fMarNhc6-owu8wmIGgZKYNJE1ZjYXFpTQhOZnjTp2TY1a1ukdUgv4IjY5iPScZ21em3A3bFEa3Uf0b0DWBqA7uDZxvtJqQazsJs1Qd8R7qtm_JX9OA2DLmmi3uPe6k7vf0WrOHtHunpRIdtTre884sv3iehJ3G-WN6nxNX-17w-NzN8Tj6WGlU8sIcXOFlK-yXgNpbOJDrUOKTxXLq1Q1DoibfWaWOSz3l59cV9ptsQFqjAEHAkH4YgHB1UfS2VbTqw_G-lkfiLulxckSzflAGjwovNqFag",
+      "places/ChIJYT7C_fx-YDkRat8nkC1Mdtw/photos/AVoNoXS1aZACt7jyFVobR91MjR_QdMQZKSOEKCnNrHxOu9omwy60EXEVwCnGxERXYnvC3tNQBJodC7OysmSc-Z-VwuppmiWHK2YMllNVtjS0an59xdKyItBFftdA1TgyyLh6rQNhfaUIuw_li7gAerL508csDop_L0E5xOhE0M3bHQDiW95RP8jhE0yCxF1ul0AzFiRXy8EkwJIqmbrhEoPQn_uoYIryPVJ4dLdC4fO-EjalQxUFb4YjlSyArLvf7emiaMKJUuybDtPWqYTLUmpZuFBJlE8BWd5m9t7ISreZwG6exkdd7pW4sfrdIcn6e681W1wgBt2Vhq7cMsCmO5YmTcn5oqshyrGjJwfIMCYXmZ_u6no-QeR2JdoTypTAVmWJAbVZ5RRFoSMbaemBVeP4lwoTW9eVi-tLba2sWP5Poyv0Nw",
+      "places/ChIJYT7C_fx-YDkRat8nkC1Mdtw/photos/AVoNoXS1QlJnOmXHpzkyELMfLHbH2IgwB2Uh72NMD5ho2WN3A9LZG5AEU0zgT6l2EQfHobqwhCsPzBvZOwvkJfi4_gzSGIu6qJ8ievvHLbRAfFied4AN6Uqu7fP8GmuRrQiVXnZAkof-A4NaAn26UYHwx831FJdkVPwVeIaJZMFZ0PfDZRE-W8WfZ3Sp44O0Vo6vDgqTZltTXdoG5Ip0O98cELFY_LmHOOEsMEd3WbkNQ9kbu-yfWo62mkKn1pfrf-Dq9tVedRNgP3RHyULjs7vANTY3TpvYeJfFpwZR_09gE7D_1uoEngPp2vTBXfy7jNsv26-pcBYgs8f87Z9XuwWwO4EaIHeJNQVNfCr3oVY0UB_Us4ptEd8WB30b5OmoROeZp049Jx1ycbLYUBux2TOJFlaLVQSWYbDZdZ_kKCRwIfTifA",
+      "places/ChIJYT7C_fx-YDkRat8nkC1Mdtw/photos/AVoNoXQ6Kqa9GTiPiIIs3s5V_K60MeEmRw_HK2pZkpOUvbiZr3ziCcp90jGgVbrbyHahEfxjG0f_Rg7g9x6F2DtcAvLdSHo1zaWyQLm5JjBlTJyBOjZq5VpJLOnQey-fBCGaBqJ598HtzQG7tYjpLi4MfwVRqy1a8sCbFgA7sraRWxDBEvovfrVXYe9jtC2gQpumH2ihGuJOznE-tgeEoB2pOnHP8xOHIzL2qGCV_ucjaC3hOJ-S1mdKrAyuV1JEPKIrET-FO60rXfwDnFdJgIC6IOxKFDRMA6SxcwmR-n9nXjDjNnqz9NpzF013RkdFP7eSEPN2TAOItTDkNW8u8tRiUhoYX-zvfsYOVaFLJLdB4YP_rLCsR8jSQ-7YI4kuOllfZOHISfLuaJgJgV3dZcELWdCLYlR8lKST9n_sWNpOmStoCy4N",
+      "places/ChIJYT7C_fx-YDkRat8nkC1Mdtw/photos/AVoNoXSviXk8ffvbLAc3uY-UzdSoAWYkcKhQwpec_qhpFT_kncF4o7S57J1gJrkxZu_6MXUZ-zHRrtcg_e5tP_xCP4UreRTT4rqnqyDx8bOPpswf8bAwaPTFjArQSKRQ9hpuxDStmNYyyDqFqqsJntlCVE_4xQut5PfTh73K8UPV_Q-KBN5XJh0ns38IEsLK8EAalIJyVV3mPeaD6NNwhCQS5H9FoQ5LF-UBKyy2q6wcczxLZwyT6YUtAynqkODRgjQ5KLyNBzKev6IBk8w6wpGdavzx8YVMPU8AqCD8TnDgJ_TKH3kOTTmta00r4q8Q_4bofV3pCCXzOQt3vPDjH25VF2fpWvwlH_ZaYQag3vCmbvIW7VX5bX59Y-LRoo-_FLebfhmWmieUH7iNJE1b_i0Yfh9bMEyDmhmANFgcbKPZVK98rA"
+    ],
+    "moderation_status": "candidate"
+  },
+  {
+    "slug": "nilkanthdham-poicha-4au9sa",
+    "name": "Nilkanthdham Poicha",
+    "kind": "external_attraction",
+    "is_hidden_gem": false,
+    "source": "google_places_api",
+    "google_place_id": "ChIJTcIR1KfiXzkRdxvxc4Au9SA",
+    "lat": 21.970415,
+    "lng": 73.471557,
+    "type": "hindu temple",
+    "categories": [
+      "Spiritual"
+    ],
+    "tags": [
+      "Spiritual",
+      "Unexplored"
+    ],
+    "rating": 4.6,
+    "reviews": 36591,
+    "popularity": 94.4,
+    "data_quality": 0.55,
+    "short_intro": "A hindu temple near Vadodara, rated 4.6/5 on Google, from 36,591 reviews, about 47.9 km away.",
+    "overview": "A hindu temple near Vadodara, rated 4.6/5 on Google, from 36,591 reviews, about 47.9 km away.",
+    "address": "Nilkanthdham Rd, Poicha, Gujarat 393145, India",
+    "google_maps_url": "https://maps.google.com/?cid=2374855507743677303&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+    "nearby_major_destination": "vadodara",
+    "images": {
+      "hero": null,
+      "gallery": []
+    },
+    "state": "Dadra & Nagar Haveli and Daman & Diu",
+    "state_slug": "dadra-nagar-haveli-daman-diu",
+    "region": "",
+    "google_photo_names": [
+      "places/ChIJTcIR1KfiXzkRdxvxc4Au9SA/photos/AVoNoXT_ZUJhXx0bcdI09nQVL5ddS0cK6Wgw_n-iSKRx15V97Lc1dmYhx2kFNRsrUcOpIDkapjsAzwMJ6eZxKBzPR1xaJLqYXVr6DJ3uDa-abOopBBsrxXQizoEeN76dl46ng-lwfhGMHZX9srN3BOOJz5mX2r8HqIfw64yehJtFdsWV6a9MPqXcv0ZYf5epMXhnTBThN3azyD0JMxZcP-fvyO_N2kgdaS0Obyuvz1rSb4Te_0MCQk9gzUdYuLUJq5mMMXTIBt2r1SGyWK94bGOS8eh_CbjU5TLRD-pks7Nd8YfZiZxDs5spx26BqyLkdLzTAk2o0n8B0JK5YYJR9SRb012L3aBrCHI_P1NgYIFxJEfc5fwC5fkEBHYquI3gzOeJny8UKXaH-waOkNSEmXSl2NNHQI2GyJJviBusRKvw1PhCMQ",
+      "places/ChIJTcIR1KfiXzkRdxvxc4Au9SA/photos/AVoNoXRDwrHVnYkoR8IPfPKxOd3-M3i33o7XSNXeoM9KMdu1Ty22Ac1mTBPZcPFfCM9YhAIRChos7JWjMxmIpq6nkx8fla4HsKg_cA7ajySUfDtDq-PzghwBRc1PqO7TI8QGB_IiCQ5Skn8M3C3dcT-Lh2IlzGWYY-TiAX-vqfkV2KrxEBS4TFOOxZ0z40Ipk6F42n0HJxEuejfqXc7nbO4bF3L6G3taPeBO9bpUyoqXVO4xLQmW_aLBkQDxHtnD_tyNZpEa64DmDFMXZBKwMeWaaNUTAKVj0AVp5LU-wR0F-BN8Ty77xvqYtiQ99cle6St0GP-n8FK7dyeHf36dgK6J-T6uhrBS6aBmqHuwiADKj5UrbijB80o5oKqHxMTWl35XgU6lUwIBaQR6sl9Hyo1nSEAd3ybIBSOJC3mx9J6E8eKJzc1G",
+      "places/ChIJTcIR1KfiXzkRdxvxc4Au9SA/photos/AVoNoXTh8ANYiidOIR5IF8qUcjHfxkagDW93V42xn0pNCxsd0TOKX5nkvuTe_0b76saIpOL4pnOP5kCEMGjyc-EjggqX3b-G2DAI1XfKH4q9H_-92zrep7XvBVVgGotriPCuaCfzUFJ7IMwWrJzTXjO-WGVEih3VIRUiaPw1k_mdkXTM2zHLcYL3NBGoRCnovKWiUaLdmAhOhMOjSxXPs7OZJ5bAMf1NC4JHJ67xpJ-M6XcS4PCHEOhkgfW28gt1Cx_CB7eXaBLpeInos4NvWfrAI9lrpZWe1XQsxBF7QtmS05p5DCNVV0HN5q__ksaeNDPmcTgad5_vTGxH_X6hguu_jrtInkDVlGrvB0vEnmdPumflyOkEUd_Lldj-NpDiGiyP8A8WKBdsbhFHbQ3GOmv6kg7oP8mNWB1__NkMVGsswEcWNw",
+      "places/ChIJTcIR1KfiXzkRdxvxc4Au9SA/photos/AVoNoXTNPlRZiXWP9-FMZK2N8G_QGptnuMq-hLzvSC3yQak8y_kMgiXFEuY-VaqPCwE9OUs40A83jlak8u0kkfK5MkzHoSkk_cvqf2B4TgPuborgEjmXaDhMn5GLMdqMpNvVc1aGEW1Lxc7bpeqAoXE0tARcsBQUTefBBHTUXUVd2StboPZfOZrMdrwzu9vC7ZITnshhq4gRXhBtJUpH6sPGzk09_ouy0r8N9A-sRIirExCBhfziWicXPyj7HcheXhUEVByoOgYJH-qCWcnp1xNofd5RKH2T5A4R3kF9EcpGJTX2VB8yj3PZXkaIXNSlWfp7IGtra69K5ykv-ootldgY18f_WTt_IHWhKUy2ROsawINJbo5EPaF1d91-ugaoKE1u-YQVmufiP8JHCBYtu9xonSMmubhY1zc55Ri3gNBHAeYLFGo6",
+      "places/ChIJTcIR1KfiXzkRdxvxc4Au9SA/photos/AVoNoXQmdV9CTdS-8qjbYNWIDAVCJfkpmyYgO96KoZtLOmen6MAbwxUAMhD5P_Qgm_imOUlvS74nSKjPntn85aS4_TOBjxL_5aRZsnhoP9-sMJNGC14qlx8w6JNo8tWpS8lb74YITHI3I9dOH_iOb9BJ7UWdSM9NCI7AvHBZ75HixQX3uehk5WBHEaVAArp1TzPUK6bKDB_WfkialsXi_EnLBrOD79WlOJQzqdUktwcW-HZtroYpVvk2Joy2Q8yqYwMdeiai3jSClbd-QoTnUWsVesSUWyDv-20O8C8fH6BXufYQ6rzBhdxB4Sj463fyqQkUZj0yEZ3h2_MJfyjJWw5ll4-pim1EQDcpy3tTmgV_KhxRwtJM9Ze99pI19YTVG5NR8uSNy_pmkdQjV1Aq7uxB7IrbL0H-Y6ng013B9iGoekRNEx0j"
+    ],
+    "moderation_status": "candidate"
+  }
+]

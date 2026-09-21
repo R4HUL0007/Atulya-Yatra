@@ -1,0 +1,157 @@
+[
+  {
+    "slug": "meghalaya-hidden-paradise",
+    "name": "Meghalaya Hidden Paradise",
+    "state_slug": "meghalaya",
+    "duration_days": 6,
+    "best_season": ["October", "November", "March", "April"],
+    "hero_image": "trips/meghalaya-hidden-paradise/hero.jpg",
+    "overview": "A journey into the abode of clouds, from Shillong's pine hills to the living root bridges of Cherrapunji and the glass-clear Umngot river at Dawki, ending in the spotless village of Mawlynnong.",
+    "themes": ["Nature", "Adventure", "Culture"],
+    "destinations": ["shillong", "cherrapunji", "dawki", "mawlynnong"],
+    "activities": ["Trekking", "Boating", "Photography", "Caving", "Cultural experiences"],
+    "recommended_experiences": [
+      "Trek to the Double Decker living root bridge near Nongriat",
+      "Boat over the crystal Umngot river at Dawki",
+      "Walk through Mawlynnong, Asia's cleanest village"
+    ],
+    "itinerary": [
+      {"day": 1, "title": "Arrive Shillong", "places": ["shillong"], "detail": "Arrive from Guwahati, settle in and explore Ward's Lake and Police Bazaar in the evening."},
+      {"day": 2, "title": "Shillong & Umiam Lake", "places": ["shillong"], "detail": "Visit Umiam Lake, Elephant Falls and Shillong Peak; enjoy the city's live-music cafes."},
+      {"day": 3, "title": "Cherrapunji waterfalls", "places": ["cherrapunji"], "detail": "Drive to Sohra for Nohkalikai Falls, Mawsmai Cave and Seven Sisters Falls."},
+      {"day": 4, "title": "Double Decker root bridge trek", "places": ["cherrapunji"], "detail": "A full-day trek to the double-decker living root bridge at Nongriat."},
+      {"day": 5, "title": "Dawki & Mawlynnong", "places": ["dawki", "mawlynnong"], "detail": "Boat on the Umngot river, then visit the Riwai root bridge and Mawlynnong village."},
+      {"day": 6, "title": "Return", "places": ["shillong"], "detail": "Drive back to Shillong/Guwahati for onward travel."}
+    ],
+    "travel_tips": ["Carry cash; card acceptance is limited outside Shillong.", "The root-bridge trek is strenuous—wear proper shoes.", "Roads are slow and winding; keep buffer time."]
+  },
+  {
+    "slug": "sikkim-hidden-beauty",
+    "name": "Sikkim Hidden Beauty",
+    "state_slug": "sikkim",
+    "duration_days": 6,
+    "best_season": ["March", "April", "May", "October", "November"],
+    "hero_image": "trips/sikkim-hidden-beauty/hero.jpg",
+    "overview": "From cheerful Gangtok to the Kanchenjunga views of Pelling and the offbeat Silk Route hamlet of Zuluk, this trip balances monasteries, mountains and quiet villages.",
+    "themes": ["Mountains", "Culture", "Spiritual"],
+    "destinations": ["gangtok", "pelling", "zuluk"],
+    "activities": ["Trekking", "Photography", "Cultural experiences", "Camping"],
+    "recommended_experiences": [
+      "Catch sunrise over the zig-zag Silk Route road at Zuluk",
+      "See head-on Kanchenjunga views from Pelling",
+      "Walk the litter-free MG Marg in Gangtok"
+    ],
+    "itinerary": [
+      {"day": 1, "title": "Arrive Gangtok", "places": ["gangtok"], "detail": "Drive up from NJP/Bagdogra; evening stroll on MG Marg."},
+      {"day": 2, "title": "Gangtok sightseeing", "places": ["gangtok"], "detail": "Rumtek Monastery, Ganesh Tok and (with permit) Tsomgo Lake."},
+      {"day": 3, "title": "To Zuluk", "places": ["zuluk"], "detail": "Drive the historic Silk Route to the tiny hamlet of Zuluk."},
+      {"day": 4, "title": "Zuluk to Pelling", "places": ["zuluk", "pelling"], "detail": "Sunrise at Thambi View Point, then transfer west to Pelling."},
+      {"day": 5, "title": "Pelling circuit", "places": ["pelling"], "detail": "Pemayangtse Monastery, Rabdentse ruins, Khecheopalri Lake and the skywalk."},
+      {"day": 6, "title": "Return", "places": ["pelling"], "detail": "Descend to NJP/Bagdogra for departure."}
+    ],
+    "travel_tips": ["Zuluk needs a protected-area permit and registered guide.", "Carry warm layers even in summer.", "Book high-altitude excursions through licensed operators."]
+  },
+  {
+    "slug": "spiti-valley-journey",
+    "name": "Spiti Valley Journey",
+    "state_slug": "himachal-pradesh",
+    "duration_days": 8,
+    "best_season": ["June", "July", "August", "September"],
+    "hero_image": "trips/spiti-valley-journey/hero.jpg",
+    "overview": "A high-altitude expedition into the Trans-Himalayan cold desert of Spiti, taking in ancient monasteries, the world's highest villages and the glacial Chandratal lake.",
+    "themes": ["Adventure", "Nature", "Spiritual", "Detox"],
+    "destinations": ["spiti-valley", "kaza-langza"],
+    "activities": ["Trekking", "Camping", "Photography", "Cultural experiences"],
+    "recommended_experiences": [
+      "Stay in a homestay in Langza beneath the giant Buddha",
+      "Post a letter from the world's highest post office at Hikkim",
+      "Camp beside the crescent Chandratal lake"
+    ],
+    "itinerary": [
+      {"day": 1, "title": "Shimla / Manali start", "places": [], "detail": "Begin the acclimatisation drive from Shimla or Manali towards Spiti."},
+      {"day": 2, "title": "Into Kinnaur", "places": ["kalpa-kinnaur"], "detail": "Overnight in the apple-orchard village of Kalpa facing Kinnaur Kailash."},
+      {"day": 3, "title": "Reach Kaza", "places": ["spiti-valley"], "detail": "Cross into Spiti and settle in Kaza, the valley's main town."},
+      {"day": 4, "title": "Key & high villages", "places": ["spiti-valley", "kaza-langza"], "detail": "Key Monastery, then Langza, Komic and Hikkim."},
+      {"day": 5, "title": "Pin Valley", "places": ["spiti-valley"], "detail": "Explore the Pin Valley National Park and its villages."},
+      {"day": 6, "title": "Chandratal", "places": ["spiti-valley"], "detail": "Drive via Kunzum Pass to camp near Chandratal lake."},
+      {"day": 7, "title": "To Manali", "places": [], "detail": "Cross Rohtang towards Manali."},
+      {"day": 8, "title": "Depart", "places": [], "detail": "Onward journey from Manali."}
+    ],
+    "travel_tips": ["Acclimatise gradually to avoid altitude sickness.", "Carry cash and fuel up at Kaza.", "Roads are open only in summer; check conditions."]
+  },
+  {
+    "slug": "uttarakhand-hidden-gems",
+    "name": "Uttarakhand Hidden Gems",
+    "state_slug": "uttarakhand",
+    "duration_days": 6,
+    "best_season": ["April", "May", "June", "September", "October"],
+    "hero_image": "trips/uttarakhand-hidden-gems/hero.jpg",
+    "overview": "A blend of the spiritual and the wild, from the yoga-and-rafting hub of Rishikesh to the alpine meadows of Chopta and the trek to Tungnath, the world's highest Shiva temple.",
+    "themes": ["Spiritual", "Adventure", "Nature"],
+    "destinations": ["rishikesh", "chopta"],
+    "activities": ["Rafting", "Trekking", "Camping", "Photography", "Cultural experiences"],
+    "recommended_experiences": [
+      "Attend the evening Ganga Aarti at Rishikesh",
+      "Raft the Ganga's white-water rapids",
+      "Trek from Chopta to Tungnath and Chandrashila summit"
+    ],
+    "itinerary": [
+      {"day": 1, "title": "Arrive Rishikesh", "places": ["rishikesh"], "detail": "Settle in; evening Ganga Aarti at Triveni or Parmarth Niketan."},
+      {"day": 2, "title": "Rafting & yoga", "places": ["rishikesh"], "detail": "Morning white-water rafting, afternoon yoga and the Beatles Ashram."},
+      {"day": 3, "title": "Drive to Chopta", "places": ["chopta"], "detail": "Scenic mountain drive via Devprayag and Ukhimath to Chopta."},
+      {"day": 4, "title": "Tungnath trek", "places": ["chopta"], "detail": "Trek to Tungnath temple and continue to Chandrashila summit for Himalayan views."},
+      {"day": 5, "title": "Chopta to Rishikesh", "places": ["chopta", "rishikesh"], "detail": "Return drive with photo stops along the river confluences."},
+      {"day": 6, "title": "Depart", "places": ["rishikesh"], "detail": "Departure from Rishikesh/Dehradun."}
+    ],
+    "travel_tips": ["Rishikesh's core town is vegetarian and alcohol-free.", "The Tungnath trek is steep; carry water and warm layers.", "Raft only with licensed operators."]
+  },
+  {
+    "slug": "gujarat-heritage-narmada",
+    "name": "Gujarat Heritage & Narmada Trail",
+    "state_slug": "gujarat",
+    "duration_days": 4,
+    "best_season": ["November", "December", "January", "February"],
+    "hero_image": "trips/gujarat-heritage-narmada/hero.jpg",
+    "overview": "A compact central-Gujarat circuit from royal Vadodara to the UNESCO ruins of Champaner, the serene Narmada temple town of Poicha and the record-breaking Statue of Unity.",
+    "themes": ["Culture", "Heritage", "Spiritual"],
+    "destinations": ["vadodara", "champaner-pavagadh", "poicha", "statue-of-unity"],
+    "activities": ["Heritage walks", "Photography", "Boating", "Cultural experiences"],
+    "recommended_experiences": [
+      "Tour the vast Laxmi Vilas Palace in Vadodara",
+      "Climb Pavagadh hill to Kalika Mata temple",
+      "See the Statue of Unity light-and-sound show"
+    ],
+    "itinerary": [
+      {"day": 1, "title": "Vadodara", "places": ["vadodara"], "detail": "Laxmi Vilas Palace, Sayaji Baug and the museums; try Baroda's famous sev usal."},
+      {"day": 2, "title": "Champaner-Pavagadh", "places": ["champaner-pavagadh"], "detail": "Day trip to the archaeological park and the hilltop Kalika Mata temple."},
+      {"day": 3, "title": "Poicha & Narmada", "places": ["poicha"], "detail": "Visit the peaceful Nilkanthdham temple complex on the Narmada."},
+      {"day": 4, "title": "Statue of Unity", "places": ["statue-of-unity"], "detail": "Explore Kevadia's attractions and the world's tallest statue before departure."}
+    ],
+    "travel_tips": ["October to February is the comfortable season.", "The Statue of Unity is closed on Mondays.", "A hired car is the easiest way to link these sites."]
+  },
+  {
+    "slug": "rajasthan-forts-lakes",
+    "name": "Rajasthan Forts & Lakes",
+    "state_slug": "rajasthan",
+    "duration_days": 5,
+    "best_season": ["October", "November", "December", "January", "February"],
+    "hero_image": "trips/rajasthan-forts-lakes/hero.jpg",
+    "overview": "A Mewar journey pairing the lake city of Udaipur with the colossal Kumbhalgarh fort and the astonishing marble Jain temple of Ranakpur.",
+    "themes": ["Heritage", "Culture", "History"],
+    "destinations": ["udaipur", "kumbhalgarh", "ranakpur"],
+    "activities": ["Boating", "Heritage walks", "Photography", "Wildlife"],
+    "recommended_experiences": [
+      "Sunset boat ride on Lake Pichola",
+      "Walk a stretch of Kumbhalgarh's 36 km wall",
+      "Marvel at Ranakpur's 1,444 carved pillars"
+    ],
+    "itinerary": [
+      {"day": 1, "title": "Udaipur", "places": ["udaipur"], "detail": "City Palace, Jagdish Temple and a Lake Pichola sunset cruise."},
+      {"day": 2, "title": "Udaipur gardens", "places": ["udaipur"], "detail": "Saheliyon Ki Bari, Bagore Ki Haveli and the old-city bazaars."},
+      {"day": 3, "title": "Kumbhalgarh", "places": ["kumbhalgarh"], "detail": "Explore the great fort and its wildlife-rich surroundings; evening light-and-sound show."},
+      {"day": 4, "title": "Ranakpur", "places": ["ranakpur"], "detail": "Visit the marble Chaumukha Jain temple, then return towards Udaipur."},
+      {"day": 5, "title": "Depart", "places": ["udaipur"], "detail": "Departure from Udaipur."}
+    ],
+    "travel_tips": ["Winter is by far the best season.", "Leather items are not allowed inside Ranakpur temple.", "Combine with Jodhpur or Mount Abu if you have more days."]
+  }
+]

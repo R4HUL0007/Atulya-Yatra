@@ -1,0 +1,751 @@
+[
+  {
+    "slug": "puri",
+    "name": "Puri",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Odisha",
+    "state_slug": "odisha",
+    "region": "Odisha coast",
+    "lat": 19.8135,
+    "lng": 85.8312,
+    "type": "spiritual",
+    "categories": [
+      "Spiritual",
+      "Beach",
+      "Heritage"
+    ],
+    "tags": [
+      "Spiritual",
+      "Beaches",
+      "Popular"
+    ],
+    "rating": 4.6,
+    "reviews": 74000,
+    "popularity": 78,
+    "data_quality": 0.88,
+    "short_intro": "Home to the Jagannath Temple and the Rath Yatra, one of the largest chariot festivals on Earth.",
+    "overview": "Puri is one of Hinduism's Char Dham pilgrimage sites, centred on the Jagannath Temple, whose annual Rath Yatra sees three massive wooden chariots carrying the deities Jagannath, Balabhadra and Subhadra pulled through the streets by thousands of devotees. The temple's kitchen, considered one of the largest in the world, prepares mahaprasad for tens of thousands daily. Beyond the temple, Puri's beach and easy access to the Sun Temple at nearby Konark make it a combined pilgrimage-and-coast destination.",
+    "images": {
+      "hero": "places/puri/hero.jpg",
+      "gallery": [
+        "places/puri/jagannath-temple.jpg",
+        "places/puri/rath-yatra.jpg",
+        "places/puri/beach.jpg"
+      ]
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to February; Rath Yatra is in June-July.",
+    "attractions": [
+      {
+        "name": "Jagannath Temple",
+        "category": "Spiritual",
+        "description": "A 12th-century temple central to Odisha's religious identity, non-Hindus restricted from the inner sanctum."
+      },
+      {
+        "name": "Puri Beach",
+        "category": "Beach",
+        "description": "A wide sandy beach popular for sunrise walks."
+      }
+    ],
+    "culture": {
+      "summary": "Puri's temple culture, including its distinctive wooden-idol worship tradition, shapes Odisha's broader religious and artistic identity, including Pattachitra painting.",
+      "art_handicrafts": [
+        "Pattachitra scroll painting",
+        "Appliqué work"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Rath Yatra",
+        "time": "June–July",
+        "description": "A massive chariot procession of the temple deities through Puri's streets.",
+        "significance": "One of the largest and oldest chariot festivals in the world."
+      }
+    ],
+    "food": [
+      {
+        "name": "Mahaprasad",
+        "type": "Meal",
+        "description": "Sacred food cooked in the temple's massive kitchen and distributed to devotees."
+      },
+      {
+        "name": "Odia Thali",
+        "type": "Meal",
+        "description": "A rice-and-fish-forward coastal Odia meal."
+      }
+    ],
+    "activities": [
+      "Cultural experiences",
+      "Photography",
+      "Beach activities"
+    ],
+    "travel_info": {
+      "airport": "Bhubaneswar (~60 km).",
+      "railway": "Puri railway station.",
+      "local_transport": "Autos and cycle-rickshaws.",
+      "suggested_duration": "1–2 days",
+      "budget": "Budget to moderate."
+    },
+    "safety": {
+      "tips": [
+        "Non-Hindus are restricted from the temple's inner sanctum.",
+        "Rath Yatra crowds are extremely dense."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "konark",
+    "name": "Konark",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Odisha",
+    "state_slug": "odisha",
+    "region": "Odisha coast",
+    "lat": 19.8876,
+    "lng": 86.0945,
+    "type": "heritage",
+    "categories": [
+      "Heritage",
+      "Historical",
+      "Spiritual"
+    ],
+    "tags": [
+      "Heritage",
+      "History",
+      "Popular"
+    ],
+    "rating": 4.7,
+    "reviews": 41000,
+    "popularity": 66,
+    "data_quality": 0.9,
+    "short_intro": "The UNESCO Sun Temple, built as an enormous stone chariot with intricately carved wheels, dedicated to the sun god Surya.",
+    "overview": "The 13th-century Konark Sun Temple was designed as a colossal stone chariot for the sun god Surya, complete with twelve pairs of ornately carved wheels, each functioning as a sundial, and seven horses meant to be pulling the structure. Kalinga-school stone carvers covered every surface with mythological figures, dancers and geometric patterns, making it one of the finest and most architecturally ambitious achievements of Odisha's temple-building era.",
+    "images": {
+      "hero": "places/konark/hero.jpg",
+      "gallery": [
+        "places/konark/sun-temple.jpg",
+        "places/konark/wheel-carving.jpg",
+        "places/konark/dance-festival.jpg"
+      ]
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to February; Konark Dance Festival is in December.",
+    "attractions": [
+      {
+        "name": "Konark Sun Temple",
+        "category": "Heritage",
+        "description": "A UNESCO World Heritage chariot-shaped temple with carved stone wheels."
+      }
+    ],
+    "festivals": [
+      {
+        "name": "Konark Dance Festival",
+        "time": "December",
+        "description": "A classical dance festival performed against the temple's floodlit backdrop.",
+        "significance": "Celebrates Odissi and other classical dance forms."
+      }
+    ],
+    "activities": [
+      "Heritage walks",
+      "Photography"
+    ],
+    "food": [
+      {
+        "name": "Chhena Poda",
+        "type": "Sweet",
+        "description": "A baked cheese dessert originating in Odisha."
+      }
+    ],
+    "travel_info": {
+      "airport": "Bhubaneswar (~65 km).",
+      "railway": "Puri (~35 km) is the nearest station.",
+      "local_transport": "Taxi or bus from Puri or Bhubaneswar.",
+      "suggested_duration": "Half day",
+      "budget": "Low."
+    },
+    "safety": {
+      "tips": [
+        "Carry sun protection — little shade around the temple grounds.",
+        "Hire a guide to understand the carving symbolism."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "kaziranga",
+    "name": "Kaziranga National Park",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Assam",
+    "state_slug": "assam",
+    "region": "Golaghat / Nagaon",
+    "lat": 26.5775,
+    "lng": 93.1717,
+    "type": "wildlife",
+    "categories": [
+      "Wildlife",
+      "Nature",
+      "Adventure"
+    ],
+    "tags": [
+      "Wildlife",
+      "Nature",
+      "Popular"
+    ],
+    "rating": 4.7,
+    "reviews": 32000,
+    "popularity": 72,
+    "data_quality": 0.9,
+    "short_intro": "Home to two-thirds of the world's one-horned rhinoceros population, sprawled across the Brahmaputra floodplain.",
+    "overview": "Kaziranga's tall elephant grass and marshland along the Brahmaputra river shelter the largest population of the greater one-horned rhinoceros on Earth, alongside wild elephants, Bengal tigers, and swamp deer. Jeep and elephant-back safaris move through the park's four ranges, and conservation success here — rhino numbers rebuilt from near-extinction over a century of protection — is considered one of India's flagship wildlife recovery stories.",
+    "images": {
+      "hero": "places/kaziranga/hero.jpg",
+      "gallery": [
+        "places/kaziranga/rhino.jpg",
+        "places/kaziranga/elephant-safari.jpg",
+        "places/kaziranga/grassland.jpg"
+      ],
+      "hero_credit": "Diganta Talukdar · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Beauty_of_Kaziranga_National_Park.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/kaziranga/card.jpg"
+    },
+    "best_season": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April"
+    ],
+    "best_time_to_visit": "November to April; closed during monsoon flooding (May-Oct).",
+    "attractions": [
+      {
+        "name": "Central Range (Kohora) Safari",
+        "category": "Wildlife",
+        "description": "The main safari zone with the highest rhino-sighting frequency."
+      },
+      {
+        "name": "Elephant-back Safari",
+        "category": "Wildlife",
+        "description": "An early-morning safari option through tall grassland."
+      }
+    ],
+    "activities": [
+      "Wildlife safari",
+      "Photography",
+      "Boating"
+    ],
+    "food": [
+      {
+        "name": "Assam Thali",
+        "type": "Meal",
+        "description": "A rice-and-fish-forward meal typical of the Brahmaputra valley."
+      }
+    ],
+    "travel_info": {
+      "airport": "Jorhat (~95 km) or Guwahati (~215 km).",
+      "railway": "Furkating railway station.",
+      "local_transport": "Safari jeeps and elephants booked through the forest department.",
+      "suggested_duration": "2 days",
+      "budget": "Moderate."
+    },
+    "safety": {
+      "tips": [
+        "Stay inside vehicles during jeep safaris.",
+        "Book permits in advance during peak winter season."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "majuli",
+    "name": "Majuli",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Assam",
+    "state_slug": "assam",
+    "region": "Brahmaputra river",
+    "lat": 26.95,
+    "lng": 94.1667,
+    "type": "island",
+    "categories": [
+      "Nature",
+      "Culture",
+      "Village"
+    ],
+    "tags": [
+      "Culture",
+      "Peace",
+      "Islands",
+      "Unexplored"
+    ],
+    "rating": 4.6,
+    "reviews": 9800,
+    "popularity": 48,
+    "data_quality": 0.83,
+    "short_intro": "The world's largest river island, home to centuries-old Vaishnavite monasteries called satras.",
+    "overview": "Majuli sits in the middle of the Brahmaputra, formed and continually reshaped by the river's shifting course, making it one of the world's largest and most ecologically fragile river islands. It has been the seat of Assamese Vaishnavite culture since the 16th century, when saint-reformer Srimanta Sankardev's disciples established satras — monastery-like institutions preserving classical mask-making, dance-drama and manuscript traditions that continue to be practised by resident monks today.",
+    "images": {
+      "hero": "places/majuli/hero.jpg",
+      "gallery": [
+        "places/majuli/satra.jpg",
+        "places/majuli/mask-making.jpg",
+        "places/majuli/river-island.jpg"
+      ],
+      "hero_credit": "Dhrubazaan Photography · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Doriya_River_of_Majuli.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/majuli/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to February; monsoon flooding regularly affects access.",
+    "attractions": [
+      {
+        "name": "Kamalabari Satra",
+        "category": "Spiritual",
+        "description": "A monastery renowned for classical Assamese dance and music instruction."
+      },
+      {
+        "name": "Mask-Making Villages",
+        "category": "Culture",
+        "description": "Villages where artisans still hand-craft satra ritual masks from clay and bamboo."
+      }
+    ],
+    "culture": {
+      "summary": "Majuli preserves Assamese Vaishnavite monastic culture through its satras, which teach classical dance, drama, mask-making and manuscript illumination.",
+      "art_handicrafts": [
+        "Satriya mask-making",
+        "Handloom weaving"
+      ]
+    },
+    "activities": [
+      "Cultural experiences",
+      "Photography",
+      "Boating"
+    ],
+    "food": [
+      {
+        "name": "Masor Tenga",
+        "type": "Meal",
+        "description": "A sour Assamese fish curry, a staple across the Brahmaputra valley."
+      }
+    ],
+    "travel_info": {
+      "airport": "Jorhat (~20 km, then ferry).",
+      "railway": "Jorhat Town railway station.",
+      "local_transport": "Ferries from Nimati Ghat near Jorhat; cycles/scooters on the island.",
+      "suggested_duration": "1–2 days",
+      "budget": "Budget."
+    },
+    "safety": {
+      "tips": [
+        "Ferry schedules can be affected by river levels — check ahead.",
+        "The island continues to erode — some areas are unstable."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "darjeeling",
+    "name": "Darjeeling",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "West Bengal",
+    "state_slug": "west-bengal",
+    "region": "Darjeeling Himalaya",
+    "lat": 27.041,
+    "lng": 88.2663,
+    "type": "hill_station",
+    "categories": [
+      "Mountains",
+      "Nature",
+      "Culture",
+      "Food"
+    ],
+    "tags": [
+      "Mountains",
+      "Nature",
+      "Popular"
+    ],
+    "rating": 4.6,
+    "reviews": 78000,
+    "popularity": 80,
+    "data_quality": 0.9,
+    "short_intro": "A colonial-era tea capital in the Eastern Himalaya, connected by a UNESCO toy train and famous for its namesake tea.",
+    "overview": "Darjeeling was developed by the British in the 19th century as both a hill retreat and a tea-growing centre, and its terraced tea estates still produce some of the world's most prized black tea, identified by a protected geographical designation. The Darjeeling Himalayan Railway's narrow-gauge steam 'toy train', a UNESCO World Heritage line, winds up from the plains, while clear mornings from Tiger Hill offer views of Kanchenjunga, the world's third-highest peak.",
+    "images": {
+      "hero": "places/darjeeling/hero.jpg",
+      "gallery": [
+        "places/darjeeling/toy-train.jpg",
+        "places/darjeeling/tea-garden.jpg",
+        "places/darjeeling/tiger-hill.jpg"
+      ],
+      "hero_credit": "Arne Hückelheim 2010-09-21 12:41:53 This is a cropped in which the glare has been lessened · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:DarjeelingTrainFruitshop_(2).jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/darjeeling/card.jpg"
+    },
+    "best_season": [
+      "March",
+      "April",
+      "October",
+      "November"
+    ],
+    "best_time_to_visit": "March to May and October to November for clear mountain views.",
+    "attractions": [
+      {
+        "name": "Tiger Hill",
+        "category": "Viewpoint",
+        "description": "A pre-dawn viewpoint for sunrise over Kanchenjunga."
+      },
+      {
+        "name": "Darjeeling Himalayan Railway",
+        "category": "Heritage",
+        "description": "A UNESCO-listed narrow-gauge steam toy train."
+      },
+      {
+        "name": "Happy Valley Tea Estate",
+        "category": "Nature",
+        "description": "A working tea estate open for tours and tastings."
+      }
+    ],
+    "culture": {
+      "summary": "Darjeeling's Gorkha, Lepcha and Bhutia communities give it a distinct Himalayan-Nepali culture within West Bengal, visible in its food, festivals and language.",
+      "art_handicrafts": [
+        "Tea processing traditions",
+        "Tibetan carpet weaving"
+      ]
+    },
+    "food": [
+      {
+        "name": "Darjeeling Tea",
+        "type": "Drink",
+        "description": "A globally renowned, delicately flavoured black tea with a protected designation of origin."
+      },
+      {
+        "name": "Momos",
+        "type": "Snack",
+        "description": "Steamed dumplings widely sold across the hill town."
+      }
+    ],
+    "activities": [
+      "Trekking",
+      "Photography",
+      "Cultural experiences"
+    ],
+    "travel_info": {
+      "airport": "Bagdogra (~70 km).",
+      "railway": "New Jalpaiguri (NJP), connected onward by the toy train.",
+      "local_transport": "Shared taxis and the toy train.",
+      "suggested_duration": "2–3 days",
+      "budget": "Moderate."
+    },
+    "safety": {
+      "tips": [
+        "Tiger Hill sunrise trips leave very early — dress warmly.",
+        "Roads can be foggy; travel by day where possible."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "sundarbans",
+    "name": "Sundarbans",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "West Bengal",
+    "state_slug": "west-bengal",
+    "region": "Ganges Delta",
+    "lat": 21.9497,
+    "lng": 88.9468,
+    "type": "wildlife",
+    "categories": [
+      "Wildlife",
+      "Nature",
+      "Adventure"
+    ],
+    "tags": [
+      "Wildlife",
+      "Nature",
+      "Unexplored"
+    ],
+    "rating": 4.5,
+    "reviews": 15000,
+    "popularity": 54,
+    "data_quality": 0.84,
+    "short_intro": "The world's largest mangrove forest, a tidal maze that shelters the elusive, swimming Royal Bengal Tiger.",
+    "overview": "The Sundarbans spans the delta where the Ganges, Brahmaputra and Meghna rivers meet the Bay of Bengal, forming the largest contiguous mangrove forest on Earth, shared between India and Bangladesh. It is the only mangrove ecosystem known to support a resident tiger population, adapted here to swim between islands and, unusually, to prey partly on aquatic life. Exploring the reserve happens exclusively by boat, threading channels past saltwater crocodiles, spotted deer and a dense web of tidal creeks.",
+    "images": {
+      "hero": "places/sundarbans/hero.jpg",
+      "gallery": [
+        "places/sundarbans/mangrove.jpg",
+        "places/sundarbans/boat-safari.jpg",
+        "places/sundarbans/tiger-reserve.jpg"
+      ],
+      "hero_credit": "Shihabur Rahman · CC BY-SA 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Save_the_sundarbans_20.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "hero_small": "places/sundarbans/card.jpg"
+    },
+    "best_season": [
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "November to February; monsoon makes river travel harder.",
+    "attractions": [
+      {
+        "name": "Sundarbans Tiger Reserve Boat Safari",
+        "category": "Wildlife",
+        "description": "Guided boat routes through mangrove channels with wildlife-watching towers."
+      },
+      {
+        "name": "Sajnekhali Watchtower",
+        "category": "Wildlife",
+        "description": "A key viewing point over a waterhole frequented by wildlife."
+      }
+    ],
+    "activities": [
+      "Wildlife safari",
+      "Boating",
+      "Photography"
+    ],
+    "food": [
+      {
+        "name": "Bengali Fish Curry",
+        "type": "Meal",
+        "description": "Mustard-based fish curry typical of the delta region."
+      }
+    ],
+    "travel_info": {
+      "airport": "Kolkata (~110 km).",
+      "railway": "Canning railway station, then boat.",
+      "local_transport": "All exploration is by permitted boat only.",
+      "suggested_duration": "2 days (overnight boat/lodge stay)",
+      "budget": "Moderate."
+    },
+    "safety": {
+      "tips": [
+        "Only travel with registered tour operators and forest permits.",
+        "Tiger sightings are rare — the ecosystem itself is the main draw."
+      ],
+      "emergency": "Dial 112; medical access is limited within the reserve."
+    }
+  },
+  {
+    "slug": "bodh-gaya",
+    "name": "Bodh Gaya",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Bihar",
+    "state_slug": "bihar",
+    "region": "Gaya district",
+    "lat": 24.6959,
+    "lng": 84.9917,
+    "type": "spiritual",
+    "categories": [
+      "Spiritual",
+      "Historical",
+      "Heritage"
+    ],
+    "tags": [
+      "Spiritual",
+      "History",
+      "Popular"
+    ],
+    "rating": 4.7,
+    "reviews": 36000,
+    "popularity": 64,
+    "data_quality": 0.88,
+    "short_intro": "The UNESCO site where the Buddha is believed to have attained enlightenment beneath the Bodhi Tree.",
+    "overview": "Bodh Gaya marks the spot where Siddhartha Gautama is believed to have attained enlightenment after meditating beneath a Bodhi Tree, making it the most sacred pilgrimage site in Buddhism. The Mahabodhi Temple, whose current structure dates largely to the 5th-6th century CE with later restorations, stands beside a descendant of the original tree. Monasteries built by Buddhist communities from Thailand, Japan, Tibet, Bhutan and beyond ring the town, each reflecting their home country's distinct architectural style.",
+    "images": {
+      "hero": "places/bodh-gaya/hero.jpg",
+      "gallery": [
+        "places/bodh-gaya/mahabodhi-temple.jpg",
+        "places/bodh-gaya/bodhi-tree.jpg",
+        "places/bodh-gaya/monasteries.jpg"
+      ],
+      "hero_credit": "Amitabha Gupta · CC BY 4.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Mahabodhi_temple_at_Bodhgaya_in_Bihar_21.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by/4.0",
+      "hero_small": "places/bodh-gaya/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "October to February; Buddha Purnima in May draws large crowds.",
+    "attractions": [
+      {
+        "name": "Mahabodhi Temple",
+        "category": "Spiritual",
+        "description": "A UNESCO World Heritage temple marking the Buddha's enlightenment site."
+      },
+      {
+        "name": "International Monasteries",
+        "category": "Spiritual",
+        "description": "Monasteries built in distinct national styles by Buddhist communities worldwide."
+      }
+    ],
+    "festivals": [
+      {
+        "name": "Buddha Purnima",
+        "time": "May",
+        "description": "Commemorates the Buddha's birth, enlightenment and death on a single full moon day.",
+        "significance": "The most important date in the Buddhist calendar."
+      }
+    ],
+    "activities": [
+      "Cultural experiences",
+      "Heritage walks",
+      "Photography"
+    ],
+    "food": [
+      {
+        "name": "Litti Chokha",
+        "type": "Meal",
+        "description": "Roasted wheat balls with a smoky mashed vegetable side, a Bihar staple."
+      }
+    ],
+    "travel_info": {
+      "airport": "Gaya Airport (GAY).",
+      "railway": "Gaya Junction (~13 km).",
+      "local_transport": "Autos around the temple complex.",
+      "suggested_duration": "1–2 days",
+      "budget": "Budget."
+    },
+    "safety": {
+      "tips": [
+        "Dress modestly and remove footwear at the temple.",
+        "Respect meditation practitioners' silence in the temple park."
+      ],
+      "emergency": "Dial 112."
+    }
+  },
+  {
+    "slug": "ranchi",
+    "name": "Ranchi",
+    "kind": "destination",
+    "is_hidden_gem": false,
+    "state": "Jharkhand",
+    "state_slug": "jharkhand",
+    "region": "Chota Nagpur plateau",
+    "lat": 23.3441,
+    "lng": 85.3096,
+    "type": "nature",
+    "categories": [
+      "Nature",
+      "Waterfall",
+      "Culture"
+    ],
+    "tags": [
+      "Nature",
+      "Waterfalls",
+      "Unexplored"
+    ],
+    "rating": 4.3,
+    "reviews": 18000,
+    "popularity": 50,
+    "data_quality": 0.8,
+    "short_intro": "The 'City of Waterfalls', ringed by cascades like Hundru and Jonha across Jharkhand's forested plateau.",
+    "overview": "Ranchi sits on the Chota Nagpur plateau, a region shaped by dense sal forests and numerous waterfalls fed by the Subarnarekha river system, most dramatically at Hundru Falls, which drops around 98 metres. The city and surrounding villages are home to significant Adivasi (tribal) populations, including Munda, Oraon and Santal communities, whose Sohrai and Kohbar wall-painting traditions and Sarhul spring festival reflect a distinct forest-based cultural identity.",
+    "images": {
+      "hero": "places/ranchi/hero.jpg",
+      "gallery": [
+        "places/ranchi/hundru-falls.jpg",
+        "places/ranchi/jonha-falls.jpg",
+        "places/ranchi/tribal-art.jpg"
+      ],
+      "hero_credit": "Sankara Subramanian · CC BY 2.0",
+      "hero_credit_url": "https://commons.wikimedia.org/wiki/File:Ranchi_Cityscape.jpg",
+      "hero_license_url": "https://creativecommons.org/licenses/by/2.0",
+      "hero_small": "places/ranchi/card.jpg"
+    },
+    "best_season": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "best_time_to_visit": "Just after the monsoon (October) for peak waterfall flow with safer access.",
+    "attractions": [
+      {
+        "name": "Hundru Falls",
+        "category": "Waterfall",
+        "description": "A dramatic ~98m waterfall on the Subarnarekha river."
+      },
+      {
+        "name": "Jonha Falls",
+        "category": "Waterfall",
+        "description": "A scenic falls reached via a steep staircase, also called Gautamdhara."
+      }
+    ],
+    "culture": {
+      "summary": "Jharkhand's Adivasi communities maintain distinctive wall art (Sohrai, Kohbar), forest-linked festivals and the Santal-Oraon linguistic heritage.",
+      "art_handicrafts": [
+        "Sohrai and Kohbar wall painting",
+        "Dhokra bell-metal casting"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Sarhul",
+        "time": "March–April",
+        "description": "A spring festival worshipping the sal tree, central to Adivasi belief.",
+        "significance": "Marks the start of the agricultural new year for tribal communities."
+      }
+    ],
+    "activities": [
+      "Trekking",
+      "Photography"
+    ],
+    "food": [
+      {
+        "name": "Dhuska",
+        "type": "Snack",
+        "description": "A deep-fried rice-and-lentil pancake typical of Jharkhand."
+      }
+    ],
+    "travel_info": {
+      "airport": "Birsa Munda Airport (IXR).",
+      "railway": "Ranchi Junction.",
+      "local_transport": "Taxis to the surrounding waterfalls.",
+      "suggested_duration": "2 days",
+      "budget": "Budget."
+    },
+    "safety": {
+      "tips": [
+        "Waterfall rocks are slippery — drownings have occurred at unmarked edges.",
+        "Avoid swimming during monsoon high-flow periods."
+      ],
+      "emergency": "Dial 112."
+    }
+  }
+]

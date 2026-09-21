@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% import "_macros.html" as ui %}
+{% block title %}Top Destinations — Atulya Yatra{% endblock %}
+
+{% block content %}
+<section class="catalog-head"><div class="container">
+  <div class="eyebrow">Discover India</div>
+  <h1>Top destinations in India</h1>
+  <p>Browse the best-loved Atulya Yatra guides by type, or search any city, town or landmark to open its detail page.</p>
+  {{ ui.search_box('Search any Indian place — Vadodara, Hampi, Dombivli...') }}
+</div></section>
+
+<div class="container section-tight">
+  <nav class="filter-chips" aria-label="Filter destinations by type">
+    <a class="chip-filter {{ 'active' if not category }}" href="{{ url_for('pages.destinations') }}">All</a>
+    {% for option in filter_options %}
+      <a class="chip-filter {{ 'active' if category == option }}" href="{{ url_for('pages.destinations', category=option) }}">{{ option | replace('_',' ') | title }}</a>
+    {% endfor %}
+  </nav>
+</div>
+
+<div class="container section" style="padding-top:8px">
+  {% if places %}
+  <div class="grid grid-3">{% for place in places %}{{ ui.place_card(place, show_directions=True) }}{% endfor %}</div>
+  {% if total_pages > 1 %}<div class="pagination">
+    {% if page > 1 %}<a href="{{ url_for('pages.destinations', category=category, page=page-1) }}">Previous</a>{% endif %}
+    <span class="current">{{ page }} / {{ total_pages }}</span>
+    {% if page < total_pages %}<a href="{{ url_for('pages.destinations', category=category, page=page+1) }}">Next</a>{% endif %}
+  </div>{% endif %}
+  {% else %}<div class="empty"><p>No destinations match this filter.</p><a class="btn btn-outline" href="{{ url_for('pages.destinations') }}">Clear filter</a></div>{% endif %}
+</div>
+{% endblock %}

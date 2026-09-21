@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+{% import "_macros.html" as ui %}
+{% block title %}{{ place.name }} — Atulya Yatra{% endblock %}
+{% block description %}Live travel details for {{ place.name }}: location, nearby attractions and nearby hidden gems.{% endblock %}
+
+{% block content %}
+<section class="detail-hero">
+  <img class="bg" src="{{ hero_image }}" alt="{{ place.name }}">
+  <div class="scrim"></div>
+  <div class="container dh-inner">
+    <span class="badge hero-badge">Live result</span>
+    <h1>{{ place.name }}</h1>
+    <div class="meta">
+      {% if place.address %}<span>{{ place.address }}</span>{% endif %}
+      {% if place.type %}<span>{{ place.type | replace('_',' ') | title }}</span>{% endif %}
+      {% if place.rating %}<span>Rated {{ place.rating }}{% if place.reviews %} ({{ '{:,}'.format(place.reviews) }} reviews){% endif %}</span>{% endif %}
+    </div>
+    <div class="detail-assistant-actions">
+      {{ ui.directions_button(place, label='Get Directions', classes='btn') }}
+      {% if place.google_maps_url %}<a class="btn btn-outline" href="{{ place.google_maps_url }}" target="_blank" rel="noopener noreferrer">Open in Google Maps</a>{% endif %}
+      <a class="btn btn-outline" href="{{ url_for('pages.assistant', plan_name=place.name) }}">Plan a trip here</a>
+    </div>
+  </div>
+</section>
+
+<div class="container section" data-tabscope>
+  <div class="detail-tabs" data-tabs role="tablist">
+    <button class="tab" type="button" role="tab" data-tab="overview">Overview</button>
+    {% if gallery %}<button class="tab" type="button" role="tab" data-tab="gallery">Photos</button>{% endif %}
+    {% if nearby %}<button class="tab" type="button" role="tab" data-tab="nearby">Nearby attractions</button>{% endif %}
+    {% if hidden_gems %}<button class="tab" type="button" role="tab" data-tab="hidden-gems">Hidden gems</button>{% endif %}
+    {% if linked_state %}<button class="tab" type="button" role="tab" data-tab="state">State guide</button>{% endif %}
+  </div>
+
+  <section class="tab-panel" data-panel="overview">
+    <p class="live-note">These details come live from Google Places. Atulya Yatra shows factual location data only and never invents information — confirm timings and access before you travel.</p>
+    <div class="block"><h2>About this location</h2>
+      <ul class="info-list">
+        {% if place.address %}<li><strong>Address</strong><span>{{ place.address }}</span></li>{% endif %}
+        {% if place.type %}<li><strong>Type</strong><span>{{ place.type | replace('_',' ') | title }}</span></li>{% endif %}
+        {% if place.rating %}<li><strong>Rating</strong><span>{{ place.rating }}{% if place.reviews %} ({{ '{:,}'.format(place.reviews) }} reviews){% endif %}</span></li>{% endif %}
+      </ul>
+    </div>
+  </section>
+
+  {% if gallery %}
+  <section class="tab-panel" data-panel="gallery">
+    <div class="block"><h2>Photos</h2><div class="gallery">
+      {% for photo in gallery %}<a href="{{ photo }}" data-lightbox><img loading="lazy" src="{{ photo }}" alt="{{ place.name }} photo {{ loop.index }}"></a>{% endfor %}
+    </div></div>
+  </section>
+  {% endif %}
+
+  {% if nearby %}
+  <section class="tab-panel" data-panel="nearby">
+    <div class="block"><h2>Nearby attractions</h2><p class="sub">Within {{ config.NEARBY_ATTRACTION_RADIUS_KM }} km, discovered through Google Places — open any for its own detail page.</p>
+      <div class="gem-grid">
+        {% for n in nearby %}
+        <article class="gem-card">
+          <a class="gem-thumb" {% if n.explore_url %}href="{{ n.explore_url }}"{% endif %}><img loading="lazy" src="{{ n.image }}" alt="{{ n.name }}"></a>
+          <div class="gem-body">
+            <a class="gem-title" {% if n.explore_url %}href="{{ n.explore_url }}"{% endif %}><h3>{{ n.name }}</h3></a>
+            <div class="gem-meta">{% if n.type %}<span class="gem-cat">{{ n.type }}</span>{% endif %}</div>
+            <div class="gem-facts">
+              {% if n.distance_km is not none %}<span>{{ n.distance_km }} km away</span>{% endif %}
+              {% if n.travel_time %}<span>{{ n.travel_time }}</span>{% endif %}
+              {% if n.rating %}<span class="rating">Rated {{ n.rating }}</span>{% endif %}
+            </div>
+            <div class="gem-actions">
+              {% if n.explore_url %}<a class="btn btn-sm" href="{{ n.explore_url }}">Explore</a>{% endif %}
+              {{ ui.directions_button(n.raw, label='Get Directions', classes='btn btn-sm btn-outline') }}
+            </div>
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if hidden_gems %}
+  <section class="tab-panel" data-panel="hidden-gems">
+    <div class="block"><h2>Nearby hidden gems within {{ config.HIDDEN_GEM_RADIUS_KM }} km</h2><p class="sub">Good places that stay off the mainstream trail — Atulya Yatra picks, community favourites and discovered candidates.</p>
+      <div class="gem-grid">{% for g in hidden_gems %}{{ ui.gem_card(g) }}{% endfor %}</div>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if linked_state %}
+  <section class="tab-panel" data-panel="state">
+    <div class="block"><h2>Explore the wider state</h2>
+      <div class="state-teaser">
+        <img loading="lazy" src="{{ entity_img(linked_state, 'state') }}" alt="{{ linked_state.name }}">
+        <div><h3>{{ linked_state.name }}</h3><p>{{ linked_state.intro | truncate_words(30) }}</p><a class="btn btn-sm btn-outline" href="{{ url_for('pages.state', slug=linked_state.slug) }}">Open {{ linked_state.name }} guide</a></div>
+      </div>
+    </div>
+  </section>
+  {% endif %}
+</div>
+{% endblock %}

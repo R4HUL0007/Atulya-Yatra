@@ -1,0 +1,33 @@
+services:
+  web:
+    build: .
+    image: atulya-yatra:latest
+    container_name: atulya-yatra
+    ports:
+      - "8000:8000"
+    environment:
+      ATULYA_ENV: production
+      # SECRET_KEY: override in a real deployment rather than using the dev default.
+    env_file:
+      # Loads GOOGLE_MAPS_API_KEY / Google_maps from your local .env.
+      # This file is NOT baked into the image (see .dockerignore) — it's
+      # injected only at container start, and only into this container's
+      # environment.
+      # Admin authentication also reads ATULYA_ADMIN_USERNAME,
+      # ATULYA_ADMIN_PASSWORD_HASH and ATULYA_SECRET_KEY from this file.
+      # The admin area fails closed unless all three are explicitly configured.
+      - .env
+    volumes:
+      # Persist SQLite feedback, enquiries, community submissions and managed
+      # trips across container restarts/rebuilds.
+      - atulya-instance:/app/instance
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/', timeout=5)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+volumes:
+  atulya-instance:

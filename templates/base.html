@@ -1,164 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tourism Website</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}Atulya Yatra — Discover the India you'd otherwise miss{% endblock %}</title>
+  <meta name="description" content="{% block description %}Atulya Yatra is a smart tourism discovery platform for India — destinations, hidden gems, states, curated trips and an AI travel companion.{% endblock %}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  <link rel="icon" href="{{ url_for('media.placeholder', name='AY', category='city') }}" type="image/svg+xml">
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="{{ url_for('index') }}">
-                <img src="{{ url_for('static', filename='images/logo2.jpg') }}" alt="Tourism Explorer Logo" height="60px" width="150px">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('index') }}">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('explore_state') }}">Explore States</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('explore_trips') }}">Explore Trips</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('contact') }}">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="social-icons">
-                <a href="https://www.instagram.com" target="_blank" class="nav-link">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.facebook.com" target="_blank" class="nav-link">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-            </div>
-        </div>
-    </nav>
-    
-    
-    
-    <div class="container">
-        {% block content %}{% endblock %}
+{# Pages whose first element is a full-width photograph run the navbar over the
+   image instead of below a separate bar. #}
+<body class="{{ 'flush-nav' if request.endpoint in [
+  'pages.index','pages.destination','pages.place','pages.trip','pages.states',
+  'pages.state','pages.state_destinations','pages.state_gems','pages.state_gallery',
+  'pages.state_culture','pages.state_trips','pages.state_tips'] }}">
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="{{ url_for('pages.index') }}">
+        <span class="logo-mark">अ</span>
+        <span>Atulya Yatra<small>भारत की अनसुनी कहानियाँ</small></span>
+      </a>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">Menu</button>
+      <ul class="nav-links">
+        <li><a href="{{ url_for('pages.index') }}" class="{{ 'active' if request.endpoint == 'pages.index' }}">Home</a></li>
+        <li><a href="{{ url_for('pages.states') }}" class="{{ 'active' if request.endpoint in ['pages.states','pages.state'] }}">Explore States</a></li>
+        <li><a href="{{ url_for('pages.trips') }}" class="{{ 'active' if request.endpoint in ['pages.trips','pages.trip'] }}">Explore Trips</a></li>
+        <li><a href="{{ url_for('pages.destinations') }}" class="{{ 'active' if request.endpoint in ['pages.destinations','pages.destination'] }}">Destinations</a></li>
+        <li><a href="{{ url_for('pages.assistant') }}" class="{{ 'active' if request.endpoint == 'pages.assistant' }}">Travel Assistant</a></li>
+        <li><a href="{{ url_for('pages.submit_gem') }}" class="{{ 'active' if request.endpoint == 'pages.submit_gem' }}">Add a Gem</a></li>
+        <li><a href="{{ url_for('pages.contact') }}" class="{{ 'active' if request.endpoint == 'pages.contact' }}">Contact</a></li>
+      </ul>
     </div>
+  </nav>
 
-<!-- Chatbot UI -->
-<div id="chatbot-container" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
-    <div id="chatbot" style="display: none; background: white; border: 1px solid #ccc; border-radius: 8px; width: 300px; height: 400px;">
-        <div style="background: #007bff; color: white; padding: 10px; border-top-left-radius: 8px; border-top-right-radius: 8px;">
-            Chatbot <button onclick="toggleChatbot()" style="float: right; background: transparent; border: none; color: white;">&#x2715;</button>
-        </div>
-        <div id="chatbot-messages" style="padding: 10px; height: 250px; overflow-y: auto;"></div>
-        <div id="chatbot-options" style="padding: 10px;"></div>
-        <input type="text" id="chatbot-input" placeholder="Type a message..." style="width: 100%; padding: 10px; border: none; border-top: 1px solid #ccc;">
-        <button onclick="clearChat()" style="width: 100%; padding: 10px; background-color: red; color: white; border: none;">Clear Chat</button>
-    </div>
-    <button onclick="toggleChatbot()" style="background: #007bff; color: white; border: none; border-radius: 50%; width: 50px; height: 50px;">Chat</button>
-</div>
-
-<script>
-    function toggleChatbot() {
-        const chatbot = document.getElementById('chatbot');
-        chatbot.style.display = chatbot.style.display === 'none' ? 'block' : 'none';
-        if (chatbot.style.display === 'block') {
-            fetch('/chatbot', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ message: 'reset' })
-            })
-            .then(response => response.json())
-            .then(data => {
-                displayMessage('Bot', data.message);
-                displayOptions(data.options);
-            });
-        }
-    }
-
-    function displayMessage(sender, message) {
-        const messagesContainer = document.getElementById('chatbot-messages');
-        const messageElement = document.createElement('div');
-        messageElement.textContent = `${sender}: ${message}`;
-        messagesContainer.appendChild(messageElement);
-        messagesContainer.scrollTop = messagesContainer.scrollHeight;
-    }
-
-    function displayOptions(options) {
-        const optionsContainer = document.getElementById('chatbot-options');
-        optionsContainer.innerHTML = ''; // Clear previous options
-        if (options && options.length > 0) {
-            options.forEach(option => {
-                const button = document.createElement('button');
-                button.textContent = option;
-                button.style.margin = '5px';
-                button.onclick = () => sendOption(option);
-                optionsContainer.appendChild(button);
-            });
-        }
-    }
-
-    function sendOption(option) {
-        displayMessage('You', option);
-        fetch('/chatbot', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ message: option })
-        })
-        .then(response => response.json())
-        .then(data => {
-            displayMessage('Bot', data.message);
-            displayOptions(data.options);
-        });
-    }
-
-    function clearChat() {
-        const messagesContainer = document.getElementById('chatbot-messages');
-        while (messagesContainer.firstChild) {
-            messagesContainer.removeChild(messagesContainer.firstChild);
-        }
-        const optionsContainer = document.getElementById('chatbot-options');
-        optionsContainer.innerHTML = '';
-        toggleChatbot();  // Close the chatbot after clearing the chat
-    }
-</script>
-
-{% with messages = get_flashed_messages(with_categories=true) %}
+  {% with messages = get_flashed_messages(with_categories=true) %}
     {% if messages %}
-        <div class="container">
-            {% for category, message in messages %}
-                <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
-                    {{ message }}
-                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                </div>
-            {% endfor %}
-        </div>
+      <div class="flash-wrap">
+        {% for category, message in messages %}<div class="flash {{ category }}">{{ message }}</div>{% endfor %}
+      </div>
     {% endif %}
-{% endwith %}
+  {% endwith %}
+
+  <main>{% block content %}{% endblock %}</main>
 
 
-    <footer class="footer bg-light mt-5 py-3">
-        <div class="container text-center">
-            <span class="text-muted">© 2024 Tourism Explorer. All rights reserved.</span>
+  <footer class="footer">
+    {% set fphoto = footer_photo() %}
+    {% if fphoto %}
+    <img class="footer-bg" loading="lazy" aria-hidden="true" alt=""
+      src="{{ entity_img(fphoto, 'place', width=1600) }}"
+      srcset="{{ entity_srcset(fphoto, 'place', widths=(900, 1600)) }}" sizes="100vw">
+    {% endif %}
+    <div class="container">
+      <div class="cols">
+        <div>
+          <a class="brand" href="{{ url_for('pages.index') }}">
+            <span class="logo-mark">अ</span>
+            <span>Atulya Yatra<small>भारत की अनसुनी कहानियाँ</small></span>
+          </a>
+          <p class="muted footer-summary">A digital travel companion for discovering India beyond the places everyone already knows.</p>
         </div>
-    </footer>
+        <div>
+          <h5>Explore</h5>
+          <a href="{{ url_for('pages.destinations') }}">Destinations</a>
+          <a href="{{ url_for('pages.states') }}">States &amp; UTs</a>
+          <a href="{{ url_for('pages.trips') }}">Curated Trips</a>
+          <a href="{{ url_for('pages.assistant') }}">Travel Assistant</a>
+        </div>
+        <div>
+          <h5>Discover</h5>
+          <a href="{{ url_for('pages.destinations') }}?category=nature">Hidden Gems</a>
+          <a href="{{ url_for('pages.submit_gem') }}">Recommend a Gem</a>
+          <a href="{{ url_for('pages.contact') }}">Contact</a>
+          <a href="{{ url_for('pages.credits') }}">Photo credits</a>
+        </div>
+        <div>
+          <h5>India</h5>
+          {% set fplaces = footer_places() %}
+          {% if fplaces %}
+          <div class="footer-places">
+            {% for s in fplaces %}
+            <a class="footer-place" href="{{ url_for('pages.state', slug=s.slug) }}">
+              <img loading="lazy" src="{{ entity_img(s, 'state', width=900) }}" alt="{{ s.name }}">
+              <span>{{ s.name }}</span>
+            </a>
+            {% endfor %}
+          </div>
+          {% else %}
+          <a href="{{ url_for('pages.state', slug='gujarat') }}">Gujarat</a>
+          <a href="{{ url_for('pages.state', slug='meghalaya') }}">Meghalaya</a>
+          <a href="{{ url_for('pages.state', slug='himachal-pradesh') }}">Himachal Pradesh</a>
+          {% endif %}
+        </div>
+      </div>
+      <div class="bottom">© 2026 {{ brand }} · Built to help travellers discover the India they'd otherwise miss.</div>
+    </div>
+  </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+  {# assistant.js is loaded only by the assistant page: it binds to
+     [data-chat-root], which no other page renders. #}
+  {% block scripts %}{% endblock %}
 </body>
 </html>
